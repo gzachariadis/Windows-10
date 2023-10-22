@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+; This will handle right clicking on a file
+
+[HKEY_CLASSES_ROOT\*\shell\Edit with VS Code]
+@="Edit with VS Code"
+"Icon"="C:\\Users\\David\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe,0"
+
+[HKEY_CLASSES_ROOT\*\shell\Edit with VS Code\command]
+@="\"C:\\Users\\David\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"%1\""
+"

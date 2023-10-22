@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; A new hidden page in Settings, "Share"
+[HKEY_CURRENT_USER\Control Panel]
+"EnableShareSettings"=dword:00000001

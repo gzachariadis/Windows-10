@@ -1,0 +1,29 @@
+{
+    "commands": [
+        {
+            "name": "/users",
+            "func": "/chatters",
+            "showInMsgContextMenu": false
+        },
+        {
+            "name": "/clip",
+            "func": "/clip",
+            "showInMsgContextMenu": false
+        },
+        {
+            "name": "/stream",
+            "func": "/openurl https://twitch.tv/{channel.name}",
+            "showInMsgContextMenu": false
+        },
+        {
+            "name": "hi",
+            "func": "Που εισαι ρε {1} ? antilhLouloudaki poulT",
+            "showInMsgContextMenu": false
+        },
+        {
+            "name": "block",
+            "func": "/block {1+}",
+            "showInMsgContextMenu": false
+        }
+    ]
+}

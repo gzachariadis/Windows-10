@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Disable suggestions in Start menu
+; Shows occasional suggestions in Start menu (OFF dword=0 ON dword=1)
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"SystemPaneSuggestionsEnabled"=dword:00000000

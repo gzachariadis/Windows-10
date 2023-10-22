@@ -1,0 +1,9 @@
+{
+    "allowed_origins": [
+        "chrome-extension://glknmaideaikkmemifbfkhnomoknepka/"
+    ],
+    "description": "Browser interaction with chatterino.",
+    "name": "com.chatterino.chatterino",
+    "path": "C:/Program Files/Chatterino/chatterino.exe",
+    "type": "stdio"
+}
