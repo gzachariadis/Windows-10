@@ -13,9 +13,9 @@ My Configuration for Windows 10-21H1 for Backup Purposes.
 
 # Services
 
-|   |   |   |
+| Name  | Description  |  Service |
 |---|---|---|
-|   |   |   |
+| Adobe Acrobat Update Service  | Update Services for Acrobat  |  AdobeARMservice |
 |   |   |   |
 |   |   |   |
 
