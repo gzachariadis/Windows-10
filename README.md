@@ -1,6 +1,29 @@
 # Windows-10-21H1
 
-My Configuration for Windows 10-21H1 for Backup Purposes.
+[![made-with-powershell](https://img.shields.io/badge/PowerShell-1f425f?logo=Powershell)](https://microsoft.com/PowerShell)
+![Static Badge](https://img.shields.io/badge/Windows%2010-blue)
+![Static Badge2](https://img.shields.io/badge/Gaming-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIj48cGF0aCBkPSJNMTI5IDExMWMtNTUgNC05MyA2Ni05MyA3OEwwIDM5OGMtMiA3MCAzNiA5MiA2OSA5MWgxYzc5IDAgODctNTcgMTMwLTEyOGgyMDFjNDMgNzEgNTAgMTI4IDEyOSAxMjhoMWMzMyAxIDcxLTIxIDY5LTkxbC0zNi0yMDljMC0xMi00MC03OC05OC03OGgtMTBjLTYzIDAtOTIgMzUtOTIgNDJIMjM2YzAtNy0yOS00Mi05Mi00MmgtMTV6IiBmaWxsPSIjZmZmIi8+PC9zdmc+)
+![Config](https://img.shields.io/badge/Configuration%20Files-8A2BE2)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/gzachariadis/Windows-10-21H1/main)
+
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/gzachariadis/Windows-10-21H1)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/gzachariadis/Windows-10-21H1)
+
+<br>
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/157766718-1d0780da-cfdf-4dd9-9cf6-d2a5cce3e57d.gif">
+  <br />
+  Windows 10 Pro N 
+</h1>
+
+<p align="center">
+  <i align="center"> A Comprehensive Configuration Guide for a Bloat-free and Responsive Gaming Windows Installation 🚀</i>
+</p>
+<br>
+
 
 # Components
 
@@ -27,7 +50,6 @@ The [Sources](#Bibliography) where I gathered registry tweaks that can be found 
 ## Categories (A-Z)
 
 ### Appearance & Personalization
-
 
 * [Set Default Display Scaling](Pre-Install/NtLite/Registry/Appearance%20&%20Personalization/Set%20Default%20Display%20Scaling%20Windows%2010.reg) 
 
@@ -140,10 +162,6 @@ The [Sources](#Bibliography) where I gathered registry tweaks that can be found 
 * [Turn Off Auto-Adjust Active Hours](Pre-Install/NtLite/Registry/Windows%20Updates/Turn%20Off%20Auto-Adjust%20Active%20Hours.reg) 
 
 
-
-
-
-
 # Services
 
 # Post-Setup Scripts
@@ -151,6 +169,16 @@ The [Sources](#Bibliography) where I gathered registry tweaks that can be found 
 # Unattended Setup
 
 # Applications
+
+# Maintenance
+
+### Scripts
+
+* [clean_updates.cmd](Scripts/Before%20Windows%20Updates/clean_updates.cmd) - Remove all installed outdated and no longer needed Microsoft Windows updates from **WinSxS** directory;
+  
+* [clean_wrea.cmd](/Scripts/Before%20Windows%20Updates/clean_wrea.cmd) - remove all files and directories from $WinREAgent directory;
+
+<br>
 
 # Bibliography
 
