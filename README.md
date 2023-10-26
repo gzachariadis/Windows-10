@@ -12,13 +12,17 @@ My Configuration for Windows 10-21H1 for Backup Purposes.
 
 # Registry Tweaks
 
-I have tried to do Extensive Research on each Registry Tweak and introduce comments on what exactly each tweak does. **Before!** you use any tweak(s) ensure you read the comment(s) inside the .reg (labeled with semicolon) to see what it really changes. 
+I have tried to do Extensive Research on each Registry Tweak and introduce comments on what exactly each tweak does. 
+
+**Before!** you use any tweak(s) ensure you read the comment(s) inside the .reg (labeled with semicolon) to see what it really changes. 
 
 #### **Please backup your registry before any changes or use a Virtual-Machine or a spare computer. I am not liable for any problems that arise from executing these.**
 
 The tweaks contain **Sources** that have useful information around each individual tweak. Please do open those and do your own research before applying changes to your system.
 
-On that note, feel free to open issues about inaccurate information you may find, or to add more registry tweaks, as I am always on the look-out for new ones [Click Here.](#Bibliography)
+On that note, feel free to open issues about inaccurate information you may find, or to add more registry tweaks, as I am always on the look-out for new ones.
+
+The [Sources](#Bibliography) where I gathered registry tweaks that can be found under this repository, are at the bottom of this file.
 
 ## Categories (A-Z)
 
