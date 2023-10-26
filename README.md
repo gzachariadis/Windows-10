@@ -14,7 +14,7 @@
 <br>
 
 <h1 align="center">
- <img src="https://user-images.githubusercontent.com/45159366/157766718-1d0780da-cfdf-4dd9-9cf6-d2a5cce3e57d.gif">
+ <img src="">
   <br />
   Windows 10 Pro N 
 </h1>
