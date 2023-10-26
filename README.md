@@ -28,6 +28,16 @@ The [Sources](#Bibliography) where I gathered registry tweaks that can be found 
 
 ### Appearance & Personalization
 
+
+* [Set Default Display Scaling](Pre-Install/NtLite/Registry/Appearance%20&%20Personalization/Set%20Default%20Display%20Scaling%20Windows%2010.reg) 
+
+* [Enable Automatically Hide Scroll Bars in Windows 10 Apps](Pre-Install/NtLite/Registry/Appearance%20&%20Personalization/Enable%20Automatically%20Hide%20Scroll%20Bars%20in%20Windows%2010%20Apps.reg) 
+
+* [Disable Screen Savers](Pre-Install/NtLite/Registry/Appearance%20&%20Personalization/Disable%20Screen%20Savers.reg) 
+
+* [Disable Visual Feedback](Pre-Install/NtLite/Registry/Appearance%20&%20Personalization/Disable%20Visual%20Feedback.reg) 
+
+
 ### Cache
 
 ### Context Menu
@@ -49,6 +59,10 @@ The [Sources](#Bibliography) where I gathered registry tweaks that can be found 
 ##### Keyboard
 
 * [Speed-up Keyboard Layout Switch](Pre-Install/NtLite/Registry/Hardware/Physical%20Devices/Keyboard/Speed-up%20Keyboard%20Layout%20Switch.reg) 
+
+* [Highlight Misspelled Words OFF](Pre-Install/NtLite/Registry/Hardware/Physical%20Devices/Keyboard/Highlight%20Misspelled%20Words%20OFF.reg) - Disable the Windows 10 option to Highlight Misspelled Words.
+
+* [Autocorrect Misspelled Words OFF](Pre-Install/NtLite/Registry/Hardware/Physical%20Devices/Keyboard/Autocorrect%20Misspelled%20Words%20OFF.reg) - Disable the Windows 10 option to Autocorrect Misspelled Words.
 
 ##### Removable Drives
 
@@ -77,6 +91,11 @@ The [Sources](#Bibliography) where I gathered registry tweaks that can be found 
 
 * [Disable Visual Code Telemetry](Pre-Install/NtLite/Registry/Programs/Visual%20Code%20Studio/Disable%20Visual%20Code%20Telemetry.reg)
 
+##### Edge
+
+* [Remove Bing Discover Button from Edge](Pre-Install/NtLite/Registry/Programs/Edge%20Browser/Remove%20Bing%20Discover%20Button%20from%20Edge.reg)
+
+
 ### Security
 
 ### Storage & Memory
@@ -89,7 +108,24 @@ The [Sources](#Bibliography) where I gathered registry tweaks that can be found 
 
 ### Windows Features
 
+* [Disable Advanced Indexing](Pre-Install/NtLite/Registry/Windows%20Features/Disable%20Advanced%20Indexing.reg) - Prevent Windows from creating and manage a Search Index to show search results quickly, by scanning your Files.
+
+* [Disable App Launch Tracking](Pre-Install/NtLite/Registry/Windows%20Features/Disable%20App%20Launch%20Tracking.reg) - App Launch Tracking is a Windows 10 feature that can show you a list of most used apps in the Start Menu.
+
+* [Are You Sure You Want to Run This File](Pre-Install/NtLite/Registry/Windows%20Features/Are%20You%20Sure%20You%20Want%20to%20Run%20This%20File.reg) - Disables the prompt saying "The publisher could not be verified. Are you sure you want to run this software?" for most file types.
+
+* [Turn AutoPlay OFF](Pre-Install/NtLite/Registry/Windows%20Features/Turn%20AutoPlay%20Off.reg) - Disables the AutoPlay Windows Feature which determines what to do with a new device automatically.
+
 ### Windows Settings
+
+* [Disable Changing Date and Time Formats](Pre-Install/NtLite/Registry/Windows%20Settings/Disable%20Changing%20Date%20and%20Time%20Formats.reg) - Disable the Option of Changing System Time and Date Formats.
+
+* [Enable Changing Desktop Icons](Pre-Install/NtLite/Registry/Windows%20Settings/Enable%20Changing%20Desktop%20Icons.reg) - Enable the Option of Deciding which icons to the displayed in Desktop.
+
+* [Disable Other Device Usage](Pre-Install/NtLite/Registry/Windows%20Settings/Device%20Usage/Disable%20Other%20Device%20Usage.reg) - Disables Every Device Usage Scenario except Gaming. Doesn't enable Gaming either though.
+
+* [Enable Gaming Device Usage](Pre-Install/NtLite/Registry/Windows%20Settings/Device%20Usage/Enable%20Gaming%20Device%20Usage.reg) 
+
 
 #### Start Menu & Taskbar
 
@@ -99,11 +135,7 @@ The [Sources](#Bibliography) where I gathered registry tweaks that can be found 
 
 ### Windows Updates
 
-
-
-
-
-
+* [Turn Off Auto-Adjust Active Hours](Pre-Install/NtLite/Registry/Windows%20Updates/Turn%20Off%20Auto-Adjust%20Active%20Hours.reg) 
 
 
 
@@ -117,8 +149,6 @@ The [Sources](#Bibliography) where I gathered registry tweaks that can be found 
 # Unattended Setup
 
 # Applications
-
-<br>
 
 # Bibliography
 

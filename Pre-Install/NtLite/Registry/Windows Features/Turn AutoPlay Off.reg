@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+; Turn AutoPlay Off
+
+; When the Shell detects the insertion of new media or the attachment of a hot-plug device, the contents of the device or media are determined, then Autoplay takes over prompting the user or automatically executing an option.
+
+
+; Sources 
+
+; https://www.majorgeeks.com/content/page/turn_autoplay_on_or_off.html
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\AutoplayHandlers]
+"DisableAutoplay"=dword:00000001 
