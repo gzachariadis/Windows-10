@@ -1,4 +1,0 @@
-REGEDIT4
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa]
-"forceguest"=dword:00000000

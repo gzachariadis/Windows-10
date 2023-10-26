@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+; What are Windows Admin Shares?
+
+; Windows Admin Shares are enabled by default to allow administrators and software to remotely manage hosts on an internal network using the SMB protocol. 
+; These shares give adversaries the ability to stage payloads for execution, move laterally throughout a network, and elevate their privilege level. 
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lanmanserver\parameters]
+"AutoShareServer"=dword:00000000
+"AutoShareWorkstation"=dword:00000000
+"AutoShareWks"=dword:00000000
+

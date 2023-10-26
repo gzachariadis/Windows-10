@@ -1,0 +1,7 @@
+﻿Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PCHC]
+"PreviousUninstall"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PCHealthCheck]
+"installed"=dword:00000001

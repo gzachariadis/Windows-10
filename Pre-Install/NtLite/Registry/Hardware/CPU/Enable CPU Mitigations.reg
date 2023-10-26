@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+; On newer CPUs (9th gen and newer) you should leave them enabled as deactivating them actually decreases performance because the chips starts doing the mitigations in software instead of hardware.
+; Although... https://www.phoronix.com/review/3900x-9900k-mitigations
+
+; Sources 
+; https://www.reddit.com/r/Amd/comments/r7tib3/how_important_can_the_cpu_mitigations_be_for_the/
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"FeatureSettingsOverride"=dword:00000008
+"FeatureSettingsOverrideMask"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Virtualization]
+"MinVmVersionForCpuBasedMitigations"="1.0"

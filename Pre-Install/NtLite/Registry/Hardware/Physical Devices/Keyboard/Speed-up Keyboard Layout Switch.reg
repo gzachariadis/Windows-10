@@ -1,0 +1,18 @@
+Windows Registry Editor Version 5.00
+
+; AutoRepeatDelay = When you Hold a button, this is the delay for before it masses the button).
+; AutoRepeatRate = How fast it will repeat said button.
+; DelayBeforeAcceptance = An interval between the pressing of the button, and the execution in whatever program/game.
+; Flags has to be 59, other values are in ms. Needs logout or restart to activate.
+
+; Sources
+
+; https://www.youtube.com/watch?v=CVHHE0bsyWU&t=841s
+; https://www.reddit.com/r/AllThingsTerran/comments/54z257/hotkey_users_improve_keyboard_repeat_rate_and/
+
+[HKEY_CURRENT_USER\Control Panel\Accessibility\Keyboard Response]
+"DelayBeforeAcceptance"="0"
+"AutoRepeatRate"="6"
+"AutoRepeatDelay"="200"
+"Flags"="58"
+"BounceTime"="0"

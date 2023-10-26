@@ -1,5 +1,0 @@
-REGEDIT4
-
-[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Network]
-"NoFileSharing"=dword:00000001
-"NoPrintSharing"=dword:00000001

@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+; Windows 10 is creating System Volume Information folder on removable drives every time you connect your flash drive to the computer. 
+; If you have such a folder on your removable drive, it means that its file system is NTFS. If File Explorer shows it, you must have enabled the 'show system files' in folder options.
+; The System Volume Information folder is located in the root of the drive. It contains important system data like restore points, search index database, shadow copies, and a variety of other files.
+
+; Sources
+
+; https://winaero.com/how-to-disable-system-volume-information-folder-for-removable-drives/#Disable_the_System_Volume_Information_Folder_for_Removable_Drives
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
+"DisableRemovableDriveIndexing"=dword:00000001

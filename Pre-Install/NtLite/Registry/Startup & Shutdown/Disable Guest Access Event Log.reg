@@ -1,6 +1,0 @@
-REGEDIT4
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog\Application]
-"RestrictGuestAccess"=dword:00000001
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog\Security]
-"RestrictGuestAccess"=dword:00000001

@@ -1,7 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; http://www.heise.de/newsticker/meldung/Windows-mit-verstecktem-Adware-Killer-3023579.html
-; https://blogs.technet.microsoft.com/mmpc/2015/11/25/shields-up-on-potentially-unwanted-applications-in-your-enterprise/
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\MpEngine]
-"MpEnablePus"=dword:00000001
-
