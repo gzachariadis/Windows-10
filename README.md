@@ -40,7 +40,7 @@ The [Sources](#Bibliography) where I gathered registry tweaks that can be found 
 
 ### Gaming Optimization
 
-* [Disable Xbox Game Bar](Pre-Install/NtLite/Registry/Gaming/Disable%20Xbox%20Game%20Bar.reg) 
+* [Disable Xbox Game Bar](Pre-Install/NtLite/Registry/Gaming%20Optimization/Disable%20Xbox%20Game%20Bar.reg) 
 
 ### Hardware
 
@@ -48,16 +48,16 @@ The [Sources](#Bibliography) where I gathered registry tweaks that can be found 
 
 ##### Keyboard
 
-* [Speed-up Keyboard Layout Switch](Pre-Install/NtLite/Registry/Physical%20Devices/Keyboard/Speed-up%20Keyboard%20Layout%20Switch.reg) 
+* [Speed-up Keyboard Layout Switch](Pre-Install/NtLite/Registry/Hardware/Physical%20Devices/Keyboard/Speed-up%20Keyboard%20Layout%20Switch.reg) 
 
 ##### Removable Drives
 
-* [Disable System Volume Information Folder for Removable Drives](Pre-Install/NtLite/Registry/Physical%20Devices/Removable%20Devices/Disable%20System%20Volume%20Information%20Folder%20for%20Removable%20Drives.reg) 
+* [Disable System Volume Information Folder for Removable Drives](Pre-Install/NtLite/Registry/Hardware/Physical%20Devices/Removable%20Devices/Disable%20System%20Volume%20Information%20Folder%20for%20Removable%20Drives.reg) 
 
 
 ### Networking
 
-* [Disable Administrative Shares](Pre-Install/NtLite/Registry/Networking/Disable%20Auto%20Admin%20Shares.reg) - Administrative Shares are used in Windows to remotely access and manage a computer. They carry security risks if mismanaged and unnecessary for Gaming. 
+* [Disable Administrative Shares](Pre-Install/NtLite/Registry/Networking/Disable%20Administrative%20Shares.reg) - Administrative Shares are used in Windows to remotely access and manage a computer. They carry security risks if mismanaged and unnecessary for Gaming. 
 
 ### Power
 
@@ -65,17 +65,17 @@ The [Sources](#Bibliography) where I gathered registry tweaks that can be found 
 
 #### One Drive 
 
-* [Disable OneDrive Move](Pre-Install/NtLite/Registry/One%20Drive/Disable%20OneDrive%20Move.reg) 
+* [Disable OneDrive Move](Pre-Install/NtLite/Registry/Programs/One%20Drive/Disable%20OneDrive%20Move.reg) 
 
-* [Remove Pinned Microsoft OneDrive icon from Windows Explorer](Pre-Install/NtLite/Registry/One%20Drive/Remove%20Pinned%20Microsoft%20OneDrive%20icon%20from%20Windows%20Explorer.reg) 
+* [Remove Pinned Microsoft OneDrive icon from Windows Explorer](Pre-Install/NtLite/Registry/Programs/One%20Drive/Remove%20Pinned%20Microsoft%20OneDrive%20icon%20from%20Windows%20Explorer.reg)
 
 ##### PowerToys
 
-* [Disable PowerToys SCOOBE Dialog](Pre-Install/NtLite/Registry/External%20Programs/Disable%20PowerToys%20SCOOBE%20Dialog.reg)
+* [Disable PowerToys SCOOBE Dialog](Pre-Install/NtLite/Registry/Programs/PowerToys/Disable%20PowerToys%20SCOOBE%20Dialog.reg)
 
 ##### Visual Code Studio
 
-* [Disable Visual Code Telemetry](Pre-Install/NtLite/Registry/External%20Programs/Disable%20Visual%20Code%20Telemetry.reg)
+* [Disable Visual Code Telemetry](Pre-Install/NtLite/Registry/Programs/Visual%20Code%20Studio/Disable%20Visual%20Code%20Telemetry.reg)
 
 ### Security
 
@@ -93,9 +93,9 @@ The [Sources](#Bibliography) where I gathered registry tweaks that can be found 
 
 #### Start Menu & Taskbar
 
-* [Disable Suggestions](Pre-Install/NtLite/Registry/Start%20Menu%20&%20Taskbar/Disable%20Suggestions%20in%20Start%20menu.reg) 
+* [Disable Suggestions](Pre-Install/NtLite/Registry/Windows%20Settings/Start%20Menu%20&%20Taskbar/Disable%20Suggestions%20in%20Start%20menu.reg) 
   
-* [Disable Suggested Applications](Pre-Install/NtLite/Registry/Start%20Menu%20&%20Taskbar/Disable%20Suggested%20Applications%20in%20Start%20menu%20.reg.reg) 
+* [Disable Suggested Applications](Pre-Install/NtLite/Registry/Windows%20Settings/Start%20Menu%20&%20Taskbar/Disable%20Suggested%20Applications%20in%20Start%20menu%20.reg) 
 
 ### Windows Updates
 
