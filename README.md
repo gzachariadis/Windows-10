@@ -68,7 +68,6 @@ The [Sources](#Bibliography) where I gathered registry tweaks that can be found 
 
 * [Disable System Volume Information Folder for Removable Drives](Pre-Install/NtLite/Registry/Hardware/Physical%20Devices/Removable%20Devices/Disable%20System%20Volume%20Information%20Folder%20for%20Removable%20Drives.reg) 
 
-
 ### Networking
 
 * [Disable Administrative Shares](Pre-Install/NtLite/Registry/Networking/Disable%20Administrative%20Shares.reg) - Administrative Shares are used in Windows to remotely access and manage a computer. They carry security risks if mismanaged and unnecessary for Gaming. 
@@ -126,6 +125,9 @@ The [Sources](#Bibliography) where I gathered registry tweaks that can be found 
 
 * [Enable Gaming Device Usage](Pre-Install/NtLite/Registry/Windows%20Settings/Device%20Usage/Enable%20Gaming%20Device%20Usage.reg) 
 
+* [Disable File History](Pre-Install/NtLite/Registry/Windows%20Settings/Disable%20File%20History.reg) - File History is a backup option in Windows 8, 10, and 11 to replace lost, damaged, or deleted files. 
+
+* [Disable Block Downloaded Files](Pre-Install/NtLite/Registry/Windows%20Settings/Disable%20Block%20Downloaded%20Files.reg) - Windows 10 Automatically Blocks Files from Unknown Resources
 
 #### Start Menu & Taskbar
 
