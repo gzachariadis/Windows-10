@@ -95,7 +95,7 @@ The [Sources](#Bibliography) where I gathered registry tweaks that can be found 
 
 * [Disable Suggestions](Pre-Install/NtLite/Registry/Windows%20Settings/Start%20Menu%20&%20Taskbar/Disable%20Suggestions%20in%20Start%20menu.reg) 
   
-* [Disable Suggested Applications](Pre-Install/NtLite/Registry/Windows%20Settings/Start%20Menu%20&%20Taskbar/Disable%20Suggested%20Applications%20in%20Start%20menu%20.reg) 
+* [Disable Suggested Applications](Pre-Install/NtLite/Registry/Windows%20Settings/Start%20Menu%20&%20Taskbar/Disable%20Suggested%20Applications%20in%20Start%20menu.reg) 
 
 ### Windows Updates
 
