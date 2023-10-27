@@ -13,8 +13,6 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/gzachariadis/Windows-10-21H1)
 
-
-
 <br>
 
 <h1 align="center">
@@ -27,7 +25,6 @@
   <i align="center"> A Comprehensive Configuration Guide for a Bloat-free and Responsive Gaming Windows Installation 🚀</i>
 </p>
 <br>
-
 
 # Components
 
@@ -74,6 +71,10 @@ The [Sources](#Bibliography) where I gathered registry tweaks that can be found 
 
 * [Remove Useless icons from This PC View](Pre-Install/NtLite/Registry/File%20Explorer/Remove%20Useless%20icons%20from%20This%20PC%20View.reg) 
 
+* [Disable Show Drive Letters First](Pre-Install/NtLite/Registry/File%20Explorer/Disable%20Show%20Drive%20Letters%20First.reg) - When you open This PC in File Explorer, you are shown a list of drives. By default, you will see a drive name followed by the drive letter. <sub><sup>**Default Behavior**</sup></sub> 
+
+* [Remove Dropbox from Navigation Pane](Pre-Install/NtLite/Registry/File%20Explorer/Remove%20Dropbox%20from%20Navigation%20Pane.reg) - This stops Dropbox from Appearing in File Explorer.
+
 ### Gaming Optimization
 
 * [Disable Xbox Game Bar](Pre-Install/NtLite/Registry/Gaming%20Optimization/Disable%20Xbox%20Game%20Bar.reg) 
@@ -98,6 +99,8 @@ The [Sources](#Bibliography) where I gathered registry tweaks that can be found 
 
 * [Disable Administrative Shares](Pre-Install/NtLite/Registry/Networking/Disable%20Administrative%20Shares.reg) - Administrative Shares are used in Windows to remotely access and manage a computer. They carry security risks if mismanaged and unnecessary for Gaming. 
 
+* [Disable Mapped Drives in Elevated PowerShell and Command Prompt](Pre-Install/NtLite/Registry/Networking/Disable%20Mapped%20Drives%20in%20Elevated%20PowerShell%20and%20Command%20Prompt.reg) - Disable Mapped Drives in Elevated PowerShell and Command Prompt
+
 ### Power
 
 ### Programs
@@ -119,7 +122,6 @@ The [Sources](#Bibliography) where I gathered registry tweaks that can be found 
 ##### Edge
 
 * [Remove Bing Discover Button from Edge](Pre-Install/NtLite/Registry/Programs/Edge%20Browser/Remove%20Bing%20Discover%20Button%20from%20Edge.reg)
-
 
 ### Security
 
@@ -149,6 +151,10 @@ The [Sources](#Bibliography) where I gathered registry tweaks that can be found 
 
 * [Disable Steps Recorder](Pre-Install/NtLite/Registry/Windows%20Features/Disable%20Steps%20Recorder.reg) -
 Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by capturing a screenshot for every mouse or keyboard click. 
+
+* [Enable Task Manager](Pre-Install/NtLite/Registry/Windows%20Features/Enable%20Task%20Manager.reg) - The Windows Task Manager is a powerful tool packed with useful information, from your system's overall resource usage to detailed statistics about each process
+  
+* [Disable USB Write Protection](Pre-Install/NtLite/Registry/Windows%20Features/Disable%20USB%20Write%20Protection.reg) - Write Protection Mode is a hardware or software feature that prevents the files on a USB drive from being removed, copied or altered.
 
 ### Windows Settings
 
@@ -180,6 +186,8 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 
 # Post-Setup Scripts
 
+* [Remove Dropbox from Navigation Pane](Post-Install/Step%201/Scripts/Remove%20Dropbox%20From%20Navigation%20Pane.cmd) - 
+
 # Unattended Setup
 
 # Applications
@@ -198,6 +206,5 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 
 - [Wincfgs](https://github.com/xvitaly/wincfgs/tree/master)
 
-
-
+- [MajorGeeks Windows Tweaks 2.96](https://www.majorgeeks.com/files/details/majorgeeks_registry_tweaks.html)
 

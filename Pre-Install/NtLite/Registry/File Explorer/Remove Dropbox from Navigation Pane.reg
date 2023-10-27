@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; Disable Dropbox icon from Showing in Explorer's Navigation Pane
+
+; Sources
+
+; https://winaero.com/remove-dropbox-from-navigation-pane-in-windows-10/
+
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{E31EA727-12ED-4702-820C-4B6445F28E1A}]
+System.IsPinnedToNamespaceTree=dword:00000000

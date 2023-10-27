@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; Remove Optimize Drives Context Menu in Windows 10
+
+; Sources
+
+; https://www.majorgeeks.com/content/page/optimize_drives_context_menu.html
+
+[-HKEY_CLASSES_ROOT\Drive\shell\dfrgui]
