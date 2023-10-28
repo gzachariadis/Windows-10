@@ -208,3 +208,4 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 
 - [MajorGeeks Windows Tweaks 2.96](https://www.majorgeeks.com/files/details/majorgeeks_registry_tweaks.html)
 
+- [QuickBoost](https://github.com/SanGraphic/QuickBoost)
