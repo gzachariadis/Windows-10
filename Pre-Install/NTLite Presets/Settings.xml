@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>10/23/2023 14:37</Date>
+	<AppInfo>
+		<Version>1.5.0.5855</Version>
+		<Licensed>Yes</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 10 Pro N 64-bit - Client 10.0.19041.1 (en-US) - en-US</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 10 Enterprise 64-bit - Client 10.0.19041.2965 (en-US)</Version>
+		<GUID>{71EF3788-1D63-4C4B-B449-9BDDF8B2633F}</GUID>
+	</ImageInfo>
+	<RemoveComponents></RemoveComponents>
+	<Compatibility protectHidden="true">
+		<ComponentFeatures>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">ManualSetup</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">ActivationKMS</Feature>
+			<Feature enabled="yes">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Features></Features>
+	<AddPackages></AddPackages>
+	<Drivers showHidden="true">
+		<AddDrivers></AddDrivers>
+	</Drivers>
+	<Unattended mode="0">
+		<OEMSetupComplete>false</OEMSetupComplete>
+		<AnswerFileLocationPanther>false</AnswerFileLocationPanther>
+		<AnswerFileLocationBoot>false</AnswerFileLocationBoot>
+		<SaveBothArch>false</SaveBothArch>
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-Setup">
+				<DynamicUpdate>
+					<WillShowUI>OnError</WillShowUI>
+				</DynamicUpdate>
+				<ImageInstall>
+					<OSImage>
+						<WillShowUI>OnError</WillShowUI>
+						<InstallFrom>
+							<MetaData>
+								<Key>/IMAGE/NAME</Key>
+								<Value>Windows 10 Pro</Value>
+							</MetaData>
+						</InstallFrom>
+					</OSImage>
+				</ImageInstall>
+				<UserData>
+					<ProductKey>
+						<Key></Key>
+					</ProductKey>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks>
+		<Settings></Settings>
+		<Services>
+			<TweakGroup name="services">
+				<Tweak name="AJRouter\AJRouter">4</Tweak>
+				<Tweak name="ALG\ALG">4</Tweak>
+				<Tweak name="BDESVC\BDESVC">4</Tweak>
+				<Tweak name="PeerDistSvc\PeerDistSvc">4</Tweak>
+				<Tweak name="CaptureService\CaptureService">4</Tweak>
+				<Tweak name="CertPropSvc\CertPropSvc">4</Tweak>
+				<Tweak name="CDPSvc\CDPSvc">4</Tweak>
+				<Tweak name="CDPUserSvc\CDPUserSvc">4</Tweak>
+				<Tweak name="DiagTrack\DiagTrack">4</Tweak>
+				<Tweak name="DusmSvc\DusmSvc">4</Tweak>
+				<Tweak name="DoSvc\DoSvc">4</Tweak>
+				<Tweak name="diagsvc\diagsvc">4</Tweak>
+				<Tweak name="DPS\DPS">4</Tweak>
+				<Tweak name="WdiServiceHost\WdiServiceHost">4</Tweak>
+				<Tweak name="WdiSystemHost\WdiSystemHost">4</Tweak>
+				<Tweak name="DisplayEnhancementService\DisplayEnhancementService">4</Tweak>
+				<Tweak name="TrkWks\TrkWks">4</Tweak>
+				<Tweak name="MapsBroker\MapsBroker">4</Tweak>
+				<Tweak name="EntAppSvc\EntAppSvc">4</Tweak>
+				<Tweak name="Fax\Fax">4</Tweak>
+				<Tweak name="fhsvc\fhsvc">4</Tweak>
+				<Tweak name="BcastDVRUserService\BcastDVRUserService">4</Tweak>
+				<Tweak name="lfsvc\lfsvc">4</Tweak>
+				<Tweak name="HvHost\HvHost">4</Tweak>
+				<Tweak name="vmickvpexchange\vmickvpexchange">4</Tweak>
+				<Tweak name="vmicguestinterface\vmicguestinterface">4</Tweak>
+				<Tweak name="vmicshutdown\vmicshutdown">4</Tweak>
+				<Tweak name="vmicheartbeat\vmicheartbeat">4</Tweak>
+				<Tweak name="vmicvmsession\vmicvmsession">4</Tweak>
+				<Tweak name="vmicrdv\vmicrdv">4</Tweak>
+				<Tweak name="vmictimesync\vmictimesync">4</Tweak>
+				<Tweak name="vmicvss\vmicvss">4</Tweak>
+				<Tweak name="SharedAccess\SharedAccess">4</Tweak>
+				<Tweak name="iphlpsvc\iphlpsvc">4</Tweak>
+				<Tweak name="IpxlatCfgSvc\IpxlatCfgSvc">4</Tweak>
+				<Tweak name="PolicyAgent\PolicyAgent">4</Tweak>
+				<Tweak name="lltdsvc\lltdsvc">4</Tweak>
+				<Tweak name="diagnosticshub.standardcollector.service\diagnosticshub.standardcollector.service">4</Tweak>
+				<Tweak name="wlidsvc\wlidsvc">4</Tweak>
+				<Tweak name="edgeupdate\edgeupdate">4</Tweak>
+				<Tweak name="edgeupdatem\edgeupdatem">4</Tweak>
+				<Tweak name="MSiSCSI\MSiSCSI">4</Tweak>
+				<Tweak name="smphost\smphost">4</Tweak>
+				<Tweak name="SmsRouter\SmsRouter">4</Tweak>
+				<Tweak name="NaturalAuthentication\NaturalAuthentication">4</Tweak>
+				<Tweak name="NcdAutoSetup\NcdAutoSetup">4</Tweak>
+				<Tweak name="CscService\CscService">4</Tweak>
+				<Tweak name="WpcMonSvc\WpcMonSvc">4</Tweak>
+				<Tweak name="SEMgrSvc\SEMgrSvc">4</Tweak>
+				<Tweak name="PNRPsvc\PNRPsvc">4</Tweak>
+				<Tweak name="p2psvc\p2psvc">4</Tweak>
+				<Tweak name="p2pimsvc\p2pimsvc">4</Tweak>
+				<Tweak name="pla\pla">4</Tweak>
+				<Tweak name="PhoneSvc\PhoneSvc">4</Tweak>
+				<Tweak name="PNRPAutoReg\PNRPAutoReg">4</Tweak>
+				<Tweak name="WPDBusEnum\WPDBusEnum">4</Tweak>
+				<Tweak name="Spooler\Spooler">4</Tweak>
+				<Tweak name="PrintWorkflowUserSvc\PrintWorkflowUserSvc">4</Tweak>
+				<Tweak name="wercplsupport\wercplsupport">4</Tweak>
+				<Tweak name="PcaSvc\PcaSvc">4</Tweak>
+				<Tweak name="QWAVE\QWAVE">2</Tweak>
+				<Tweak name="RasAuto\RasAuto">4</Tweak>
+				<Tweak name="RasMan\RasMan">4</Tweak>
+				<Tweak name="SessionEnv\SessionEnv">4</Tweak>
+				<Tweak name="TermService\TermService">4</Tweak>
+				<Tweak name="UmRdpService\UmRdpService">4</Tweak>
+				<Tweak name="RpcLocator\RpcLocator">4</Tweak>
+				<Tweak name="RetailDemo\RetailDemo">4</Tweak>
+				<Tweak name="seclogon\seclogon">4</Tweak>
+				<Tweak name="SensorDataService\SensorDataService">4</Tweak>
+				<Tweak name="SensrSvc\SensrSvc">4</Tweak>
+				<Tweak name="SensorService\SensorService">4</Tweak>
+				<Tweak name="SCardSvr\SCardSvr">4</Tweak>
+				<Tweak name="ScDeviceEnum\ScDeviceEnum">4</Tweak>
+				<Tweak name="SCPolicySvc\SCPolicySvc">4</Tweak>
+				<Tweak name="SNMPTRAP\SNMPTRAP">4</Tweak>
+				<Tweak name="sppsvc\sppsvc">3</Tweak>
+				<Tweak name="SSDPSRV\SSDPSRV">4</Tweak>
+				<Tweak name="SgrmBroker\SgrmBroker">4</Tweak>
+				<Tweak name="lmhosts\lmhosts">4</Tweak>
+				<Tweak name="TapiSrv\TapiSrv">4</Tweak>
+				<Tweak name="TabletInputService\TabletInputService">4</Tweak>
+				<Tweak name="WbioSrvc\WbioSrvc">4</Tweak>
+				<Tweak name="FrameServer\FrameServer">4</Tweak>
+				<Tweak name="wcncsvc\wcncsvc">4</Tweak>
+				<Tweak name="WerSvc\WerSvc">4</Tweak>
+				<Tweak name="FontCache\FontCache">4</Tweak>
+				<Tweak name="stisvc\stisvc">4</Tweak>
+				<Tweak name="wisvc\wisvc">4</Tweak>
+				<Tweak name="MixedRealityOpenXRSvc\MixedRealityOpenXRSvc">4</Tweak>
+				<Tweak name="icssvc\icssvc">4</Tweak>
+				<Tweak name="WpnService\WpnService">4</Tweak>
+				<Tweak name="WpnUserService\WpnUserService">4</Tweak>
+				<Tweak name="WinRM\WinRM">4</Tweak>
+				<Tweak name="workfolderssvc\workfolderssvc">4</Tweak>
+				<Tweak name="WwanSvc\WwanSvc">4</Tweak>
+				<Tweak name="XboxGipSvc\XboxGipSvc">4</Tweak>
+				<Tweak name="XblAuthManager\XblAuthManager">4</Tweak>
+				<Tweak name="XblGameSave\XblGameSave">4</Tweak>
+				<Tweak name="XboxNetApiSvc\XboxNetApiSvc">4</Tweak>
+			</TweakGroup>
+		</Services>
+		<ExtraServices></ExtraServices>
+	</Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveRebuild</Task>
+			<Task>imageFormatWim</Task>
+		</ImageTasks>
+		<AutoIsoFile>NTLite.iso</AutoIsoFile>
+		<AutoIsoLabel>NTLite</AutoIsoLabel>
+		<AutoSplitSize>4000</AutoSplitSize>
+		<CleanHotfixedLeftovers>false</CleanHotfixedLeftovers>
+		<ReuseDriverCache>false</ReuseDriverCache>
+	</ApplyOptions>
+	<Execution>
+		<Add>
+			<Item type="Placeholder">
+				<Index>0</Index>
+			</Item>
+		</Add>
+		<Change></Change>
+		<Remove></Remove>
+	</Execution>
+	<Registry></Registry>
+</Preset>
