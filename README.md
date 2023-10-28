@@ -16,7 +16,7 @@
 <br>
 
 <h1 align="center">
- <img src="https://github.com/gzachariadis/Windows-10-21H1/blob/main/Final2.png?raw=true">
+ <img src="https://www.imghippo.com/images/1698483472.png?raw=true">
   <br />
   Windows 10 Pro N 
 </h1>
