@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+; How to Disable Camera On or Off Notifications
+
+; Most of modern laptops and tablets come with built-in cameras, which allow you to take photos or record video with ease. 
+; If you want to improve privacy and find out when your webcam is in use, it’s recommended to enable camera On/Off indicator, 
+; so you’ll get the “Camera on/off” warning message when your camera is being used by any programs, even including the background apps.
+
+; Sources 
+
+; https://www.majorgeeks.com/content/page/camera_on_off.html
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\OEM\Device\Capture]
+"NoPhysicalCameraLED"=dword:00000000

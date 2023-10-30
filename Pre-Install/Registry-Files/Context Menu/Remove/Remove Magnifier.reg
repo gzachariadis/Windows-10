@@ -1,3 +1,13 @@
 Windows Registry Editor Version 5.00
 
+; Remove Magnifier Context Menu in Windows 10 
+
+; Magnifier is an accessibility tool bundled with Windows 10. When enabled, Magnifier makes part or all of your screen bigger so you can see words and images better.
+
+; Sources
+
+; https://winaero.com/add-magnifier-context-menu-in-windows-10/
+; https://www.majorgeeks.com/files/details/add_magnifier_context_menu_in_windows_10.html
+
+
 [-HKEY_CLASSES_ROOT\DesktopBackground\Shell\Magnifier]

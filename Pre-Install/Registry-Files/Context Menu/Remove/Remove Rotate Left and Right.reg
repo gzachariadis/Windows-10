@@ -1,7 +1,11 @@
 Windows Registry Editor Version 5.00
 
-; MajorGeeks.Com
-; How to Remove Rotate Left and Right From The Context Menu in Windows 10 & 11
+; Remove Rotate Left and Right From The Context Menu in Windows 10 & 11
+
+; Windows 10 has a feature to rotate an image. In this file, we show you how to remove Rotate right and Rotate left from said Context Menu (right-click).
+
+; Sources 
+
 ; https://www.majorgeeks.com/content/page/remove_rotate_left_right.html
 
 [-HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\ShellEx\ContextMenuHandlers\ShellImagePreview]

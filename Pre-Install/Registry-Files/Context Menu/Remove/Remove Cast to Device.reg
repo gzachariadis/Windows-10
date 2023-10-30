@@ -1,4 +1,14 @@
-REGEDIT4
+Windows Registry Editor Version 5.00
+
+; Remove "Cast to Device" from File Explorer Context Menu on Windows 10
+
+; Sources 
+
+; https://www.easytechguides.com/remove-cast-to-device-from-context-menu-in-windows-10/
+; https://www.howtogeek.com/720449/how-to-remove-cast-to-device-option-from-windows-10-context-menu/
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked]
+"{7AD84985-87B4-4a16-BE58-8B72A5B390F7}"=""
 
 ;locked by trustedinstaller, change premissions
 [-HKEY_CLASSES_ROOT\CLSID\{7AD84985-87B4-4a16-BE58-8B72A5B390F7}]
