@@ -8,9 +8,10 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/gzachariadis/Windows-10-21H1/main)
 ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/gzachariadis/Windows-10-21H1?logo=github&label=Latest%20Release)
-![GitHub release (latest by SemVer including pre-releases)](https://img.shields.io/github/downloads-pre/gzachariadis/Windows-10-21H1/Release/total)
+![GitHub commits since latest release (by SemVer including pre-releases)](https://img.shields.io/github/commits-since/gzachariadis/Windows-10-21H1/Release?logo=github&label=Commits%20Since%20Latest%20Release)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/gzachariadis/Windows-10-21H1)
 
