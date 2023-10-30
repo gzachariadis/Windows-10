@@ -1,7 +1,13 @@
 Windows Registry Editor Version 5.00
 
-; MajorGeeks.Com
-; How to Add Unblock File Context Menu
+; Remove Unblock File Context Menu
+
+; Windows Attachment Manager categorizes files into categories; High Rish, Moderate Risk, and Low Risk. 
+; After that, Windows SmartScreen warns you before opening a questionable file. 
+; We can simplify this process by adding a Context Menu item that allows you to right-click and unblock a folder and or the folder's contents.
+
+; Sources 
+
 ; https://www.majorgeeks.com/content/page/how_to_add_unblock_file_context_menu.html
 
 [-HKEY_CLASSES_ROOT\*\shell\unblock]
