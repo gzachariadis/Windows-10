@@ -1,5 +1,16 @@
 Windows Registry Editor Version 5.00
 
+; Remove Attributes from Context Menu
+
+; File attributes are special metadata or properties of files stored in the file system which instruct computer software to change its behavior.
+
+; https://winaero.com/blog/wp-content/uploads/2018/01/Windows-10-attributes-conext-menu.png
+
+; Sources
+
+; https://winaero.com/add-attributes-context-menu-windows-10/
+; https://www.majorgeeks.com/files/details/add_file_attributes_context_menu_in_windows_10.html
+
 [-HKEY_CLASSES_ROOT\*\Shell\Attributes]
 
 [-HKEY_CLASSES_ROOT\Directory\Shell\Attributes]
