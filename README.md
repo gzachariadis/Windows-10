@@ -10,6 +10,7 @@
 
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/gzachariadis/Windows-10-21H1/main)
 ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/gzachariadis/Windows-10-21H1)
+![GitHub release (latest by SemVer including pre-releases)](https://img.shields.io/github/downloads-pre/gzachariadis/Windows-10-21H1/Release/total)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/gzachariadis/Windows-10-21H1)
 
