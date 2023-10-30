@@ -9,7 +9,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/gzachariadis/Windows-10-21H1/main)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/gzachariadis/Windows-10-21H1)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/gzachariadis/Windows-10-21H1?logo=github)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/gzachariadis/Windows-10-21H1)
 
