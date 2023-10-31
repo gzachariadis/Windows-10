@@ -33,8 +33,6 @@
   <i align="center">Windows 10 Pro N, version 22H2 [19045.3570] (Updated October 2023)</i>
 </p>
 
-<br>
-
 <h1 align="center">Windows ISO Building and Tweaking (Pre-Install)</h1>
 
 <div>This repository is used as a virtual storage space for everything I have managed to track down and use over the years, in my effort of creating, optimizing and maintaining my Gaming System. My main goal is to keep my System working as optimally as possible, and remove anything extra out of Windows 10. This is not meant to be a universal build you will copy verbatim and have it work for you. This is also not, a tweaked operating system you can use for anything else but <b>Gaming</b>.</div>
