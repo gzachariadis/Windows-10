@@ -69,8 +69,8 @@ The [Sources](#Bibliography) where I gathered registry tweaks that can be found 
 
 * [Enable Automatically Hide Scroll Bars in Windows 10 Apps](Pre-Install/Registry-Files/Appearance%20&%20Personalization/Enable%20Automatically%20Hide%20Scroll%20Bars%20in%20Windows%2010%20Apps.reg) 
 
-* [Disable Screen Savers](Pre-Install/Registry-Files/Appearance%20&%20Personalization/Disable%20Screen%20Savers.reg) 
-
+* [Disable Screen Savers](Pre-Install\Registry-Files\Appearance%20&%20Personalization\Disable%20Screen%20Savers.reg)
+  
 * [Disable Visual Feedback](Pre-Install/Registry-Files/Appearance%20&%20Personalization/Disable%20Visual%20Feedback.reg) 
 
 
@@ -203,9 +203,9 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 
 # Unattended Setup
 
-# Live Install
+<h1 align="center">Windows Live Install (Post-Install)</h1>
 
-*If you reached this far, you should have a live system. From now on, this guide contains settings, applications, maintenance tips & scripts etc. for keeping this setup as bloat-free and as consistently performant as possible.
+<div>If you reached this far, you should have a Live System. From now on, this repository is geared towards keeping this live setup as bloat-free and as consistently performant as possible.</div>
 
 ## First Boot
 
@@ -220,6 +220,11 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 * [clean_wrea.cmd](Post-Install/Maintenance/Scripts/Before%20Windows%20Updates/clean_wrea.cmd) - remove all files and directories from $WinREAgent directory;
 
 <br>
+
+## Tips
+
+<div>Please </div>
+
 
 # Bibliography
 
