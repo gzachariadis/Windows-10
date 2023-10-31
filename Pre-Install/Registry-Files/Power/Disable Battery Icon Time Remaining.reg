@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+; Disable Battery Life Estimated Time Remaining in Windows 10
+
+; Microsoft has removed the estimated battery time from Windows because it's not a very accurate measure of your estimated battery time.
+
+; Sources
+
+; https://www.majorgeeks.com/content/page/enable_estimated_battery_time_mouseover.html
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
+
+"EnergyEstimationDisabled"=dword:00000001
+
+"UserBatteryDischargeEstimator"=dword:00000001
+
+"EnergyEstimationEnabled"=-
