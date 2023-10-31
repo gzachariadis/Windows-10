@@ -25,8 +25,14 @@
 
 <p align="center">
   <i align="center"> A Comprehensive Configuration Guide for a Bloat-free and Responsive Gaming Windows Installation 🚀</i>
+  <br>
+  <br>
+  <i align="center"><b>Latest Verified Version</b></i>
+  <br>
+  <i align="center">Windows 10 Pro N, version 22H2 [19045.3570] (Updated October 2023)</i>
 </p>
-<br>
+
+
 
 # Components
 
@@ -192,9 +198,15 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 
 # Unattended Setup
 
-# Applications
+# Live Install
 
-# Maintenance
+*If you reached this far, you should have a live system. From now on, this guide contains settings, applications, maintenance tips & scripts etc. for keeping this setup as bloat-free and as consistently performant as possible.
+
+## First Boot
+
+## Applications
+
+## Maintenance
 
 ### Scripts
 
