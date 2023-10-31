@@ -69,8 +69,8 @@ The [Sources](#Bibliography) where I gathered registry tweaks that can be found 
 
 * [Enable Automatically Hide Scroll Bars in Windows 10 Apps](Pre-Install/Registry-Files/Appearance%20&%20Personalization/Enable%20Automatically%20Hide%20Scroll%20Bars%20in%20Windows%2010%20Apps.reg) 
 
-* [Disable Screen Savers](Pre-Install\Registry-Files\Appearance%20&%20Personalization\Disable%20Screen%20Savers.reg)
-  
+* [Disable Screen Savers](Pre-Install/Registry-Files/Appearance%20&%20Personalization/Disable%20Screen%20Savers.reg)
+* 
 * [Disable Visual Feedback](Pre-Install/Registry-Files/Appearance%20&%20Personalization/Disable%20Visual%20Feedback.reg) 
 
 
