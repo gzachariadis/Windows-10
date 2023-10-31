@@ -33,7 +33,8 @@
   <i align="center">Windows 10 Pro N, version 22H2 [19045.3570] (Updated October 2023)</i>
 </p>
 
-
+<br>
+<br>
 
 # Components
 
