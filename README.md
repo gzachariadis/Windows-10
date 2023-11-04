@@ -357,8 +357,7 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 
 ## Post-Install 
 
-- [ ] The Installer[ ](https://github.com/couleur-tweak-tips/the-installer/tree/main)
-
+- [ ] [The Installer](https://github.com/couleur-tweak-tips/the-installer/tree/main)
 
 #### Youtube & Reddit
 
