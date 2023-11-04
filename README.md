@@ -244,6 +244,16 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 
 - [ ] [Windows 10 Cleanser](https://github.com/Carlmundo/W10-Cleanser)
 
+- [ ] [Better Privacy](https://github.com/hulr/BetterPrivacy)
+  
+- [ ] [Windows Spy Blocker](https://github.com/crazy-max/WindowsSpyBlocker)
+
+- [ ] [Win Slap](https://github.com/svenmauch/WinSlap)
+
+- [ ] [WinReducer](https://www.winreducer.net/)
+
+- [ ] [Windows Toolbox](https://github.com/WinTweakers/WindowsToolbox)
+ 
 #### Scripts
 
 - [ ] [Remove-MS-Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge)
@@ -259,6 +269,20 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 - [ ] [AveYo's Fox](https://github.com/AveYo/fox)
 
 - [ ] [Post Tweaks](https://github.com/ArtanisInc/Post-Tweaks)
+
+- [ ] [DNXDO Script](https://github.com/Deen0X/DNXDOScript)
+
+- [ ] [Windows 10 Bloat Remover and Tweaker](https://github.com/Fs00/Win10BloatRemover)
+
+- [ ] [Windows10-Privacy ](https://github.com/MichiMunich/Windows10-Privacy)
+
+- [ ] [Windows 10 Tools](https://github.com/leetfin/Windows10Tools)
+
+- [ ] [Windows-Optimize-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Debloat)
+
+- [ ] [Windows-10-Hardening](https://github.com/aghorler/Windows-10-Hardening)
+
+- [ ] [DNS Block List for Windows](https://github.com/schrebra/Windows.10.DNS.Block.List)
 
 #### Tweak Collections
 
@@ -353,6 +377,12 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 
 - [ ] [Windows Optimization Videos (playlist)](https://www.youtube.com/playlist?list=PLc7fktTRMBoxajVXk9-zy6YmRfReNmCwO)
 
+
+
+
+
+
+- [ ] 
 
 
 
