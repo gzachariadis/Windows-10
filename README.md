@@ -258,6 +258,8 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 
 - [ ] [AveYo's Fox](https://github.com/AveYo/fox)
 
+- [ ] [Post Tweaks](https://github.com/ArtanisInc/Post-Tweaks)
+
 #### Tweak Collections
 
 - [ ] [MajorGeeks Windows Tweaks 2.96](https://www.majorgeeks.com/files/details/majorgeeks_registry_tweaks.html)
@@ -334,6 +336,9 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 
 - [ ] [How To Activate Windows for FREE](https://useyourgadgets1.wordpress.com/2020/11/10/how-to-activate-windows-for-freewin10-win8-1-win8-win7/)
 
+## Post-Install 
+
+- [ ] The Installer[ ](https://github.com/couleur-tweak-tips/the-installer/tree/main)
 
 
 #### Youtube & Reddit
