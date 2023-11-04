@@ -228,8 +228,141 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 
 # Bibliography
 
-- [Wincfgs](https://github.com/xvitaly/wincfgs/tree/master)
+#### Projects
 
-- [MajorGeeks Windows Tweaks 2.96](https://www.majorgeeks.com/files/details/majorgeeks_registry_tweaks.html)
+- [ ] [QuickBoost](https://github.com/SanGraphic/QuickBoost)
 
-- [QuickBoost](https://github.com/SanGraphic/QuickBoost)
+- [ ] [Sadcoy](https://github.com/Jisll/Sadcoy)
+
+- [ ] [Magic X Mod](https://magicxmod.github.io/#content)
+
+- [ ] [Windows Memory Cleaner](https://github.com/IgorMundstein/WinMemoryCleaner)
+
+- [ ] [ZTweaks](https://github.com/caxzy/ztweaks)
+
+- [ ] [Windows Optimisation Pack](https://github.com/Marvin700/Windows_Optimisation_Pack)
+
+- [ ] [Windows 10 Cleanser](https://github.com/Carlmundo/W10-Cleanser)
+
+#### Scripts
+
+- [ ] [Remove-MS-Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge)
+
+- [ ] [DFX WinTweaks](https://github.com/ivandfx/DFXWinTweaks)
+
+- [ ] [Uninstall Edge](https://gist.github.com/ave9858/c3451d9f452389ac7607c99d45edecc6)
+
+- [ ] [Tzwel's WSD](https://github.com/tzwel/WSD)
+
+- [ ] [Winget Manual Installation](https://github.com/ViktorVoloshko/winget-manual-installation/tree/main)
+
+- [ ] [AveYo's Fox](https://github.com/AveYo/fox)
+
+#### Tweak Collections
+
+- [ ] [MajorGeeks Windows Tweaks 2.96](https://www.majorgeeks.com/files/details/majorgeeks_registry_tweaks.html)
+
+- [ ] [Wincfgs](https://github.com/xvitaly/wincfgs/tree/master)
+
+- [ ] [Couleur's Toolbox](https://github.com/couleurm/couleurstoolbox)
+
+- [ ] [Melody's Ultra Tweaks Pack](https://sites.google.com/view/melodystweaks/home)
+
+#### Github Resources
+
+- [ ] [Windows Files](https://github.com/DavoDC/WindowsFiles/tree/main)
+
+- [ ] [Trogtinh1212 Tweaks](https://gist.github.com/trongtinh1212/caa7d00188626d9188f69e781fee82d8)
+
+- [ ] [Kuuuuuuuu's Tweaks](https://github.com/Kuuuuuuuu/Tweaks)
+
+- [ ] [farag2's Utilities](https://github.com/farag2/Utilities)
+
+- [ ] [Shadow578's Registry-Mods](https://github.com/shadow578/Registry-Mods)
+
+- [ ] [Windows Registry Tweaks](https://github.com/zedseven/windows-registry-tweaks)
+
+- [ ] [Interlunar's Win10-Regtweak](https://github.com/interlunar/win10-regtweak)
+
+- [ ] [Y0lopix's Windows-Tweaks](https://gist.github.com/y0lopix/bca18265869e5da9068de0a6729bc262)
+
+- [ ] [Atavic's Regtweaks](https://github.com/Atavic/regtweaks)
+
+- [ ] [Beeyev's Tweaks-Win10](https://gist.github.com/beeyev/c3fe34831f6c80a094a38960aa4e9446)
+
+- [ ] [windows-terminal-admin-shortcuts-registry](https://github.com/DKCTC/windows-terminal-admin-shortcuts-registry)
+
+- [ ] [Windows 10 Tweak Scripts](https://github.com/tcja/Windows-10-tweaks)
+
+- [ ] [Windows 10 Mining Tweaks DmW](https://github.com/DeadManWalkingTO/Windows10MiningTweaksDmW)
+
+- [ ] [Noshadchaudhry Regtweaks](https://github.com/noshadchaudhry/regtweaks)
+
+- [ ] [W4RH4WK's Debloat-Windows-10](https://github.com/W4RH4WK/Debloat-Windows-10)
+
+- [ ] [Windows-Optimizations](https://github.com/MysticFoxDE/WINDOWS-OPTIMIZATIONS)
+
+- [ ] [Kill Unwanted Processes](https://github.com/Aldaviva/KillUnwantedProcesses)
+
+#### NTLite Presets
+
+- [ ] [INFR-Automation's - Windows Image Building](https://github.com/infr-automation/WindowsImageBuilding/tree/master)
+
+- [ ] [NTLite GamerOS Configs for Windows 10 and 11](https://github.com/ChrisTitusTech/ntlite-configs/tree/main)
+
+- [ ] [Windows 10 Pro Lite](https://github.com/RobertoBiundo/Windows10Lite/tree/master)
+
+#### Guides & Tutorials
+
+- [ ] [Use-Gaming-Tweaks](https://github.com/PrincessAkira/Use-Gaming-Tweaks)
+
+- [ ] [Gaming Tweaks](https://www.speedguide.net/articles/gaming-tweaks-5812)
+
+- [ ] [N1kobg Blog](https://n1kobg.blogspot.com/p/blog-page_23.html)
+
+- [ ] [NTLite Optimized Image Guide](https://www.ntlite.com/community/index.php?threads/guide-optimized-image.2990/)
+
+- [ ] [Win 10 Registry Tutorial's](https://www.tenforums.com/tutorials/id-Apps_Features/)
+
+- [ ] [Revi.cc Post-Install Guide](https://revi.cc/docs/post-install)
+ 
+#### Resources
+
+- [ ] [Group Policy Administrative Templates Catalog](https://admx.help/)
+
+- [ ] [Winaero](https://winaero.com/)
+
+- [ ] [How To Activate Windows for FREE](https://useyourgadgets1.wordpress.com/2020/11/10/how-to-activate-windows-for-freewin10-win8-1-win8-win7/)
+
+
+
+#### Youtube & Reddit
+
+- [ ] [Chris Titus Tech's - Making the Best Windows ISO (video)](https://www.youtube.com/watch?v=xLCWtC6UYrM)
+
+- [ ] [(NTLITE Guide) Custom Gaming Windows 10 + 11 Installs (video)](https://www.youtube.com/watch?v=G9qSFHTJ5dE)
+
+- [ ] [Create your OWN Custom Windows With THIS Tool! (video)](https://www.youtube.com/watch?v=Lc9cBsetCJU)
+
+- [ ] [Creating Debloated Windows 10 and 8.1 iso Files and Messing Up | NTLite (video)](https://www.youtube.com/watch?v=lkQNMMzX0y8)
+
+- [ ] [Windows Optimization Videos (playlist)](https://www.youtube.com/playlist?list=PLc7fktTRMBoxajVXk9-zy6YmRfReNmCwO)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"* [${TM_FILENAME_BASE}](${RELATIVE_FILEPATH/(.*)[\\\\].+$/$1/}/${TM_FILENAME_BASE/[-_ ]/%20/g}.reg)",
+"* [Disable Screen Savers](Pre-Install/Registry-Files/Appearance%20&%20Personalization/Disable%Screen%20Savers.reg)", 
+			
