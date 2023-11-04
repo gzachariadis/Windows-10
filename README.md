@@ -221,11 +221,6 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 
 <br>
 
-## Tips
-
-<div>Please </div>
-
-
 # Bibliography
 
 #### Projects
@@ -376,17 +371,6 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 - [ ] [Creating Debloated Windows 10 and 8.1 iso Files and Messing Up | NTLite (video)](https://www.youtube.com/watch?v=lkQNMMzX0y8)
 
 - [ ] [Windows Optimization Videos (playlist)](https://www.youtube.com/playlist?list=PLc7fktTRMBoxajVXk9-zy6YmRfReNmCwO)
-
-
-
-
-
-
-- [ ] 
-
-
-
-
 
 
 
