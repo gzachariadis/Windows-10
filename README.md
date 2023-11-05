@@ -70,7 +70,10 @@ Here's a NTLite Preset that matches this configuration.
 
 ## Drivers
 
-The only drivers, I have ever had problems with on my system was NVIDIA and Bluetooth Compatibillity. 
+The only drivers, I have ever had problems with on my system was NVIDIA Drivers and Bluetooth Compatibillity. I could write the plethora of issues, I have come across, but I won't bore you.
+
+<br>
+
 This is my current working drivers that I have no problem with, as of the latest release.
 
 - NVIDIA Driver 
@@ -79,17 +82,38 @@ This is my current working drivers that I have no problem with, as of the latest
 
 ## Registry Tweaks
 
-I have tried to do Extensive Research on each Registry Tweak and introduce comments on what exactly each tweak does. 
+Each registry tweak follows the following file formula.
 
-**Before!** you use any tweak(s) ensure you read the comment(s) inside the .reg (labeled with semicolon) to see what it really changes. 
+```
+Windows Registry Editor Version 5.00
+
+; [File_Name AKA What the Registry Tweak does]
+; Created by Georgios Zachariadis on [File Creation Date]
+; Categorized under [Folder Name AKA Category of Registry Tweak]
+
+; Description of the Setting it changes, what exactly is this feature etc. etc.
+
+; Sources 
+
+; [Link 1 - Bibliography] 
+; [Link 2 - Bibliography]
+
+; <------ Registry Edit ------>
+
+Contents of the File.
+```
+
+I have tried my best to do exensive reseach on each tweak.
+
+**Before!** you use any tweak(s) ensure you read these comment(s) inside the .reg (labeled with semicolon) to see what it really changes. 
 
 #### **Please backup your registry before any changes or use a Virtual-Machine or a spare computer. I am not liable for any problems that arise from executing these.**
 
 The tweaks contain **Sources** that have useful information around each individual tweak. Please do open those and do your own research before applying changes to your system.
 
-On that note, feel free to open issues about inaccurate information you may find, or to add more registry tweaks, as I am always on the look-out for new ones.
+The [Sources](#Bibliography) where I gathered the plethora of registry tweaks that can be found under this repository, are at the bottom of this file. Enjoy :)
 
-The [Sources](#Bibliography) where I gathered registry tweaks that can be found under this repository, are at the bottom of this file.
+Tweaks are Categorized below.
 
 ## Categories (A-Z)
 
