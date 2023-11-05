@@ -8,11 +8,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![GitHub Maintained](https://img.shields.io/badge/open%20source-yes-orange)
-![GitHub Maintained](https://img.shields.io/badge/maintained-yes-yellow)
-
-
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/gzachariadis/Windows-10-21H1/main)
+![GitHub Maintained](https://img.shields.io/badge/maintained-yes-yellow)
 
 ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/gzachariadis/Windows-10-21H1?logo=github&label=Latest%20Release)
 ![GitHub commits since latest release (by SemVer including pre-releases)](https://img.shields.io/github/commits-since/gzachariadis/Windows-10-21H1/Release?logo=github&label=Commits%20Since%20Latest%20Release)
@@ -43,13 +40,28 @@
 <br>
 <div>This took me a while to compile, work on, and test, so feel free to leave a star if you felt it's useful or helped you in any way.</div>
 
+## Requirements
+
+- Microphone Compatibillity 
+
+- StreamDeck Compatibillity 
+
+- Chocolatey/Scoop Compatibillity
+
+- NVIDIA Driver & Control Panel
+
 ## Components
+
+This is a list of the components, I have sucessfully removed from Windows 10 Pro N as of the latest release of this project, based on the Requirements of this project. Any Notes and Issues I faced under this configuration, are documented under this file.
+
 
 ## Windows Features
 
 ## Language Packs
 
 ## Drivers
+
+This is the list of the Drivers used Sucessfully under This Configuration for my current Hardware. Hardware List can be found below.
 
 ## Registry Tweaks
 
@@ -216,9 +228,16 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 
 ### Firefox 
 
-I propose you use a Hardened version of Firefox to get online when using your Gaming System, considering this system is stripped from most of the security (eg. Windows Defender, Windows Updates, Windows Firewall etc.), your browser is the most crucial defense you have. Be careful how you get online using this system.
+I propose you use a Hardened version of Firefox to get online when using your Gaming System, considering this system is stripped from most of the security (eg. Windows Defender, Windows Updates, Windows Firewall etc.), your browser is the most crucial defense you have. 
 
 #### User.js Configuration 
+
+The Firefox user.js file stores user settings, the file is loaded each time Firefox starts. This a convenient way to save your browser customizations and apply them on different machines - for a more technical breakdown and explanation, you can read more in the Firefox Wiki.
+
+I used the sources below to create my [user.js.](Post-Install/Application%20Files/user.js)
+Please don't apply it blindly and produce your own research on what settings you want applied in your browser.
+
+##### Sources 
 
 - [Awesome Firefox (v1.0.0)](https://github.com/awesome-windows11/firefox)
 
@@ -243,6 +262,8 @@ I propose you use a Hardened version of Firefox to get online when using your Ga
 - [Pyllyukko's User.js](https://github.com/pyllyukko/user.js)
 
 #### Extensions 
+
+This is a list of the extensions, I apply to my Firefox Configuration, as of the latest release of this project. Any settings files are included in the folder.
 
 - [Omni](https://github.com/alyssaxuu/omni)
 
@@ -269,6 +290,8 @@ I propose you use a Hardened version of Firefox to get online when using your Ga
 * [clean_wrea.cmd](Post-Install/Maintenance/Scripts/Before%20Windows%20Updates/clean_wrea.cmd) - remove all files and directories from $WinREAgent directory;
 
 <br>
+
+# Issues
 
 # Bibliography
 
