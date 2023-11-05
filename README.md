@@ -10,7 +10,7 @@
 
 ![GitHub Maintained](https://img.shields.io/badge/open%20source-yes-orange)
 ![GitHub Maintained](https://img.shields.io/badge/maintained-yes-yellow)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgzachariadis%2FWindows-10-21H1&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/gzachariadis/Windows-10-21H1/main)
 
@@ -76,7 +76,6 @@ The [Sources](#Bibliography) where I gathered registry tweaks that can be found 
 * [Disable Screen Savers](Pre-Install/Registry-Files/Appearance%20&%20Personalization/Disable%20Screen%20Savers.reg)
 * 
 * [Disable Visual Feedback](Pre-Install/Registry-Files/Appearance%20&%20Personalization/Disable%20Visual%20Feedback.reg) 
-
 
 ### Cache
 
@@ -215,9 +214,9 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 
 ## Applications
 
-
-
 ### Firefox 
+
+I propose you use a Hardened version of Firefox to get online when using your Gaming System, considering this system is stripped from most of the security (eg. Windows Defender, Windows Updates, Windows Firewall etc.), your browser is the most crucial defense you have. Be careful how you get online using this system.
 
 #### User.js Configuration 
 
@@ -259,6 +258,7 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 
 - [Search by Image](https://github.com/dessant/search-by-image)
 
+- [PreMiD](https://github.com/PreMiD/PreMiD)
 
 ## Maintenance
 
