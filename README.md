@@ -8,8 +8,12 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+![GitHub Maintained](https://img.shields.io/badge/open%20source-yes-orange)
+![GitHub Maintained](https://img.shields.io/badge/maintained-yes-yellow)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgzachariadis%2FWindows-10-21H1&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/gzachariadis/Windows-10-21H1/main)
+
 ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/gzachariadis/Windows-10-21H1?logo=github&label=Latest%20Release)
 ![GitHub commits since latest release (by SemVer including pre-releases)](https://img.shields.io/github/commits-since/gzachariadis/Windows-10-21H1/Release?logo=github&label=Commits%20Since%20Latest%20Release)
 
@@ -211,6 +215,49 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 
 ## Applications
 
+
+
+### Firefox 
+
+#### User.js Configuration 
+
+- [Awesome Firefox (v1.0.0)](https://github.com/awesome-windows11/firefox)
+
+- [TheFrenchGhosty's Ultimate Firefox Configuration](https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-Firefox-Configuration)
+
+- [Farag2 Mozilla-Firefox](https://github.com/farag2/Mozilla-Firefox)
+
+- [Firefox Previledged Scripts](https://github.com/aminomancer/uc.css.js#recommended-settings)
+
+- [Firefox Config](https://github.com/prirai/firefox-config)
+
+- [Firefox configuration hardening](https://github.com/pyllyukko/user.js)
+
+- [Firefox Config - Privacy Settings](https://gist.github.com/0XDE57/fbd302cef7693e62c769)
+
+- [Betterfox](https://github.com/yokoffing/Betterfox)
+
+- [Firefox Config](https://gist.github.com/jornane/f47c344bae4c04ac761ee48b0b88c869)
+
+- [Arkenfox](https://github.com/arkenfox/user.js/)
+
+- [Pyllyukko's User.js](https://github.com/pyllyukko/user.js)
+
+#### Extensions 
+
+- [Omni](https://github.com/alyssaxuu/omni)
+
+- [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+
+- [Bypass Paywalls](https://github.com/iamadamdev/bypass-paywalls-chrome)
+
+- [SponsorBlock](https://github.com/ajayyy/SponsorBlock)
+
+- [uBlacklist](https://github.com/iorate/ublacklist)
+
+- [FastForward](https://github.com/FastForwardTeam/FastForward)
+
+- [Search by Image](https://github.com/dessant/search-by-image)
 ## Maintenance
 
 ### Scripts
@@ -248,6 +295,8 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 - [ ] [WinReducer](https://www.winreducer.net/)
 
 - [ ] [Windows Toolbox](https://github.com/WinTweakers/WindowsToolbox)
+
+- [ ] [Ultimate Windows Tweaker 4](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10)
  
 #### Scripts
 
@@ -355,6 +404,8 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 
 - [ ] [How To Activate Windows for FREE](https://useyourgadgets1.wordpress.com/2020/11/10/how-to-activate-windows-for-freewin10-win8-1-win8-win7/)
 
+- [ ] [Collection of Best Registry Tweaks to Speed Up Your Windows](https://www.askvg.com/collection-of-registry-tweaks-for-windows-7/)
+
 ## Post-Install 
 
 - [ ] [The Installer](https://github.com/couleur-tweak-tips/the-installer/tree/main)
@@ -371,13 +422,27 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 
 - [ ] [Windows Optimization Videos (playlist)](https://www.youtube.com/playlist?list=PLc7fktTRMBoxajVXk9-zy6YmRfReNmCwO)
 
+- [ ] [What are your favorite registry hacks?](https://www.reddit.com/r/Windows10/comments/6nt4bu/what_are_your_favorite_registry_hacks/)
 
+- [ ] [The Ultimate Basic Windows 10 Tweak Guide](https://www.reddit.com/r/pcmasterrace/comments/aes8mq/the_ultimate_basic_windows_10_tweak_guide_someone/)
 
+- [ ] [What are your useful Registry hacks/tweaks?](https://www.reddit.com/r/Surface/comments/1tqppq/what_are_your_useful_registry_hackstweaks/)
 
+- [ ] [What's your best registry hack?](https://www.reddit.com/r/windows/comments/hfpye/whats_your_best_registry_hack/)
 
+- [ ] [Compiled a "Win10 Tweak Pack" with tweaks (and their sources) for Windows 10](https://www.reddit.com/r/Windows10/comments/lccdae/compiled_a_win10_tweak_pack_with_tweaks_and_their/)
 
+- [ ] [An excellent guide to optimizing your Windows 10 PC for gaming.](https://www.reddit.com/r/killerinstinct/comments/4fcdhy/an_excellent_guide_to_optimizing_your_windows_10/)
 
+- [ ] [Regedit Tweaks For Better Network Speed?](https://www.reddit.com/r/pcmasterrace/comments/140kh2n/regedit_tweaks_for_better_network_speed/)
 
+- [ ] [Favorite Registry Hacks?](https://www.reddit.com/r/LegacyWindows/comments/iy0z2f/favorite_registry_hacks/)
+
+- [ ] [Here are my must have tweaks for optimizing the look of Windows 10](https://www.reddit.com/r/Windows10/comments/3fbccs/here_are_my_must_have_tweaks_for_optimizing_the/)
+
+- [ ] [Maddogg's FAST Gaming PC Registry Tweaks](https://www.techpowerup.com/forums/threads/maddoggs-fast-gaming-pc-registry-tweaks.308591/)
+
+- [ ] [Master Tutorial to Make Windows 10 Faster](https://www.askvg.com/master-tutorial-to-make-windows-10-super-fast/)
 
 
 
