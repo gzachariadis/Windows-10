@@ -258,15 +258,21 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 
 <h1 align="center">Windows Live Install (Post-Install)</h1>
 
-<div>If you reached this far, you should have a Live System. From now on, this repository is geared towards keeping this live setup as bloat-free and as consistently performant as possible.</div>
+<div align="center">Having reached this far, you should now have a Live System.</div> 
+<br>
+<br>
+<div>From now on, this repository is geared towards keeping this live setup as bloat-free and as consistently performant as possible.</div>
 
 ## First Boot
 
 ## Applications
 
+This is the list of Applications I download on my Gaming System, as well as my current configuration for these.
+
 ### Firefox 
 
 I propose you use a Hardened version of Firefox to get online when using your Gaming System, considering this system is stripped from most of the security (eg. Windows Defender, Windows Updates, Windows Firewall etc.), your browser is the most crucial defense you have. 
+
 
 #### User.js Configuration 
 
