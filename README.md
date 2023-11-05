@@ -48,20 +48,34 @@
 
 - Chocolatey/Scoop Compatibillity
 
+- Bluetooth Compatibillity (for Keyboard & Mouse)
+  
 - NVIDIA Driver & Control Panel
+
+- .NET Frameworks used for League of Legends and other games.
 
 ## Components
 
-This is a list of the components, I have sucessfully removed from Windows 10 Pro N as of the latest release of this project, based on the Requirements of this project. Any Notes and Issues I faced under this configuration, are documented under this file.
+This is a list of the components, I have sucessfully removed from Windows 10 Pro N as of the latest release of this project, based on the Requirements of this project. Any Notes and Issues I faced under this configuration, are documented below.
 
+Here's a NTLite Preset that matches this configuration.
 
 ## Windows Features
+
+Microsoft Windows includes a wide array of features, tools, and applications to help get the most out of Windows and your computer. The following list, is of the enabled features under this Configuration, assume anything you don't see on this list to be disabled.
+
+Here's a NTLite Preset that matches this configuration.
 
 ## Language Packs
 
 ## Drivers
 
-This is the list of the Drivers used Sucessfully under This Configuration for my current Hardware. Hardware List can be found below.
+The only drivers, I have ever had problems with on my system was NVIDIA and Bluetooth Compatibillity. 
+This is my current working drivers that I have no problem with, as of the latest release.
+
+- NVIDIA Driver 
+
+- Wifi & Bluetooth Driver 
 
 ## Registry Tweaks
 
