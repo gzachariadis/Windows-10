@@ -1,0 +1,15 @@
+# Table of contents
+
+* [README](README.md)
+* [Post-Install](Post-Install/README.md)
+  * [Windows Scripts](<Post-Install/Windows Scripts/README.md>)
+    * [Scripts](<Post-Install/Windows Scripts/Scripts/README.md>)
+      * [Remove Dropbox From Navigation Pane](<Post-Install/Windows Scripts/Scripts/Remove Dropbox From Navigation Pane.cmd>)
+  * [Application Files](<Post-Install/Application Files/README.md>)
+    * [AutoHotKey Scripts](<Post-Install/Application Files/AutoHotKey Scripts/README.md>)
+      * [LolCloser](<Post-Install/Application Files/AutoHotKey Scripts/LolCloser/README.md>)
+  * [Maintenance](Post-Install/Maintenance/README.md)
+    * [Scripts](Post-Install/Maintenance/Scripts/README.md)
+      * [Before Windows Updates](<Post-Install/Maintenance/Scripts/Before Windows Updates/README.md>)
+        * [clean\_updates](<Post-Install/Maintenance/Scripts/Before Windows Updates/clean\_updates.cmd>)
+        * [clean\_wrea](<Post-Install/Maintenance/Scripts/Before Windows Updates/clean\_wrea.cmd>)
