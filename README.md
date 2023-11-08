@@ -263,13 +263,65 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 <br>
 <div>From now on, this repository is geared towards keeping this live setup as bloat-free and as consistently performant as possible.</div>
 
-## First Boot
+# First Boot
 
 ## Applications
 
 This is the list of Applications I download on my Gaming System, as well as my current configuration for these.
 
-### Firefox 
+## Categories 
+
+- [Tools](#Tools)
+- [Browsers](#Browsers)
+- [Multimedia](#Multimedia)
+- [Security & Privacy](#Security)
+- [Personalization](#Personalization)
+
+### Security
+
+#### Glary Utilities
+
+- [Glary Utillities](https://www.glarysoft.com/)
+
+#### AdwCleaner
+
+- [AdwCleaner](https://toolslib.net/downloads/viewdownload/1-adwcleaner/)
+
+- [MalwareBytes](https://www.malwarebytes.com/)
+
+#### SimpleWall
+
+- [SimpleWall](https://www.henrypp.org/product/simplewall)
+
+### Tools
+
+#### Scoop
+
+- [Scoop](https://scoop.sh/)
+
+### Multimedia
+
+#### PotPlayer
+
+- [PotPlayer](https://potplayer.daum.net/)
+
+#### Thorium Reader
+
+- [Thorium Reader](https://www.edrlab.org/software/thorium-reader/)
+
+### Personalization
+
+#### Ueli
+
+- [Ueli](https://ueli.app/#/)
+
+### Social
+
+- [PreMiD](https://github.com/PreMiD/PreMiD)
+
+### Browsers
+
+#### Firefox 
 
 I propose you use a Hardened version of Firefox to get online when using your Gaming System, considering this system is stripped from most of the security (eg. Windows Defender, Windows Updates, Windows Firewall etc.), your browser is the most crucial defense you have. 
 
@@ -323,7 +375,8 @@ This is a list of the extensions, I apply to my Firefox Configuration, as of the
 
 - [Search by Image](https://github.com/dessant/search-by-image)
 
-- [PreMiD](https://github.com/PreMiD/PreMiD)
+- [xBrowserSync](https://addons.mozilla.org/en-US/firefox/addon/xbs/)
+
 
 ## Maintenance
 
@@ -367,6 +420,8 @@ This is a list of the extensions, I apply to my Firefox Configuration, as of the
 
 - [ ] [Ultimate Windows Tweaker 4](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10)
  
+- [ ] [7+ Taskbar Tweaker](https://ramensoftware.com/7-taskbar-tweaker)
+  
 #### Scripts
 
 - [ ] [Remove-MS-Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge)
@@ -396,6 +451,8 @@ This is a list of the extensions, I apply to my Firefox Configuration, as of the
 - [ ] [Windows-10-Hardening](https://github.com/aghorler/Windows-10-Hardening)
 
 - [ ] [DNS Block List for Windows](https://github.com/schrebra/Windows.10.DNS.Block.List)
+
+- [ ] [Remove Bloat from Windows 10 from HWinfo](https://www.hwinfo.com/misc/RemoveW10Bloat.htm)
 
 #### Tweak Collections
 
@@ -475,6 +532,8 @@ This is a list of the extensions, I apply to my Firefox Configuration, as of the
 
 - [ ] [Collection of Best Registry Tweaks to Speed Up Your Windows](https://www.askvg.com/collection-of-registry-tweaks-for-windows-7/)
 
+- [ ] [Windows 10 Optimization And Tweak Guide For GAMING](https://steamcommunity.com/sharedfiles/filedetails/?id=476760198)
+
 ## Post-Install 
 
 - [ ] [The Installer](https://github.com/couleur-tweak-tips/the-installer/tree/main)
@@ -512,6 +571,11 @@ This is a list of the extensions, I apply to my Firefox Configuration, as of the
 - [ ] [Maddogg's FAST Gaming PC Registry Tweaks](https://www.techpowerup.com/forums/threads/maddoggs-fast-gaming-pc-registry-tweaks.308591/)
 
 - [ ] [Master Tutorial to Make Windows 10 Faster](https://www.askvg.com/master-tutorial-to-make-windows-10-super-fast/)
+
+
+
+
+
 
 
 
