@@ -277,52 +277,32 @@ This is the list of Applications I download on my Gaming System, as well as my c
 
 ### Security
 
-#### Glary Utilities
-
 - [Glary Utillities](https://www.glarysoft.com/)
-
-#### AdwCleaner
-
 - [AdwCleaner](https://toolslib.net/downloads/viewdownload/1-adwcleaner/)
-
 - [MalwareBytes](https://www.malwarebytes.com/)
-
-#### SimpleWall
-
 - [SimpleWall](https://www.henrypp.org/product/simplewall)
+- [YogaDNS](https://yogadns.com/)
+- [NextDNS](https://nextdns.io/)
 
 ### Tools
 
-#### Scoop
-
 - [Scoop](https://scoop.sh/)
+- [Scrcpy](https://github.com/Genymobile/scrcpy)
 
 ### Multimedia
 
-#### PotPlayer
-
 - [PotPlayer](https://potplayer.daum.net/)
-
-#### Thorium Reader
-
+- [EarTrumpet](https://eartrumpet.app/)
 - [Thorium Reader](https://www.edrlab.org/software/thorium-reader/)
 
 ### Personalization
 
-#### Ueli
-
 - [Ueli](https://ueli.app/#/)
-
-### Social
-
 - [PreMiD](https://github.com/PreMiD/PreMiD)
 
 ### Browsers
 
-#### Firefox 
-
 I propose you use a Hardened version of Firefox to get online when using your Gaming System, considering this system is stripped from most of the security (eg. Windows Defender, Windows Updates, Windows Firewall etc.), your browser is the most crucial defense you have. 
-
 
 #### User.js Configuration 
 
@@ -374,7 +354,6 @@ This is a list of the extensions, I apply to my Firefox Configuration, as of the
 - [Search by Image](https://github.com/dessant/search-by-image)
 
 - [xBrowserSync](https://addons.mozilla.org/en-US/firefox/addon/xbs/)
-
 
 ## Maintenance
 
