@@ -46,11 +46,17 @@
 
 - Chocolatey/Scoop Compatibillity
 
-- Bluetooth Compatibillity (for Keyboard & Mouse)
+- Bluetooth Compatibillity (I use BT Keyboard & Mouse)
   
-- NVIDIA Driver & Control Panel
+- NVIDIA Card Driver
 
-- .NET Frameworks used for League of Legends and other games.
+- NVIDIA Control Panel
+
+- DirectX
+
+- .Net Frameworks
+
+- OpenAL
 
 ## Components
 
@@ -281,6 +287,15 @@ This is the list of Applications I download on my Gaming System, as well as my c
 - [AdwCleaner](https://toolslib.net/downloads/viewdownload/1-adwcleaner/)
 - [MalwareBytes](https://www.malwarebytes.com/)
 - [SimpleWall](https://www.henrypp.org/product/simplewall)
+- [Sandboxie Plus / Classic](https://github.com/sandboxie-plus/Sandboxie)
+
+### Privacy
+
+- [BleachBit](https://www.bleachbit.org/)
+- [Czkawka](https://github.com/qarmin/czkawka/tree/master)
+
+### Ad-Blocking
+
 - [YogaDNS](https://yogadns.com/)
 - [NextDNS](https://nextdns.io/)
 
@@ -288,21 +303,29 @@ This is the list of Applications I download on my Gaming System, as well as my c
 
 - [Scoop](https://scoop.sh/)
 - [Scrcpy](https://github.com/Genymobile/scrcpy)
-
+- [Bulk Crap Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller)
+  
 ### Multimedia
 
 - [PotPlayer](https://potplayer.daum.net/)
 - [EarTrumpet](https://eartrumpet.app/)
-- [Thorium Reader](https://www.edrlab.org/software/thorium-reader/)
+- [Thorium Reader](https://www.edrlab.org/software/thorium-reader/) or [EPUB Reader](https://icecreamapps.com/Ebook-Reader/)
+- [Plex.tv](https://www.plex.tv/)
 
 ### Personalization
 
-- [Ueli](https://ueli.app/#/)
+- [Ueli](https://ueli.app/#/) or [Flow](https://www.flowlauncher.com/) ?????
 - [PreMiD](https://github.com/PreMiD/PreMiD)
+- [Open-Shell](https://github.com/Open-Shell/Open-Shell-Menu)
 
 ### Browsers
 
-I propose you use a Hardened version of Firefox to get online when using your Gaming System, considering this system is stripped from most of the security (eg. Windows Defender, Windows Updates, Windows Firewall etc.), your browser is the most crucial defense you have. 
+#### LibreWolf vs Firefox
+
+I propose you use a Hardened version of  to get online when using your Gaming System, considering this system is stripped from most of the security (eg. Windows Defender, Windows Updates, Windows Firewall etc.), your browser is the most crucial defense you have. 
+
+- [LibreWolf](https://librewolf.net/)
+- [Firefox](https://www.mozilla.org/en-US/firefox/browsers/)
 
 #### User.js Configuration 
 
@@ -354,6 +377,10 @@ This is a list of the extensions, I apply to my Firefox Configuration, as of the
 - [Search by Image](https://github.com/dessant/search-by-image)
 
 - [xBrowserSync](https://addons.mozilla.org/en-US/firefox/addon/xbs/)
+
+- [LanguageTool](https://languagetool.org/)
+
+- [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
 
 ## Maintenance
 
@@ -431,6 +458,8 @@ This is a list of the extensions, I apply to my Firefox Configuration, as of the
 
 - [ ] [Remove Bloat from Windows 10 from HWinfo](https://www.hwinfo.com/misc/RemoveW10Bloat.htm)
 
+- [ ] [TronScript](https://old.reddit.com/r/TronScript/)
+
 #### Tweak Collections
 
 - [ ] [MajorGeeks Windows Tweaks 2.96](https://www.majorgeeks.com/files/details/majorgeeks_registry_tweaks.html)
@@ -503,7 +532,7 @@ This is a list of the extensions, I apply to my Firefox Configuration, as of the
 
 - [ ] [Group Policy Administrative Templates Catalog](https://admx.help/)
 
-- [ ] [Winaero](https://winaero.com/)
+- [ ] [Winaero](https://winaero.com/winaero-tweaker/)
 
 - [ ] [How To Activate Windows for FREE](https://useyourgadgets1.wordpress.com/2020/11/10/how-to-activate-windows-for-freewin10-win8-1-win8-win7/)
 
@@ -548,7 +577,6 @@ This is a list of the extensions, I apply to my Firefox Configuration, as of the
 - [ ] [Maddogg's FAST Gaming PC Registry Tweaks](https://www.techpowerup.com/forums/threads/maddoggs-fast-gaming-pc-registry-tweaks.308591/)
 
 - [ ] [Master Tutorial to Make Windows 10 Faster](https://www.askvg.com/master-tutorial-to-make-windows-10-super-fast/)
-
 
 
 
