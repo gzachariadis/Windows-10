@@ -42,9 +42,9 @@
 
 - Microphone Compatibillity 
 
-- StreamDeck Compatibillity 
+- [Elgato Stream Deck](https://www.elgato.com/us/en/p/stream-deck-xl) Software Compatibillity 
 
-- Chocolatey/Scoop Compatibillity
+- [Chocolatey](https://chocolatey.org/)/[Scoop](https://scoop.sh/) Compatibillity
 
 - Bluetooth Compatibillity (I use BT Keyboard & Mouse)
   
@@ -52,12 +52,12 @@
 
 - NVIDIA Control Panel
 
-- DirectX
+- DirectX End-User Runtime
 
-- .Net Frameworks
+- All Version of .Net Frameworks
 
-- OpenAL
-
+- [OpenAL](https://en.wikipedia.org/wiki/OpenAL)
+  
 ## Components
 
 This is a list of the components, I have sucessfully removed from Windows 10 Pro N as of the latest release of this project, based on the Requirements of this project. Any Notes and Issues I faced under this configuration, are documented below.
