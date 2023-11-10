@@ -72,6 +72,8 @@ Here's a NTLite Preset that matches this configuration.
 
 ## Language Packs
 
+- Greek Language Pack (for Keyboard Layout)
+
 ## Drivers
 
 The only drivers, I have ever had problems with on my system was NVIDIA Drivers and Bluetooth Compatibillity. I could write the plethora of issues, I have come across, but I won't bore you.
@@ -80,9 +82,9 @@ The only drivers, I have ever had problems with on my system was NVIDIA Drivers 
 
 This is my current working drivers that I have no problem with, as of the latest release.
 
-- NVIDIA Driver 
+- NVIDIA Driver : 
 
-- Wifi & Bluetooth Driver 
+- WiFi & Bluetooth Driver : 
 
 ## Registry Tweaks
 
@@ -128,7 +130,7 @@ Tweaks are Categorized below.
 * [Enable Automatically Hide Scroll Bars in Windows 10 Apps](Pre-Install/Registry-Files/Appearance%20&%20Personalization/Enable%20Automatically%20Hide%20Scroll%20Bars%20in%20Windows%2010%20Apps.reg) 
 
 * [Disable Screen Savers](Pre-Install/Registry-Files/Appearance%20&%20Personalization/Disable%20Screen%20Savers.reg)
-* 
+ 
 * [Disable Visual Feedback](Pre-Install/Registry-Files/Appearance%20&%20Personalization/Disable%20Visual%20Feedback.reg) 
 
 ### Cache
@@ -276,7 +278,7 @@ This is the list of Applications I download on my Gaming System, as well as my c
 ## Categories 
 
 - [Tools](#Tools)
-- [Browsers](#Browsers)
+- [Browser](#Browsers)
 - [Multimedia](#Multimedia)
 - [Security & Privacy](#Security)
 - [Personalization](#Personalization)
@@ -319,6 +321,8 @@ This is the list of Applications I download on my Gaming System, as well as my c
 - [Open-Shell](https://github.com/Open-Shell/Open-Shell-Menu)
 
 ### Browsers
+
+I am against installing Chrome on your gaming system, I don't go online on it much other than gaming, it's a bit like a gaming console, but if you have to have a Chrome-like browser on it, I suggest [Thorium](https://thorium.rocks/).
 
 #### LibreWolf vs Firefox
 
