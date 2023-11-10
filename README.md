@@ -256,6 +256,27 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 
 # Services
 
+This is not a <b>Safe Configuration</b> for your System and 
+I cannot possibly test all possible configurations extensively!
+
+What I can offer is what “works for me” and the obstacles I have come across so you do not have to discover them on your own.
+
+Feel free to copy this setup but don't hold me liable for anything that is wrong about it in your individual case.
+
+<br>
+
+| Service Name 	| Description 	| Services Entry 	|
+|:---:	|:---:	|:---:	|
+| AllJoyn Router Service 	| Alljoyn Router service is open source software of AllSeen Alliance. This service is dedicated to Windows 10 because it enables the system to communicate with other services via IoT (Internet of Things). Besides, it makes it easier for other devices running other operating systems to process and understand information. 	| AJRouter 	|
+| Adobe Update Service 	| The Adobe Update Service process, also known as AdobeARMservice.exe, is a legitimate component of Adobe software. It is responsible for checking for updates and installing them automatically for various Adobe products installed on your computer, such as Adobe Acrobat Reader, Adobe Photoshop, and Adobe Illustrator. 	|  	|
+
+<br>
+
+Here's a NTLite Preset that matches this configuration.
+
+
+
+
 # Post-Setup Scripts
 
 * [Remove Dropbox from Navigation Pane](Post-Install/Step%201/Scripts/Remove%20Dropbox%20From%20Navigation%20Pane.cmd) - 
@@ -270,6 +291,8 @@ Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by c
 <div>From now on, this repository is geared towards keeping this live setup as bloat-free and as consistently performant as possible.</div>
 
 # First Boot
+
+Install [Chocolatey](https://chocolatey.org/install)
 
 ## Applications
 
@@ -288,30 +311,36 @@ This is the list of Applications I download on my Gaming System, as well as my c
 - [Glary Utillities](https://www.glarysoft.com/)
 - [AdwCleaner](https://toolslib.net/downloads/viewdownload/1-adwcleaner/)
 - [MalwareBytes](https://www.malwarebytes.com/)
-- [SimpleWall](https://www.henrypp.org/product/simplewall)
+- [SimpleWall](https://www.henrypp.org/product/simplewall) or [TinyWall](https://tinywall.pados.hu/)
 - [Sandboxie Plus / Classic](https://github.com/sandboxie-plus/Sandboxie)
 
-### Privacy
+### Maintenance
 
 - [BleachBit](https://www.bleachbit.org/)
 - [Czkawka](https://github.com/qarmin/czkawka/tree/master)
+- [dupeGuru](https://dupeguru.voltaicideas.net/)
 
-### Ad-Blocking
+### DNS
 
 - [YogaDNS](https://yogadns.com/)
 - [NextDNS](https://nextdns.io/)
 
 ### Tools
 
-- [Scoop](https://scoop.sh/)
 - [Scrcpy](https://github.com/Genymobile/scrcpy)
 - [Bulk Crap Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller)
-  
+- [WingetUI](https://github.com/marticliment/WingetUI) 
+
+### Package Managers
+
+- [Scoop](https://scoop.sh/)
+- [Chocolatey](https://chocolatey.org/install)
+
 ### Multimedia
 
 - [PotPlayer](https://potplayer.daum.net/)
-- [EarTrumpet](https://eartrumpet.app/)
-- [Thorium Reader](https://www.edrlab.org/software/thorium-reader/) or [EPUB Reader](https://icecreamapps.com/Ebook-Reader/)
+- [EarTrumpet](https://github.com/File-New-Project/EarTrumpet)
+- [Thorium Reader](https://www.edrlab.org/software/thorium-reader/) or [EPUB Reader](https://icecreamapps.com/Ebook-Reader/) or [Koodo](https://koodo.960960.xyz/en)
 - [Plex.tv](https://www.plex.tv/)
 
 ### Personalization
@@ -319,6 +348,17 @@ This is the list of Applications I download on my Gaming System, as well as my c
 - [Ueli](https://ueli.app/#/) or [Flow](https://www.flowlauncher.com/) ?????
 - [PreMiD](https://github.com/PreMiD/PreMiD)
 - [Open-Shell](https://github.com/Open-Shell/Open-Shell-Menu)
+
+### External Devices
+
+- [Elgato Stream Deck](https://www.elgato.com/us/en/s/downloads)
+
+### Tiling Window Manager
+
+- [WinWM](https://github.com/McYoloSwagHam/win3wm)
+- [Komorebi](https://github.com/LGUG2Z/komorebi)
+- [GlazeWM](https://github.com/glazerdesktop/GlazeWM)
+- [FancyWM](https://github.com/FancyWM/fancywm)
 
 ### Browsers
 
