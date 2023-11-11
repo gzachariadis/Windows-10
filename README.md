@@ -38,6 +38,10 @@
 <br>
 <div>This took me a while to compile, work on, and test, so feel free to leave a star if you felt it's useful or helped you in any way.</div>
 
+### Hardware
+
+This is a list of my Current Hardware.
+
 ## Requirements
 
 - Microphone Compatibillity 
@@ -150,8 +154,6 @@ Tweaks are Categorized below.
 ### Gaming Optimization
 
 * [Disable Xbox Game Bar](Pre-Install/Registry-Files/Gaming%20Optimization/Disable%20Xbox%20Game%20Bar.reg) 
-
-### Hardware
 
 #### Physical Devices
 
@@ -367,6 +369,11 @@ This is the list of Applications I download on my Gaming System, as well as my c
 - [Komorebi](https://github.com/LGUG2Z/komorebi)
 - [GlazeWM](https://github.com/glazerdesktop/GlazeWM)
 - [FancyWM](https://github.com/FancyWM/fancywm)
+
+### Programming
+
+- [VSCodium](https://vscodium.com/)
+
 
 ### Browsers
 
