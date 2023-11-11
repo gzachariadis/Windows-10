@@ -263,16 +263,24 @@ What I can offer is what “works for me” and the obstacles I have come across
 
 Feel free to copy this setup but don't hold me liable for anything that is wrong about it in your individual case.
 
+### System Services
+
+This is a list of services which Microsoft has allowed me to disable succesfully as of this latest release, if a service is not on this list then I am unsure of the impacts it may have on your desktop experience. Be mindful, that I use Wireless connection for my Gaming System, so if you using a wired connection your configuration will vary.
+
 <br>
 
-| Service Name 	| Description 	| Services Entry 	|
-|:---:	|:---:	|:---:	|
-| AllJoyn Router Service 	| Alljoyn Router service is open source software of AllSeen Alliance. This service is dedicated to Windows 10 because it enables the system to communicate with other services via IoT (Internet of Things). Besides, it makes it easier for other devices running other operating systems to process and understand information. 	| AJRouter 	|
-| Adobe Update Service 	| The Adobe Update Service process, also known as AdobeARMservice.exe, is a legitimate component of Adobe software. It is responsible for checking for updates and installing them automatically for various Adobe products installed on your computer, such as Adobe Acrobat Reader, Adobe Photoshop, and Adobe Illustrator. 	|  	|
+
+
 
 <br>
 
 Here's a NTLite Preset that matches this configuration.
+
+### Per-user Services Summary
+
+This is a list of per-user services which I disable. These only prevents the services from being started on login. Per-user services are dynamically created upon creating a user session for example you'll see ContactData service but also see the running service ContactData_37664 (per-user service), each user logged into the system will have their on per user service for those listed below if it is configured to be enabled.
+
+
 
 
 
@@ -478,7 +486,7 @@ This is a list of the extensions, I apply to my Firefox Configuration, as of the
 
 - [ ] [Uninstall Edge](https://gist.github.com/ave9858/c3451d9f452389ac7607c99d45edecc6)
 
-- [ ] [Tzwel's WSD](https://github.com/tzwel/WSD)
+- [x] [Tzwel's WSD](https://github.com/tzwel/WSD) - Done with Services
 
 - [ ] [Winget Manual Installation](https://github.com/ViktorVoloshko/winget-manual-installation/tree/main)
 
@@ -513,6 +521,16 @@ This is a list of the extensions, I apply to my Firefox Configuration, as of the
 - [ ] [Couleur's Toolbox](https://github.com/couleurm/couleurstoolbox)
 
 - [ ] [Melody's Ultra Tweaks Pack](https://sites.google.com/view/melodystweaks/home)
+
+
+#### Services 
+
+- [ ] [W4RH4WK's Services](https://github.com/W4RH4WK/Debloat-Windows-10/blob/master/scripts/disable-services.ps1)
+
+- [ ] [Aldaviva/Windows 10 Services](https://gist.github.com/Aldaviva/0eb62993639da319dc456cc01efa3fe5)
+
+- [ ] [VisualBlind Services](https://gist.github.com/visualblind/453e55ecd2e8fa8cbde5648bc2ce8d13)
+
 
 #### Github Resources
 
