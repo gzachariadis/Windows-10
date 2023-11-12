@@ -37,42 +37,51 @@
 <div>This repository is used as a virtual storage space for everything I have managed to track down and use over the years, in my effort of creating, optimizing and maintaining my Gaming System. My main goal is to keep my System working as optimally as possible, and remove anything extra out of Windows 10. This is not meant to be a universal build you will copy verbatim and have it work for you. This is also not, a tweaked operating system you can use for anything else but <b>Gaming</b>.</div>
 <br>
 <div>This took me a while to compile, work on, and test, so feel free to leave a star if you felt it's useful or helped you in any way.</div>
+<br>
+<br>
+<!-- TOC -->
 
-### Hardware
+- [Services](#services)
+        - [System Services](#system-services)
+        - [Per-user Services Summary](#per-user-services-summary)
+- [Post-Setup Scripts](#post-setup-scripts)
+- [Unattended Setup](#unattended-setup)
+- [First Boot](#first-boot)
+    - [Applications](#applications)
+    - [Categories](#categories)
+        - [Security](#security)
+        - [Maintenance](#maintenance)
+        - [DNS](#dns)
+        - [Tools](#tools)
+        - [Package Managers](#package-managers)
+        - [Multimedia](#multimedia)
+        - [Personalization](#personalization)
+        - [External Devices](#external-devices)
+        - [Tiling Window Manager](#tiling-window-manager)
+        - [Programming](#programming)
+        - [Browsers](#browsers)
+            - [LibreWolf vs Firefox](#librewolf-vs-firefox)
+            - [User.js Configuration](#userjs-configuration)
+                - [Sources](#sources)
+            - [Extensions](#extensions)
+    - [Maintenance](#maintenance)
+        - [Scripts](#scripts)
+- [Issues](#issues)
+- [Bibliography](#bibliography)
+            - [Projects](#projects)
+            - [Scripts](#scripts)
+            - [Tweak Collections](#tweak-collections)
+            - [Services](#services)
+            - [Github Resources](#github-resources)
+            - [NTLite Presets](#ntlite-presets)
+            - [Guides & Tutorials](#guides--tutorials)
+            - [Resources](#resources)
+    - [Post-Install](#post-install)
+            - [Youtube & Reddit](#youtube--reddit)
 
-This is a list of my Current Hardware.
+<!-- /TOC -->
 
-## Requirements
-
-- Microphone Compatibillity 
-
-- [Elgato Stream Deck](https://www.elgato.com/us/en/p/stream-deck-xl) Software Compatibillity 
-
-- [Chocolatey](https://chocolatey.org/)/[Scoop](https://scoop.sh/) Compatibillity
-
-- Bluetooth Compatibillity (I use BT Keyboard & Mouse)
-  
-- NVIDIA Card Driver
-
-- NVIDIA Control Panel
-
-- DirectX End-User Runtime
-
-- All Version of .Net Frameworks
-
-- [OpenAL](https://en.wikipedia.org/wiki/OpenAL)
-  
-## Components
-
-This is a list of the components, I have sucessfully removed from Windows 10 Pro N as of the latest release of this project, based on the Requirements of this project. Any Notes and Issues I faced under this configuration, are documented below.
-
-Here's a NTLite Preset that matches this configuration.
-
-## Windows Features
-
-Microsoft Windows includes a wide array of features, tools, and applications to help get the most out of Windows and your computer. The following list, is of the enabled features under this Configuration, assume anything you don't see on this list to be disabled.
-
-Here's a NTLite Preset that matches this configuration.
+<br>
 
 ## Language Packs
 
