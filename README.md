@@ -68,7 +68,7 @@
     - [Scripts](#scripts)
 - [Issues](#issues)
 - [Bibliography](#bibliography)
-  - [Projects](#projects)
+      - [Projects](#projects)
       - [Scripts](#scripts-1)
       - [Tweak Collections](#tweak-collections)
       - [Services](#services-1)
@@ -76,7 +76,7 @@
       - [NTLite Presets](#ntlite-presets)
       - [Guides \& Tutorials](#guides--tutorials)
       - [Resources](#resources)
-  - [Post-Install](#post-install)
+      - [Post-Install](#post-install)
       - [Youtube \& Reddit](#youtube--reddit)
 
 <!-- /TOC -->
@@ -617,7 +617,7 @@ This is a list of the extensions, I apply to my Firefox Configuration, as of the
 
 - [ ] [Windows 10 Optimization And Tweak Guide For GAMING](https://steamcommunity.com/sharedfiles/filedetails/?id=476760198)
 
-## Post-Install 
+#### Post-Install 
 
 - [ ] [The Installer](https://github.com/couleur-tweak-tips/the-installer/tree/main)
 
