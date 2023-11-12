@@ -38,7 +38,7 @@
 <br>
 <div>This took me a while to compile, work on, and test, so feel free to leave a star if you felt it's useful or helped you in any way.</div>
 <br>
-<br>
+
 <!-- TOC -->
 
 - [Services](#services)
@@ -80,6 +80,7 @@
             - [Youtube & Reddit](#youtube--reddit)
 
 <!-- /TOC -->
+
 
 <br>
 
