@@ -68,7 +68,7 @@
     - [Scripts](#scripts)
 - [Issues](#issues)
 - [Bibliography](#bibliography)
-      - [Projects](#projects)
+  - [Projects](#projects)
       - [Scripts](#scripts-1)
       - [Tweak Collections](#tweak-collections)
       - [Services](#services-1)
