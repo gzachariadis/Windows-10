@@ -197,10 +197,7 @@ Tweaks are Categorized below.
 
 ### File Explorer
 
-* [Disable Pop-Up Descriptions](<Pre-Install/Registry-Files/File Explorer/Disable Pop-up Descriptions.reg>)
-
-
-
+* [Disable Pop-Up Descriptions](<Pre-Install/Registry-Files/File Explorer/Disable Pop up Descriptions.reg>)
 
 
 
