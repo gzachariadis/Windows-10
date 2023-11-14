@@ -51,6 +51,7 @@
   - [Categories](#categories)
     - [Security](#security-1)
     - [Maintenance](#maintenance)
+    - [Communication](#communication)
     - [DNS](#dns)
     - [Tools](#tools)
     - [Package Managers](#package-managers)
@@ -76,6 +77,7 @@
       - [NTLite Presets](#ntlite-presets)
       - [Guides \& Tutorials](#guides--tutorials)
       - [Resources](#resources)
+      - [Language Packs](#language-packs-1)
       - [Post-Install](#post-install)
       - [Youtube \& Reddit](#youtube--reddit)
 
@@ -337,6 +339,11 @@ This is the list of Applications I download on my Gaming System, as well as my c
 - [BleachBit](https://www.bleachbit.org/)
 - [Czkawka](https://github.com/qarmin/czkawka/tree/master)
 - [dupeGuru](https://dupeguru.voltaicideas.net/)
+
+
+### Communication
+
+- [Vencord - The cutest Discord client mod](https://github.com/Vendicated/Vencord)
 
 ### DNS
 
@@ -605,6 +612,8 @@ This is a list of the extensions, I apply to my Firefox Configuration, as of the
 
 - [ ] [Revi.cc Post-Install Guide](https://revi.cc/docs/post-install)
  
+- [ ] [Gaming Performance / System Optimization / Useful Tweaks](https://n1kobg.blogspot.com/)
+
 #### Resources
 
 - [ ] [Group Policy Administrative Templates Catalog](https://admx.help/)
@@ -616,6 +625,44 @@ This is a list of the extensions, I apply to my Firefox Configuration, as of the
 - [ ] [Collection of Best Registry Tweaks to Speed Up Your Windows](https://www.askvg.com/collection-of-registry-tweaks-for-windows-7/)
 
 - [ ] [Windows 10 Optimization And Tweak Guide For GAMING](https://steamcommunity.com/sharedfiles/filedetails/?id=476760198)
+
+- [ ] [UUP (Unified Update Platform) Generation Project (v2.4.18) [by @rgadguard & whatever127]](https://uup.rg-adguard.net/)
+
+- [ ] [brandonbr1/readme.md](https://gist.github.com/Brandonbr1/e93fc0219ba68fa0ed37a5f1e4717c1d)
+
+- [ ] [Empyreal96/win-10-services-toolbox: A Toolbox allowing users to modify various aspects of Windows 10 from one place.](https://github.com/Empyreal96/win-10-services-toolbox)
+
+- [ ] [winmt/bin/config.ini at master · john32b/winmt](https://github.com/john32b/winmt/blob/master/bin/config.ini)
+
+- [ ] [This script will stop unneeded services that are running on your Windows 10 machine to improve performance.](https://gist.github.com/tibmeister/1fcc1d3e6d3e5b832ca33b61c55359fd)
+
+- [ ] [WS2016-TinFoilScript/WS2016 - Disable Windows 10 shit.ps1 at master · manbatt/WS2016-TinFoilScript](https://github.com/manbatt/WS2016-TinFoilScript/blob/master/WS2016%20-%20Disable%20Windows%2010%20shit.ps1)
+
+- [ ] ["Reclaim Windows 10" - Fork via https://github.com/Disassembler0 (different defaults)](https://gist.github.com/matthiasak/8f110d34c51b6aca60b4e7291155b92e)
+
+- [ ] [WereDev/Wu10Man: Enable/Disable Windows 10 Automatic Updates](https://github.com/WereDev/Wu10Man)
+
+- [ ] [PrivacyIsFreedom/Windows](https://github.com/PrivacyIsFreedom/Windows)
+
+- [ ] [bitlog2/DisableWinTracking: Uses some known methods that attempt to minimize tracking in Windows 10](https://github.com/bitlog2/DisableWinTracking)
+
+- [ ] [GamingPCSetup](https://github.com/djdallmann/GamingPCSetup/blob/master/CONTENT/DOCS/SERVICES/README.md)
+
+- [ ] [Script to disable unnecesary Windows services and improve the performance.](https://gist.github.com/iamjonny/cad47c59f6427be27d05d568b078edf4)
+
+- [ ] [windows/windows_10/disable-services.ps1 at master · equk/windows](https://github.com/equk/windows/blob/master/windows_10/disable-services.ps1)
+
+- [ ] [pluja/awesome-privacy: Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.](https://github.com/pluja/awesome-privacy)
+
+#### Language Packs
+
+- [ ] [How To Add Language Packs To Windows 11/10 ISO Image (Offline)](https://www.itechtics.com/add-language-packs-windows-11-10-iso/)
+
+- [ ] [Integration/Adding of Language Pack Files Into An Image (Windows 10 2009/20H2) | NTLite Forums](https://www.ntlite.com/community/index.php?threads/tutorial-integration-adding-of-language-pack-files-into-an-image-windows-10-2009-20h2.1830/)
+
+- [ ] [Add languages to Windows images | Microsoft Learn](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/add-language-packs-to-windows?view=windows-10)
+
+- [ ] [Window 10 Offline εγκατάσταση πακέτου γλώσσας εμφάνισης](https://iguru.gr/window-10-offline-egkatastasi-paketou-glossas-emfanisis/)
 
 #### Post-Install 
 
