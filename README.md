@@ -47,7 +47,7 @@
 - [Post-Setup Scripts](#post-setup-scripts)
 - [Unattended Setup](#unattended-setup)
 - [First Boot](#first-boot)
-  - [Applications](#applications)
+  - [Applications](#applications-1)
   - [Categories](#categories)
     - [Security](#security-1)
     - [Maintenance](#maintenance)
@@ -142,6 +142,9 @@ I have tried my best to do exensive reseach on each tweak.
 
 The tweaks contain **Sources** that have useful information around each individual tweak. Please do open those and do your own research before applying changes to your system.
 
+After you have applied the settings using the registry files, I suggest you go into your registry and verify the changes yourself and/or test the
+functionallity it promises.
+
 The [Sources](#Bibliography) where I gathered the plethora of registry tweaks that can be found under this repository, are at the bottom of this file. Enjoy :)
 
 Tweaks are Categorized below.
@@ -150,7 +153,7 @@ Tweaks are Categorized below.
 
 ### Appearance & Personalization
 
-* [Set Default Display Scaling](Pre-Install/Registry-Files/Appearance%20&%20Personalization/Set%20Default%20Display%20Scaling%20Windows%2010.reg) 
+* [Set Default Display Scaling](Pre-Install/Registry-Files/Appearance%20&%20Personalization/Set%20Default%20Display%20Scaling.reg) 
 
 * [Enable Automatically Hide Scroll Bars in Windows 10 Apps](Pre-Install/Registry-Files/Appearance%20&%20Personalization/Enable%20Automatically%20Hide%20Scroll%20Bars%20in%20Windows%2010%20Apps.reg) 
 
@@ -158,19 +161,57 @@ Tweaks are Categorized below.
  
 * [Disable Visual Feedback](Pre-Install/Registry-Files/Appearance%20&%20Personalization/Disable%20Visual%20Feedback.reg) 
 
+### Applications
+
+#### One Drive 
+
+* [Prevent Moving Windows Known Folders to OneDrive](Pre-Install/Registry-Files/Applications/One%20Drive/Prevent%20Moving%20Windows%20Known%20Folders%20to%20OneDrive.reg) 
+
+#### PowerToys
+
+* [Disable PowerToys SCOOBE Dialog](Pre-Install/Registry-Files/Programs/PowerToys/Disable%20PowerToys%20SCOOBE%20Dialog.reg)
+
+#### Visual Code Studio
+
+* [Disable Visual Code Telemetry](Pre-Install/Registry-Files/Applications/Visual%20Code%20Studio/Disable%20Visual%20Code%20Telemetry.reg)
+
+#### Edge
+
+* [Remove Bing Discover Button from Edge](Pre-Install/Registry-Files/Applications/Edge%20Browser/Remove%20Bing%20Discover%20Button.reg)
+
+* [Disable Screen Edge Swipe](Pre-Install/Registry-Files/Applications/Edge%20Browser/Disable%20Screen%20Edge%20Swipe.reg)
+
 ### Cache
 
 ### Context Menu
 
+#### Additions
+
+
+
+#### Removals
+
+
+
 ### Control Panel
 
 ### File Explorer
+
+* [Disable Pop-Up Descriptions](<Pre-Install/Registry-Files/File Explorer/Disable Pop-up Descriptions.reg>)
+
+
+
+
+
+
 
 * [Remove Useless icons from This PC View](Pre-Install/Registry-Files/File%20Explorer/Remove%20Useless%20icons%20from%20This%20PC%20View.reg) 
 
 * [Disable Show Drive Letters First](Pre-Install/Registry-Files/File%20Explorer/Disable%20Show%20Drive%20Letters%20First.reg) - When you open This PC in File Explorer, you are shown a list of drives. By default, you will see a drive name followed by the drive letter. <sub><sup>**Default Behavior**</sup></sub> 
 
 * [Remove Dropbox from Navigation Pane](Pre-Install/Registry-Files/File%20Explorer/Remove%20Dropbox%20from%20Navigation%20Pane.reg) - This stops Dropbox from Appearing in File Explorer.
+
+
 
 ### Gaming Optimization
 
@@ -198,25 +239,6 @@ Tweaks are Categorized below.
 
 ### Power
 
-### Programs
-
-#### One Drive 
-
-* [Disable OneDrive Move](Pre-Install/Registry-Files/Programs/One%20Drive/Disable%20OneDrive%20Move.reg) 
-
-* [Remove Pinned Microsoft OneDrive icon from Windows Explorer](Pre-Install/Registry-Files/Programs/One%20Drive/Remove%20Pinned%20Microsoft%20OneDrive%20icon%20from%20Windows%20Explorer.reg)
-
-##### PowerToys
-
-* [Disable PowerToys SCOOBE Dialog](Pre-Install/Registry-Files/Programs/PowerToys/Disable%20PowerToys%20SCOOBE%20Dialog.reg)
-
-##### Visual Code Studio
-
-* [Disable Visual Code Telemetry](Pre-Install/Registry-Files/Programs/Visual%20Code%20Studio/Disable%20Visual%20Code%20Telemetry.reg)
-
-##### Edge
-
-* [Remove Bing Discover Button from Edge](Pre-Install/Registry-Files/Programs/Edge%20Browser/Remove%20Bing%20Discover%20Button%20from%20Edge.reg)
 
 ### Security
 

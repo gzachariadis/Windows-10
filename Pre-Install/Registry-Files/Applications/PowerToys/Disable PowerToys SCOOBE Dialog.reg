@@ -1,6 +1,18 @@
+
 Windows Registry Editor Version 5.00
 
+; Disable PowerToys SCOOBE Dialog
+; Created by Georgios Zachariadis on 14/11/2023
+; Categorized under Applications
+
 ; Post-upgrade prompted dialog that walks users through the latest additions to PowerToys utilities and functionalities
+
+; Sources 
+
+; https://github.com/microsoft/PowerToys/wiki/PowerToys-SCOOBE-Dialog
+
+
+; <------ Registry Edit ------>
 
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
 "SubscribedContent-338389Enabled"=dword:00000000

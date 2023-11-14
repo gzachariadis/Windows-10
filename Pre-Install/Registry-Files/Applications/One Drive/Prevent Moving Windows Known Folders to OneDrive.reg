@@ -1,0 +1,18 @@
+Windows Registry Editor Version 5.00
+
+; Prevent Moving Windows Known Folders to OneDrive
+; Created by Georgios Zachariadis on 14/11/2023
+; Categorized under Applications 
+
+; This setting prevents users from moving their Documents, Pictures, and Desktop folders to any OneDrive for Business account.
+; Note: Moving known folders to personal OneDrive accounts is already blocked on domain-joined PCs.
+
+; Sources 
+
+; https://admx.help/?Category=OneDrive&Policy=Microsoft.Policies.OneDriveNGSC::BlockKnownFolderMove
+; https://winaero.com/how-to-disable-user-folder-backup-to-onedrive/
+
+; <------ Registry Edit ------>
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\OneDrive]
+"KFMBlockOptIn"=dword:00000001

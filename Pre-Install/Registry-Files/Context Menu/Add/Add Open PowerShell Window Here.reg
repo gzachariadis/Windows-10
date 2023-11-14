@@ -1,8 +1,14 @@
 Windows Registry Editor Version 5.00
 
-; MajorGeeks.Com
-; https://www.majorgeeks.com/content/page/how_to_add_open_powershell_window_here_as_administrator_context_menu.html
+; Add Open PowerShell Window Here
+; Created by Georgios Zachariadis on 14/11/2023
+; Categorized under Context Menu
 
+; Sources 
+
+;  https://www.majorgeeks.com/content/page/how_to_add_open_command_window_here_context_menu.html
+
+; <------ Registry Edit ------>
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\PowerShellAsAdmin]
 @="Open PowerShell window here as administrator"

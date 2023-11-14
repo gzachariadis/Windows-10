@@ -1,12 +1,38 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\Feedback]
-"DisableFeedbackDialog"=dword:00000001
-"DisableEmailInput"=dword:00000001
-"DisableScreenshotCapture"=dword:00000001
+; Disable Visual Code Telemetry
+; Created by Georgios Zachariadis on 14/11/2023
+; Categorized under Applications
+
+; Registry values to disable telemetry in Visual Studio.
+
+; Sources 
+
+; https://code.visualstudio.com/docs/getstarted/telemetry
+; https://www.roboleary.net/tools/2022/04/20/vscode-telemetry.html
+; https://www.sb-innovation.de/showthread.php?31271-The-Chat-Spam-Thread/page348
+
+; <------ Registry Edit ------>
+
+;Turn off VS Feedback button Group
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\SQM]
 "OptIn"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\Telemetry]
 "TurnOffSwitch"=dword:00000001
+
+; Disable Feedback Dialog
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\Feedback]
+"DisableFeedbackDialog"=dword:00000001
+
+; Disable Email Input
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\Feedback]
+"DisableEmailInput"=dword:00000001
+
+; Disable Screenshot Capture
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\Feedback]
+"DisableScreenshotCapture"=dword:00000001
