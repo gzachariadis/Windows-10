@@ -199,8 +199,8 @@ Tweaks are Categorized below.
 
 * [Disable Pop-up Descriptions](<Pre-Install/Registry-Files/File Explorer/Disable Pop-up Descriptions.reg>) - When you hover over a File or Folder you will <b>NOT</b> see basic details about said File or Folder. 
 
-* [Disable Show Drive Letters First](<Pre-Install/Registry-Files/File Explorer/Disable Show Drive Letters First.reg>) - When you open This PC in File Explorer, you are shown a list of drives. By default, you will see a drive name followed by the drive letter. <span style="color:red">**Default Behavior**</span>
-
+* [Disable Show Drive Letters First](<Pre-Install/Registry-Files/File Explorer/Disable Show Drive Letters First.reg>) - When you open This PC in File Explorer, you are shown a list of drives. By default, you will see a drive name followed by the drive letter. <code style="color : name_color">text</code>
+  
 * [Drag and Drop Move](<Pre-Install/Registry-Files/File Explorer/Drag and Drop Move.reg>) - Windows has a default action when you drag and drop a File or Folder, this changes this behavior to move the File or Folder instead of copying it.
 
 * [Enable File Options](<Pre-Install/Registry-Files/File Explorer/Enable File Options.reg>) - The Folder Options (also known as the File Explorer Options) comprise various file and folder settings such as Visibillity and Access Rights.
