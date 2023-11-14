@@ -119,7 +119,8 @@ Each registry tweak follows the following file formula.
 Windows Registry Editor Version 5.00
 
 ; [File_Name AKA What the Registry Tweak does]
-; Created by Georgios Zachariadis on [File Creation Date]
+; Created by [Author Name] on [File Creation Date] 
+; Modified on [Last Modification Date]
 ; Categorized under [Folder Name AKA Category of Registry Tweak]
 
 ; Description of the Setting it changes, what exactly is this feature etc. etc.
