@@ -205,7 +205,7 @@ Tweaks are Categorized below.
 
 * [Enable File Options](<Pre-Install/Registry-Files/File Explorer/Enable File Options.reg>) - The Folder Options (also known as the File Explorer Options) comprise various file and folder settings such as Visibillity and Access Rights.
 
-* [File Transfer Dialog - Show Fewer Details](<Pre-Install/Registry-Files/File Explorer/File Transfer Dialog - Show Fewer Details .reg>) -  By default, Windows will show you minimal details displaying the progress when copying files in File Explorer. <sub><sup>**Default Behavior**</sup></sub> 
+* [File Transfer Dialog - Show Fewer Details](<Pre-Install/Registry-Files/File Explorer/File Transfer Dialog - Show Fewer Details .reg>) -  Windows will show you minimal details displaying the progress when copying files in File Explorer. <sub><sup> ${\color{red}Default \space Behavior \space}$ </sup></sub> 
 
 * [Libraries Above This PC](<Pre-Install/Registry-Files/File Explorer/Libraries Above This PC.reg>) - Move Libraries (Music,Movies,Downloads etc.) above this PC on the File Explorer Navigation Pane.
 
