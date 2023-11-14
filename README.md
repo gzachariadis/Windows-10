@@ -209,7 +209,7 @@ Tweaks are Categorized below.
 
 * [Libraries Above This PC](<Pre-Install/Registry-Files/File Explorer/Libraries Above This PC.reg>) - Move Libraries (Music,Movies,Downloads etc.) above this PC on the File Explorer Navigation Pane.
 
-*[Open to Downloads](<Pre-Install/Registry-Files/File Explorer/Open to Downloads.reg>) - Each time File Explorer Launches, it will open to the Downloads Folder instead of This PC.
+* [Open to Downloads](<Pre-Install/Registry-Files/File Explorer/Open to Downloads.reg>) - Each time File Explorer Launches, it will open to the Downloads Folder instead of This PC.
 
 
 
