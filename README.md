@@ -85,6 +85,16 @@
 
 <br>
 
+## Requirements
+
+- Webcam Support
+
+- Microphone Support
+
+- Nvidia Drivers (Control Panel included)
+
+- DirectX
+
 ## Language Packs
 
 - Greek Language Pack (for Keyboard Layout)
