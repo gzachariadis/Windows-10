@@ -197,14 +197,27 @@ Tweaks are Categorized below.
 
 ### File Explorer
 
-* [Disable Pop-Up Descriptions](<Pre-Install/Registry-Files/File Explorer/Disable Pop up Descriptions.reg>)
+* [Disable Pop-up Descriptions](<Pre-Install/Registry-Files/File Explorer/Disable Pop-up Descriptions.reg>) - When you hover over a File or Folder you will <b>NOT</b> see basic details about said File or Folder. 
+
+* [Disable Show Drive Letters First](<Pre-Install/Registry-Files/File Explorer/Disable Show Drive Letters First.reg>) - When you open This PC in File Explorer, you are shown a list of drives. By default, you will see a drive name followed by the drive letter. <sub><sup>**Default Behavior**</sup></sub> 
+
+* [Drag and Drop Move](<Pre-Install/Registry-Files/File Explorer/Drag and Drop Move.reg>) - Windows has a default action when you drag and drop a File or Folder, this changes this behavior to move the File or Folder instead of copying it.
+
+* [Enable File Options](<Pre-Install/Registry-Files/File Explorer/Enable File Options.reg>) - The Folder Options (also known as the File Explorer Options) comprise various file and folder settings such as Visibillity and Access Rights.
+
+* [File Transfer Dialog - Show Fewer Details](<Pre-Install/Registry-Files/File Explorer/File Transfer Dialog - Show Fewer Details .reg>) -  By default, Windows will show you minimal details displaying the progress when copying files in File Explorer. <sub><sup>**Default Behavior**</sup></sub> 
+
+* [Libraries Above This PC](<Pre-Install/Registry-Files/File Explorer/Libraries Above This PC.reg>) - Move Libraries (Music,Movies,Downloads etc.) above this PC on the File Explorer Navigation Pane.
+
+*[Open to Downloads](<Pre-Install/Registry-Files/File Explorer/Open to Downloads.reg>) - Each time File Explorer Launches, it will open to the Downloads Folder instead of This PC.
+
+
 
 
 
 
 * [Remove Useless icons from This PC View](Pre-Install/Registry-Files/File%20Explorer/Remove%20Useless%20icons%20from%20This%20PC%20View.reg) 
 
-* [Disable Show Drive Letters First](Pre-Install/Registry-Files/File%20Explorer/Disable%20Show%20Drive%20Letters%20First.reg) - When you open This PC in File Explorer, you are shown a list of drives. By default, you will see a drive name followed by the drive letter. <sub><sup>**Default Behavior**</sup></sub> 
 
 * [Remove Dropbox from Navigation Pane](Pre-Install/Registry-Files/File%20Explorer/Remove%20Dropbox%20from%20Navigation%20Pane.reg) - This stops Dropbox from Appearing in File Explorer.
 
