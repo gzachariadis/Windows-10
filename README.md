@@ -198,7 +198,7 @@ Tweaks are Categorized below.
 
 ### File Explorer
 
-* [Disable Pop-up Descriptions](<Pre-Install/Registry-Files/File Explorer/Disable Pop-up Descriptions.reg>) - When you hover over a File or Folder you will <b>NOT</b> see basic details about said File or Folder. 
+* [Disable Pop-up Descriptions](<Pre-Install/Registry-Files/File Explorer/Disable Pop-up Descriptions.reg>) - When you hover over a File or Folder you will not see basic details about said File or Folder. 
 
 * [Disable Show Drive Letters First](<Pre-Install/Registry-Files/File Explorer/Disable Show Drive Letters First.reg>) - When you open This PC in File Explorer, you are shown a list of drives. By default, you will see a drive name followed by the drive letter. <sub><sup> ${\color{red}Default \space Behavior \space}$ </sup></sub> 
 
@@ -212,6 +212,15 @@ Tweaks are Categorized below.
 
 * [Open to Downloads](<Pre-Install/Registry-Files/File Explorer/Open to Downloads.reg>) - Each time File Explorer Launches, it will open to the Downloads Folder instead of This PC.
 
+* [Remove Devices and Printers from This PC](<Pre-Install/Registry-Files/File Explorer/Remove Devices and Printers From This PC.reg>) - Remove Devices & Printers section from showing under This PC on View Pane
+
+* [Remove Dropbox from Navigation Pane](<Pre-Install/Registry-Files/File Explorer/Remove Dropbox from Navigation Pane.reg>) - This stops Dropbox from Appearing in File Explorer.
+
+
+
+<br>
+<br>
+
 
 
 
@@ -219,8 +228,6 @@ Tweaks are Categorized below.
 
 * [Remove Useless icons from This PC View](Pre-Install/Registry-Files/File%20Explorer/Remove%20Useless%20icons%20from%20This%20PC%20View.reg) 
 
-
-* [Remove Dropbox from Navigation Pane](Pre-Install/Registry-Files/File%20Explorer/Remove%20Dropbox%20from%20Navigation%20Pane.reg) - This stops Dropbox from Appearing in File Explorer.
 
 
 
