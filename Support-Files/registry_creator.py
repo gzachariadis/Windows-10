@@ -195,6 +195,10 @@ for filename in os.listdir(directory):
                Description = input("Give me a Registry Description: ")
                Description = '; ' + Description + '\n'
            
+           else:
+               
+               print("Currently Processing : ", FILEPATH)
+                
            try:
                
                open(FILEPATH,'w', encoding="utf-16").close()
@@ -208,6 +212,7 @@ for filename in os.listdir(directory):
                    file.write('; Modified on ' + str(read_metadata(FILEPATH)[0]).strip() + '\n')
                    file.write('; Categorized under ' + str(read_metadata(FILEPATH)[3]).strip() + '\n')
                    file.write('; File Encoding is ' + str(encoding['encoding']).strip() + '.\n')
+                   file.write('; This file was automatically processed as part of the https://github.com/gzachariadis/Windows-10 Project' + '.\n')
                    file.write('\n')
                    file.write(str(Description).strip() + '\n')
                    file.write('\n')
