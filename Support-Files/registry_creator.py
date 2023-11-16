@@ -4,8 +4,10 @@ import platform
 from pathlib import Path
 import re
 import codecs
- 
 from itertools import pairwise
+import chardet
+import io
+import np
 
 # Function to Find Creation Date of a File
 def creation_date(path_to_file):
@@ -19,7 +21,7 @@ def creation_date(path_to_file):
             # We're probably on Linux. No easy way to get creation dates here,
             # so we'll settle for when its content was last modified.
             return stat.st_mtime
-
+        
 # Search for All Registry Keys in the File and Return their File Lines
 def identify_lines(FILEPATH):
     
@@ -97,7 +99,17 @@ def file_s(FILEPATH):
                 
     except UnicodeDecodeError:
         pass
- 
+
+def detect_encoding(file):
+    detector = chardet.universaldetector.UniversalDetector()
+    with open(file, "rb") as f:
+        for line in f:
+            detector.feed(line)
+            if detector.done:
+                break
+    detector.close()
+    return detector.result
+    
 def read_metadata(FILEPATH):
     try :
         with open(FILEPATH,'r', encoding='utf-16-le') as file:
@@ -127,6 +139,22 @@ def read_metadata(FILEPATH):
       
 directory = 'C:/Users/Reverse/Music/Windows-10-Pro-N/Pre-Install/Registry-Files/Test_Folder'
 
+def utf8_to_utf16(FILEPATH):
+    head, tail = os.path.split(os.path.abspath(FILEPATH))
+    try:
+        with codecs.open(FILEPATH, 'r', encoding='utf-8', errors='ignore') as source:
+            with open(head + '\\' + "utf16-{0}".format(tail), "wb") as dest:
+                dest.write(source.read().encode("utf-16"))
+
+        os.remove(FILEPATH)
+        os.rename(str(head + '\\' + "utf16-{0}".format(tail)).strip(), str((head + '\\' + "{0}".format(tail))), src_dir_fd=None, dst_dir_fd=None)
+        
+        return str(head + '\\' + "{0}".format(tail)).strip()
+            
+                
+    except FileNotFoundError:
+        print("😰  That file doesn't seem to exist.")
+   
 for filename in os.listdir(directory):
     f = os.path.join(directory, filename)
     
@@ -142,18 +170,33 @@ for filename in os.listdir(directory):
            # Setting Filepath
            FILEPATH = f.replace('\\', '/')
 
+           # Detect File Encoding  
+           encoding = detect_encoding(FILEPATH)
+           
+           # If File is UTF-8
+           if str(encoding['encoding']).strip() == "ascii":
+               
+               # Turn File to UTF-16
+               FILEPATH = utf8_to_utf16(FILEPATH)
+               
+               # Re-detect New File Encoding  
+               encoding = detect_encoding(FILEPATH)
+            
+           # Process the File
            lines = identify_lines(FILEPATH)
-           registry = find_registry_tweak(lines,FILEPATH).strip()
-           
-           urls = read_metadata(FILEPATH)[4]
-           
-           
+           registry = find_registry_tweak(lines,FILEPATH).strip() 
+           urls = read_metadata(FILEPATH)[4]    
            Description = file_s(FILEPATH)
            
            if Description is None:
-               Description = input("Give me a Description Starting with a Semicolon : ")
                
+               print("Currently Processing : ", FILEPATH)
+               
+               Description = input("Give me a Registry Description: ")
+               Description = '; ' + Description + '\n'
+           
            try:
+               
                open(FILEPATH,'w', encoding="utf-16").close()
                   
                with open(FILEPATH,'w', encoding="utf-16") as file:
@@ -164,6 +207,7 @@ for filename in os.listdir(directory):
                    file.write('; Created by Georgios Zachariadis on ' + str(read_metadata(FILEPATH)[1]).strip() + '\n')
                    file.write('; Modified on ' + str(read_metadata(FILEPATH)[0]).strip() + '\n')
                    file.write('; Categorized under ' + str(read_metadata(FILEPATH)[3]).strip() + '\n')
+                   file.write('; File Encoding is ' + str(encoding['encoding']).strip() + '.\n')
                    file.write('\n')
                    file.write(str(Description).strip() + '\n')
                    file.write('\n')
