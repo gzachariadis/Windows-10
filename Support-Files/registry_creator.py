@@ -6,8 +6,6 @@ import re
 import codecs
 from itertools import pairwise
 import chardet
-import io
-import np
 
 # Function to Find Creation Date of a File
 def creation_date(path_to_file):
@@ -79,6 +77,7 @@ def find_registry_tweak(line_list,FILEPATH):
 def convert(lst):
     return ' '.join(lst)
  
+# Try and Find the Description of a Registry Tweak
 def file_s(FILEPATH):
     
     try :
@@ -100,6 +99,7 @@ def file_s(FILEPATH):
     except UnicodeDecodeError:
         pass
 
+# Detect a File's Encoding
 def detect_encoding(file):
     detector = chardet.universaldetector.UniversalDetector()
     with open(file, "rb") as f:
@@ -109,7 +109,8 @@ def detect_encoding(file):
                 break
     detector.close()
     return detector.result
-    
+
+# Read Matadata of a File to Determine Information
 def read_metadata(FILEPATH):
     try :
         with open(FILEPATH,'r', encoding='utf-16-le') as file:
@@ -126,19 +127,28 @@ def read_metadata(FILEPATH):
             # Parent Folder of the File
             folder = Path(FILEPATH).parent.name
 
-            # Read the File and Get all the Links
-            
+            # Read the File 
             lines = file.read()
             test = convert(lines)
+            # Fetch all the Links
             urls = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*(),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', lines)
                     
             return modification_time, creation, file_name, folder, urls
 
     except UnicodeDecodeError:
         pass
-      
-directory = 'C:/Users/Reverse/Music/Windows-10-Pro-N/Pre-Install/Registry-Files/Test_Folder'
 
+# Check Each File for the Github Link of the Project to Ensure No-Reprocessing of Files. 
+def check_file_for_string(FILEPATH):
+    with open(FILEPATH,'r', encoding='utf-16-le') as file:
+       Lines = file.read()
+       sentences = re.search("https://github.com/gzachariadis/Windows-10", Lines)
+       if sentences is not None:
+           return True
+    return False
+
+# Convert a UTF-8 Formatting File to UTF-16 for Processing
+# UTF-16 Files are Only Acceptable as Registry Files under Windows 10
 def utf8_to_utf16(FILEPATH):
     head, tail = os.path.split(os.path.abspath(FILEPATH))
     try:
@@ -150,11 +160,13 @@ def utf8_to_utf16(FILEPATH):
         os.rename(str(head + '\\' + "utf16-{0}".format(tail)).strip(), str((head + '\\' + "{0}".format(tail))), src_dir_fd=None, dst_dir_fd=None)
         
         return str(head + '\\' + "{0}".format(tail)).strip()
-            
-                
+                      
     except FileNotFoundError:
-        print("😰  That file doesn't seem to exist.")
-   
+        print("That file doesn't seem to exist.")
+
+# Directory to Run the Files   
+directory = 'C:/Users/Reverse/Music/Windows-10-Pro-N/Pre-Install/Registry-Files/Test_Folder'
+  
 for filename in os.listdir(directory):
     f = os.path.join(directory, filename)
     
@@ -182,52 +194,53 @@ for filename in os.listdir(directory):
                # Re-detect New File Encoding  
                encoding = detect_encoding(FILEPATH)
             
-           # Process the File
-           lines = identify_lines(FILEPATH)
-           registry = find_registry_tweak(lines,FILEPATH).strip() 
-           urls = read_metadata(FILEPATH)[4]    
-           Description = file_s(FILEPATH)
-           
-           if Description is None:
-               
-               print("Currently Processing : ", FILEPATH)
-               
-               Description = input("Give me a Registry Description: ")
-               Description = '; ' + Description + '\n'
-           
-           else:
-               
-               print("Currently Processing : ", FILEPATH)
+           # If File Does not Contain Github URL (So isn't Processed)
+           if check_file_for_string(FILEPATH) is False:
                 
-           try:
-               
-               open(FILEPATH,'w', encoding="utf-16").close()
-                  
-               with open(FILEPATH,'w', encoding="utf-16") as file:
-                   file.write("Windows Registry Editor Version 5.00".strip())
-                   file.write('\n')
-                   file.write('\n')
-                   file.write('; ' + str(read_metadata(FILEPATH)[2]).strip() + '\n')
-                   file.write('; Created by Georgios Zachariadis on ' + str(read_metadata(FILEPATH)[1]).strip() + '\n')
-                   file.write('; Modified on ' + str(read_metadata(FILEPATH)[0]).strip() + '\n')
-                   file.write('; Categorized under ' + str(read_metadata(FILEPATH)[3]).strip() + '\n')
-                   file.write('; File Encoding is ' + str(encoding['encoding']).strip() + '.\n')
-                   file.write('; This file was automatically processed as part of the https://github.com/gzachariadis/Windows-10 Project' + '.\n')
-                   file.write('\n')
-                   file.write(str(Description).strip() + '\n')
-                   file.write('\n')
-                   file.write("; Sources\n".strip())
-                   file.write('\n')
-                   file.write('\n')
-                   for i in range(len(urls)):
-                       file.write('; ' + str(urls[i]) + '\n')
-                   file.write('\n')
-                   file.write("; <------ Registry Edit ------>")
-                   file.write('\n')
-                   file.write('\n')
-                   file.write(str(registry).strip())
-                   
-                   file.close()
-                       
-           except UnicodeDecodeError:
-               pass
+                # Do the Processing
+                lines = identify_lines(FILEPATH)
+                registry = find_registry_tweak(lines,FILEPATH).strip() 
+                urls = read_metadata(FILEPATH)[4]    
+                Description = file_s(FILEPATH)
+                
+                # No Description Identified - Give a Manual One
+                if Description is None:
+                    print("Currently Processing ---> ", os.path.splitext(os.path.basename(FILEPATH))[0])
+                    Description = input("Give me a Registry Description: ")
+                    Description = '; ' + Description + '\n'
+                else:
+                    print("Processed", os.path.splitext(os.path.basename(FILEPATH))[0])
+                    
+                try:
+                    open(FILEPATH,'w', encoding="utf-16").close()
+                    
+                    with open(FILEPATH,'w', encoding="utf-16") as file:
+                        file.write("Windows Registry Editor Version 5.00".strip())
+                        file.write('\n')
+                        file.write('\n')
+                        file.write('; ' + str(read_metadata(FILEPATH)[2]).strip() + '\n')
+                        file.write('; Created by Georgios Zachariadis on ' + str(read_metadata(FILEPATH)[1]).strip() + '\n')
+                        file.write('; Modified on ' + str(read_metadata(FILEPATH)[0]).strip() + '\n')
+                        file.write('; Categorized under ' + str(read_metadata(FILEPATH)[3]).strip() + '\n')
+                        file.write('; File Encoding is ' + str(encoding['encoding']).strip() + '.\n')
+                        file.write('; This file was automatically processed as part of the https://github.com/gzachariadis/Windows-10 Project' + '.\n')
+                        file.write('\n')
+                        file.write(str(Description).strip() + '\n')
+                        file.write('\n')
+                        file.write("; Sources\n".strip())
+                        file.write('\n')
+                        file.write('\n')
+                        for i in range(len(urls)):
+                            file.write('; ' + str(urls[i]) + '\n')
+                        file.write('\n')
+                        file.write("; <------ Registry Edit ------>")
+                        file.write('\n')
+                        file.write('\n')
+                        file.write(str(registry).strip())
+                        
+                        file.close()
+                            
+                except UnicodeDecodeError:
+                    pass
+           else:
+               print("File has already been Processed.")
