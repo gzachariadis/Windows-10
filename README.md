@@ -219,6 +219,9 @@ Tweaks are Categorized below.
 <br>
 <br>
 
+* [Disable Pop-up Descriptions](https://github.com/gzachariadis/Windows-10/blob/main/Pre-Install/Registry-Files/File%20Explorer/Disable%20Pop-up%20Descriptions.reg) - Disables hovering over a File/Folder inside File Explorer to show you some basic Details on the hovered item.
+
+
 ### Gaming Optimization
 
 * [Disable Xbox Game Bar](Pre-Install/Registry-Files/Gaming%20Optimization/Disable%20Xbox%20Game%20Bar.reg) 

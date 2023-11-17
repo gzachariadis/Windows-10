@@ -1,7 +1,7 @@
 from support_functions import *
 
 # Directory to Run the Files   
-directory = 'C:/Users/Reverse/Music/Windows-10-Pro-N/Pre-Install/Registry-Files/Test_Folder'
+directory = 'C:/Users/Reverse/Music/Windows-10-Pro-N/Pre-Install/Registry-Files/File Explorer'
   
 for filename in os.listdir(directory):
     f = os.path.join(directory, filename)
@@ -29,13 +29,16 @@ for filename in os.listdir(directory):
                
                # Re-detect New File Encoding  
                encoding = detect_encoding(FILEPATH)
+          
+           else:
+                  
+            # Do the Processing  
+            Description = fetch_registry_description(FILEPATH)
+               
+            # Get Parent Folder
+            Folder = re.sub(r"\s+", '%20', str(read_metadata(FILEPATH)[3]).strip())
+            File = re.sub(r"\s+", '%20', str(read_metadata(FILEPATH)[2]).strip())
             
-           # If File Does not Contain Github URL (So isn't Processed)
-           if check_file_for_string(FILEPATH) is True:
-                
-                # Do the Processing  
-                Description = fetch_registry_description(FILEPATH)
-
-                print('\n')
-                print('* [' + str(read_metadata(FILEPATH)[2]).strip() + ']()' + ' - ' + str(Description).strip() + '.') 
+            print('\n')
+            print('* [' + str(read_metadata(FILEPATH)[2]).strip() + '](https://github.com/gzachariadis/Windows-10/blob/main/Pre-Install/Registry-Files/' + str(Folder).strip() + '/' + str(File).strip() + '.reg) - ' + str(Description).strip()) 
                 

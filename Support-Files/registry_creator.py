@@ -82,8 +82,14 @@ for filename in os.listdir(directory):
                                 file.write('; File Encoding is ' + str(encoding['encoding']).strip() + '.\n')
                                 file.write('; This file was automatically processed as part of the https://github.com/gzachariadis/Windows-10 Project' + '.\n')
                                 file.write('\n')
-                                file.write(str(Description).strip() + '\n')
-                                file.write('\n')
+                                
+                                if str(Description).endswith("."):
+                                    file.write(str(Description).strip() + '\n')
+                                    file.write('\n')
+                                else:
+                                    file.write(str(Description).strip() + '.\n')
+                                    file.write('\n')
+                                
                                 for i in range(len(Comments)):
                                     if str(Comments[i]).strip().endswith("."):
                                         file.write('; ' + str(Comments[i]).strip() + '\n')
@@ -123,7 +129,12 @@ for filename in os.listdir(directory):
                             file.write('; File Encoding is ' + str(encoding['encoding']).strip() + '.\n')
                             file.write('; This file was automatically processed as part of the https://github.com/gzachariadis/Windows-10 Project' + '.\n')
                             file.write('\n')
-                            file.write(str(Description).strip() + '\n')
+                            if str(Description).endswith("."):
+                                file.write(str(Description).strip() + '\n')
+                                file.write('\n')
+                            else:
+                                file.write(str(Description).strip() + '.\n')
+                                file.write('\n')
                             file.write('\n')
                             file.write("; Sources\n".strip())
                             file.write('\n')
