@@ -219,7 +219,7 @@ Tweaks are Categorized below.
 <br>
 <br>
 
-* [Remove Useless icons from This PC View](Pre-Install/Registry-Files/File%20Explorer/Remove%20Useless%20icons%20from%20This%20PC%20View.reg) 
+* [Remove Useless icons from This PC View](<Pre-Install/Registry-Files/File Explorer/Remove%20Useless%20icons%20from%20This%20PC%20View.reg>) 
 
 ### Gaming Optimization
 
