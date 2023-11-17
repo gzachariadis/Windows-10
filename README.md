@@ -223,7 +223,7 @@ Tweaks are Categorized below.
 
 
 
-
+* [Open to Downloads](<Pre-Install/Registry-Files/File Explorer/Open to Downloads.reg>) - File Explorer will open to Quick Access or This PC by default, opening to "Downloads" instead.
 
 
 * [Remove Useless icons from This PC View](Pre-Install/Registry-Files/File%20Explorer/Remove%20Useless%20icons%20from%20This%20PC%20View.reg) 
