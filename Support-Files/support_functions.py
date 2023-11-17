@@ -6,6 +6,7 @@ import re
 import codecs
 from itertools import pairwise
 import chardet
+from Levenshtein import distance as lev
 
 # Find Creation Date of a File (Windows Specific)
 def creation_date(path_to_file):
@@ -81,74 +82,7 @@ def find_registry_tweak(line_list,FILEPATH):
 # Convert a list to a Sentence (supportive-function)
 def convert(lst):
     return ' '.join(lst)
- 
-# Find the First Sentence in a Registry Tweak (if Any)
-def file_first_sentence(FILEPATH):
-    
-    try :
-        with open(FILEPATH,'r', encoding='utf-16-le') as file:
-            Lines = file.readlines()
- 
-            # Get All Sentences
-            for line in Lines:
-                # Start with ; Have letters and finish with a Dot.
-                sentences = re.search("^[;]{1}\s{0,}([A-Z][^\.!?]*[\.!?])$", line)
-                if sentences:
-                    if str(sentences[0]).strip() != "None":
-                        return sentences[0]
-                    else:
-                        pass
-                else:
-                    pass
-                
-    except UnicodeDecodeError:
-        pass
 
-
-# Find the First Sentence in a Registry Tweak (if Any)
-def file_comments(FILEPATH):
-    try :
-        with open(FILEPATH,'r', encoding='utf-16-le') as file:
-            Lines = file.readlines()
-            matches = []
-            # Get All Sentences
-            for line in Lines:
-                # Start with ; Have letters and finish with a Dot.
-                sentences = re.findall("^[;]{1}\s{0,}([A-Z][^\.!?]*[\.!?])$", line)
-                non_sentences = re.findall("^[;]{1}\s{0,}[A-Za-z\s]*$", line)
-                if sentences != None:
-                    for i in range(len(sentences)):
-                        matches.append(sentences[i])
-                if non_sentences != None:
-                    for i in range(len(non_sentences)):
-                        matches.append(non_sentences[i])
-            
-            if len(matches) > 0:
-                return matches
-            else:
-                return None 
-            
-    except UnicodeDecodeError:
-        pass
-
-
-def fetch_registry_description(FILEPATH):
-    with open(FILEPATH,'r', encoding='utf-16-le') as file:
-        Lines = file.readlines()
-        Description = re.sub("[;.]","",str(Lines[9]))
-        
-        return Description    
-
-# Detect a File's Encoding
-def detect_encoding(file):
-    detector = chardet.universaldetector.UniversalDetector()
-    with open(file, "rb") as f:
-        for line in f:
-            detector.feed(line)
-            if detector.done:
-                break
-    detector.close()
-    return detector.result
 
 # Read Metadata of a File to Determine Information
 def read_metadata(FILEPATH):
@@ -169,6 +103,7 @@ def read_metadata(FILEPATH):
 
             # Read the File 
             lines = file.read()
+            
             # Convert it all to a Giant String
             test = convert(lines)
             
@@ -179,6 +114,171 @@ def read_metadata(FILEPATH):
 
     except UnicodeDecodeError:
         pass
+
+Words = ['Georgios','Categorized under','Sources','Modified on','Created on']
+
+# Find the First Sentence in a Registry Tweak (if Any)
+def file_first_sentence(FILEPATH):
+    
+    try :
+        with open(FILEPATH,'r', encoding='utf-16-le') as file:
+            Lines = file.readlines()
+ 
+            # Get All Sentences
+            for line in Lines:
+                # Start with ; Have letters and finish with a Dot.
+                sentences = re.search("^[;]{1}\s{0,}([A-Z][^\.!?]*[\.!?])$", line)
+                if sentences:
+                    if str(sentences[0]).strip() != "None":
+                        return sentences[0]
+                    else:
+                        pass
+                else:
+                    pass
+        return None
+                
+    except UnicodeDecodeError:
+        pass
+
+# Find the First Sentence in a Registry Tweak (if Any)
+def fetch_registry_description(FILEPATH):
+    
+    Words.append(str(read_metadata(FILEPATH)[2]).strip())
+    words_re = re.compile("|".join(Words))
+    
+    try :
+        with open(FILEPATH,'r', encoding='utf-16-le') as file:
+            Lines = file.readlines()
+            matches = []
+            
+            # For Each Line in File
+            for line in Lines:
+              
+                # Until you Reach the Registry Tweak
+                if '[-HKEY' not in line or '[HKEY' in line:
+                
+                    # Start with ; Have letters and finish with a Dot.
+                    sentences = re.findall("^[;]{1}\s{0,}([A-Z][^\.!?]*[\.!?])$", line)
+                    
+                    # All Comments
+                    non_sentences = re.findall("^\s{0,}[;]{1}\s{0,}([A-Z][^\.!?]*)$", line)
+                    
+                    if sentences != None:
+                        for i in range(len(sentences)):
+                            matches.append(sentences[i])
+                    
+                    if non_sentences != None:
+                        for i in range(len(non_sentences)):
+                            matches.append(non_sentences[i])
+                
+                else:
+                    break
+            
+            # Search from Matches 
+            if len(matches) > 0:
+                for i in range(len(matches)):
+                    # The first Match is the Description
+                    if not words_re.search(str(matches[i])):
+                        return matches[i]       
+            else:
+                return None 
+            
+    except UnicodeDecodeError:
+        pass
+
+# Find the First Sentence in a Registry Tweak (if Any)
+def fetch_description_comments(FILEPATH,Description):
+    
+    Words.append(str(read_metadata(FILEPATH)[2]).strip())
+    words_re = re.compile("|".join(Words))
+    Description_Comments = []
+    
+    try :
+        with open(FILEPATH,'r', encoding='utf-16-le') as file:
+            Lines = file.readlines()
+            matches = []
+            
+            # For Each Line in File
+            for line in Lines:
+              
+                # Until you Reach the Registry Tweak
+                if '[-HKEY' not in line or '[HKEY' in line:
+                
+                    # Start with ; Have letters and finish with a Dot.
+                    sentences = re.findall("^[;]{1}\s{0,}([A-Z][^\!?]*)[.]{1,}$", line)
+                    
+                    # All Comments
+                    non_sentences = re.findall("^\s{0,}[;]{1}\s{0,}([A-Z][^\.!?]*)$", line)
+                    
+                    if sentences != None:
+                        for i in range(len(sentences)):
+                            if sentences[i] not in matches:
+                                matches.append(sentences[i])
+                    
+                    if non_sentences != None:
+                        for i in range(len(non_sentences)):
+                            if non_sentences[i] not in matches:
+                                matches.append(non_sentences[i])
+                
+                else:
+                    break
+            
+            # Search from Matches 
+            if len(matches) > 0:
+                
+                for i in range(len(matches)):
+                    # The first Match is the Description
+                    if not words_re.search(str(matches[i])):
+                        
+                        
+                        if issubclass(type(fetch_registry_description(FILEPATH)), str):
+                            pattern = re.compile(str(fetch_registry_description(FILEPATH)).replace(';','').lower().strip())
+                            match = re.search(pattern, str(matches[i].replace('\\n','')).lower().strip())
+                            if match:
+                                continue
+                            
+                        if issubclass(type(file_first_sentence(FILEPATH)), str):
+                            pattern_2 = re.compile(str(file_first_sentence(FILEPATH)).replace(';','').lower().strip())
+                            match_2 = re.search(pattern_2, str(matches[i].replace('\\n','')).lower().strip())                    
+                            if match_2:
+                                continue
+   
+                        if issubclass(type(Description), str):
+                            
+                            pattern_3 = re.compile(str(Description).replace(';','').lower().strip())
+                            match_3 = re.search(pattern_3, str(matches[i].replace('\\n','')).lower().strip())     
+                            
+                            if match_3:
+                                continue
+                        
+                        if fetch_registry_description(FILEPATH) == "" or file_first_sentence(FILEPATH) == "":
+                            continue
+                        
+                        if int(lev(str(Description).replace(';','').lower().strip(), str(matches[i].replace('\\n','')).lower().strip())) > 2:
+                            # Do not Allow Duplicate Comments
+                            Description_Comments.append(str(matches[i].replace('\\n','')).strip())     
+                
+                if len(Description_Comments) > 0:
+                    return Description_Comments
+                else:
+                    return None
+                
+            else:
+                return None 
+            
+    except UnicodeDecodeError:
+        pass
+
+# Detect a File's Encoding
+def detect_encoding(file):
+    detector = chardet.universaldetector.UniversalDetector()
+    with open(file, "rb") as f:
+        for line in f:
+            detector.feed(line)
+            if detector.done:
+                break
+    detector.close()
+    return detector.result
 
 # Check Each File for the Github Link of the Project to Ensure No-Reprocessing of Files. 
 def check_file_for_string(FILEPATH):
