@@ -210,7 +210,7 @@ Tweaks are Categorized below.
 
 * [Libraries Above This PC](<Pre-Install/Registry-Files/File Explorer/Libraries Above This PC.reg>) - Move Libraries (Music,Movies,Downloads etc.) above this PC on the File Explorer Navigation Pane.
 
-* [Open to Downloads Folder](<Pre-Install/Registry-Files/File Explorer/Open to Downloads Folder.reg>) - Each time File Explorer Launches, it will open to the Downloads Folder instead of This PC.
+* [Open to Downloads Folder](https://github.com/gzachariadis/Windows-10/blob/main/Pre-Install/Registry-Files/File%20Explorer/Open%20to%20Downloads%20Folder.reg) - Each time File Explorer Launches, it will open to the Downloads Folder.
 
 * [Remove Devices and Printers from This PC](<Pre-Install/Registry-Files/File Explorer/Remove Devices and Printers From This PC.reg>) - Remove Devices & Printers section from showing under This PC on View Pane
 
