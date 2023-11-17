@@ -219,8 +219,10 @@ Tweaks are Categorized below.
 <br>
 <br>
 
-* [Remove Useless icons from This PC View](<Pre-Install/Registry-Files/File Explorer/Remove%20Useless%20icons%20from%20This%20PC%20View.reg>) 
+* [a relative link](Pre-Install/Registry-Files/File%20Explorer/Open%20to%20Downloads.reg)
 
+* [another relative link](<Pre-Install/Registry-Files/File Explorer/Open to Downloads.reg>)
+  
 ### Gaming Optimization
 
 * [Disable Xbox Game Bar](Pre-Install/Registry-Files/Gaming%20Optimization/Disable%20Xbox%20Game%20Bar.reg) 
