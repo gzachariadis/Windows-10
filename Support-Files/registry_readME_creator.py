@@ -35,7 +35,7 @@ for filename in os.listdir(directory):
                 
                 # Do the Processing  
                 Description = fetch_registry_description(FILEPATH)
-            
-                print('* [' + str(read_metadata(FILEPATH)[2]).strip() + '](' + str(FILEPATH) +')' + ' - ' + str(Description).strip() + '.') 
 
+                print('\n')
+                print('* [' + str(read_metadata(FILEPATH)[2]).strip() + ']()' + ' - ' + str(Description).strip() + '.') 
                 
