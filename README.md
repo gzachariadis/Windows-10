@@ -210,7 +210,7 @@ Tweaks are Categorized below.
 
 * [Libraries Above This PC](<Pre-Install/Registry-Files/File Explorer/Libraries Above This PC.reg>) - Move Libraries (Music,Movies,Downloads etc.) above this PC on the File Explorer Navigation Pane.
 
-* [Open to Downloads](<Pre-Install/Registry-Files/File Explorer/Open to Downloads.reg>) - Each time File Explorer Launches, it will open to the Downloads Folder instead of This PC.
+* [Open To Downloads](<Pre-Install/Registry-Files/File Explorer/Open to Downloads Folder.reg>) - Each time File Explorer Launches, it will open to the Downloads Folder instead of This PC.
 
 * [Remove Devices and Printers from This PC](<Pre-Install/Registry-Files/File Explorer/Remove Devices and Printers From This PC.reg>) - Remove Devices & Printers section from showing under This PC on View Pane
 
@@ -219,10 +219,6 @@ Tweaks are Categorized below.
 <br>
 <br>
 
-* [a relative link](Pre-Install/Registry-Files/File%20Explorer/Open%20to%20Downloads.reg)
-
-* [another relative link](<Pre-Install/Registry-Files/File Explorer/Open to Downloads.reg>)
-  
 ### Gaming Optimization
 
 * [Disable Xbox Game Bar](Pre-Install/Registry-Files/Gaming%20Optimization/Disable%20Xbox%20Game%20Bar.reg) 
