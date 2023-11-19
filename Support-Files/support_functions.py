@@ -282,3 +282,53 @@ def utf8_to_utf16(FILEPATH):
                       
     except FileNotFoundError:
         print("That file doesn't seem to exist.")
+
+
+# Given a Directory get all Immediate Subdirectory Names
+def get_immediate_subdirectories(a_dir):
+    return [name for name in os.listdir(a_dir)
+            if os.path.isdir(os.path.join(a_dir, name))]
+    
+
+
+def check_reg_file_exists(Filepath):
+
+    # Checking if it is a file
+    if os.path.isfile(Filepath):
+            
+        # Get File Extension
+        file_name, file_extension = os.path.splitext(Filepath)
+            
+        # if File is Registry File
+        if file_extension == ".reg":
+            return True
+        else:
+            return None
+    else:
+        return None
+    
+def check_correct_reg_file_encoding(Filepath):
+    
+    # Setting Filepath
+    FILEPATH = Filepath.replace('\\', '/')
+
+    # Detect File Encoding  
+    encoding = detect_encoding(FILEPATH)
+           
+    # If File is UTF-8
+    if str(encoding['encoding']).strip() == "ascii":
+               
+        # Turn File to UTF-16
+        FILEPATH = utf8_to_utf16(FILEPATH)
+               
+        # Re-detect New File Encoding  
+        encoding = detect_encoding(FILEPATH)
+        
+        if str(encoding['encoding']).strip() == "utf16":
+            return True
+        else:
+            return False
+        
+    # If File Encoding is UTF-16
+    else:
+        return True
