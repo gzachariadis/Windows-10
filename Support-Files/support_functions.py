@@ -118,29 +118,6 @@ def read_metadata(FILEPATH):
 Words = ['Georgios','Categorized under','Sources','Modified on','Created on']
 
 # Find the First Sentence in a Registry Tweak (if Any)
-def file_first_sentence(FILEPATH):
-    
-    try :
-        with open(FILEPATH,'r', encoding='utf-16-le') as file:
-            Lines = file.readlines()
- 
-            # Get All Sentences
-            for line in Lines:
-                # Start with ; Have letters and finish with a Dot.
-                sentences = re.search("^[;]{1}\s{0,}([A-Z][^\.!?]*[\.!?])$", line)
-                if sentences:
-                    if str(sentences[0]).strip() != "None":
-                        return sentences[0]
-                    else:
-                        pass
-                else:
-                    pass
-        return None
-                
-    except UnicodeDecodeError:
-        pass
-
-# Find the First Sentence in a Registry Tweak (if Any)
 def fetch_registry_description(FILEPATH):
     
     Words.append(str(read_metadata(FILEPATH)[2]).strip())

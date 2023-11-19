@@ -8,12 +8,15 @@ from itertools import pairwise
 import chardet
 from support_functions import *
 
-# Directory to Run the Files   
+# Directory to Run 
 directory = 'C:/Users/Reverse/Music/Windows-10-Pro-N/Pre-Install/Registry-Files/Test_Folder'
 
 count = 0 
 
+# For Each File in Directory
 for filename in os.listdir(directory):
+    
+    # Get File
     f = os.path.join(directory, filename)
     
     # Checking if it is a file
@@ -47,25 +50,22 @@ for filename in os.listdir(directory):
                 lines = identify_lines(FILEPATH)
                 registry = find_registry_tweak(lines,FILEPATH).strip() 
                 urls = read_metadata(FILEPATH)[4]    
-                Description = file_first_sentence(FILEPATH)
+                Description = fetch_registry_description(FILEPATH)
                 
-                # No Description Identified - Try Specific Line
-                if Description is None:
-                    
-                    Description = '; ' + str(fetch_registry_description(FILEPATH).strip()) + '.\n'
-                  
+                # No Description Identified - Try Specific Line  
                 if Description is None:
                     
                     # No Description Identified - Try Specific Line
                     print("Currently Processing ---> ", os.path.splitext(os.path.basename(FILEPATH))[0])
                     Description = input("Give me a Registry Description: ")
-                    Description = '; ' + Description + '\n'  
-                                       
-                else:
-                    count = count + 1
-                    pass
+                    Description = '; ' + Description + '\n'                     
+                
+                else:   
+                           
+                    Description = '; ' + str(fetch_registry_description(FILEPATH).strip()) + '.\n'
                 
                 Comments = fetch_description_comments(FILEPATH,Description)
+                
                 if isinstance(Comments, list):
                     if len(Comments) > 0:
                         try:
@@ -109,7 +109,9 @@ for filename in os.listdir(directory):
                                 file.write(str(registry).strip())
                                 
                                 file.close()
-                    
+                                
+                                count = count + 1
+                                
                         except UnicodeDecodeError:
                             pass
                 
@@ -149,11 +151,11 @@ for filename in os.listdir(directory):
                             
                             file.close()
                         
+                            count = count + 1
                                 
                     except UnicodeDecodeError:
                         pass
            else:
-               print("File has already been Processed.")
                continue
 
 print('Processed %d Files.' % (count))
