@@ -45,11 +45,14 @@ for Directory in Folder_Files.keys():
                 # Get File Name
                 File = re.sub(r"\s+", '%20', str(read_metadata(Filepath)[2]).strip())
                 
+           
                 # Checking if it is a file
                 if os.path.isfile(os.path.join(Parent_Directory + '/' + Directory + '/README.md')):
                     
-                    README.write('\n')
-                    README.write(('* [' + str(read_metadata(Filepath)[2]).strip() + '](https://github.com/gzachariadis/Windows-10/blob/main/Pre-Install/Registry-Files/' + str(Folder).strip() + '/' + str(File).strip() + '.reg) - ' + str(Description).strip()))
+                    README = open(os.path.join(Parent_Directory + '/' + Directory + '/README.md'), "a")
+                    
+                    README.write('\n\n')
+                    README.write(('- [' + str(read_metadata(Filepath)[2]).strip() + '](https://github.com/gzachariadis/Windows-10/blob/main/Pre-Install/Registry-Files/' + str(Folder).strip() + '/' + str(File).strip() + '.reg) - ' + str(Description).strip()))
                     
                     README.close()
                     
