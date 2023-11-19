@@ -59,6 +59,7 @@ for Directory in Folder_Files.keys():
                     
                     Markdown = MdUtils(file_name='README.md')
                     Markdown.write('<h1 align="center" >{}</h1>\n\n'.format(str(Directory).strip()))
+                    Markdown.new_line('\n<br>\n')
                     Markdown.new_line('<h3>{}</h3>\n'.format(str('Registry Tweaks')))
                     Markdown.new_line('\n<br>\n')
                     Markdown.new_line(('- [' + str(read_metadata(Filepath)[2]).strip() + '](https://github.com/gzachariadis/Windows-10/blob/main/Pre-Install/Registry-Files/' + str(Folder).strip() + '/' + str(File).strip() + '.reg) - ' + str(Description).strip()))

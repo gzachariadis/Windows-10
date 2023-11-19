@@ -4,6 +4,9 @@
 <h1 align="center" >Appearance & Personalization</h1>
 
   
+
+<br>
+  
 <h3>Registry Tweaks</h3>
   
 
