@@ -99,6 +99,14 @@
 
 - Greek Language Pack (for Keyboard Layout)
 
+## Fonts
+
+I use [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts#option-3-install-script).  
+
+- https://www.ntlite.com/community/index.php?threads/integrate-add-a-font-to-the-iso-windows-10.2203/
+
+''' PowerShell.exe -ExecutionPolicy Bypass -File .\install.ps1'''
+
 ## Drivers
 
 The only drivers, I have ever had problems with on my system was NVIDIA Drivers and Bluetooth Compatibillity. I could write the plethora of issues, I have come across, but I won't bore you.
