@@ -69,7 +69,6 @@ def identify_lines(FILEPATH):
 
     # print(line_list)
     
-
     return line_list
 
 
@@ -450,13 +449,14 @@ def check_file_for_string(FILEPATH):
        Lines = file.read()
 
        sentences = re.search("https://github.com/gzachariadis/Windows-10", Lines)
+       
 
        if sentences is not None:
 
            return True
 
     return False
-
+    
 
 # Convert a UTF-8 Formatting File to UTF-16 for Processing
 
@@ -476,8 +476,7 @@ def utf8_to_utf16(FILEPATH):
             with open(head + '\\' + "utf16-{0}".format(tail), "wb") as dest:
 
                 dest.write(source.read().encode("utf-16"))
-
-
+                
         os.remove(FILEPATH)
 
         os.rename(str(head + '\\' + "utf16-{0}".format(tail)).strip(), str((head + '\\' + "{0}".format(tail))), src_dir_fd=None, dst_dir_fd=None)

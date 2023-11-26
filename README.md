@@ -23,7 +23,7 @@
 </h1>
 
 <p align="center">
-  <i align="center"> A Comprehensive Configuration Guide for a Bloat-free and Responsive Gaming Windows Installation 🚀</i>
+  <i align="center"> A Comprehensive Configuration Guide for a Bloat-free and Responsive Windows Installation 🚀</i>
   <br>
   <br>
   <i align="center"><b>Latest Verified Version</b></i>
@@ -34,7 +34,7 @@
 
 <h1 align="center">Windows ISO Building and Tweaking (Pre-Install)</h1>
 
-<div>This repository is used as a virtual storage space for everything I have managed to track down and use over the years, in my effort of creating, optimizing and maintaining my Gaming System. My main goal is to keep my System working as optimally as possible, and remove anything extra out of Windows 10. This is not meant to be a universal build you will copy verbatim and have it work for you. This is also not, a tweaked operating system you can use for anything else but <b>Gaming</b>.</div>
+<div>This repository is used as a virtual storage space for everything I have managed to track down and use over the years, in my effort of creating, optimizing and maintaining my Gaming System. My main goal is to keep my System working as optimally as possible, and remove anything extra out of Windows 10. This is not meant to be a universal build you will copy verbatim and have it work for you. This is also not, a tweaked operating system you can use for anything else but <b>Programming</b>.</div>
 <br>
 <div>This took me a while to compile, work on, and test, so feel free to leave a star if you felt it's useful or helped you in any way.</div>
 <br>
@@ -94,6 +94,8 @@
 - Nvidia Drivers (Control Panel included)
 
 - DirectX
+
+- WSL2 (Windows Subsystem for Linux)
 
 ## Language Packs
 
@@ -340,9 +342,6 @@ This is a list of per-user services which I disable. These only prevents the ser
 
 
 
-
-
-
 # Post-Setup Scripts
 
 * [Remove Dropbox from Navigation Pane](Post-Install/Step%201/Scripts/Remove%20Dropbox%20From%20Navigation%20Pane.cmd) - 
@@ -401,6 +400,10 @@ This is the list of Applications I download on my Gaming System, as well as my c
 - [Scrcpy](https://github.com/Genymobile/scrcpy)
 - [Bulk Crap Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller)
 - [WingetUI](https://github.com/marticliment/WingetUI) 
+- [Capture2Text](https://capture2text.sourceforge.net/)
+- [AUtoLogon](https://learn.microsoft.com/en-us/sysinternals/downloads/autologon)
+- [WNetWatcher](https://wireless-network-watcher.en.softonic.com/)
+- [KeyFinder](https://www.magicaljellybean.com/keyfinder/)
 
 ### Package Managers
 

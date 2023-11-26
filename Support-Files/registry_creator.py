@@ -69,7 +69,6 @@ for filename in os.listdir(directory):
             
 
         else:
-            
 
            # If File Does not Contain Github URL (So isn't Processed)
 
