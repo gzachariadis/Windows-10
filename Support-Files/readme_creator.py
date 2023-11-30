@@ -1,6 +1,5 @@
 from support_functions import *
 
-
 import json
 
 from mdutils.mdutils import MdUtils
@@ -13,7 +12,6 @@ from mdutils.tools.Table import Table
 # Registry Files Parent Directory
 
 Parent_Directory = r"C:/Users/Reverse/Music\Windows 10/Pre-Install/Registry-Files"
-
 
 # Dictionary to Store all Files under Each Subdirectory 
 
@@ -45,7 +43,6 @@ for Subdirectory in get_immediate_subdirectories(Parent_Directory):
 
                 Folder_Files[str(Subdirectory).strip()] = [str(Each_File).strip()]
         
-    
 
 # print(json.dumps(Folder_Files, sort_keys=True, indent=4))
 
@@ -127,7 +124,6 @@ for Directory in Folder_Files.keys():
                         
 
                         README = open(os.path.join(Parent_Directory + '/' + Directory + '/README.md'), "a")
-
 
                         README.write('\n\n')
 

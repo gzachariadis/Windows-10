@@ -5,7 +5,7 @@ import datetime
 import platform
 
 from pathlib import Path
-
+#
 import re
 
 import codecs
@@ -20,12 +20,9 @@ from support_functions import *
 # Directory to Run 
 
 directory = r"C:/Users/Reverse/Music/Windows 10/Pre-Install/Registry-Files/Test_Folder"
-
+count = 0
 
 # Count the File this Script Has Processed at Current Run
-
-count = 0 
-
 
 # For Each File in Directory
 
@@ -46,7 +43,7 @@ for filename in os.listdir(directory):
 
     # Check if File exists 
 
-    if check_reg_file_exists(FILEPATH) is True:   
+    if check_reg_file_exists(FILEPATH) is True:
        
 
         # Check Encoding
