@@ -1,9 +1,0 @@
-{
-    "allowed_extensions": [
-        "chatterino_native@chatterino.com"
-    ],
-    "description": "Browser interaction with chatterino.",
-    "name": "com.chatterino.chatterino",
-    "path": "C:/Program Files/Chatterino/chatterino.exe",
-    "type": "stdio"
-}
