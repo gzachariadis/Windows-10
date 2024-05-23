@@ -52,14 +52,11 @@
     - [Security](#security-1)
     - [Maintenance](#maintenance)
     - [Communication](#communication)
-    - [DNS](#dns)
     - [Tools](#tools)
     - [Package Managers](#package-managers)
     - [Multimedia](#multimedia)
     - [Personalization](#personalization)
-    - [External Devices](#external-devices)
     - [Tiling Window Manager](#tiling-window-manager)
-    - [Programming](#programming)
     - [Browsers](#browsers)
       - [LibreWolf vs Firefox](#librewolf-vs-firefox)
       - [User.js Configuration](#userjs-configuration)
@@ -67,8 +64,7 @@
       - [Extensions](#extensions)
   - [Maintenance](#maintenance-1)
     - [Scripts](#scripts)
-- [Issues](#issues)
-- [Bibliography](#bibliography)
+  - [Bibliography](#bibliography)
       - [Projects](#projects)
       - [Scripts](#scripts-1)
       - [Tweak Collections](#tweak-collections)
@@ -92,10 +88,6 @@
 - Microphone Support
 
 - Nvidia Drivers (Control Panel included)
-
-- DirectX
-
-- WSL2 (Windows Subsystem for Linux)
 
 ## Language Packs
 
@@ -198,11 +190,7 @@ Tweaks are Categorized below.
 
 #### Additions
 
-
-
 #### Removals
-
-
 
 ### Control Panel
 
@@ -225,9 +213,6 @@ Tweaks are Categorized below.
 * [Remove Devices and Printers from This PC](<Pre-Install/Registry-Files/File Explorer/Remove Devices and Printers From This PC.reg>) - Remove Devices & Printers section from showing under This PC on View Pane
 
 * [Remove Dropbox from Navigation Pane](<Pre-Install/Registry-Files/File Explorer/Remove Dropbox from Navigation Pane.reg>) - This stops Dropbox from Appearing in File Explorer.
-
-<br>
-<br>
 
 ### Gaming Optimization
 
@@ -254,7 +239,6 @@ Tweaks are Categorized below.
 * [Disable Mapped Drives in Elevated PowerShell and Command Prompt](Pre-Install/Registry-Files/Networking/Disable%20Mapped%20Drives%20in%20Elevated%20PowerShell%20and%20Command%20Prompt.reg) - Disable Mapped Drives in Elevated PowerShell and Command Prompt
 
 ### Power
-
 
 ### Security
 
@@ -340,8 +324,6 @@ Here's a NTLite Preset that matches this configuration.
 
 This is a list of per-user services which I disable. These only prevents the services from being started on login. Per-user services are dynamically created upon creating a user session for example you'll see ContactData service but also see the running service ContactData_37664 (per-user service), each user logged into the system will have their on per user service for those listed below if it is configured to be enabled.
 
-
-
 # Post-Setup Scripts
 
 * [Remove Dropbox from Navigation Pane](Post-Install/Step%201/Scripts/Remove%20Dropbox%20From%20Navigation%20Pane.cmd) - 
@@ -373,11 +355,9 @@ This is the list of Applications I download on my Gaming System, as well as my c
 
 ### Security
 
-- [Glary Utillities](https://www.glarysoft.com/)
 - [AdwCleaner](https://toolslib.net/downloads/viewdownload/1-adwcleaner/)
 - [MalwareBytes](https://www.malwarebytes.com/)
 - [SimpleWall](https://www.henrypp.org/product/simplewall) or [TinyWall](https://tinywall.pados.hu/)
-- [Sandboxie Plus / Classic](https://github.com/sandboxie-plus/Sandboxie)
 
 ### Maintenance
 
@@ -385,25 +365,15 @@ This is the list of Applications I download on my Gaming System, as well as my c
 - [Czkawka](https://github.com/qarmin/czkawka/tree/master)
 - [dupeGuru](https://dupeguru.voltaicideas.net/)
 
-
 ### Communication
 
-- [Vencord - The cutest Discord client mod](https://github.com/Vendicated/Vencord)
-
-### DNS
-
-- [YogaDNS](https://yogadns.com/)
-- [NextDNS](https://nextdns.io/)
+- [Vencord - Discord mod](https://github.com/Vendicated/Vencord)
 
 ### Tools
 
 - [Scrcpy](https://github.com/Genymobile/scrcpy)
 - [Bulk Crap Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller)
 - [WingetUI](https://github.com/marticliment/WingetUI) 
-- [Capture2Text](https://capture2text.sourceforge.net/)
-- [AUtoLogon](https://learn.microsoft.com/en-us/sysinternals/downloads/autologon)
-- [WNetWatcher](https://wireless-network-watcher.en.softonic.com/)
-- [KeyFinder](https://www.magicaljellybean.com/keyfinder/)
 
 ### Package Managers
 
@@ -412,19 +382,13 @@ This is the list of Applications I download on my Gaming System, as well as my c
 
 ### Multimedia
 
-- [PotPlayer](https://potplayer.daum.net/)
 - [EarTrumpet](https://github.com/File-New-Project/EarTrumpet)
 - [Thorium Reader](https://www.edrlab.org/software/thorium-reader/) or [EPUB Reader](https://icecreamapps.com/Ebook-Reader/) or [Koodo](https://koodo.960960.xyz/en)
-- [Plex.tv](https://www.plex.tv/)
 
 ### Personalization
 
 - [Ueli](https://ueli.app/#/) or [Flow](https://www.flowlauncher.com/) ?????
 - [PreMiD](https://github.com/PreMiD/PreMiD)
-- [Open-Shell](https://github.com/Open-Shell/Open-Shell-Menu)
-
-### External Devices
-
 - [Elgato Stream Deck](https://www.elgato.com/us/en/s/downloads)
 
 ### Tiling Window Manager
@@ -434,21 +398,15 @@ This is the list of Applications I download on my Gaming System, as well as my c
 - [GlazeWM](https://github.com/glazerdesktop/GlazeWM)
 - [FancyWM](https://github.com/FancyWM/fancywm)
 
-### Programming
-
-- [VSCodium](https://vscodium.com/)
-
-
 ### Browsers
 
-I am against installing Chrome on your gaming system, I don't go online on it much other than gaming, it's a bit like a gaming console, but if you have to have a Chrome-like browser on it, I suggest [Thorium](https://thorium.rocks/).
-
+- [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium)
+  
 #### LibreWolf vs Firefox
 
-I propose you use a Hardened version of  to get online when using your Gaming System, considering this system is stripped from most of the security (eg. Windows Defender, Windows Updates, Windows Firewall etc.), your browser is the most crucial defense you have. 
+I propose you use a hardened version of [Firefox](https://www.mozilla.org/en-US/firefox/browsers/) to get online when using your Windows System, considering any Windows system is stripped from most of the security, your browser is the most crucial defense you have. 
 
 - [LibreWolf](https://librewolf.net/)
-- [Firefox](https://www.mozilla.org/en-US/firefox/browsers/)
 
 #### User.js Configuration 
 
@@ -493,18 +451,16 @@ This is a list of the extensions, I apply to my Firefox Configuration, as of the
 
 - [SponsorBlock](https://github.com/ajayyy/SponsorBlock)
 
-- [uBlacklist](https://github.com/iorate/ublacklist)
-
 - [FastForward](https://github.com/FastForwardTeam/FastForward)
 
 - [Search by Image](https://github.com/dessant/search-by-image)
 
 - [xBrowserSync](https://addons.mozilla.org/en-US/firefox/addon/xbs/)
 
-- [LanguageTool](https://languagetool.org/)
-
 - [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
 
+- [Imagus](https://chromewebstore.google.com/detail/imagus/immpkjjlgappgfkkfieppnmlhakdmaab)
+  
 ## Maintenance
 
 ### Scripts
@@ -513,95 +469,37 @@ This is a list of the extensions, I apply to my Firefox Configuration, as of the
   
 * [clean_wrea.cmd](Post-Install/Maintenance/Scripts/Before%20Windows%20Updates/clean_wrea.cmd) - remove all files and directories from $WinREAgent directory;
 
-<br>
-
-# Issues
-
-# Bibliography
+## Bibliography
 
 #### Projects
 
 - [ ] [QuickBoost](https://github.com/SanGraphic/QuickBoost)
 
-- [ ] [Sadcoy](https://github.com/Jisll/Sadcoy)
-
-- [ ] [Magic X Mod](https://magicxmod.github.io/#content)
-
 - [ ] [Windows Memory Cleaner](https://github.com/IgorMundstein/WinMemoryCleaner)
-
-- [ ] [ZTweaks](https://github.com/caxzy/ztweaks)
-
-- [ ] [Windows Optimisation Pack](https://github.com/Marvin700/Windows_Optimisation_Pack)
-
-- [ ] [Windows 10 Cleanser](https://github.com/Carlmundo/W10-Cleanser)
 
 - [ ] [Better Privacy](https://github.com/hulr/BetterPrivacy)
   
-- [ ] [Windows Spy Blocker](https://github.com/crazy-max/WindowsSpyBlocker)
-
 - [ ] [Win Slap](https://github.com/svenmauch/WinSlap)
 
-- [ ] [WinReducer](https://www.winreducer.net/)
-
-- [ ] [Windows Toolbox](https://github.com/WinTweakers/WindowsToolbox)
-
 - [ ] [Ultimate Windows Tweaker 4](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10)
- 
-- [ ] [7+ Taskbar Tweaker](https://ramensoftware.com/7-taskbar-tweaker)
-  
+
+- [ ] [Winaero Tweaker](https://winaero.com/winaero-tweaker/)
+
 #### Scripts
 
 - [ ] [Remove-MS-Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge)
 
-- [ ] [DFX WinTweaks](https://github.com/ivandfx/DFXWinTweaks)
-
-- [ ] [Uninstall Edge](https://gist.github.com/ave9858/c3451d9f452389ac7607c99d45edecc6)
-
-- [x] [Tzwel's WSD](https://github.com/tzwel/WSD) - Done with Services
-
-- [ ] [Winget Manual Installation](https://github.com/ViktorVoloshko/winget-manual-installation/tree/main)
-
 - [ ] [AveYo's Fox](https://github.com/AveYo/fox)
-
-- [ ] [Post Tweaks](https://github.com/ArtanisInc/Post-Tweaks)
-
-- [ ] [DNXDO Script](https://github.com/Deen0X/DNXDOScript)
-
-- [ ] [Windows 10 Bloat Remover and Tweaker](https://github.com/Fs00/Win10BloatRemover)
-
-- [ ] [Windows10-Privacy ](https://github.com/MichiMunich/Windows10-Privacy)
-
-- [ ] [Windows 10 Tools](https://github.com/leetfin/Windows10Tools)
 
 - [ ] [Windows-Optimize-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Debloat)
 
-- [ ] [Windows-10-Hardening](https://github.com/aghorler/Windows-10-Hardening)
-
-- [ ] [DNS Block List for Windows](https://github.com/schrebra/Windows.10.DNS.Block.List)
-
-- [ ] [Remove Bloat from Windows 10 from HWinfo](https://www.hwinfo.com/misc/RemoveW10Bloat.htm)
-
-- [ ] [TronScript](https://old.reddit.com/r/TronScript/)
-
 #### Tweak Collections
 
-- [ ] [MajorGeeks Windows Tweaks 2.96](https://www.majorgeeks.com/files/details/majorgeeks_registry_tweaks.html)
-
-- [ ] [Wincfgs](https://github.com/xvitaly/wincfgs/tree/master)
-
-- [ ] [Couleur's Toolbox](https://github.com/couleurm/couleurstoolbox)
-
-- [ ] [Melody's Ultra Tweaks Pack](https://sites.google.com/view/melodystweaks/home)
-
+- [ ] [MajorGeeks Windows Tweaks 2.97](https://www.majorgeeks.com/files/details/majorgeeks_registry_tweaks.html)
 
 #### Services 
 
 - [ ] [W4RH4WK's Services](https://github.com/W4RH4WK/Debloat-Windows-10/blob/master/scripts/disable-services.ps1)
-
-- [ ] [Aldaviva/Windows 10 Services](https://gist.github.com/Aldaviva/0eb62993639da319dc456cc01efa3fe5)
-
-- [ ] [VisualBlind Services](https://gist.github.com/visualblind/453e55ecd2e8fa8cbde5648bc2ce8d13)
-
 
 #### Github Resources
 
@@ -666,8 +564,6 @@ This is a list of the extensions, I apply to my Firefox Configuration, as of the
 #### Resources
 
 - [ ] [Group Policy Administrative Templates Catalog](https://admx.help/)
-
-- [ ] [Winaero](https://winaero.com/winaero-tweaker/)
 
 - [ ] [How To Activate Windows for FREE](https://useyourgadgets1.wordpress.com/2020/11/10/how-to-activate-windows-for-freewin10-win8-1-win8-win7/)
 
