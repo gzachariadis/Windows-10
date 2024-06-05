@@ -319,7 +319,7 @@ This is a list of per-user services which I disable. These only prevents the ser
 <br>
 <br>
 
-<h1 align="center">Part 2 - Windows Live Install (Post-Install)</h1>
+<h1 align="center">Part 2 - Post-Install Configuration</h1>
 
 <div align="center">Having reached this far, you should now have a Live System.</div> 
 <br>
@@ -345,24 +345,36 @@ This is a list of per-user services which I disable. These only prevents the ser
 
 ### [Chocolatey](https://chocolatey.org/)
 
+- Open a new Powershell as Administrator.
+- Run the following commands
+
 ```
 Set-ExecutionPolicy AllSigned
+```
 
+```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
 ### [Scoop](https://scoop.sh/)
 
+- Open a new Powershell as Administrator.
+- Run the following commands
+
+<br>
+
 ```
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
 
+```
 Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 ```
 
 ### [7-Zip](https://www.7-zip.org/)
 
 - Download [here.](https://www.7-zip.org/a/7z2406-x64.exe)
-- Execute the EXE.
+- Execute the Executable.
 
 ## Debloating & Optimizing
 
@@ -370,11 +382,24 @@ The following tools, are able to help you optimize and debloat your system.
 
 ### [Optimizer](https://github.com/hellzerg/optimizer/releases)
 
+- Download from [here.](https://github.com/hellzerg/optimizer/releases/download/16.5/Optimizer-16.5.exe)
+- Execute the Executable.
+
 ### [Winaero Tweaker](https://winaero.com/winaero-tweaker/)
+
+- Download from [here.]()
+- Run the installer.
 
 ### [Privacy.Sexy](https://privacy.sexy/)
 
+You can follow the [link here](https://privacy.sexy/) and create your own configuration, or run mine under the [Exported Settings]() folder.
+
 ### [Chris Titus Tech's Windows Utility](https://github.com/ChrisTitusTech/winutil)
+
+- Open a new Powershell as Administrator.
+- Run the following command
+
+<br>
 
 ```
 irm https://christitus.com/win | iex
@@ -400,31 +425,31 @@ Set-ExecutionPolicy Unrestricted -Force
 
 - Download from [here.](https://github.com/Fs00/Win10BloatRemover/releases/download/5.0/Win10BloatRemover_5.0.zip)
 - Unzip using 7-Zip.
-- Execute the EXE.
+- Execute the Executable.
 - Done! :)
 
 ### [Quick Boost](https://github.com/SanGraphic/QuickBoost/releases/)
 
 - Download from [here.](https://github.com/SanGraphic/QuickBoost/releases/download/2.9.4/QuickBoost.exe)
-- Execute the EXE.
+- Execute the Executable.
 
 ### [Ultimate Windows  Tweaker 4.8](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10)
 
 - Download from [here.](https://www.thewindowsclub.com/downloads/UWT4.zip)
 - Unzip using 7-Zip.
-- Execute the EXE.
+- Execute the Executable.
 
 ### [WinSlap](https://github.com/svenmauch/WinSlap)
 
 My preference would be to run this last, or first, as it will issue an automatic restart of the system when completed.
 
 - Download from [here.](https://github.com/svenmauch/WinSlap/releases/download/v1.8/WinSlap.exe)
-- Execute the EXE.
+- Execute the Executable.
 
 ## [Remove MS Edge - ShadowWhisperer](https://github.com/ShadowWhisperer/Remove-MS-Edge)
 
 - Download from [here.](https://github.com/ShadowWhisperer/Remove-MS-Edge/blob/main/Remove-Edge_GUI.exe?raw=true)
-- Execute the EXE.
+- Execute the Executable.
 - Done! :)
 
 ## Applications
