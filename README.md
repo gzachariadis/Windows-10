@@ -328,7 +328,9 @@ This is a list of per-user services which I disable. These only prevents the ser
 
 <br>
 
-# Prerequisities Install
+# Prerequisities
+
+## Requirements
 
 - [Chocolatey](https://chocolatey.org/install)
 - [Scoop](https://scoop.sh/)
@@ -341,7 +343,7 @@ This is a list of per-user services which I disable. These only prevents the ser
 
 - [Download Mirror](https://www.majorgeeks.com/files/details/visual_c_runtime_installer.html) 
 
-### Chocolatey
+### [Chocolatey](https://chocolatey.org/)
 
 ```
 Set-ExecutionPolicy AllSigned
@@ -349,13 +351,19 @@ Set-ExecutionPolicy AllSigned
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
-### Scoop
+### [Scoop](https://scoop.sh/)
 
 ```
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 ```
+
+### [7-Zip](https://www.7-zip.org/)
+
+- Download [here.](https://www.7-zip.org/a/7z2406-x64.exe)
+- Install by running the EXE.
+
 
 ## Debloating & Optimizing
 
