@@ -1,19 +1,17 @@
+<div align="center">
+
 [![made-with-powershell](https://img.shields.io/badge/PowerShell-1f425f?logo=Powershell)](https://microsoft.com/PowerShell)
 ![CommandPrompt](https://img.shields.io/badge/Command%20Prompt-yellow.svg?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDQ4IDQ4Ij4KICAgIDxpbWFnZSB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBREFBQUFBd0NBWUFBQUJYQXZtSEFBQUFBWE5TUjBJQXJzNGM2UUFBQkRGSlJFRlVhRVB0bWN0TEpGY1V4ci95a1pINFNBOU91MURHVFpKRkZCb0VKMkJFU2JKb3RheEZuQW14QlZHemllQmZJTGh3NzhaZDBIYWptNUVoQ1ZtWmpPQTRJUGhvSHhzZDNJd2E4bGdrMFBSR0JVZnRPc01wNTliMG8rcGExZFd0RWFwQnVpbjYxdjErNS92T3ZiZGFCWGY4cGR4eC9mQUJidHRCM3dIZkFZOFY4Q1BFQlp5YW11b0hjQjlBcWFJb0h3QzRCK0JEQUpYdjNpc1VSU2toSWdKUURPQmpBQTA3T3p1dTZoOElCUDdwNysvL0lSUUsvUzRHWmptd3ZiMzlDa0NqbXp1N0ZTTHVuY3U0UUNEdzk4VEVSTDBNZ0t2azZwV0xFSjRnMTNIUmFOUXN2SlVEUG9CVCsvTHVnS1pwendGMFhQVWFrUG51OUpvWVY2anZyNjZ1V2tkSTA3U1hSUFJsNnNTRkV1RUZVZ2J3Z29pK3RoTHRaVUluVHJxNS85cmFtclVEM2QzZGxoSDZ2N2xnQzZCcDJzKzZyajhSVFpqdnl1VXJtaklIbmhIUmQxWVQ2YnFPeTh0TEZCY1hRMUhlcjc2M0FXa0xvS3JxTXdCcEFDeVF4ZGZXMW1Kd2NCRHo4L000UER3MFFHUzVkWk5wdDg2c3I2OWI5MEJYVjllOG9paVIxS3F5K0xxNk9nd1BENk9zckF3WEZ4ZUlScU00T2pwQ1VWRlJ3WlpiV1FGc0FWUlZmVXBFZmFrOXdMRVpIeDlIWlNXZnk2NWVEREU5UFowR2NaTXJsOVFCQUpGVU1RelEwTkJneElkamt3bVJHYWRDUmtmbzJ0allzSTNRVHdDK3pSU1JUQ2FsRUFjSEJ5YmNUVFMxTFlDcXFyOFEwV01yRWV4RVkyTmpsaE1NTnpzN2k3MjlQYk1uQ2gwbm1RTy9FdEUzZHZ1QWdCZ2FHa3FMRTBQTXpjMWhkM2ZYZ0hEaWdoZElHY0J2Uk5RbDIza1pvcTJ0RFQwOVBXbjd3ZW5wS1VaSFIxRlNVbUwyaVJPUVhKYmlXQ3htM1FPZG5aMnJBTDZ3dXlsWG12ZURwcVltVkZWVm9ibTUyWUJnS0hhQVl5UTJPU2ZpYzNWQkJ2QWF3Q2RXeDJrV1gxOWZqNWFXRnZEbnM3TXpZMmtOaFVLRytQMzkvU3p4aFRwRHlRRGVFQkUvbEtmdHNseGhGcy9SRVJYbmF4eWJsWlVWSEI4ZjMrVHhJaG1MeGN5Y3BqMVNkblIwbUkrVHdnVWh2cjI5M1JBcHJyTURTMHRMU0NRU2poczNYM3ZFNXVhbWRROElnTlNKR0tDdnJ5K3RPYy9QejdHNHVKZ2xQbk1ENUdPSVY5Rzhxb2tqaTdpL1l3Q2VuUE5lWFYyTmNEaHNRREFRaTQvSDQ3Wm5JUjdIeDQzSnlVbVVsNWVicTVMYkR5Y25KeGdaR1VGcGFXbmFtVXNLWUxWNk1FUXdHRFI2WUhsNTJheThyRW5Gb2MrdDZNenZEd3dNR0FDcFR0b0NoTVBockI0UUF4bUMvMUtmQjJUeDRKak56TXg0MVk5TUFKNXphMnZMdWdjRVFEN1djQWJnQ0ZWVVZPUU1JU0lrTmtlaFN3YndGeEU5dER0S3VObDQySzNVSnM2MUtMenlpVk93RTRBWUVYMmV1UTlZYld6NWdMUzd4M1VybDYwRHZiMjlNNGxFNG52K0JibVFvcThUS0p1N3BxYm1ZR0ZoNFZNQm4vWGJhQ1FTK1RFZWovT3Z2dytJNkRNQVZkZEU1ejhpK2hkQVF0ZjFwS0lvSHdGNFZJZ0NCSVBCUDhiR3hyNXFiVzM5MHhZZzU0NjdwWUgrZjJodXFmRG10TDREdmdNZUsrQkh5R01CUFE5L0N6bHkyM3gyZ1FjaEFBQUFBRWxGVGtTdVFtQ0MiLz4KICA8L3N2Zz4=)
 ![Windows 10 Badge](https://img.shields.io/badge/Windows%2010%20Pro%20N-blue.svg?logo=data:image/svg%2bxml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNDk5LjYgMjUwMCIgdmlld0JveD0iMCAwIDI0OTkuNiAyNTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im0xMTg3LjkgMTE4Ny45aC0xMTg3Ljl2LTExODcuOWgxMTg3Ljl6IiBmaWxsPSIjZjE1MTFiIi8+PHBhdGggZD0ibTI0OTkuNiAxMTg3LjloLTExODh2LTExODcuOWgxMTg3Ljl2MTE4Ny45eiIgZmlsbD0iIzgwY2MyOCIvPjxwYXRoIGQ9Im0xMTg3LjkgMjUwMGgtMTE4Ny45di0xMTg3LjloMTE4Ny45eiIgZmlsbD0iIzAwYWRlZiIvPjxwYXRoIGQ9Im0yNDk5LjYgMjUwMGgtMTE4OHYtMTE4Ny45aDExODcuOXYxMTg3Ljl6IiBmaWxsPSIjZmJiYzA5Ii8+PC9zdmc+)
-![Gaming Badge](https://img.shields.io/badge/Gaming-red.svg?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIj48cGF0aCBkPSJNMTI5IDExMWMtNTUgNC05MyA2Ni05MyA3OEwwIDM5OGMtMiA3MCAzNiA5MiA2OSA5MWgxYzc5IDAgODctNTcgMTMwLTEyOGgyMDFjNDMgNzEgNTAgMTI4IDEyOSAxMjhoMWMzMyAxIDcxLTIxIDY5LTkxbC0zNi0yMDljMC0xMi00MC03OC05OC03OGgtMTBjLTYzIDAtOTIgMzUtOTIgNDJIMjM2YzAtNy0yOS00Mi05Mi00MmgtMTV6IiBmaWxsPSIjZmZmIi8+PC9zdmc+)
-![Greece](https://img.shields.io/badge/Greece-blue.svg?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHNoYXBlLXJlbmRlcmluZz0iZ2VvbWV0cmljUHJlY2lzaW9uIiB0ZXh0LXJlbmRlcmluZz0iZ2VvbWV0cmljUHJlY2lzaW9uIiBpbWFnZS1yZW5kZXJpbmc9Im9wdGltaXplUXVhbGl0eSIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHZpZXdCb3g9IjAgMCA1OC40MSA0MC42MyI+PGcgZmlsbC1ydWxlPSJub256ZXJvIj48cGF0aCBmaWxsPSIjMEQ1RUFGIiBkPSJNMy4yMSAwSDU1LjJjMS43NyAwIDMuMjEgMS40NCAzLjIxIDMuMjF2MzQuMjFjMCAxLjc3LTEuNDQgMy4yMS0zLjIxIDMuMjFIMy4yMUMxLjQ0IDQwLjYzIDAgMzkuMTkgMCAzNy40MlYzLjIxQzAgMS40NCAxLjQ0IDAgMy4yMSAweiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xMS45OCAwdjguODRoOS4xOXYtNC42aDM3LjI0djQuNkgyMS4xN3Y0LjU5aC05LjE5djkuMThoNDYuNDN2NC42SDB2LTQuNmg3LjM5di05LjE4SDBWOC44NGg3LjM5VjBoNC41OXptNDYuNDMgMTMuNDN2NC41OUgyMS4xN3YtNC41OWgzNy4yNHptMCAxOC4zN3Y0LjU5SDBWMzEuOGg1OC40MXoiLz48L2c+PC9zdmc+)
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/gzachariadis/Windows-10-21H1/main)
 ![GitHub Maintained](https://img.shields.io/badge/maintained-yes-yellow)
 
 ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/gzachariadis/Windows-10-21H1?logo=github&label=Latest%20Release)
 ![GitHub commits since latest release (by SemVer including pre-releases)](https://img.shields.io/github/commits-since/gzachariadis/Windows-10-21H1/Release?logo=github&label=Commits%20Since%20Latest%20Release)
-
 ![GitHub repo size](https://img.shields.io/github/repo-size/gzachariadis/Windows-10-21H1)
 
+</div>
 <br>
 
 <h1 align="center">
@@ -32,68 +30,49 @@
   <i align="center">Windows 10 Pro N, version 22H2 [19045.3570] (Updated October 2023)</i>
 </p>
 
+<br>
+
 <h1 align="center">Windows ISO Building and Tweaking (Pre-Install)</h1>
 
-<div>This repository is used as a virtual storage space for everything I have managed to track down and use over the years, in my effort of creating, optimizing and maintaining my Windows System. My main goal is to keep my System working as optimally as possible, and remove anything extra out of Windows 10 ISO. This is <b>not meant to be a universal build</b>, you shoudn't attempt to copy verbatim and expect it to work for you. Please consider yourself advised.</div>
-<br>
-<div>This took me a while to compile, work on, and test, so feel free to leave a star if you felt it's useful or helped you in any way.</div>
-<br>
-
-<!-- TOC -->
-
-- [Services](#services)
-    - [System Services](#system-services)
-    - [Per-user Services Summary](#per-user-services-summary)
-- [Post-Setup Scripts](#post-setup-scripts)
-- [Unattended Setup](#unattended-setup)
-- [First Boot](#first-boot)
-  - [Applications](#applications-1)
-  - [Categories](#categories)
-    - [Security](#security-1)
-    - [Maintenance](#maintenance)
-    - [Communication](#communication)
-    - [Tools](#tools)
-    - [Package Managers](#package-managers)
-    - [Multimedia](#multimedia)
-    - [Personalization](#personalization)
-    - [Tiling Window Manager](#tiling-window-manager)
-    - [Browsers](#browsers)
-      - [LibreWolf vs Firefox](#librewolf-vs-firefox)
-      - [User.js Configuration](#userjs-configuration)
-        - [Sources](#sources)
-      - [Extensions](#extensions)
-  - [Maintenance](#maintenance-1)
-    - [Scripts](#scripts)
-  - [Bibliography](#bibliography)
-      - [Projects](#projects)
-      - [Scripts](#scripts-1)
-      - [Tweak Collections](#tweak-collections)
-      - [Services](#services-1)
-      - [Github Resources](#github-resources)
-      - [NTLite Presets](#ntlite-presets)
-      - [Guides \& Tutorials](#guides--tutorials)
-      - [Resources](#resources)
-      - [Language Packs](#language-packs-1)
-      - [Post-Install](#post-install)
-      - [Youtube \& Reddit](#youtube--reddit)
-
-<!-- /TOC -->
+<div align="center">This repository is a virtual storage space for everything I have managed to track down and use over the years, in my effort of creating, optimizing and maintaining Windows Systems. I run Windows only for the purpose of using Office Products and other non-Linux compatible software. This is <b>not meant to be a universal build</b> and you shoudn't attempt to copy verbatim and expect it to work for you. Please consider yourself advised.</div>
 
 <br>
 
-## Requirements
+<div align="center">This guide is seperated into two main parts. Part 1 relates to ISO Building and Configuration, this you will only have to do all over again with a new ISO, in case you want to reinstall a newer version of Windows, other than that, you should be able to re-use the optimized Windows ISO for as long as your heart desires. Part 2 relates to Post Install, things like what applications to install, what scripts to run, how to maintain your system so it last longer etc.</div>
 
-- Webcam Support
+<br>
 
-- Microphone Support
+<h1 align="center">System Requirements</h1>
 
-- Nvidia Drivers (Control Panel included)
+<p align="center">
+  <i align="center">This is a list of requirements that I have for my systems. I happen to use a WiFi Wireless Card for my Computer and a Bluetooth Keyboard and Mouse and a Microphone, if you're requirements are different, please act accordingly. </i>
+</p>
+<br>
+<p>Requirements</p>
 
-## Language Packs
+- Webcam & Microphone Support
+
+- Winget & Microsoft Store Compatibillity
+
+- Scoop & Chocolatey Compatibillity
+
+- Bluetooth & Wi-Fi Support
+
+- Compatibillity with Elgato StreamDeck Software
+
+- Windows Updates????????
+
+- Hyper-V Compatibillity - used to run Tails on VMs.
+
+<br>
+
+<h1 align="center">Part 1 - ISO Building & Configuration</h1>
+
+### Language Packs
 
 - Greek Language Pack (for Keyboard Layout)
 
-## Fonts
+### Fonts
 
 I use [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts#option-3-install-script).  
 
@@ -101,17 +80,17 @@ I use [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts#option-3-install-scri
 
 ''' PowerShell.exe -ExecutionPolicy Bypass -File .\install.ps1'''
 
-## Drivers
-
-The only drivers, I have ever had problems with on my system was NVIDIA Drivers and Bluetooth Compatibillity. I could write the plethora of issues, I have come across, but I won't bore you.
-
-<br>
+### Drivers
 
 This is my current working drivers that I have no problem with, as of the latest release.
 
-- NVIDIA Driver : 
+- NVIDIA Driver - 
 
-- WiFi & Bluetooth Driver : 
+- WiFi & Bluetooth Driver - 
+
+<br>
+
+Plese do use [NVCleanInstall]() when downloading and installing any NVIDIA Drivers. Settings [here]().
 
 ## Registry Tweaks
 
@@ -214,7 +193,7 @@ Tweaks are Categorized below.
 
 * [Remove Dropbox from Navigation Pane](<Pre-Install/Registry-Files/File Explorer/Remove Dropbox from Navigation Pane.reg>) - This stops Dropbox from Appearing in File Explorer.
 
-### Gaming Optimization
+### Gaming
 
 * [Disable Xbox Game Bar](Pre-Install/Registry-Files/Gaming%20Optimization/Disable%20Xbox%20Game%20Bar.reg) 
 
@@ -330,83 +309,242 @@ This is a list of per-user services which I disable. These only prevents the ser
 
 # Unattended Setup
 
-<h1 align="center">Windows Live Install (Post-Install)</h1>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h1 align="center">Part 2 - Windows Live Install (Post-Install)</h1>
 
 <div align="center">Having reached this far, you should now have a Live System.</div> 
 <br>
+
+<div>From now on, this repository is geared towards keeping this live setup as bloat-free and as consistently performant as possible over the long haul. Keep in mind, that my advice is for you to reinstall a new Windows every 3 to 6 months and re-do this whole thing, there are many automated ways to save your configuration and re-apply them, and having a second hard drive which you considently keep your important files should make this easier for you.</div>
+
 <br>
-<div>From now on, this repository is geared towards keeping this live setup as bloat-free and as consistently performant as possible.</div>
 
-# First Boot
+# Prerequisities Install
 
-Install [Chocolatey](https://chocolatey.org/install)
+- [Chocolatey](https://chocolatey.org/install)
+- [Scoop](https://scoop.sh/)
+- [7-Zip](https://www.7-zip.org/)
+
+
+### [Microsoft Visual C++ Redistributable Runtimes](https://github.com/abbodi1406/vcredist)
+
+- Download [here.](https://github.com/abbodi1406/vcredist/releases/download/v0.82.0/VisualCppRedist_AIO_x86_x64.exe)
+- Execute the EXE.
+
+- Download [here.](https://www.majorgeeks.com/files/details/visual_c_runtime_installer.html)
+- Execute the EXE.
+
+
+### 
+
+### Chocolatey
+
+```
+Set-ExecutionPolicy AllSigned
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+
+### Scoop
+
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+```
+
+## Debloating & Optimizing
+
+The following tools, are able to help you optimize and debloat your system.
+
+### [Optimizer](https://github.com/hellzerg/optimizer/releases)
+
+### [Winaero Tweaker](https://winaero.com/winaero-tweaker/)
+
+### [Privacy.Sexy](https://privacy.sexy/)
+
+### [Chris Titus Tech's Windows Utility](https://github.com/ChrisTitusTech/winutil)
+
+Run using 
+
+```
+irm https://christitus.com/win | iex
+```
+
+### [Windows 10 Debloater - Sycnex](https://github.com/Sycnex/Windows10Debloater)
+
+- Download from [here.](https://github.com/Sycnex/Windows10Debloater/archive/refs/heads/master.zip)
+- Extract using 7-Zip.
+- Open Powershell as Administrator.
+- Navigate to Scripts Folder
+
+<br>
+
+Run the following commands 
+
+```
+Set-ExecutionPolicy Unrestricted -Force
+.\Windows10DebloaterGUI.ps1
+```
+
+### [Win 10 Bloat Remover](https://github.com/Fs00/Win10BloatRemover)
+
+- Download from [here.](https://github.com/Fs00/Win10BloatRemover/releases/download/5.0/Win10BloatRemover_5.0.zip)
+- Unzip using 7-Zip.
+- Execute...
+- Done! :)
+
+
+### [Quick Boost](https://github.com/SanGraphic/QuickBoost/releases/)
+
+- Download from [here.](https://github.com/SanGraphic/QuickBoost/releases/download/2.9.4/QuickBoost.exe)
+- Run the EXE
+
+### [Ultimate Windows  Tweaker 4.8](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10)
+
+- Download from [here.](https://www.thewindowsclub.com/downloads/UWT4.zip)
+- Unzip using 7-Zip.
+- Run the EXE.
+
+### [WinSlap](https://github.com/svenmauch/WinSlap)
+
+My preference would be to run this last, or first, as it will issue an automatic restart of the system when completed.
+
+- Download from [here.](https://github.com/svenmauch/WinSlap/releases/download/v1.8/WinSlap.exe)
+- Run the EXE
+
+## [Remove MS Edge - ShadowWhisperer](https://github.com/ShadowWhisperer/Remove-MS-Edge)
+
+- Download from [here.](https://github.com/ShadowWhisperer/Remove-MS-Edge/blob/main/Remove-Edge_GUI.exe?raw=true)
+- Execute the EXE
+- Done! :)
+
 
 ## Applications
 
-This is the list of Applications I download on my Gaming System, as well as my current configuration for these.
+This is the list of Applications Categories, that I personally prefer to have on my Windows Systems, they are seperated by "Purpose". In some occasions, popular alternatives are proposed for you.
+
+You can use the [Winget Client](https://github.com/microsoft/winget-cli) and [Winutil by Chris Titus] to issue an automated install.
 
 ## Categories 
 
-- [Tools](#Tools)
-- [Browser](#Browsers)
-- [Multimedia](#Multimedia)
-- [Security & Privacy](#Security)
-- [Personalization](#Personalization)
+### Drivers & Controller
 
-### Security
+- [Snappy Driver Installer]()
+- [NVCleanInstall]()
 
-- [AdwCleaner](https://toolslib.net/downloads/viewdownload/1-adwcleaner/)
+These two might differ depending on your hardware.
+
+- [MSI AfterBurner]()
+- [iCUE]()
+
+### System Security
+
+As far as Antivirus software goes, I wouldn't trust any free-option out there, if you want to buy one, go with Sophos, that's just my personal preference, it has high capture rates and had most success with it, a mix of MalwareBytes and SimpleWall does it for me, as I don't use this system to browse a lot.
+
 - [MalwareBytes](https://www.malwarebytes.com/)
 - [SimpleWall](https://www.henrypp.org/product/simplewall) or [TinyWall](https://tinywall.pados.hu/)
 
-### Maintenance
+### System Maintenance
+
+#### Software Removal
+
+- [Bulk Crap Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller)
+- [CC Cleaner]()
+
+#### Duplicate Files
 
 - [BleachBit](https://www.bleachbit.org/)
 - [Czkawka](https://github.com/qarmin/czkawka/tree/master)
 - [dupeGuru](https://dupeguru.voltaicideas.net/)
 
-### Communication
+#### Optimize Performance
 
-- [Vencord - Discord mod](https://github.com/Vendicated/Vencord)
-
-### Tools
-
-- [Scrcpy](https://github.com/Genymobile/scrcpy)
-- [Bulk Crap Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller)
-- [WingetUI](https://github.com/marticliment/WingetUI) 
+- [Windows Memory Cleaner](https://github.com/IgorMundstein/WinMemoryCleaner)
 
 ### Package Managers
 
 - [Scoop](https://scoop.sh/)
 - [Chocolatey](https://chocolatey.org/install)
 
-### Multimedia
+### Team Communication
 
-- [EarTrumpet](https://github.com/File-New-Project/EarTrumpet)
-- [Thorium Reader](https://www.edrlab.org/software/thorium-reader/) or [EPUB Reader](https://icecreamapps.com/Ebook-Reader/) or [Koodo](https://koodo.960960.xyz/en)
+- [Vencord - Discord mod](https://github.com/Vendicated/Vencord)
+- [Microsoft Teams]()
+- [Slack]()
+- []
 
-### Personalization
+### Hardware Controllers
 
-- [Ueli](https://ueli.app/#/) or [Flow](https://www.flowlauncher.com/) ?????
-- [PreMiD](https://github.com/PreMiD/PreMiD)
 - [Elgato Stream Deck](https://www.elgato.com/us/en/s/downloads)
 
+### Tools
+
+- [Scrcpy](https://github.com/Genymobile/scrcpy)
+- [WingetUI](https://github.com/marticliment/WingetUI) 
+- [f.lux](https://justgetflux.com/)
+
+### E-Book Readers
+
+- [Thorium Reader](https://www.edrlab.org/software/thorium-reader/)
+- [EPUB Reader](https://icecreamapps.com/Ebook-Reader/)
+- [Koodo](https://koodo.960960.xyz/en)
+
+### Virtual Machines
+
+- []
+
+### Multimedia
+
+- [SpotX - Spotify Client](https://github.com/SpotX-Official/SpotX)
+  - [Custom Themes](https://spicetify.app/docs/getting-started/)
+
+### Search
+
+- [Ueli](https://ueli.app/#/)
+- [Flow](https://www.flowlauncher.com/)
+- [PowerToys Run]()
+
+### Activity Sharing
+
+- [PreMiD](https://github.com/PreMiD/PreMiD)
+
 ### Tiling Window Manager
+
+A window manager is a program that opens, renders, and manages windows.
+
+Here's some popular options
 
 - [WinWM](https://github.com/McYoloSwagHam/win3wm)
 - [Komorebi](https://github.com/LGUG2Z/komorebi)
 - [GlazeWM](https://github.com/glazerdesktop/GlazeWM)
 - [FancyWM](https://github.com/FancyWM/fancywm)
 
-### Browsers
+I opt for [Komorebi]() and [here's my configuration.]()
+
+### Browser
 
 - [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium)
-  
-#### LibreWolf vs Firefox
+- [LibreWolf](https://librewolf.net/)  
 
-I propose you use a hardened version of [Firefox](https://www.mozilla.org/en-US/firefox/browsers/) to get online when using your Windows System, considering any Windows system is stripped from most of the security, your browser is the most crucial defense you have. 
 
-- [LibreWolf](https://librewolf.net/)
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 #### User.js Configuration 
 
@@ -473,23 +611,23 @@ This is a list of the extensions, I apply to my Firefox Configuration, as of the
 
 #### Projects
 
-- [ ] [QuickBoost](https://github.com/SanGraphic/QuickBoost)
+- [x] [QuickBoost](https://github.com/SanGraphic/QuickBoost)
 
-- [ ] [Windows Memory Cleaner](https://github.com/IgorMundstein/WinMemoryCleaner)
+- [x] [Windows Memory Cleaner](https://github.com/IgorMundstein/WinMemoryCleaner)
 
-- [ ] [Better Privacy](https://github.com/hulr/BetterPrivacy)
+- [x] [Better Privacy](https://github.com/hulr/BetterPrivacy) - Unmaintained for a long time.
   
-- [ ] [Win Slap](https://github.com/svenmauch/WinSlap)
+- [x] [Win Slap](https://github.com/svenmauch/WinSlap)
 
-- [ ] [Ultimate Windows Tweaker 4](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10)
+- [x] [Ultimate Windows Tweaker 4](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10)
 
-- [ ] [Winaero Tweaker](https://winaero.com/winaero-tweaker/)
+- [x] [Winaero Tweaker](https://winaero.com/winaero-tweaker/)
 
 #### Scripts
 
-- [ ] [Remove-MS-Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge)
+- [x] [Remove-MS-Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge)
 
-- [ ] [AveYo's Fox](https://github.com/AveYo/fox)
+- [ ] [AveYo's Fox](https://github.com/AveYo/fox) - Didn't include since it's part of Chris Titus Winutil
 
 - [ ] [Windows-Optimize-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Debloat)
 
