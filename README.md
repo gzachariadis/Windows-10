@@ -362,8 +362,7 @@ Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 ### [7-Zip](https://www.7-zip.org/)
 
 - Download [here.](https://www.7-zip.org/a/7z2406-x64.exe)
-- Install by running the EXE.
-
+- Execute the EXE.
 
 ## Debloating & Optimizing
 
@@ -376,8 +375,6 @@ The following tools, are able to help you optimize and debloat your system.
 ### [Privacy.Sexy](https://privacy.sexy/)
 
 ### [Chris Titus Tech's Windows Utility](https://github.com/ChrisTitusTech/winutil)
-
-Run using 
 
 ```
 irm https://christitus.com/win | iex
@@ -403,34 +400,32 @@ Set-ExecutionPolicy Unrestricted -Force
 
 - Download from [here.](https://github.com/Fs00/Win10BloatRemover/releases/download/5.0/Win10BloatRemover_5.0.zip)
 - Unzip using 7-Zip.
-- Execute...
+- Execute the EXE.
 - Done! :)
-
 
 ### [Quick Boost](https://github.com/SanGraphic/QuickBoost/releases/)
 
 - Download from [here.](https://github.com/SanGraphic/QuickBoost/releases/download/2.9.4/QuickBoost.exe)
-- Run the EXE
+- Execute the EXE.
 
 ### [Ultimate Windows  Tweaker 4.8](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10)
 
 - Download from [here.](https://www.thewindowsclub.com/downloads/UWT4.zip)
 - Unzip using 7-Zip.
-- Run the EXE.
+- Execute the EXE.
 
 ### [WinSlap](https://github.com/svenmauch/WinSlap)
 
 My preference would be to run this last, or first, as it will issue an automatic restart of the system when completed.
 
 - Download from [here.](https://github.com/svenmauch/WinSlap/releases/download/v1.8/WinSlap.exe)
-- Run the EXE
+- Execute the EXE.
 
 ## [Remove MS Edge - ShadowWhisperer](https://github.com/ShadowWhisperer/Remove-MS-Edge)
 
 - Download from [here.](https://github.com/ShadowWhisperer/Remove-MS-Edge/blob/main/Remove-Edge_GUI.exe?raw=true)
-- Execute the EXE
+- Execute the EXE.
 - Done! :)
-
 
 ## Applications
 
