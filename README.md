@@ -333,23 +333,19 @@ This is a list of per-user services which I disable. These only prevents the ser
 - [Chocolatey](https://chocolatey.org/install)
 - [Scoop](https://scoop.sh/)
 - [7-Zip](https://www.7-zip.org/)
+- [Microsoft Visual C++ Redistributable Runtimes](https://github.com/abbodi1406/vcredist)
 
+### Redistributable Runtimes
 
-### [Microsoft Visual C++ Redistributable Runtimes](https://github.com/abbodi1406/vcredist)
+- Download [Redistributable Runtimes](https://github.com/abbodi1406/vcredist/releases/download/v0.82.0/VisualCppRedist_AIO_x86_x64.exe)
 
-- Download [here.](https://github.com/abbodi1406/vcredist/releases/download/v0.82.0/VisualCppRedist_AIO_x86_x64.exe)
-- Execute the EXE.
-
-- Download [here.](https://www.majorgeeks.com/files/details/visual_c_runtime_installer.html)
-- Execute the EXE.
-
-
-### 
+- [Download Mirror](https://www.majorgeeks.com/files/details/visual_c_runtime_installer.html) 
 
 ### Chocolatey
 
 ```
 Set-ExecutionPolicy AllSigned
+
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
@@ -357,6 +353,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ```
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
 Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 ```
 
