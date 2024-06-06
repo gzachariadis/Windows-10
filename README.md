@@ -264,7 +264,7 @@ You can follow the [link here](https://privacy.sexy/) and create your own config
 irm https://christitus.com/win | iex
 ```
 
-### [Windows 10 Debloater - Sycnex](https://github.com/Sycnex/Windows10Debloater)
+### [Windows 10 Debloater](https://github.com/Sycnex/Windows10Debloater)
 
 - Download from [here.](https://github.com/Sycnex/Windows10Debloater/archive/refs/heads/master.zip)
 - Extract using 7-Zip.
@@ -277,6 +277,9 @@ Run the following commands
 
 ```
 Set-ExecutionPolicy Unrestricted -Force
+```
+
+```
 .\Windows10DebloaterGUI.ps1
 ```
 
@@ -300,12 +303,10 @@ Set-ExecutionPolicy Unrestricted -Force
 
 ### [WinSlap](https://github.com/svenmauch/WinSlap)
 
-My preference would be to run this last, or first, as it will issue an automatic restart of the system when completed.
-
 - Download from [here.](https://github.com/svenmauch/WinSlap/releases/download/v1.8/WinSlap.exe)
 - Execute the Executable.
 
-## [Remove MS Edge - ShadowWhisperer](https://github.com/ShadowWhisperer/Remove-MS-Edge)
+## [Remove Microsoft Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge)
 
 - Download from [here.](https://github.com/ShadowWhisperer/Remove-MS-Edge/blob/main/Remove-Edge_GUI.exe?raw=true)
 - Execute the Executable.
@@ -316,6 +317,8 @@ My preference would be to run this last, or first, as it will issue an automatic
 This is the list of Applications Categories, that I personally prefer to have on my Windows Systems, they are seperated by "Purpose". In some occasions, popular alternatives are proposed for you.
 
 You can use the [Winget Client](https://github.com/microsoft/winget-cli) and [Winutil by Chris Titus](https://github.com/ChrisTitusTech/winutil) to issue an automated install.
+
+My preferences include mostly Open-Source community maintained software, in case no software of that sort serves my purpose, I opt for commerical or closed-source alternatives.
 
 ## Categories 
 
@@ -344,17 +347,17 @@ As far as Antivirus software goes, I wouldn't trust any free-option out there, i
 
 #### Cleaners
 
-- [CC Cleaner]()
-
 #### Duplicate Files
 
-- [BleachBit](https://www.bleachbit.org/)
 - [Czkawka](https://github.com/qarmin/czkawka/tree/master)
 - [dupeGuru](https://dupeguru.voltaicideas.net/)
 
-#### Optimize Performance
+#### Cleaning Utillities
 
 - [Windows Memory Cleaner](https://github.com/IgorMundstein/WinMemoryCleaner)
+- [BleachBit](https://www.bleachbit.org/)
+- [CC Cleaner]()
+
 
 ### Package Managers
 
@@ -393,6 +396,32 @@ As far as Antivirus software goes, I wouldn't trust any free-option out there, i
 - [Ueli](https://ueli.app/#/)
 - [Flow](https://www.flowlauncher.com/)
 - [PowerToys Run]()
+
+### Terminal
+
+- [Tabby]()
+
+### Password Managers
+
+- [Bitwarden]()
+
+### Text-Expansion
+
+- [Espanso](https://espanso.org/)
+
+### Screenshots
+
+- [FlameShot]()
+
+### Software Development
+
+- [Visual Studio Code]()
+- [Git Bash]()
+- [GitHub Desktop]()
+
+### Gaming
+
+- [Steam]()
 
 ### Activity Sharing
 
