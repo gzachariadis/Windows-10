@@ -32,41 +32,48 @@
 
 <br>
 
-<h1 align="center">Windows ISO Building and Tweaking (Pre-Install)</h1>
+<h1 align="center">Introduction</h1>
 
-<div align="center">This repository is a virtual storage space for everything I have managed to track down and use over the years, in my effort of creating, optimizing and maintaining Windows Systems. I run Windows only for the purpose of using Office Products and other non-Linux compatible software. This is <b>not meant to be a universal build</b> and you shoudn't attempt to copy verbatim and expect it to work for you. Please consider yourself advised.</div>
-
-<br>
-
-<div align="center">This guide is seperated into two main parts. Part 1 relates to ISO Building and Configuration, this you will only have to do all over again with a new ISO, in case you want to reinstall a newer version of Windows, other than that, you should be able to re-use the optimized Windows ISO for as long as your heart desires. Part 2 relates to Post Install, things like what applications to install, what scripts to run, how to maintain your system so it last longer etc.</div>
+<div align="justify">This repository is a virtual public storage space for everything I have managed to track down and use over the years, in my effort of creating, optimizing and maintaining Windows Systems. I run Windows only for the purpose of using Office Products and other non-Linux compatible software. This is <b>not meant to be a universal build</b> and you shoudn't attempt to copy verbatim and expect it to work for you. <b><i>Please consider yourself advised.</i></b></div>
 
 <br>
 
-<h1 align="center">System Requirements</h1>
+<div align="justify">This guide is seperated into two main parts. Part 1 relates to ISO Building and Configuration, this you will only have to do all over again with a new ISO, in case you want to reinstall a newer version of Windows, other than that, you should be able to re-use the optimized Windows ISO for as long as your heart desires. Part 2 relates to Post Install, things like what applications to install, what scripts to run, how to maintain your system so it lasts longer etc.</div>
 
-<p align="center">
-  <i align="center">This is a list of requirements that I have for my systems. I happen to use a WiFi Wireless Card for my Computer and a Bluetooth Keyboard and Mouse and a Microphone, if you're requirements are different, please act accordingly. </i>
-</p>
 <br>
+
+<h2 align="center">System Requirements</h2>
+
+
 <p>Requirements</p>
 
 - Webcam & Microphone Support
 
-- Winget & Microsoft Store Compatibillity
-
-- Scoop & Chocolatey Compatibillity
+- Package Managers
+  - Scoop
+  - Chocolatey
+  - Windows Store
+  - Winget 
 
 - Bluetooth & Wi-Fi Support
+  - WiFi Wireless Card - 
 
 - Compatibillity with Elgato StreamDeck Software
 
-- Windows Updates????????
+- Windows Security Updates
 
-- Hyper-V Compatibillity - used to run Tails on VMs.
+- Virtualization capabillities???
+
+- Greek Language Pack (Keyboard Layout)
 
 <br>
 
-<h1 align="center">Part 1 - ISO Building & Configuration</h1>
+<h2 align="center">Version Choice</h2>
+
+Why did I choose Windows Pro N?
+
+<h1 align="center">Part 1</h1>
+<h2 align="center">Building & Configuring</h2>
 
 ### Language Packs
 
@@ -92,7 +99,11 @@ This is my current working drivers that I have no problem with, as of the latest
 
 Plese do use [NVCleanInstall]() when downloading and installing any NVIDIA Drivers. Settings [here]().
 
-## Registry Tweaks
+### Registry Tweaks
+
+I have compiled a series of registry tweaks from various sources over the years, as well as created a few of my own in my attempt to optimize my user experience. You can find a comphensive detailed list of those [here.] In order to use them, go ahead and download the repository from the [Releases]() and after extracting the files, navigate to Pre-Install > Registry-Files and execute in a live-system or copy-paste the ones you like from each category into a seperate folder, and import them into NTLite.
+
+The tweaks are categorized under Categories and named after their purpose.
 
 Each registry tweak follows the following file formula.
 
@@ -116,9 +127,8 @@ Windows Registry Editor Version 5.00
 Contents of the File.
 ```
 
-I have tried my best to do exensive reseach on each tweak.
-
 **Before!** you use any tweak(s) ensure you read these comment(s) inside the .reg (labeled with semicolon) to see what it really changes. 
+I have tried my best to do exensive reseach on each tweak, but that doesn't mean that subtitutes your own judgment and liabillity.
 
 #### **Please backup your registry before any changes or use a Virtual-Machine or a spare computer. I am not liable for any problems that arise from executing these.**
 
@@ -128,155 +138,6 @@ After you have applied the settings using the registry files, I suggest you go i
 functionallity it promises.
 
 The [Sources](#Bibliography) where I gathered the plethora of registry tweaks that can be found under this repository, are at the bottom of this file. Enjoy :)
-
-Tweaks are Categorized below.
-
-## Categories (A-Z)
-
-### Appearance & Personalization
-
-* [Set Default Display Scaling](Pre-Install/Registry-Files/Appearance%20&%20Personalization/Set%20Default%20Display%20Scaling.reg) 
-
-* [Enable Automatically Hide Scroll Bars in Windows 10 Apps](Pre-Install/Registry-Files/Appearance%20&%20Personalization/Enable%20Automatically%20Hide%20Scroll%20Bars%20in%20Windows%2010%20Apps.reg) 
-
-* [Disable Screen Savers](Pre-Install/Registry-Files/Appearance%20&%20Personalization/Disable%20Screen%20Savers.reg)
- 
-* [Disable Visual Feedback](Pre-Install/Registry-Files/Appearance%20&%20Personalization/Disable%20Visual%20Feedback.reg) 
-
-### Applications
-
-#### One Drive 
-
-* [Prevent Moving Windows Known Folders to OneDrive](Pre-Install/Registry-Files/Applications/One%20Drive/Prevent%20Moving%20Windows%20Known%20Folders%20to%20OneDrive.reg) 
-
-#### PowerToys
-
-* [Disable PowerToys SCOOBE Dialog](Pre-Install/Registry-Files/Programs/PowerToys/Disable%20PowerToys%20SCOOBE%20Dialog.reg)
-
-#### Visual Code Studio
-
-* [Disable Visual Code Telemetry](Pre-Install/Registry-Files/Applications/Visual%20Code%20Studio/Disable%20Visual%20Code%20Telemetry.reg)
-
-#### Edge
-
-* [Remove Bing Discover Button from Edge](Pre-Install/Registry-Files/Applications/Edge%20Browser/Remove%20Bing%20Discover%20Button.reg)
-
-* [Disable Screen Edge Swipe](Pre-Install/Registry-Files/Applications/Edge%20Browser/Disable%20Screen%20Edge%20Swipe.reg)
-
-### Cache
-
-### Context Menu
-
-#### Additions
-
-#### Removals
-
-### Control Panel
-
-### File Explorer
-
-* [Disable Pop-up Descriptions](<Pre-Install/Registry-Files/File Explorer/Disable Pop-up Descriptions.reg>) - When you hover over a File or Folder you will not see basic details about said File or Folder. 
-
-* [Disable Show Drive Letters First](<Pre-Install/Registry-Files/File Explorer/Disable Show Drive Letters First.reg>) - When you open This PC in File Explorer, you are shown a list of drives. By default, you will see a drive name followed by the drive letter. <sub><sup> ${\color{red}Default \space Behavior \space}$ </sup></sub> 
-
-* [Drag and Drop Move](<Pre-Install/Registry-Files/File Explorer/Drag and Drop Move.reg>) - Windows has a default action when you drag and drop a File or Folder, this changes this behavior to move the File or Folder instead of copying it.
-
-* [Enable File Options](<Pre-Install/Registry-Files/File Explorer/Enable File Options.reg>) - The Folder Options (also known as the File Explorer Options) comprise various file and folder settings such as Visibillity and Access Rights.
-
-* [File Transfer Dialog - Show Fewer Details](<Pre-Install/Registry-Files/File Explorer/File Transfer Dialog - Show Fewer Details .reg>) -  Windows will show you minimal details displaying the progress when copying files in File Explorer. <sub><sup> ${\color{red}Default \space Behavior \space}$ </sup></sub> 
-
-* [Libraries Above This PC](<Pre-Install/Registry-Files/File Explorer/Libraries Above This PC.reg>) - Move Libraries (Music,Movies,Downloads etc.) above this PC on the File Explorer Navigation Pane.
-
-* [Open to Downloads Folder](https://github.com/gzachariadis/Windows-10/blob/main/Pre-Install/Registry-Files/File%20Explorer/Open%20to%20Downloads%20Folder.reg) - Each time File Explorer Launches, it will open to the Downloads Folder.
-
-* [Remove Devices and Printers from This PC](<Pre-Install/Registry-Files/File Explorer/Remove Devices and Printers From This PC.reg>) - Remove Devices & Printers section from showing under This PC on View Pane
-
-* [Remove Dropbox from Navigation Pane](<Pre-Install/Registry-Files/File Explorer/Remove Dropbox from Navigation Pane.reg>) - This stops Dropbox from Appearing in File Explorer.
-
-### Gaming
-
-* [Disable Xbox Game Bar](Pre-Install/Registry-Files/Gaming%20Optimization/Disable%20Xbox%20Game%20Bar.reg) 
-
-#### Physical Devices
-
-##### Keyboard
-
-* [Speed-up Keyboard Layout Switch](Pre-Install/Registry-Files/Hardware/Physical%20Devices/Keyboard/Speed-up%20Keyboard%20Layout%20Switch.reg) 
-
-* [Highlight Misspelled Words OFF](Pre-Install/Registry-Files/Hardware/Physical%20Devices/Keyboard/Highlight%20Misspelled%20Words%20OFF.reg) - Disable the Windows 10 option to Highlight Misspelled Words.
-
-* [Autocorrect Misspelled Words OFF](Pre-Install/Registry-Files/Hardware/Physical%20Devices/Keyboard/Autocorrect%20Misspelled%20Words%20OFF.reg) - Disable the Windows 10 option to Autocorrect Misspelled Words.
-
-##### Removable Drives
-
-* [Disable System Volume Information Folder for Removable Drives](Pre-Install/Registry-Files/Hardware/Physical%20Devices/Removable%20Devices/Disable%20System%20Volume%20Information%20Folder%20for%20Removable%20Drives.reg) 
-
-### Networking
-
-* [Disable Administrative Shares](Pre-Install/Registry-Files/Networking/Disable%20Administrative%20Shares.reg) - Administrative Shares are used in Windows to remotely access and manage a computer. They carry security risks if mismanaged and unnecessary for Gaming. 
-
-* [Disable Mapped Drives in Elevated PowerShell and Command Prompt](Pre-Install/Registry-Files/Networking/Disable%20Mapped%20Drives%20in%20Elevated%20PowerShell%20and%20Command%20Prompt.reg) - Disable Mapped Drives in Elevated PowerShell and Command Prompt
-
-### Power
-
-### Security
-
-### Storage & Memory
-
-### Tracking & Telemetry
-
-* [Disable Automatic Installation of PC Health Application](Pre-Install/Registry-Files/Tracking%20&%20Telemetry/Disable%20Automatic%20Installation%20of%20the%20PC%20Health%20Check%20Application.reg) 
-
-* [Block Windows 11 - 22H2](Pre-Install/Registry-Files/Windows%20Updates/Block%20Windows%2011%20-%2022H2.reg) - Block Windows 11 from Installing by pinning Windows 10 to specified branch and disable upgrading to the Windows 11;
-
-### Windows Features
-
-* [Disable Advanced Indexing](Pre-Install/Registry-Files/Windows%20Features/Disable%20Advanced%20Indexing.reg) - Prevent Windows from creating and manage a Search Index to show search results quickly, by scanning your Files.
-
-* [Disable App Launch Tracking](Pre-Install/Registry-Files/Windows%20Features/Disable%20App%20Launch%20Tracking.reg) - App Launch Tracking is a Windows 10 feature that can show you a list of most used apps in the Start Menu.
-
-* [Are You Sure You Want to Run This File](Pre-Install/Registry-Files/Windows%20Features/Are%20You%20Sure%20You%20Want%20to%20Run%20This%20File.reg) - Disables the prompt saying "The publisher could not be verified. Are you sure you want to run this software?" for most file types.
-
-* [Turn AutoPlay OFF](Pre-Install/Registry-Files/Windows%20Features/Turn%20AutoPlay%20Off.reg) - Disables the AutoPlay Windows Feature which determines what to do with a new device automatically.
-
-* [Disable Find My Device](Pre-Install/Registry-Files/Windows%20Features/Disable%20Find%20My%20Device.reg) - When Find My Device is on, the device and its location are registered in the cloud so that the device can be located. 
-
-* [Enable Run Dialog](Pre-Install/Registry-Files/Windows%20Features/Enable%20Run%20Dialog.reg) - Windows Key + R opens the Run Menu.
-
-* [Disable Shared Experiences](Pre-Install/Registry-Files/Windows%20Features/Disable%20Shared%20Experiences.reg) - Shared Experience allows you to share experiences, send messages, weblinks, and even open apps across multiple devices.
-
-* [Disable Steps Recorder](Pre-Install/Registry-Files/Windows%20Features/Disable%20Steps%20Recorder.reg) -
-Steps Recorder (Problem Steps Recorder) assists in troubleshooting problems by capturing a screenshot for every mouse or keyboard click. 
-
-* [Enable Task Manager](Pre-Install/Registry-Files/Windows%20Features/Enable%20Task%20Manager.reg) - The Windows Task Manager is a powerful tool packed with useful information, from your system's overall resource usage to detailed statistics about each process
-  
-* [Disable USB Write Protection](Pre-Install/Registry-Files/Windows%20Features/Disable%20USB%20Write%20Protection.reg) - Write Protection Mode is a hardware or software feature that prevents the files on a USB drive from being removed, copied or altered.
-
-### Windows Settings
-
-* [Disable Changing Date and Time Formats](Pre-Install/Registry-Files/Windows%20Settings/Disable%20Changing%20Date%20and%20Time%20Formats.reg) - Disable the Option of Changing System Time and Date Formats.
-
-* [Enable Changing Desktop Icons](Pre-Install/Registry-Files/Windows%20Settings/Enable%20Changing%20Desktop%20Icons.reg) - Enable the Option of Deciding which icons to the displayed in Desktop.
-
-* [Disable Other Device Usage](Pre-Install/Registry-Files/Windows%20Settings/Device%20Usage/Disable%20Other%20Device%20Usage.reg) - Disables Every Device Usage Scenario except Gaming. Doesn't enable Gaming either though.
-
-* [Enable Gaming Device Usage](Pre-Install/Registry-Files/Windows%20Settings/Device%20Usage/Enable%20Gaming%20Device%20Usage.reg) 
-
-* [Disable File History](Pre-Install/Registry-Files/Windows%20Settings/Disable%20File%20History.reg) - File History is a backup option in Windows 8, 10, and 11 to replace lost, damaged, or deleted files. 
-
-* [Disable Block Downloaded Files](Pre-Install/Registry-Files/Windows%20Settings/Disable%20Block%20Downloaded%20Files.reg) - Windows 10 Automatically Blocks Files from Unknown Resources
-
-* [Hide Full Details When Deleting a File](Pre-Install/Registry-Files/Windows%20Settings/Hide%20Full%20Details%20When%20Deleting%20a%20File.reg) - When you right-click on any file, you are prompted faced with a prompt this setting determines how much file info is shown under that prompt.
-
-#### Start Menu & Taskbar
-
-* [Disable Suggestions](Pre-Install/Registry-Files/Windows%20Settings/Start%20Menu%20&%20Taskbar/Disable%20Suggestions%20in%20Start%20menu.reg) 
-  
-* [Disable Suggested Applications](Pre-Install/Registry-Files/Windows%20Settings/Start%20Menu%20&%20Taskbar/Disable%20Suggested%20Applications%20in%20Start%20menu.reg) 
-
-### Windows Updates
-
-* [Turn Off Auto-Adjust Active Hours](Pre-Install/Registry-Files/Windows%20Updates/Turn%20Off%20Auto-Adjust%20Active%20Hours.reg) 
 
 # Services
 
@@ -291,21 +152,19 @@ Feel free to copy this setup but don't hold me liable for anything that is wrong
 
 This is a list of services which Microsoft has allowed me to disable succesfully as of this latest release, if a service is not on this list then I am unsure of the impacts it may have on your desktop experience. Be mindful, that I use Wireless connection for my Gaming System, so if you using a wired connection your configuration will vary.
 
-<br>
-
-
-
-<br>
-
 Here's a NTLite Preset that matches this configuration.
 
 ### Per-user Services Summary
 
 This is a list of per-user services which I disable. These only prevents the services from being started on login. Per-user services are dynamically created upon creating a user session for example you'll see ContactData service but also see the running service ContactData_37664 (per-user service), each user logged into the system will have their on per user service for those listed below if it is configured to be enabled.
 
-# Post-Setup Scripts
+### First Boot Scripts
 
-* [Remove Dropbox from Navigation Pane](Post-Install/Step%201/Scripts/Remove%20Dropbox%20From%20Navigation%20Pane.cmd) - 
+If you ever looked at custom versions of Windows, you might be familiar with something described as playbooking, a series of rules and scripts running on your system to provide the same experience every time, I have done something similar here, by adding a batch of scripts into a folder and have them on the first boot of each new system. Just run the <i>run_all_scripts.bat</i> and you good to go.
+
+A detailed catalog of all the scripts running is to be found [here.]
+
+Customize your execution catalog, by deleting scripts you don't want to run from the file structure.
 
 # Unattended Setup
 
@@ -319,7 +178,7 @@ This is a list of per-user services which I disable. These only prevents the ser
 <br>
 <br>
 
-<h1 align="center">Part 2 - Post-Install Configuration</h1>
+<h1 align="center">Part 2</h1>
 
 <div align="center">Having reached this far, you should now have a Live System.</div> 
 <br>
@@ -482,6 +341,9 @@ As far as Antivirus software goes, I wouldn't trust any free-option out there, i
 #### Software Removal
 
 - [Bulk Crap Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller)
+
+#### Cleaners
+
 - [CC Cleaner]()
 
 #### Duplicate Files
@@ -499,7 +361,7 @@ As far as Antivirus software goes, I wouldn't trust any free-option out there, i
 - [Scoop](https://scoop.sh/)
 - [Chocolatey](https://chocolatey.org/install)
 
-### Team Communication
+### Social Media & Communication Tools
 
 - [Vencord - Discord mod](https://github.com/Vendicated/Vencord)
 - [Microsoft Teams]()
@@ -509,7 +371,7 @@ As far as Antivirus software goes, I wouldn't trust any free-option out there, i
 
 - [Elgato Stream Deck](https://www.elgato.com/us/en/s/downloads)
 
-### Tools
+### Personal Preferences (Additional Software)
 
 - [Scrcpy](https://github.com/Genymobile/scrcpy)
 - [WingetUI](https://github.com/marticliment/WingetUI) 
@@ -520,10 +382,6 @@ As far as Antivirus software goes, I wouldn't trust any free-option out there, i
 - [Thorium Reader](https://www.edrlab.org/software/thorium-reader/)
 - [EPUB Reader](https://icecreamapps.com/Ebook-Reader/)
 - [Koodo](https://koodo.960960.xyz/en)
-
-### Virtual Machines
-
-- []
 
 ### Multimedia
 
@@ -558,6 +416,8 @@ I opt for [Komorebi]() and [here's my configuration.]()
 - [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium)
 - [LibreWolf](https://librewolf.net/)  
 
+You can welcome, to check my lengthy guide on Browser configuration, by clicking the link [here.]()
+
 <br>
 <br>
 <br>
@@ -576,6 +436,8 @@ I opt for [Komorebi]() and [here's my configuration.]()
 * [clean_wrea.cmd](Post-Install/Maintenance/Scripts/Before%20Windows%20Updates/clean_wrea.cmd) - remove all files and directories from $WinREAgent directory;
 
 ## Bibliography
+
+A lengthy catalog of resources, files, configurations, etc. etc. I have found useful and looked at as creating this.
 
 #### Projects
 
