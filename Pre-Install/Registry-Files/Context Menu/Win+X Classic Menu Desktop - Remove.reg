@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; Add Win+X Classic Menu to Desktop Context Menu
+; https://www.majorgeeks.com/content/page/add_winx_classic_menu.html
+
+[-HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu]
