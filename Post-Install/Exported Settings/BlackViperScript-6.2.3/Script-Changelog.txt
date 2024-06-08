@@ -1,0 +1,532 @@
+-----------------------------------------------------------------------------------
+6.2.3 (06-22-2020)
+
+Fixed a missing bracket thanks to 'guppyfaced'
+
+Some Internal Script Changes
+
+Fixed a bug where an error would show when clicking yes to the skip build and/or edition check popup
+
+-----------------------------------------------------------------------------------
+6.2.0 (11-27-2019)
+
+How the GUI's looks has been updated, thanks to 'https://github.com/mcc85s/'
+Changed how the Tabs look
+Added a timed popup window before services is changed to prevent run being clicked multi times
+Most Popup windows with a Yes/No are now timed 
+^ These windows will stay open for 20 seconds Max (timed out boxes = no)
+Fixed bug when using the filter in 'Service List', list would reset after changing something
+Services list now shows the services when you click on the tab instead of having to click a button
+--Note: You still need to reload services if you change service listing option
+
+Fixed a bug were All/Min was not being loaded from setting file
+Fixed a bug were setting custom services from 'Service List' would not be used
+Fixed Sorting bug in Service List not keeping after more then 1 changes
+
+Slight Changes in script
+Improvement to script
+Fixed Sorting bug in Service List
+
+Fixed a bug were custom service selection would not be used
+
+Fixed bug with '-lcsc' if no file was specified
+The Switch '-lcsc' will now skip build/edition check
+Fixed a bug when using '-lcsc' from bat file the file wasnt found
+Fixed a bug were custom service file wouldn't be used/run
+
+-----------------------------------------------------------------------------------
+6.0.0 (02-25-2019)
+
+Fixed a bug were 'Skip Xbox Services' wouldn't deselect some xbox services in some cases
+Impovement to 'blackviper.csv' file (made it smaller)
+Change to script to interpret new 'blackviper.csv' file
+Preped Script for any non-blackviper service config that may come out
+Changed how script deals with Edition and Build check errors in GUI (next 2 line)
+  ^ There is now a popup window that lets you know about error and ASKS if you want 
+  ^ to run script still and a checkbox that lets you set the ability to skip that check
+
+-----------------------------------------------------------------------------------
+5.4.5 (01-16-2019)
+
+Reverted a change in previous update
+
+Various Script Improvement
+
+Minor Internal Changes
+
+License/Copyright Date Update for my script
+License/Copyright Change for Service Configuration
+
+Added an Option to Search/Filter for 'Row Color' in the 'Service Table'
+
+-----------------------------------------------------------------------------------
+5.4.0 (10-29-2018)
+
+Fixed Save Settings button not working (thanks to harmonicx for letting me know)
+Fixed bug with running script with custom service file (thanks to harmonicx for letting me know)
+
+Fixed issue with 'Dev Log' checkbox (thanks to zoulztealer for letting me know)
+
+Added ability to Search the 'Service Table'
+
+Update.bat (if available will now update automaticly before script updates)
+Fixed issue with chars and spaces being in path when trying to do an update to script
+
+Internal Script Improvements
+Before and After will now log if service is running or stopped
+'Update.bat' file is no longer used
+
+Script returns to 'Default' service configuration when loading 'blackviper.csv' using 'Custom Setting' Option 
+-lcsc switch now checks if CSV file is valid before continuing
+
+Script now shows Console Window after script is closed (If Console Window was Hidden)
+Added a check to make sure you are not using over the current supported version number
+Fixed bug with some save file options (thanks to bubbismith for letting me know)
+
+Improved Save for Setting File (made script and setting file smaller) -Old setting files will still load
+Internal Script Improvements
+
+Various Script Improvements
+'Show Skipped' now shows unchecked services as skipped when using 'Customize Service' Option
+Saving Custom CSV will now remeber the 'Setting/State' for unchecked services (and load in as unchecked)
+'Auto' is shown instead of 'Automatic' for services (Automatic Delayed too)
+Fixed bug in 'Service Table' for the 'Check/Uncheck All' when using the filter
+Log File Improvements
+ 1. Time now shows seconds
+ 2. Log line now add the time it was added
+Setting File should now ONLY save when
+ 1. There is no setting file
+ 2. A Setting that will be saved is diff from what is in setting file
+
+-----------------------------------------------------------------------------------
+5.3.0 (09-14-2018)
+
+Fixed Mouse Scroll Crash Issue on 'Service Table'
+Made the first 2 columns in 'Service Table' stay stay in place when you scroll horizontally
+
+Fixed Issue with msg1 showing in some output instead of proper output (thanks to zoulztealer for letting me know)
+Fixed an Issue with devlog
+Devlog Checkbox now disables all item it changes when it's enabled (and vice versa)
+
+Internal Script Changes
+Dry Run/Dev Log now shows # for what will be Changed, Skipped, and Already (like in non Dry Run)
+Added in 'Service Table' State Column (Will say if service is Running or Stopped)
+Fixed bug were Already Disabled Services would not be Stopped (When 'Stop Disabled Services' is Enabled)
+
+Fixed some Display Issues (used old commands that didnt work)
+Fixed a Check for Update Issue
+Fixed issue were old script window didnt close after update
+
+Ability to set Service state in 'Service Table' (when you run the script)
+
+Service State is loaded along with Service Configuration (Custom and Backup files Only)
+
+Fixed an accidental Disable Script Update in script
+Added ability to see Copyright/License Information from ToS, by inputting L
+Moved some items around in the Script Options tab
+Reorginized the list of switches displayed in '-help'/'-h'
+Added Switches:
+  -css             Change State of Service
+  -sds             Stop disabled Service
+  -copy            Shows Copyright/License Information, then exits script
+
+Various Internal changes and Improvements
+Script will now Display a message if service cant be changed in any way
+Script will update the 'update.bat' file when it checks for script update (if you have file and update is available)
+
+-----------------------------------------------------------------------------------
+5.2.0 (08-21-2018)
+
+Fixed Issue with using using the 'Custom Service' option in service tab didnt work
+Fixed bug were for switching between Automatic and Automatic (Delayed) wouldnt work
+
+Fix bug were 'Current Setting' in 'Service List' wouldnt sort
+Script now lists numbers for 'services changes, already, skipped, and stopped' after running (non dry-run)
+Fixed issue were 2 settings were not being saved 'show console window, auto service update' (thanks to zoulztealer for letting me know)
+Added 2 settings being save 'all or min, service configurations (other than custom), enable laptop tweak' (thanks to zoulztealer for letting me know)
+
+Reworked some internal script stuff (text display is easyer to read in script)
+Added 'Show Diagnostic' button in 'Script Options' -Equivalent to the '-diagf' switch
+Updated 'Diagnostic Output' in console with more information and cleaner look
+Fixed some issue with log file
+
+-----------------------------------------------------------------------------------
+5.1.0 (07-29-2018)
+
+Black Viper services for 1803 support added
+Fixed issue in 'Services List' tab with sorting Description and Path
+Fixed issue in 'Services List' tab with current Setting didnt update (after running script)
+^ You still need to click 'Reload' to update the Table
+
+Fixed bug if script ran with an invalid 'blackviper.csv' causing script to need input on console (when it's hidden)
+Fixed UsoSvc service being skipped for versions before 1803
+
+Fixed bug that caused trying to Customize Services to freeze script (thanks to bubbismith for letting me know)
+Updated an outdated powershell command (PSObject)
+Improvement to update check function
+Settings saved now ONLY on the following.. Closing Script, Running Script, or Update Check
+^Before saved on Any setting changes
+
+Fixed bug with loading edition from setting file (if it was for home edition)
+Fixed rare bug were GUI still showed when script was closed
+
+Added Option to Stop Running services that you Disable
+Fixed bug that didnt show service setting when changing services (for GUI)
+
+Before & After Service log file name now starts with computer name
+Internal Script Changes (decreased size of script a little)
+
+Internal Script Improvements (decreased size of script a little, slight speed improvement)
+
+Fixed Issue with Symbols/Special Characters in filename and/or path
+Internal Script Improvements
+
+Added Elapsed Time Displayed at end of service change (non dry-run)
+Reverted some changes due to some changes being slower rather than faster
+Fixed a bug were services would be stopped even on dryrun
+Fixed a bug were display will say service is already when service does not exist
+Donate display wont display on dry-run now
+
+-----------------------------------------------------------------------------------
+4.3.0 (05-26-2018)
+
+Look of the GUI changed, more changes may come
+Renamed the Check for update to Auto update
+Added a Check NOW for update (While in Gui)
+Fixed some text display issues
+
+Fixed bug with script log
+Run button is NOW disabled while script is changing services
+Console window will now HIDE when GUI is first shown (checkbox to unhide in options)
+Options changed in the "Script Options" tab will now save in a setting file "BVSetting.xml"
+Settings will now load from "BVSetting.xml" the file is available
+
+Fixed Display of the '-h' switch
+
+List of services changed show in Gui instead of powershell window (Unless automated)
+Fixed bug with Check NOW for update
+
+Internal script changes (Organized code/function some)
+Fixed a bug with services that have a '_' in the name
+Fixed a bug with 'Services List' if you ran the script first
+
+Internal Script changes (Organized code/function some) -More
+
+Added Tooltip in 'Services List' that show service description on mouseover
+Fixed a bug that showed some Service Descriptions and Path showing as 'System.Object[]'
+
+Added Link to FAQ (readme) in Gui's Help menu
+Added in 'Services List' tab, rows colored in green are services that will be used (checked services)
+
+Colors for the 'Services List' tab.. Yellow and Red Added
+--Green  = Checked and Service is the Same as Current
+--Red    = Checked and Service is NOT the Same as Current
+--Yellow = NOT Checked and Service is NOT the Same as Current
+
+'Services List' tab tooltips should now show for as long as you are moused over
+Fixed bug with console window showing when it shouldnt be
+
+Added ability to 'Enable' Tweaked Option for Laptops (Use this with EXTREME CAUTION)
+^this setting must be re-enabled every time you want to use this settting
+
+-----------------------------------------------------------------------------------
+4.2.0 (04-19-2018)
+
+Ability to backup current service configuration as a ".reg" file instead of ".csv"
+ ^or save as both type
+
+Fixed a bug that made the run button disabled when loading a custom service file
+Fixed a bug in 'Services List' tab that list black viper when a custom service is selected
+Added message at end of script if you did a service configuration backup
+Added a thank you and donate message at end of script
+
+Fixed a Typo
+Removed switch "-bcsc", replaced with switches below
+Added switches
+ Switch         Description of Switch
+  -bscc          Backup Current Service Configuration, Csv File
+  -bscr          Backup Current Service Configuration, Reg File
+
+  -bscb          Backup Current Service Configuration, Csv and Reg File
+
+Added a basic check on custom CSV file to make sure it's a proper file
+
+Changed Grid to display Default rather than Black Viper when default is selected
+Added Ability to use the Service List grid to change start type
+
+Fixed some issues with the new "Ability to use the Service List grid to change start type"
+Changed it so you have to click checkbox to use the changed service list (if you change it from the normal setting) 
+
+Fixed Saving of Reg file so it can use the customized list
+Fixed a bug with services that have a '_' in the name
+Fixed a bug that showed Automatic Delayed as Automatic for current services in "Service List grid"
+
+Added ability to Check/Uncheck all items for the "Service List" grid
+Changed "Service List" Checkboxes and Comboboxes to be disabled unless "Customize Service" is checked
+Changed "Service List" to show the original unchanged "Service List" when "Customize Service" is un-checked
+^and shows the custom  "Service List" when "Customize Service" is checked (if anything was changed)
+
+Added description and service path to the "Service List" grid
+Gui window does not close now when you run the script incase you want to change something else
+^you can exit the script by closing the GUI or powershell window
+
+-----------------------------------------------------------------------------------
+4.1.0 (01-16-2018)
+
+New Option and Switch to Skip All Xbox Service
+ Switch         Description of Switch
+  -sxb           Skip All Xbox Service
+
+Skip Xbox Service option in Gui (Script Options -> Misc Options)
+
+Skip Xbox Service option (if checked) unchecks Xbox Services in Service List when generated
+
+Improved how resize works/shows (size of gui items wont change still)
+Removed the yellow "Dont Resize past this area" boxes
+
+Added switch "-h" to show a list of switches
+
+Fixed a Typo/Grammar (thanks to lukemurraynz)
+
+Added Ability to Save Configuration as Registry File
+^Save the Black Viper Setting for what you have checked
+
+-----------------------------------------------------------------------------------
+4.0.0 (11-30-2017)
+
+Enabled Window Resize
+(best to resize so the yellow on bottom and right size are not visible)
+^ Yellow block shows "Dont Resize past this area"
+
+Added a quick check to see if downloaded blackviper.csv is correct
+
+-----------------------------------------------------------------------------------
+3.8.0 (10-27-2017)
+
+Changed indent from spaces to tabs to decrease file size about 5 KB
+
+Bug Fix thanks to sdmunozsierra
+
+Bug Fix Issue with Saving Services
+
+Bug Fix Issue with Running Custom Service list
+
+Added Color to Donate, Website and Copyright button
+Improved Listing Method for the Services (added Columns that are sortable)
+Service Listing Speed Improved
+Minor changes in script
+
+-----------------------------------------------------------------------------------
+3.7.0 (08-26-2017)
+
+Slight Improvement of Gui load speed
+Fixed a Typo (thanks to Prettyclaire82)
+
+Fixed a bug if you load a custom service file then use the Services List tab then
+load another custom service file, the service list tab wont refresh
+
+Script Improvements
+Script now updates bat file with new script name if update is downloaded using script
+
+Updates will use Update.bat if available (will overwrite script file instead of creating new file)
+
+Fixed Bug that didnt set services with switches being used
+Fixed Bug that didnt show error when using the -tweaked switch on laptops
+
+-----------------------------------------------------------------------------------
+3.6.0 (08-12-2017)
+
+Added a donate button
+Added an About
+Added ability to set a filename when you are saving the custom services
+
+Script Improvements
+
+-----------------------------------------------------------------------------------
+3.5.0 (08-06-2017)
+
+Fixed a bug that caused unchecked/checked services not to skip/run (thanks to Scott C for notifying me about the bug)
+
+Fixed a bug with log file Not working
+
+Fixed Known Bug/Issue listed in 3.4.0
+Misc Improvement/Bug Fix
+
+Changed the Run button to say "Run Script with Checked Services" if you check the box
+  that says "Use Checked Services"
+
+-----------------------------------------------------------------------------------
+3.4.0 (08-04-2017)
+
+Fixed a bug with the Service List Tab not loading checkboxes other than default
+Fixed a bug with saving services saving file incorrectly
+
+Known Bug/Issue for Service List Tab (ONLY)
+--Problems Loading Custom Service then reloading with Blackviper Service
+--Problems Loading Blackviper Service then reloading with Custom Service
+
+Disabled the ability to load Custom Service in Service List Tab till issue is resolved
+
+-----------------------------------------------------------------------------------
+
+3.3.0 (07-31-2017)
+
+
+
+Added some text in contact tab
+
+Fixed an issue with the -sec switch/argument and edition checkbox
+
+-----------------------------------------------------------------------------------
+3.2.0 (07-29-2017)
+
+Fixed a bug that didnt transfer custom selected services when script updated
+Various Improvements
+
+-----------------------------------------------------------------------------------
+3.1.0 (07-12-2017)
+
+Minor Visual changes in GUI
+Added ability to save service selection
+Fixed a bug that made services not change (thanks to bubbismith for posting issue)
+
+-----------------------------------------------------------------------------------
+3.0.0 (07-08-2017) - GUI
+
+Script now show Common Name and System when showing the output
+Can go to GUI even if not meeting build or edition requirements
+Changed the input to GUI with more options and easier to use
+Removed all Switch for "-Set"
+Some various script improvements
+Ability to Deselect services to be changed
+
+-----------------------------------------------------------------------------------
+2.1 (05-26-2017) to 2.7.0 (06-21-2017)
+
+Various in script improvements
+Fixed a check for what startup type `NetTcpPortSharing` should be (it depends on if other service exists)
+
+Fixed bug in service update check
+
+Added a Dry Run mode (used to see what changes will be done)
+Added switch
+ Switches       Description of Switch
+  -snis          Shows not installed services (that can be changed)
+  -dry           Runs script but shows what will be changed
+  -devl          Used to make a log file that is meant to be sent to me
+
+Added check for French edition for Home edition (Famille)
+Added/Changed Switch for -sec
+  -sec           Skips Edition check by Setting Edition as Pro
+  -secp          Skips Edition check by Setting Edition as Pro
+  -sech          Skips Edition check by Setting Edition as Home
+
+Fixed Tweaked option for laptop showing in Menu in script (Shouldn't be showing)
+
+Added check for French edition for Pro edition (Professionnel)
+Added Another way to check for edition that shouldn't be a problem with other languages
+
+Fixed a bug with Version check not working on test version
+Adding Minor Version number
+Added Ability to load service configuration
+Added Ability to save current running service configuration
+Added switch
+ Switches         Description of Switch
+  -lcsc File.csv   Loads Custom Service Configuration, File.csv = Name of your backup/custom file
+  -bcsc            Backup Current Service Configuration
+
+-----------------------------------------------------------------------------------
+1.1 (04-23-2017) to 2.0 (05-21-2017)
+
+Various internal script changes
+Added another check for 'BlackViper.csv', in a certain case script would have ran w/o it
+Fixed download link to BlackViper.csv
+Fixed an issue with script failing edition check on non english versions of windows
+Fixed an issue with edition check showing blank error
+Thanks to Mehanik511 posting an issue, both edition problems were fixed
+
+Added/Changed Arguments/Switches to accept multiple (Old Switches Work too)
+ Switches       Description of Switch
+  -atos          (Accepts ToS)
+  -auto          (Runs the script to be Automated.. Closes on User input, Errors, End of Script)
+  -default       (Runs the script with Services to Default Configuration)
+  -safe          (Runs the script with Services to Black Viper's Safe Configuration)
+  -tweaked       (Runs the script with Services to Black Viper's Tweaked Configuration)
+  -sec           (Skips Edition Check)
+  -sbc           (Skips Build Check)
+  -sic           (Skips Internet Check)
+  -usc           (Checks for Update to Script file before running)
+  -use           (Checks for Update to Service file before running)
+  -diag          (Shows diagnostic info)
+
+Fixed a messup on the new switch/arguments system
+
+Fixed error in script was causing safe and tweaked option to not change services
+Thanks to Scott C for notifying me about the bug
+
+Minor Fixes (didnt affect using script)
+Added ability to have a log file (Logs notices, Errors, & Services changed)
+Added Argument/Switch for log
+ Switches       Description of Switch
+  -log           Saves a log file (Script.log by default)
+
+Fixed a bug with logging that caused it to not continue to log after script update
+
+Fixed a bug with switch `-set safe` not setting correctly
+
+Fixed problem with the -atos switch (accept ToS) not setting properly
+Changed script to support new switch and added feature
+Added switch
+ Switches       Description of Switch
+  -all           Every windows services will change
+  -min           Just the services different from the default to safe/tweaked list
+  -baf           File of all the services before and after the script `Services-Before.log` and `Services-After.log`
+
+-----------------------------------------------------------------------------------
+0.0 (02-22-2017) to 1.0 (04-14-2017)
+
+Initial Start of Script
+
+Added ability to use switches to bypass menu to run one of the choices
+
+Bug fix (script didnt get the right type for current service setting)
+
+Added per Black Viper's Request:
+Check for x64 bit (still runs on x32 but gives a warning)
+
+Added Color to Script output
+Fixed bug that showed "Service is already" if service doesnt exist
+Changed script to load services from file 'BlackViper.csv' instead of from within script
+  ^If it isnt with script it will give you an option to download the file
+
+Added variable with ability to:
+Skip Edition check (USE AT YOUR OWN RISK)
+Skip Build check (USE AT YOUR OWN RISK)
+Skip TOS (If you accept it)
+have Script close at end (before it paused so you can see results)
+show/hide display of Services change, already set, and not present
+Added per Black Viper's Request
+Build Check (For creator's update) -Disabled till creator's update is released
+
+Added variable with ability to check for update to Script File (Skips by default)
+  Note: If found will Auto download and runs that (file name will be "BlackViper-Win10-Ver.(version-here).ps1")
+Added variable with ability to check for update to Service File (Skips by default)
+  Note: If found will Auto download and uses that for the configuration
+
+Enabled Build Check (For creator's update)
+Added Display of Script Version/Date
+Added Display of Last update of Service File
+Various script improvements
+
+Added Internet Check if script checks for update (pings google.com and yahoo.com)
+Added Copyright Display Option
+Goto Website Option
+Changed TOS Display look
+
+Script checks for service file update by default
+Some display changes
+Changed the 'go to website' to open with default browser instead of IE
+added bypass for internet check (incase you have google.com and yahoo.com blocked)
+
+Updated script to check for laptop/desktop
+-----------------------------------------------------------------------------------

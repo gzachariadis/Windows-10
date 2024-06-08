@@ -139,24 +139,11 @@ functionallity it promises.
 
 The [Sources](#Bibliography) where I gathered the plethora of registry tweaks that can be found under this repository, are at the bottom of this file. Enjoy :)
 
-# Services
-
-This is not a <b>Safe Configuration</b> for your System and 
-I cannot possibly test all possible configurations extensively!
-
-What I can offer is what “works for me” and the obstacles I have come across so you do not have to discover them on your own.
-
-Feel free to copy this setup but don't hold me liable for anything that is wrong about it in your individual case.
-
 ### System Services
 
 This is a list of services which Microsoft has allowed me to disable succesfully as of this latest release, if a service is not on this list then I am unsure of the impacts it may have on your desktop experience. Be mindful, that I use Wireless connection for my Gaming System, so if you using a wired connection your configuration will vary.
 
 Here's a NTLite Preset that matches this configuration.
-
-### Per-user Services Summary
-
-This is a list of per-user services which I disable. These only prevents the services from being started on login. Per-user services are dynamically created upon creating a user session for example you'll see ContactData service but also see the running service ContactData_37664 (per-user service), each user logged into the system will have their on per user service for those listed below if it is configured to be enabled.
 
 ### First Boot Scripts
 
@@ -324,6 +311,16 @@ Set-ExecutionPolicy Unrestricted -Force
 - Download from [here.](https://ramensoftware.com/downloads/7tt_setup.exe)
 - Execute the Executable. 
 
+## [Black Viper - Services]
+
+This is not a <b>Safe Configuration</b> for your System and 
+I cannot possibly test all possible configurations for you, so feel cree to experiment.
+
+What I can offer is what works for me and the obstacles I have come across so you do not have to discover them on your own.
+
+I create my configuration using the [Black Viper Script](https://github.com/madbomb122/BlackViperScript) and a custom configuration which can be found [here.]()
+
+- [Nvidia Container](https://www.youtube.com/watch?v=Gy7TJo7d3Wo) - Disabled 
 
 ## Applications
 
@@ -396,6 +393,7 @@ As far as Antivirus software goes, I wouldn't trust any free-option out there, i
 - [Elgato Stream Deck](https://www.elgato.com/us/en/s/downloads)
 - [Scrcpy](https://github.com/Genymobile/scrcpy)
 - [SDK Platforms](https://developer.android.com/tools/releases/platform-tools)
+- [Fan Control](https://github.com/rem0o/fancontrol.releases)
 
 #### Additional Software
 
@@ -471,6 +469,10 @@ As far as Antivirus software goes, I wouldn't trust any free-option out there, i
 - [Muffon](https://muffon.netlify.app/)
 - [Rise Media Player](https://github.com/Rise-Software/Rise-Media-Player)
 
+#### Video Editor
+
+- [Olive](https://olivevideoeditor.org/)
+
 #### Audio Tagger
 
 - [Kid3 - Audio Tagger](https://kid3.kde.org/)
@@ -533,6 +535,10 @@ As far as Antivirus software goes, I wouldn't trust any free-option out there, i
 
 - [PreMiD](https://github.com/PreMiD/PreMiD)
 
+#### Time Tracking
+
+- [Activity Watch](https://github.com/ActivityWatch/activitywatch)
+
 #### Tiling Window Manager
 
 A window manager is a program that opens, renders, and manages windows.
@@ -590,6 +596,10 @@ A lengthy catalog of resources, files, configurations, etc. etc. I have found us
 
 - [x] [Winaero Tweaker](https://winaero.com/winaero-tweaker/)
 
+- [ ] [Windows 10 Hardening](https://github.com/ssh3ll/Windows-10-Hardening)
+
+- [ ] [HardenTools](https://github.com/hardentools/hardentools)
+
 #### Scripts
 
 - [x] [Remove-MS-Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge)
@@ -605,6 +615,8 @@ A lengthy catalog of resources, files, configurations, etc. etc. I have found us
 #### Services 
 
 - [ ] [W4RH4WK's Services](https://github.com/W4RH4WK/Debloat-Windows-10/blob/master/scripts/disable-services.ps1)
+
+- [x] [Black Viper Scripts](https://github.com/madbomb122/BlackViperScript)
 
 #### Github Resources
 
@@ -752,10 +764,7 @@ A lengthy catalog of resources, files, configurations, etc. etc. I have found us
 
 - [ ] [Master Tutorial to Make Windows 10 Faster](https://www.askvg.com/master-tutorial-to-make-windows-10-super-fast/)
 
-
-
-
-
+- [ ] [Display Driver Uninstaller](https://www.guru3d.com/download/display-driver-uninstaller-download)
 
 
 "* [${TM_FILENAME_BASE}](${RELATIVE_FILEPATH/(.*)[\\\\].+$/$1/}/${TM_FILENAME_BASE/[-_ ]/%20/g}.reg)",
