@@ -1,3 +1,5 @@
+<div align="center">
+
 [![made-with-powershell](https://img.shields.io/badge/PowerShell-1f425f?logo=Powershell)](https://microsoft.com/PowerShell)
 ![CommandPrompt](https://img.shields.io/badge/Command%20Prompt-yellow.svg?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDQ4IDQ4Ij4KICAgIDxpbWFnZSB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBREFBQUFBd0NBWUFBQUJYQXZtSEFBQUFBWE5TUjBJQXJzNGM2UUFBQkRGSlJFRlVhRVB0bWN0TEpGY1V4ci95a1pINFNBOU91MURHVFpKRkZCb0VKMkJFU2JKb3RheEZuQW14QlZHemllQmZJTGh3NzhaZDBIYWptNUVoQ1ZtWmpPQTRJUGhvSHhzZDNJd2E4bGdrMFBSR0JVZnRPc01wNTliMG8rcGExZFd0RWFwQnVpbjYxdjErNS92T3ZiZGFCWGY4cGR4eC9mQUJidHRCM3dIZkFZOFY4Q1BFQlp5YW11b0hjQjlBcWFJb0h3QzRCK0JEQUpYdjNpc1VSU2toSWdKUURPQmpBQTA3T3p1dTZoOElCUDdwNysvL0lSUUsvUzRHWmptd3ZiMzlDa0NqbXp1N0ZTTHVuY3U0UUNEdzk4VEVSTDBNZ0t2azZwV0xFSjRnMTNIUmFOUXN2SlVEUG9CVCsvTHVnS1pwendGMFhQVWFrUG51OUpvWVY2anZyNjZ1V2tkSTA3U1hSUFJsNnNTRkV1RUZVZ2J3Z29pK3RoTHRaVUluVHJxNS85cmFtclVEM2QzZGxoSDZ2N2xnQzZCcDJzKzZyajhSVFpqdnl1VXJtaklIbmhIUmQxWVQ2YnFPeTh0TEZCY1hRMUhlcjc2M0FXa0xvS3JxTXdCcEFDeVF4ZGZXMW1Kd2NCRHo4L000UER3MFFHUzVkWk5wdDg2c3I2OWI5MEJYVjllOG9paVIxS3F5K0xxNk9nd1BENk9zckF3WEZ4ZUlScU00T2pwQ1VWRlJ3WlpiV1FGc0FWUlZmVXBFZmFrOXdMRVpIeDlIWlNXZnk2NWVEREU5UFowR2NaTXJsOVFCQUpGVU1RelEwTkJneElkamt3bVJHYWRDUmtmbzJ0allzSTNRVHdDK3pSU1JUQ2FsRUFjSEJ5YmNUVFMxTFlDcXFyOFEwV01yRWV4RVkyTmpsaE1NTnpzN2k3MjlQYk1uQ2gwbm1RTy9FdEUzZHZ1QWdCZ2FHa3FMRTBQTXpjMWhkM2ZYZ0hEaWdoZElHY0J2Uk5RbDIza1pvcTJ0RFQwOVBXbjd3ZW5wS1VaSFIxRlNVbUwyaVJPUVhKYmlXQ3htM1FPZG5aMnJBTDZ3dXlsWG12ZURwcVltVkZWVm9ibTUyWUJnS0hhQVl5UTJPU2ZpYzNWQkJ2QWF3Q2RXeDJrV1gxOWZqNWFXRnZEbnM3TXpZMmtOaFVLRytQMzkvU3p4aFRwRHlRRGVFQkUvbEtmdHNseGhGcy9SRVJYbmF4eWJsWlVWSEI4ZjMrVHhJaG1MeGN5Y3BqMVNkblIwbUkrVHdnVWh2cjI5M1JBcHJyTURTMHRMU0NRU2poczNYM3ZFNXVhbWRROElnTlNKR0tDdnJ5K3RPYy9QejdHNHVKZ2xQbk1ENUdPSVY5Rzhxb2tqaTdpL1l3Q2VuUE5lWFYyTmNEaHNRREFRaTQvSDQ3Wm5JUjdIeDQzSnlVbVVsNWVicTVMYkR5Y25KeGdaR1VGcGFXbmFtVXNLWUxWNk1FUXdHRFI2WUhsNTJheThyRW5Gb2MrdDZNenZEd3dNR0FDcFR0b0NoTVBockI0UUF4bUMvMUtmQjJUeDRKak56TXg0MVk5TUFKNXphMnZMdWdjRVFEN1djQWJnQ0ZWVVZPUU1JU0lrTmtlaFN3YndGeEU5dER0S3VObDQySzNVSnM2MUtMenlpVk93RTRBWUVYMmV1UTlZYld6NWdMUzd4M1VybDYwRHZiMjlNNGxFNG52K0JibVFvcThUS0p1N3BxYm1ZR0ZoNFZNQm4vWGJhQ1FTK1RFZWovT3Z2dytJNkRNQVZkZEU1ejhpK2hkQVF0ZjFwS0lvSHdGNFZJZ0NCSVBCUDhiR3hyNXFiVzM5MHhZZzU0NjdwWUgrZjJodXFmRG10TDREdmdNZUsrQkh5R01CUFE5L0N6bHkyM3gyZ1FjaEFBQUFBRWxGVGtTdVFtQ0MiLz4KICA8L3N2Zz4=)
 ![Windows 10 Badge](https://img.shields.io/badge/Windows%2010%20Pro%20N-blue.svg?logo=data:image/svg%2bxml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNDk5LjYgMjUwMCIgdmlld0JveD0iMCAwIDI0OTkuNiAyNTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im0xMTg3LjkgMTE4Ny45aC0xMTg3Ljl2LTExODcuOWgxMTg3Ljl6IiBmaWxsPSIjZjE1MTFiIi8+PHBhdGggZD0ibTI0OTkuNiAxMTg3LjloLTExODh2LTExODcuOWgxMTg3Ljl2MTE4Ny45eiIgZmlsbD0iIzgwY2MyOCIvPjxwYXRoIGQ9Im0xMTg3LjkgMjUwMGgtMTE4Ny45di0xMTg3LjloMTE4Ny45eiIgZmlsbD0iIzAwYWRlZiIvPjxwYXRoIGQ9Im0yNDk5LjYgMjUwMGgtMTE4OHYtMTE4Ny45aDExODcuOXYxMTg3Ljl6IiBmaWxsPSIjZmJiYzA5Ii8+PC9zdmc+)
@@ -70,83 +72,14 @@
 
 Why did I choose Windows Pro N?
 
-
-<!-- vscode-markdown-toc -->
-	* 1. [Language Packs](#LanguagePacks)
-	* 2. [Fonts](#Fonts)
-	* 3. [Drivers](#Drivers)
-	* 4. [Registry Tweaks](#RegistryTweaks)
-		* 4.1. [**Please backup your registry before any changes or use a Virtual-Machine or a spare computer. I am not liable for any problems that arise from executing these.**](#PleasebackupyourregistrybeforeanychangesoruseaVirtual-Machineorasparecomputer.Iamnotliableforanyproblemsthatarisefromexecutingthese.)
-	* 5. [System Services](#SystemServices)
-	* 6. [Per-user Services Summary](#Per-userServicesSummary)
-	* 7. [First Boot Scripts](#FirstBootScripts)
-* 1. [Requirements](#Requirements)
-	* 1.1. [Redistributable Runtimes](#RedistributableRuntimes)
-	* 1.2. [[Chocolatey](https://chocolatey.org/)](#Chocolateyhttps:chocolatey.org)
-	* 1.3. [[Scoop](https://scoop.sh/)](#Scoophttps:scoop.sh)
-	* 1.4. [[7-Zip](https://www.7-zip.org/)](#7-Ziphttps:www.7-zip.org)
-* 2. [Debloating & Optimizing](#DebloatingOptimizing)
-	* 2.1. [[Optimizer](https://github.com/hellzerg/optimizer/releases)](#Optimizerhttps:github.comhellzergoptimizerreleases)
-	* 2.2. [[Winaero Tweaker](https://winaero.com/winaero-tweaker/)](#WinaeroTweakerhttps:winaero.comwinaero-tweaker)
-	* 2.3. [[Privacy.Sexy](https://privacy.sexy/)](#Privacy.Sexyhttps:privacy.sexy)
-	* 2.4. [[Chris Titus Tech's Windows Utility](https://github.com/ChrisTitusTech/winutil)](#ChrisTitusTechsWindowsUtilityhttps:github.comChrisTitusTechwinutil)
-	* 2.5. [[Windows 10 Debloater](https://github.com/Sycnex/Windows10Debloater)](#Windows10Debloaterhttps:github.comSycnexWindows10Debloater)
-	* 2.6. [[Win 10 Bloat Remover](https://github.com/Fs00/Win10BloatRemover)](#Win10BloatRemoverhttps:github.comFs00Win10BloatRemover)
-	* 2.7. [[Quick Boost](https://github.com/SanGraphic/QuickBoost/releases/)](#QuickBoosthttps:github.comSanGraphicQuickBoostreleases)
-	* 2.8. [[Ultimate Windows  Tweaker 4.8](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10)](#UltimateWindowsTweaker4.8https:www.thewindowsclub.comultimate-windows-tweaker-4-windows-10)
-	* 2.9. [[WinSlap](https://github.com/svenmauch/WinSlap)](#WinSlaphttps:github.comsvenmauchWinSlap)
-* 3. [[Remove Microsoft Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge)](#RemoveMicrosoftEdgehttps:github.comShadowWhispererRemove-MS-Edge)
-* 4. [Applications](#Applications)
-* 5. [Categories](#Categories)
-	* 5.1. [System Security](#SystemSecurity)
-	* 5.2. [System Maintenance](#SystemMaintenance)
-		* 5.2.1. [Software Removal](#SoftwareRemoval)
-		* 5.2.2. [Duplicate Files](#DuplicateFiles)
-		* 5.2.3. [Cleaning Utillities](#CleaningUtillities)
-	* 5.3. [Social Media & Communication Tools](#SocialMediaCommunicationTools)
-	* 5.4. [Hardware Controllers](#HardwareControllers)
-	* 5.5. [Personal Preferences (Additional Software)](#PersonalPreferencesAdditionalSoftware)
-	* 5.6. [E-Book Readers](#E-BookReaders)
-	* 5.7. [Multimedia](#Multimedia)
-	* 5.8. [Search](#Search)
-	* 5.9. [Terminal Emulators](#TerminalEmulators)
-	* 5.10. [Password Managers](#PasswordManagers)
-	* 5.11. [Text-Expansion](#Text-Expansion)
-	* 5.12. [Screenshots](#Screenshots)
-	* 5.13. [Software Development](#SoftwareDevelopment)
-	* 5.14. [Gaming](#Gaming)
-	* 5.15. [Activity Sharing](#ActivitySharing)
-	* 5.16. [Tiling Window Manager](#TilingWindowManager)
-	* 5.17. [Browser](#Browser)
-* 6. [Maintenance](#Maintenance)
-	* 6.1. [Scripts](#Scripts)
-* 7. [Bibliography](#Bibliography)
-		* 7.1. [Projects](#Projects)
-		* 7.2. [Scripts](#Scripts-1)
-		* 7.3. [Tweak Collections](#TweakCollections)
-		* 7.4. [Services](#Services)
-		* 7.5. [Github Resources](#GithubResources)
-		* 7.6. [NTLite Presets](#NTLitePresets)
-		* 7.7. [Guides & Tutorials](#GuidesTutorials)
-		* 7.8. [Resources](#Resources)
-		* 7.9. [Language Packs](#LanguagePacks-1)
-		* 7.10. [Post-Install](#Post-Install)
-		* 7.11. [Youtube & Reddit](#YoutubeReddit)
-
-<!-- vscode-markdown-toc-config
-	numbering=true
-	autoSave=true
-	/vscode-markdown-toc-config -->
-<!-- /vscode-markdown-toc --><div align="center">
-
 <h1 align="center">Part 1</h1>
 <h2 align="center">Building & Configuring</h2>
 
-###  1. <a name='LanguagePacks'></a>Language Packs
+### Language Packs
 
 - Greek Language Pack (for Keyboard Layout)
 
-###  2. <a name='Fonts'></a>Fonts
+### Fonts
 
 I use [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts#option-3-install-script).  
 
@@ -154,7 +87,7 @@ I use [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts#option-3-install-scri
 
 ''' PowerShell.exe -ExecutionPolicy Bypass -File .\install.ps1'''
 
-###  3. <a name='Drivers'></a>Drivers
+### Drivers
 
 This is my current working drivers that I have no problem with, as of the latest release.
 
@@ -166,7 +99,7 @@ This is my current working drivers that I have no problem with, as of the latest
 
 Plese do use [NVCleanInstall]() when downloading and installing any NVIDIA Drivers. Settings [here]().
 
-###  4. <a name='RegistryTweaks'></a>Registry Tweaks
+### Registry Tweaks
 
 I have compiled a series of registry tweaks from various sources over the years, as well as created a few of my own in my attempt to optimize my user experience. You can find a comphensive detailed list of those [here.] In order to use them, go ahead and download the repository from the [Releases]() and after extracting the files, navigate to Pre-Install > Registry-Files and execute in a live-system or copy-paste the ones you like from each category into a seperate folder, and import them into NTLite.
 
@@ -197,7 +130,7 @@ Contents of the File.
 **Before!** you use any tweak(s) ensure you read these comment(s) inside the .reg (labeled with semicolon) to see what it really changes. 
 I have tried my best to do exensive reseach on each tweak, but that doesn't mean that subtitutes your own judgment and liabillity.
 
-####  4.1. <a name='PleasebackupyourregistrybeforeanychangesoruseaVirtual-Machineorasparecomputer.Iamnotliableforanyproblemsthatarisefromexecutingthese.'></a>**Please backup your registry before any changes or use a Virtual-Machine or a spare computer. I am not liable for any problems that arise from executing these.**
+#### **Please backup your registry before any changes or use a Virtual-Machine or a spare computer. I am not liable for any problems that arise from executing these.**
 
 The tweaks contain **Sources** that have useful information around each individual tweak. Please do open those and do your own research before applying changes to your system.
 
@@ -215,17 +148,17 @@ What I can offer is what “works for me” and the obstacles I have come across
 
 Feel free to copy this setup but don't hold me liable for anything that is wrong about it in your individual case.
 
-###  5. <a name='SystemServices'></a>System Services
+### System Services
 
 This is a list of services which Microsoft has allowed me to disable succesfully as of this latest release, if a service is not on this list then I am unsure of the impacts it may have on your desktop experience. Be mindful, that I use Wireless connection for my Gaming System, so if you using a wired connection your configuration will vary.
 
 Here's a NTLite Preset that matches this configuration.
 
-###  6. <a name='Per-userServicesSummary'></a>Per-user Services Summary
+### Per-user Services Summary
 
 This is a list of per-user services which I disable. These only prevents the services from being started on login. Per-user services are dynamically created upon creating a user session for example you'll see ContactData service but also see the running service ContactData_37664 (per-user service), each user logged into the system will have their on per user service for those listed below if it is configured to be enabled.
 
-###  7. <a name='FirstBootScripts'></a>First Boot Scripts
+### First Boot Scripts
 
 If you ever looked at custom versions of Windows, you might be familiar with something described as playbooking, a series of rules and scripts running on your system to provide the same experience every time, I have done something similar here, by adding a batch of scripts into a folder and have them on the first boot of each new system. Just run the <i>run_all_scripts.bat</i> and you good to go.
 
@@ -256,20 +189,20 @@ Customize your execution catalog, by deleting scripts you don't want to run from
 
 # Prerequisities
 
-##  1. <a name='Requirements'></a>Requirements
+## Requirements
 
 - [Chocolatey](https://chocolatey.org/install)
 - [Scoop](https://scoop.sh/)
 - [7-Zip](https://www.7-zip.org/)
 - [Microsoft Visual C++ Redistributable Runtimes](https://github.com/abbodi1406/vcredist)
 
-###  1.1. <a name='RedistributableRuntimes'></a>Redistributable Runtimes
+### Redistributable Runtimes
 
 - Download [Redistributable Runtimes](https://github.com/abbodi1406/vcredist/releases/download/v0.82.0/VisualCppRedist_AIO_x86_x64.exe)
 
 - [Download Mirror](https://www.majorgeeks.com/files/details/visual_c_runtime_installer.html) 
 
-###  1.2. <a name='Chocolateyhttps:chocolatey.org'></a>[Chocolatey](https://chocolatey.org/)
+### [Chocolatey](https://chocolatey.org/)
 
 - Open a new Powershell as Administrator.
 - Run the following commands
@@ -282,7 +215,7 @@ Set-ExecutionPolicy AllSigned
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
-###  1.3. <a name='Scoophttps:scoop.sh'></a>[Scoop](https://scoop.sh/)
+### [Scoop](https://scoop.sh/)
 
 - Open a new Powershell as Administrator.
 - Run the following commands
@@ -297,7 +230,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 ```
 
-###  1.4. <a name='7-Ziphttps:www.7-zip.org'></a>[7-Zip](https://www.7-zip.org/)
+### [7-Zip](https://www.7-zip.org/)
 
 - Download [here.](https://www.7-zip.org/a/7z2406-x64.exe)
 - Execute the Executable.
@@ -312,25 +245,25 @@ These two might differ depending on your hardware.
 - [MSI AfterBurner]()
 - [iCUE]()
 
-##  2. <a name='DebloatingOptimizing'></a>Debloating & Optimizing
+## Debloating & Optimizing
 
 The following tools, are able to help you optimize and debloat your system.
 
-###  2.1. <a name='Optimizerhttps:github.comhellzergoptimizerreleases'></a>[Optimizer](https://github.com/hellzerg/optimizer/releases)
+### [Optimizer](https://github.com/hellzerg/optimizer/releases)
 
 - Download from [here.](https://github.com/hellzerg/optimizer/releases/download/16.5/Optimizer-16.5.exe)
 - Execute the Executable.
 
-###  2.2. <a name='WinaeroTweakerhttps:winaero.comwinaero-tweaker'></a>[Winaero Tweaker](https://winaero.com/winaero-tweaker/)
+### [Winaero Tweaker](https://winaero.com/winaero-tweaker/)
 
 - Download from [here.]()
 - Run the installer.
 
-###  2.3. <a name='Privacy.Sexyhttps:privacy.sexy'></a>[Privacy.Sexy](https://privacy.sexy/)
+### [Privacy.Sexy](https://privacy.sexy/)
 
 You can follow the [link here](https://privacy.sexy/) and create your own configuration, or run mine under the [Exported Settings]() folder.
 
-###  2.4. <a name='ChrisTitusTechsWindowsUtilityhttps:github.comChrisTitusTechwinutil'></a>[Chris Titus Tech's Windows Utility](https://github.com/ChrisTitusTech/winutil)
+### [Chris Titus Tech's Windows Utility](https://github.com/ChrisTitusTech/winutil)
 
 - Open a new Powershell as Administrator.
 - Run the following command
@@ -341,7 +274,7 @@ You can follow the [link here](https://privacy.sexy/) and create your own config
 irm https://christitus.com/win | iex
 ```
 
-###  2.5. <a name='Windows10Debloaterhttps:github.comSycnexWindows10Debloater'></a>[Windows 10 Debloater](https://github.com/Sycnex/Windows10Debloater)
+### [Windows 10 Debloater](https://github.com/Sycnex/Windows10Debloater)
 
 - Download from [here.](https://github.com/Sycnex/Windows10Debloater/archive/refs/heads/master.zip)
 - Extract using 7-Zip.
@@ -360,36 +293,36 @@ Set-ExecutionPolicy Unrestricted -Force
 .\Windows10DebloaterGUI.ps1
 ```
 
-###  2.6. <a name='Win10BloatRemoverhttps:github.comFs00Win10BloatRemover'></a>[Win 10 Bloat Remover](https://github.com/Fs00/Win10BloatRemover)
+### [Win 10 Bloat Remover](https://github.com/Fs00/Win10BloatRemover)
 
 - Download from [here.](https://github.com/Fs00/Win10BloatRemover/releases/download/5.0/Win10BloatRemover_5.0.zip)
 - Unzip using 7-Zip.
 - Execute the Executable.
 - Done! :)
 
-###  2.7. <a name='QuickBoosthttps:github.comSanGraphicQuickBoostreleases'></a>[Quick Boost](https://github.com/SanGraphic/QuickBoost/releases/)
+### [Quick Boost](https://github.com/SanGraphic/QuickBoost/releases/)
 
 - Download from [here.](https://github.com/SanGraphic/QuickBoost/releases/download/2.9.4/QuickBoost.exe)
 - Execute the Executable.
 
-###  2.8. <a name='UltimateWindowsTweaker4.8https:www.thewindowsclub.comultimate-windows-tweaker-4-windows-10'></a>[Ultimate Windows  Tweaker 4.8](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10)
+### [Ultimate Windows  Tweaker 4.8](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10)
 
 - Download from [here.](https://www.thewindowsclub.com/downloads/UWT4.zip)
 - Unzip using 7-Zip.
 - Execute the Executable.
 
-###  2.9. <a name='WinSlaphttps:github.comsvenmauchWinSlap'></a>[WinSlap](https://github.com/svenmauch/WinSlap)
+### [WinSlap](https://github.com/svenmauch/WinSlap)
 
 - Download from [here.](https://github.com/svenmauch/WinSlap/releases/download/v1.8/WinSlap.exe)
 - Execute the Executable.
 
-##  3. <a name='RemoveMicrosoftEdgehttps:github.comShadowWhispererRemove-MS-Edge'></a>[Remove Microsoft Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge)
+## [Remove Microsoft Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge)
 
 - Download from [here.](https://github.com/ShadowWhisperer/Remove-MS-Edge/blob/main/Remove-Edge_GUI.exe?raw=true)
 - Execute the Executable.
 - Done! :)
 
-##  4. <a name='Applications'></a>Applications
+## Applications
 
 This is the list of Applications Categories, that I personally prefer to have on my Windows Systems, they are seperated by "Purpose". In some occasions, popular alternatives are proposed for you.
 
@@ -397,97 +330,116 @@ You can use the [Winget Client](https://github.com/microsoft/winget-cli) and [Wi
 
 My preferences include mostly Open-Source community maintained software, in case no software of that sort serves my purpose, I opt for commerical or closed-source alternatives.
 
-##  5. <a name='Categories'></a>Categories 
+## Categories 
 
+- [System Security](#system-security)
+- [System Maitenance](#system-maintenance)
+- [Software Removal](#software-removal)
+- [Duplicate Removal](#duplicate-removal)
+- [Cleaning Utillities](#cleaning-utillities)
+- [Social Media & Communication Tools](#social-media--communication-tools)
+- [Hardware Controllers](#hardware-controllers)
+- [Additional Software](#additional-software)
+- [E-Book Readers](#e-book-readers)
+- [Multimedia](#multimedia)
+- [Search](#search)
+- [Terminal Emulators](#terminal-emulators)
+- [Password Managers](#password-managers)
+- [Text Expansion](#text-expansion)
+- [Screenshots](#screenshots)
+- [Software Development](#software-development)
+- [Gaming](#gaming)
+- [Activity Sharing](#activity-sharing)
+- [Tiling Window Manager](#tiling-window-manager)
+- [Browsers](#browsers)
 
-
-###  5.1. <a name='SystemSecurity'></a>System Security
+### System Security
 
 As far as Antivirus software goes, I wouldn't trust any free-option out there, if you want to buy one, go with Sophos, that's just my personal preference, it has high capture rates and had most success with it, a mix of MalwareBytes and SimpleWall does it for me, as I don't use this system to browse a lot.
 
 - [MalwareBytes](https://www.malwarebytes.com/)
 - [SimpleWall](https://www.henrypp.org/product/simplewall) or [TinyWall](https://tinywall.pados.hu/)
 
-###  5.2. <a name='SystemMaintenance'></a>System Maintenance
+### System Maintenance
 
-####  5.2.1. <a name='SoftwareRemoval'></a>Software Removal
+#### Software Removal
 
 - [Bulk Crap Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller)
 
-####  5.2.2. <a name='DuplicateFiles'></a>Duplicate Files
+#### Duplicate Removal
 
 - [Czkawka](https://github.com/qarmin/czkawka/tree/master)
 - [dupeGuru](https://dupeguru.voltaicideas.net/)
 
-####  5.2.3. <a name='CleaningUtillities'></a>Cleaning Utillities
+#### Cleaning Utillities
 
 - [Windows Memory Cleaner](https://github.com/IgorMundstein/WinMemoryCleaner)
 - [BleachBit](https://www.bleachbit.org/)
 - [CC Cleaner]()
 
-###  5.3. <a name='SocialMediaCommunicationTools'></a>Social Media & Communication Tools
+#### Social Media & Communication Tools
 
 - [Vencord - Discord mod](https://github.com/Vendicated/Vencord)
 - [Microsoft Teams]()
 - [Slack]()
 
-###  5.4. <a name='HardwareControllers'></a>Hardware Controllers
+#### Hardware Controllers
 
 - [Elgato Stream Deck](https://www.elgato.com/us/en/s/downloads)
-
-###  5.5. <a name='PersonalPreferencesAdditionalSoftware'></a>Personal Preferences (Additional Software)
-
 - [Scrcpy](https://github.com/Genymobile/scrcpy)
+
+### Additional Software
+
 - [f.lux](https://justgetflux.com/)
 
-###  5.6. <a name='E-BookReaders'></a>E-Book Readers
+### E-Book Readers
 
 - [Thorium Reader](https://www.edrlab.org/software/thorium-reader/)
 - [EPUB Reader](https://icecreamapps.com/Ebook-Reader/)
 - [Koodo](https://koodo.960960.xyz/en)
 
-###  5.7. <a name='Multimedia'></a>Multimedia
+### Multimedia
 
 - [SpotX - Spotify Client](https://github.com/SpotX-Official/SpotX)
   - [Custom Themes](https://spicetify.app/docs/getting-started/)
 
-###  5.8. <a name='Search'></a>Search
+### Search
 
 - [Ueli](https://ueli.app/#/)
 - [Flow](https://www.flowlauncher.com/)
 - [PowerToys Run]()
 
-###  5.9. <a name='TerminalEmulators'></a>Terminal Emulators
+### Terminal Emulators
 
 - [Tabby]()
 
-###  5.10. <a name='PasswordManagers'></a>Password Managers
+### Password Managers
 
 - [Bitwarden]()
 
-###  5.11. <a name='Text-Expansion'></a>Text-Expansion
+### Text-Expansion
 
 - [Espanso](https://espanso.org/)
 
-###  5.12. <a name='Screenshots'></a>Screenshots
+### Screenshots
 
 - [FlameShot]()
 
-###  5.13. <a name='SoftwareDevelopment'></a>Software Development
+### Software Development
 
 - [Visual Studio Code]()
 - [Git Bash]()
 - [GitHub Desktop]()
 
-###  5.14. <a name='Gaming'></a>Gaming
+### Gaming
 
 - [Steam]()
 
-###  5.15. <a name='ActivitySharing'></a>Activity Sharing
+### Activity Sharing
 
 - [PreMiD](https://github.com/PreMiD/PreMiD)
 
-###  5.16. <a name='TilingWindowManager'></a>Tiling Window Manager
+### Tiling Window Manager
 
 A window manager is a program that opens, renders, and manages windows.
 
@@ -500,7 +452,7 @@ Here's some popular options
 
 I opt for [Komorebi]() and [here's my configuration.]()
 
-###  5.17. <a name='Browser'></a>Browser
+### Browsers
 
 - [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium)
 - [LibreWolf](https://librewolf.net/)  
@@ -516,19 +468,19 @@ You can welcome, to check my lengthy guide on Browser configuration, by clicking
 <br>
 <br>
 
-##  6. <a name='Maintenance'></a>Maintenance
+## Maintenance
 
-###  6.1. <a name='Scripts'></a>Scripts
+### Scripts
 
 * [clean_updates.cmd](Post-Install/Maintenance/Scripts/Before%20Windows%20Updates/clean_updates.cmd) - Remove all installed outdated and no longer needed Microsoft Windows updates from **WinSxS** directory;
   
 * [clean_wrea.cmd](Post-Install/Maintenance/Scripts/Before%20Windows%20Updates/clean_wrea.cmd) - remove all files and directories from $WinREAgent directory;
 
-##  7. <a name='Bibliography'></a>Bibliography
+## Bibliography
 
 A lengthy catalog of resources, files, configurations, etc. etc. I have found useful and looked at as creating this.
 
-####  7.1. <a name='Projects'></a>Projects
+#### Projects
 
 - [x] [QuickBoost](https://github.com/SanGraphic/QuickBoost)
 
@@ -542,7 +494,7 @@ A lengthy catalog of resources, files, configurations, etc. etc. I have found us
 
 - [x] [Winaero Tweaker](https://winaero.com/winaero-tweaker/)
 
-####  7.2. <a name='Scripts-1'></a>Scripts
+#### Scripts
 
 - [x] [Remove-MS-Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge)
 
@@ -550,15 +502,15 @@ A lengthy catalog of resources, files, configurations, etc. etc. I have found us
 
 - [ ] [Windows-Optimize-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Debloat)
 
-####  7.3. <a name='TweakCollections'></a>Tweak Collections
+#### Tweak Collections
 
 - [ ] [MajorGeeks Windows Tweaks 2.97](https://www.majorgeeks.com/files/details/majorgeeks_registry_tweaks.html)
 
-####  7.4. <a name='Services'></a>Services 
+#### Services 
 
 - [ ] [W4RH4WK's Services](https://github.com/W4RH4WK/Debloat-Windows-10/blob/master/scripts/disable-services.ps1)
 
-####  7.5. <a name='GithubResources'></a>Github Resources
+#### Github Resources
 
 - [ ] [Windows Files](https://github.com/DavoDC/WindowsFiles/tree/main)
 
@@ -594,7 +546,7 @@ A lengthy catalog of resources, files, configurations, etc. etc. I have found us
 
 - [ ] [Kill Unwanted Processes](https://github.com/Aldaviva/KillUnwantedProcesses)
 
-####  7.6. <a name='NTLitePresets'></a>NTLite Presets
+#### NTLite Presets
 
 - [ ] [INFR-Automation's - Windows Image Building](https://github.com/infr-automation/WindowsImageBuilding/tree/master)
 
@@ -602,7 +554,7 @@ A lengthy catalog of resources, files, configurations, etc. etc. I have found us
 
 - [ ] [Windows 10 Pro Lite](https://github.com/RobertoBiundo/Windows10Lite/tree/master)
 
-####  7.7. <a name='GuidesTutorials'></a>Guides & Tutorials
+#### Guides & Tutorials
 
 - [ ] [Use-Gaming-Tweaks](https://github.com/PrincessAkira/Use-Gaming-Tweaks)
 
@@ -618,7 +570,7 @@ A lengthy catalog of resources, files, configurations, etc. etc. I have found us
  
 - [ ] [Gaming Performance / System Optimization / Useful Tweaks](https://n1kobg.blogspot.com/)
 
-####  7.8. <a name='Resources'></a>Resources
+#### Resources
 
 - [ ] [Group Policy Administrative Templates Catalog](https://admx.help/)
 
@@ -656,7 +608,7 @@ A lengthy catalog of resources, files, configurations, etc. etc. I have found us
 
 - [ ] [pluja/awesome-privacy: Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.](https://github.com/pluja/awesome-privacy)
 
-####  7.9. <a name='LanguagePacks-1'></a>Language Packs
+#### Language Packs
 
 - [ ] [How To Add Language Packs To Windows 11/10 ISO Image (Offline)](https://www.itechtics.com/add-language-packs-windows-11-10-iso/)
 
@@ -666,11 +618,11 @@ A lengthy catalog of resources, files, configurations, etc. etc. I have found us
 
 - [ ] [Window 10 Offline εγκατάσταση πακέτου γλώσσας εμφάνισης](https://iguru.gr/window-10-offline-egkatastasi-paketou-glossas-emfanisis/)
 
-####  7.10. <a name='Post-Install'></a>Post-Install 
+#### Post-Install 
 
 - [ ] [The Installer](https://github.com/couleur-tweak-tips/the-installer/tree/main)
 
-####  7.11. <a name='YoutubeReddit'></a>Youtube & Reddit
+#### Youtube & Reddit
 
 - [ ] [Chris Titus Tech's - Making the Best Windows ISO (video)](https://www.youtube.com/watch?v=xLCWtC6UYrM)
 
