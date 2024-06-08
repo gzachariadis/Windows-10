@@ -168,7 +168,6 @@ Customize your execution catalog, by deleting scripts you don't want to run from
 
 # Unattended Setup
 
-
 <br>
 <br>
 <br>
@@ -220,8 +219,6 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 - Open a new Powershell as Administrator.
 - Run the following commands
 
-<br>
-
 ```
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
@@ -256,7 +253,7 @@ The following tools, are able to help you optimize and debloat your system.
 
 ### [Winaero Tweaker](https://winaero.com/winaero-tweaker/)
 
-- Download from [here.]()
+- Download from [here.](https://winaero.com/downloads/winaerotweaker.zip)
 - Run the installer.
 
 ### [Privacy.Sexy](https://privacy.sexy/)
@@ -322,15 +319,23 @@ Set-ExecutionPolicy Unrestricted -Force
 - Execute the Executable.
 - Done! :)
 
+## [7+ Taskbar Tweaker](https://ramensoftware.com/7-taskbar-tweaker)
+
+- Download from [here.](https://ramensoftware.com/downloads/7tt_setup.exe)
+- Execute the Executable. 
+
+
 ## Applications
 
-This is the list of Applications Categories, that I personally prefer to have on my Windows Systems, they are seperated by "Purpose". In some occasions, popular alternatives are proposed for you.
+Below, you will find a personalized, categorized index of software that I prefer to install on my Windows Systems, they are seperated by their "Purpose". 
 
-You can use the [Winget Client](https://github.com/microsoft/winget-cli) and [Winutil by Chris Titus](https://github.com/ChrisTitusTech/winutil) to issue an automated install.
+In some rare occasions, popular alternatives are proposed for you, if I feel they worth mentioning.
 
-My preferences include mostly Open-Source community maintained software, in case no software of that sort serves my purpose, I opt for commerical or closed-source alternatives.
+You can use the [Winget Client](https://github.com/microsoft/winget-cli) and [Winutil by Chris Titus](https://github.com/ChrisTitusTech/winutil) to issue an automated mass install. Templates for the latter, can be found [here.]()
 
-## Categories 
+My preferences include almost exclusively Open-Source and/or community maintained software, in case no software of that sort serves my purpose, I opt for commerical or closed-source alternatives.
+
+### Categories 
 
 - [System Security](#system-security)
 - [System Maitenance](#system-maintenance)
@@ -353,14 +358,14 @@ My preferences include mostly Open-Source community maintained software, in case
 - [Tiling Window Manager](#tiling-window-manager)
 - [Browsers](#browsers)
 
-### System Security
+#### System Security
 
 As far as Antivirus software goes, I wouldn't trust any free-option out there, if you want to buy one, go with Sophos, that's just my personal preference, it has high capture rates and had most success with it, a mix of MalwareBytes and SimpleWall does it for me, as I don't use this system to browse a lot.
 
 - [MalwareBytes](https://www.malwarebytes.com/)
 - [SimpleWall](https://www.henrypp.org/product/simplewall) or [TinyWall](https://tinywall.pados.hu/)
 
-### System Maintenance
+#### System Maintenance
 
 #### Software Removal
 
@@ -382,64 +387,154 @@ As far as Antivirus software goes, I wouldn't trust any free-option out there, i
 - [Vencord - Discord mod](https://github.com/Vendicated/Vencord)
 - [Microsoft Teams]()
 - [Slack]()
+- [Caprine - Messenger Client](https://sindresorhus.com/caprine/)
+- [Discord](https://discord.com/)
+- [Telegram Desktop](https://desktop.telegram.org/)
 
 #### Hardware Controllers
 
 - [Elgato Stream Deck](https://www.elgato.com/us/en/s/downloads)
 - [Scrcpy](https://github.com/Genymobile/scrcpy)
 
-### Additional Software
+#### Additional Software
 
 - [f.lux](https://justgetflux.com/)
+- [SDK Platforms](https://developer.android.com/tools/releases/platform-tools)
 
-### E-Book Readers
+#### E-Book Readers
 
 - [Thorium Reader](https://www.edrlab.org/software/thorium-reader/)
 - [EPUB Reader](https://icecreamapps.com/Ebook-Reader/)
 - [Koodo](https://koodo.960960.xyz/en)
+- [Alexandria](https://github.com/btpf/Alexandria)
 
-### Multimedia
+#### Multimedia
 
 - [SpotX - Spotify Client](https://github.com/SpotX-Official/SpotX)
   - [Custom Themes](https://spicetify.app/docs/getting-started/)
+- [Libation](https://github.com/rmcrackan/Libation)
+- [WinMute](https://github.com/lx-s/WinMute/)
+- [Volumey](https://github.com/G-Stas/Volumey)
+- [AHK_MicMute](https://github.com/SaifAqqad/AHK_MicMute)
 
-### Search
+#### Search
 
 - [Ueli](https://ueli.app/#/)
 - [Flow](https://www.flowlauncher.com/)
 - [PowerToys Run]()
+- [Wox](http://www.wox.one/)
 
-### Terminal Emulators
+#### Terminal Emulators
 
-- [Tabby]()
+- [Tabby](https://tabby.sh/)
 
-### Password Managers
+#### Password Managers
 
 - [Bitwarden]()
 
-### Text-Expansion
+#### Text-Expansion
 
 - [Espanso](https://espanso.org/)
 
-### Screenshots
+#### Taskbar
+
+- [TaskbarX](https://github.com/ChrisAnd1998/TaskbarX)
+
+#### Screenshots
 
 - [FlameShot]()
+- [Greenshot](https://getgreenshot.org/screenshots/)
 
-### Software Development
+#### Eye Protection
+
+- [Eyes Guard](https://github.com/avestura/EyesGuard)
+- [Stretchly](https://hovancik.net/stretchly/)
+
+#### Virtualization
+
+- [Sandboxie](https://sandboxie-plus.com/)
+
+#### PDF Readers
+
+- [Okular](https://okular.kde.org/)
+
+#### Music Player
+
+- [Harmonoid](https://harmonoid.com/)
+- [MoonSync](https://moosync.app/)
+- [Museeks](https://museeks.io/)
+- [Musicbee](https://www.getmusicbee.com/)
+- [MusicPod](https://github.com/ubuntu-flutter-community/musicpod)
+- [Tauon](https://tauonmusicbox.rocks/)
+- [Cider](https://cider.sh/)
+- [Lofi](https://www.lofi.rocks/)
+- [Muffon](https://muffon.netlify.app/)
+- [Rise Media Player](https://github.com/Rise-Software/Rise-Media-Player)
+
+#### Audio Tagger
+
+- [Kid3 - Audio Tagger](https://kid3.kde.org/)
+- [Mp3Tag](https://www.mp3tag.de/en/)
+- [One Tagger](https://onetagger.github.io/)
+
+#### Downloaders
+
+- [Hitomi Downloader](https://github.com/KurtBestor/Hitomi-Downloader)
+- [SCrawler](https://github.com/AAndyProgram/SCrawler)
+
+#### Equalizer
+
+- [FXSound](https://www.fxsound.com/)
+
+#### Software Development
 
 - [Visual Studio Code]()
 - [Git Bash]()
 - [GitHub Desktop]()
+- [massCode](https://masscode.io/)
+- [Kanban-Tasker](https://github.com/hjohnson12/Kanban-Tasker)
 
-### Gaming
+#### File Manipulation
+
+- [ExifCleaner](https://exifcleaner.com/)
+- [Szyszka](https://github.com/qarmin/szyszka)
+- [Squoosh](https://squoosh.app/) or [Caesium](https://saerasoft.com/caesium)
+
+#### Email Client
+
+- [Thunderbird](https://www.thunderbird.net/en-US/)
+
+#### Clipboard Manager
+
+- [XClipper](https://kaustubhpatange.github.io/XClipper/docs/#/)
+- [Ditto](https://github.com/sabrogden/Ditto)
+
+#### File Managers
+
+- [One Commander](https://onecommander.com/)
+- [Files](https://files.community/)
+- [Sigma File Manager](https://github.com/aleksey-hoffman/sigma-file-manager)
+- [Xplorer](https://xplorer.space/)
+
+#### Image Viewer
+
+- [qView](https://interversehq.com/qview/)
+
+### Optical Character Recognition (OCR)
+
+- [Capture2Text](https://sourceforge.net/projects/capture2text/)
+- [Text Grab](https://github.com/TheJoeFin/Text-Grab)
+- [NormCap](https://dynobo.github.io/normcap/)
+
+#### Gaming
 
 - [Steam]()
 
-### Activity Sharing
+#### Activity Sharing
 
 - [PreMiD](https://github.com/PreMiD/PreMiD)
 
-### Tiling Window Manager
+#### Tiling Window Manager
 
 A window manager is a program that opens, renders, and manages windows.
 
@@ -450,9 +545,11 @@ Here's some popular options
 - [GlazeWM](https://github.com/glazerdesktop/GlazeWM)
 - [FancyWM](https://github.com/FancyWM/fancywm)
 
+- [TidyTabs](https://www.nurgo-software.com/products/tidytabs)
+
 I opt for [Komorebi]() and [here's my configuration.]()
 
-### Browsers
+#### Browsers
 
 - [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium)
 - [LibreWolf](https://librewolf.net/)  
