@@ -395,11 +395,11 @@ As far as Antivirus software goes, I wouldn't trust any free-option out there, i
 
 - [Elgato Stream Deck](https://www.elgato.com/us/en/s/downloads)
 - [Scrcpy](https://github.com/Genymobile/scrcpy)
+- [SDK Platforms](https://developer.android.com/tools/releases/platform-tools)
 
 #### Additional Software
 
 - [f.lux](https://justgetflux.com/)
-- [SDK Platforms](https://developer.android.com/tools/releases/platform-tools)
 
 #### E-Book Readers
 
@@ -522,7 +522,6 @@ As far as Antivirus software goes, I wouldn't trust any free-option out there, i
 
 ### Optical Character Recognition (OCR)
 
-- [Capture2Text](https://sourceforge.net/projects/capture2text/)
 - [Text Grab](https://github.com/TheJoeFin/Text-Grab)
 - [NormCap](https://dynobo.github.io/normcap/)
 
