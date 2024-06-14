@@ -180,13 +180,6 @@ Customize your execution catalog, by deleting scripts you don't want to run from
 - [Chocolatey](https://chocolatey.org/install)
 - [Scoop](https://scoop.sh/)
 - [7-Zip](https://www.7-zip.org/)
-- [Microsoft Visual C++ Redistributable Runtimes](https://github.com/abbodi1406/vcredist)
-
-### Redistributable Runtimes
-
-- Download [Redistributable Runtimes](https://github.com/abbodi1406/vcredist/releases/download/v0.82.0/VisualCppRedist_AIO_x86_x64.exe)
-
-- [Download Mirror](https://www.majorgeeks.com/files/details/visual_c_runtime_installer.html) 
 
 ### [Chocolatey](https://chocolatey.org/)
 
@@ -213,11 +206,6 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 ```
-
-### [7-Zip](https://www.7-zip.org/)
-
-- Download [here.](https://www.7-zip.org/a/7z2406-x64.exe)
-- Execute the Executable.
 
 # Drivers
 
@@ -289,22 +277,26 @@ Set-ExecutionPolicy Unrestricted -Force
 - Download from [here.](https://github.com/SanGraphic/QuickBoost/releases/download/2.9.4/QuickBoost.exe)
 - Execute the Executable.
 
-### [Ultimate Windows  Tweaker 4.8](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10)
-
-- Download from [here.](https://www.thewindowsclub.com/downloads/UWT4.zip)
-- Unzip using 7-Zip.
-- Execute the Executable.
-
 ### [WinSlap](https://github.com/svenmauch/WinSlap)
 
 - Download from [here.](https://github.com/svenmauch/WinSlap/releases/download/v1.8/WinSlap.exe)
 - Execute the Executable.
 
-## [Remove Microsoft Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge)
+### [Remove Microsoft Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge)
 
 - Download from [here.](https://github.com/ShadowWhisperer/Remove-MS-Edge/blob/main/Remove-Edge_GUI.exe?raw=true)
 - Execute the Executable.
 - Done! :)
+
+### [Windows-Optimize-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Debloat)
+
+- Open Powershell as Administrator.
+
+Run the following command
+
+```
+iwr -useb 'https://simeononsecurity.ch/scripts/windowsoptimizeanddebloat.ps1'|iex
+```
 
 ## [7+ Taskbar Tweaker](https://ramensoftware.com/7-taskbar-tweaker)
 
@@ -335,10 +327,6 @@ My preferences include almost exclusively Open-Source and/or community maintaine
 ### Categories 
 
 - [System Security](#system-security)
-- [System Maitenance](#system-maintenance)
-- [Software Removal](#software-removal)
-- [Duplicate Removal](#duplicate-removal)
-- [Cleaning Utillities](#cleaning-utillities)
 - [Social Media & Communication Tools](#social-media--communication-tools)
 - [Hardware Controllers](#hardware-controllers)
 - [Additional Software](#additional-software)
@@ -362,38 +350,16 @@ As far as Antivirus software goes, I wouldn't trust any free-option out there, i
 - [MalwareBytes](https://www.malwarebytes.com/)
 - [SimpleWall](https://www.henrypp.org/product/simplewall) or [TinyWall](https://tinywall.pados.hu/)
 
-#### System Maintenance
-
-#### Software Removal
-
-- [Bulk Crap Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller)
-
-#### Duplicate Removal
-
-- [Czkawka](https://github.com/qarmin/czkawka/tree/master)
-- [dupeGuru](https://dupeguru.voltaicideas.net/)
-
-#### Cleaning Utillities
-
-- [Windows Memory Cleaner](https://github.com/IgorMundstein/WinMemoryCleaner)
-- [BleachBit](https://www.bleachbit.org/)
-- [CC Cleaner]()
-
 #### Social Media & Communication Tools
 
 - [Vencord - Discord mod](https://github.com/Vendicated/Vencord)
-- [Microsoft Teams]()
-- [Slack]()
+- [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/download-apps)
+- [Slack](https://slack.com/)
 - [Caprine - Messenger Client](https://sindresorhus.com/caprine/)
-- [Discord](https://discord.com/)
-- [Telegram Desktop](https://desktop.telegram.org/)
 
 #### Hardware Controllers
 
 - [Elgato Stream Deck](https://www.elgato.com/us/en/s/downloads)
-- [Scrcpy](https://github.com/Genymobile/scrcpy)
-- [SDK Platforms](https://developer.android.com/tools/releases/platform-tools)
-- [Fan Control](https://github.com/rem0o/fancontrol.releases)
 
 #### Additional Software
 
@@ -405,22 +371,21 @@ As far as Antivirus software goes, I wouldn't trust any free-option out there, i
 - [EPUB Reader](https://icecreamapps.com/Ebook-Reader/)
 - [Koodo](https://koodo.960960.xyz/en)
 - [Alexandria](https://github.com/btpf/Alexandria)
+- [Libation](https://github.com/rmcrackan/Libation)
 
 #### Multimedia
 
 - [SpotX - Spotify Client](https://github.com/SpotX-Official/SpotX)
   - [Custom Themes](https://spicetify.app/docs/getting-started/)
-- [Libation](https://github.com/rmcrackan/Libation)
+
 - [WinMute](https://github.com/lx-s/WinMute/)
 - [Volumey](https://github.com/G-Stas/Volumey)
 - [AHK_MicMute](https://github.com/SaifAqqad/AHK_MicMute)
 
 #### Search
 
-- [Ueli](https://ueli.app/#/)
 - [Flow](https://www.flowlauncher.com/)
-- [PowerToys Run]()
-- [Wox](http://www.wox.one/)
+- [PowerToys](https://github.com/microsoft/PowerToys)
 
 #### Terminal Emulators
 
@@ -428,7 +393,7 @@ As far as Antivirus software goes, I wouldn't trust any free-option out there, i
 
 #### Password Managers
 
-- [Bitwarden]()
+- [Bitwarden](https://bitwarden.com/)
 
 #### Text-Expansion
 
@@ -440,7 +405,7 @@ As far as Antivirus software goes, I wouldn't trust any free-option out there, i
 
 #### Screenshots
 
-- [FlameShot]()
+- [FlameShot](https://flameshot.org/)
 - [Greenshot](https://getgreenshot.org/screenshots/)
 
 #### Eye Protection
@@ -490,9 +455,8 @@ As far as Antivirus software goes, I wouldn't trust any free-option out there, i
 
 #### Software Development
 
-- [Visual Studio Code]()
-- [Git Bash]()
-- [GitHub Desktop]()
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [GitHub Desktop](https://desktop.github.com/v)
 - [massCode](https://masscode.io/)
 - [Kanban-Tasker](https://github.com/hjohnson12/Kanban-Tasker)
 
@@ -527,50 +491,49 @@ As far as Antivirus software goes, I wouldn't trust any free-option out there, i
 - [Text Grab](https://github.com/TheJoeFin/Text-Grab)
 - [NormCap](https://dynobo.github.io/normcap/)
 
-#### Gaming
+### Gaming
 
-- [Steam]()
+- [Steam](https://store.steampowered.com/)
 
-#### Activity Sharing
+### Activity Sharing
 
 - [PreMiD](https://github.com/PreMiD/PreMiD)
 
-#### Time Tracking
+### Time Tracking
 
 - [Activity Watch](https://github.com/ActivityWatch/activitywatch)
 
-#### Tiling Window Manager
+### Zip Managers
 
-A window manager is a program that opens, renders, and manages windows.
+- [7 Zip](https://www.7-zip.org/)
 
-Here's some popular options
+### Tiling Window Manager
 
-- [WinWM](https://github.com/McYoloSwagHam/win3wm)
-- [Komorebi](https://github.com/LGUG2Z/komorebi)
-- [GlazeWM](https://github.com/glazerdesktop/GlazeWM)
-- [FancyWM](https://github.com/FancyWM/fancywm)
+A window manager is an application that manages open Windows. I happen to use [Komorebi](https://github.com/LGUG2Z/komorebi) and [here's my configuration.]()
 
-- [TidyTabs](https://www.nurgo-software.com/products/tidytabs)
+#### Browser
 
-I opt for [Komorebi]() and [here's my configuration.]()
-
-#### Browsers
-
-- [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium)
 - [LibreWolf](https://librewolf.net/)  
 
 You can welcome, to check my lengthy guide on Browser configuration, by clicking the link [here.]()
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 ## Maintenance
+
+### System Maintenance
+
+#### Software Removal
+
+- [Bulk Crap Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller)
+
+#### Duplicate Removal
+
+- [Czkawka](https://github.com/qarmin/czkawka/tree/master)
+- [dupeGuru](https://dupeguru.voltaicideas.net/)
+
+#### Cleaning Utillities
+
+- [Windows Memory Cleaner](https://github.com/IgorMundstein/WinMemoryCleaner)
+- [BleachBit](https://www.bleachbit.org/)
 
 ### Scripts
 
@@ -592,21 +555,17 @@ A lengthy catalog of resources, files, configurations, etc. etc. I have found us
   
 - [x] [Win Slap](https://github.com/svenmauch/WinSlap)
 
-- [x] [Ultimate Windows Tweaker 4](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10)
+- [x] [Ultimate Windows Tweaker 4](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10) - Had problems with it, so I choose not to continue using it.
 
 - [x] [Winaero Tweaker](https://winaero.com/winaero-tweaker/)
 
-- [ ] [Windows 10 Hardening](https://github.com/ssh3ll/Windows-10-Hardening)
-
-- [ ] [HardenTools](https://github.com/hardentools/hardentools)
+- [x] [Windows-Optimize-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Debloat)
 
 #### Scripts
 
 - [x] [Remove-MS-Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge)
 
 - [x] [AveYo's Fox](https://github.com/AveYo/fox) - Didn't include since it's part of Chris Titus Winutil
-
-- [ ] [Windows-Optimize-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Debloat)
 
 #### Tweak Collections
 
