@@ -225,7 +225,9 @@ The following tools, are able to help you optimize and debloat your system.
 
 #### Configuration
 
-![Alternate image text](https://github.com/gzachariadis/Windows-10/blob/main/Pictures/Optimizer-General.png)
+![Optimizer-1](https://github.com/gzachariadis/Windows-10/blob/main/Pictures/Optimizer-General.jpg?raw=true)
+
+![Optimizer-2](https://github.com/gzachariadis/Windows-10/blob/main/Pictures/Optimizer-Windows10.jpg?raw=true)
 
 ### [Winaero Tweaker](https://winaero.com/downloads/winaerotweaker.zip)
 
@@ -275,12 +277,26 @@ iwr -useb 'https://simeononsecurity.ch/scripts/windowsoptimizeanddebloat.ps1'|ie
 
 - [Windows 10 Bloat Remover](https://github.com/Fs00/Win10BloatRemover/releases/download/5.0/Win10BloatRemover_5.0.zip)
 - [Quick Boost](https://github.com/SanGraphic/QuickBoost/releases/download/2.9.4/QuickBoost.exe)
-- [Winslap](https://github.com/svenmauch/WinSlap/releases/download/v1.8/WinSlap.exe)
 - [Remove Microsoft Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge/blob/main/Remove-Edge_GUI.exe?raw=true)
+- [7+ Taskbar Tweaker](https://ramensoftware.com/downloads/7tt_setup.exe)
 
-### [7+ Taskbar Tweaker](https://ramensoftware.com/downloads/7tt_setup.exe)
+### [Winslap](https://github.com/svenmauch/WinSlap/releases/download/v1.8/WinSlap.exe)
 
-##  [Black Viper - Services](https://github.com/madbomb122/BlackViperScript/archive/refs/tags/6.2.3.zip)
+#### Tweaks
+
+![Winslap-Tweaks1](https://github.com/gzachariadis/Windows-10/blob/main/Pictures/WinSlap-Tweaks1.png?raw=true)
+
+![Winslap-Tweaks2](https://github.com/gzachariadis/Windows-10/blob/main/Pictures/WinSlap-Tweaks2.png?raw=true)
+
+#### Appearance
+
+![Winslap-Appearance](https://github.com/gzachariadis/Windows-10/blob/main/Pictures/WinSlap-Appearance.png?raw=true)
+
+#### Advanced
+
+![Winslap-Advanced](https://github.com/gzachariadis/Windows-10/blob/main/Pictures/WinSlap-Advanced.png?raw=true)
+
+###  [Black Viper - Services](https://github.com/madbomb122/BlackViperScript/archive/refs/tags/6.2.3.zip)
 
 My custom Configuration can be found [here.]()
 
