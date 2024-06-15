@@ -235,7 +235,7 @@ My preferred configuration can be found [here.]()
 
 ### [Privacy.Sexy](https://privacy.sexy/)
 
-You can follow the [link here](https://privacy.sexy/) and create your own configuration, or run mine under the [Exported Settings]() folder.
+My preferred configuration is [here.]
 
 ### [Chris Titus Tech's Windows Utility](https://github.com/ChrisTitusTech/winutil)
 
