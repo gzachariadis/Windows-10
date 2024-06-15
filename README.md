@@ -44,26 +44,26 @@
 
 <h2 align="center">System Requirements Checklist</h2>
 
-## Windows Core Functionallity
+### Windows Core Functionallity
 
-### Windows Updates
+#### Windows Updates
 
 - [x] Manually update Windows
 
-### Microsoft Activation
+#### Microsoft Activation
 
 - [x] Activate Windows using [MAS Activation Scripts]()
 
-### Language & Typing
+#### Language & Typing
 
 - [x] Install Greek Language Pack (Keyboard Layout support)
 
-### Windows Store
+#### Windows Store
 
 - [x] Launch & Update Windows Store Catalog
 - [x] Download & Install any Free Application using the Windows Store
 
-### Hardware
+#### Hardware
 
 - [x] Microphone 
 - [ ] Camera
@@ -71,30 +71,30 @@
 - [ ] Bluetooth Support
 - [ ] Wi-Fi Support
 
-## Applications Support
+### Applications Support
 
-### Installers
+#### Installers
 
 - [ ] MSI Installers
 - [ ] EXE Installers
 
-### Package Managers
+#### Package Managers
 
 - [x] Winget - Download & Update Applications
 - [x] Scoop - Download & Update Applications
 
-## Programs & Features
+### Programs & Features
 
-### Komorebi
+#### Komorebi
 
 - [x] Install and Setup Komorebi 
 - [x] Install and Setup Autohotkey
 
-### Microsoft Office 
+#### Microsoft Office 
 
 - [ ] Install, Launch and use Microsoft Office
 
-### Visual Studio Code
+#### Visual Studio Code
 
 - [x] Connect to Microsoft Account with Visual Studio Code 
 
