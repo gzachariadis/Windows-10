@@ -222,6 +222,9 @@ The following tools, are able to help you optimize and debloat your system.
 #### Configuration
 
 ![Optimizer-1](https://i.ibb.co/hYb4Mqx/Optimizer-General.jpg)
+
+<br>
+
 ![Optimizer-2](https://github.com/gzachariadis/Windows-10/blob/main/Pictures/Optimizer-Windows10.png?raw=true)
 
 ### [Winaero Tweaker](https://winaero.com/downloads/winaerotweaker.zip)
@@ -268,6 +271,8 @@ iwr -useb 'https://simeononsecurity.ch/scripts/windowsoptimizeanddebloat.ps1'|ie
 #### Tweaks
 
 ![Winslap-Tweaks1](https://github.com/gzachariadis/Windows-10/blob/main/Pictures/WinSlap-Tweaks1.png?raw=true)
+
+<br>
 
 ![Winslap-Tweaks2](https://github.com/gzachariadis/Windows-10/blob/main/Pictures/WinSlap-Tweaks2.png?raw=true)
 
@@ -348,7 +353,6 @@ As far as Antivirus software goes, I wouldn't trust any free-option out there, i
 
 - [SpotX - Spotify Client](https://github.com/SpotX-Official/SpotX)
   - [Custom Themes](https://spicetify.app/docs/getting-started/)
-
 - [WinMute](https://github.com/lx-s/WinMute/)
 - [Volumey](https://github.com/G-Stas/Volumey)
 - [AHK_MicMute](https://github.com/SaifAqqad/AHK_MicMute)
