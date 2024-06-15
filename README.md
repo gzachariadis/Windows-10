@@ -42,29 +42,61 @@
 
 <br>
 
-<h2 align="center">System Requirements</h2>
+<h2 align="center">System Requirements Checklist</h2>
 
+## Windows Core Functionallity
 
-<p>Requirements</p>
+### Windows Updates
 
-- Webcam & Microphone Support
+- [x] Manually update Windows
 
-- Package Managers
-  - Scoop
-  - Chocolatey
-  - Windows Store
-  - Winget 
+### Microsoft Activation
 
-- Bluetooth & Wi-Fi Support
-  - WiFi Wireless Card - 
+- [x] Activate Windows using [MAS Activation Scripts]()
 
-- Compatibillity with Elgato StreamDeck Software
+### Language & Typing
 
-- Windows Security Updates
+- [x] Install Greek Language Pack (Keyboard Layout support)
 
-- Virtualization capabillities???
+### Windows Store
 
-- Greek Language Pack (Keyboard Layout)
+- [x] Launch & Update Windows Store Catalog
+- [x] Download & Install any Free Application using the Windows Store
+
+### Hardware
+
+- [x] Microphone 
+- [ ] Camera
+- [ ] Streamdeck
+- [ ] Bluetooth Support
+- [ ] Wi-Fi Support
+
+## Applications Support
+
+### Installers
+
+- [ ] MSI Installers
+- [ ] EXE Installers
+
+### Package Managers
+
+- [x] Winget - Download & Update Applications
+- [x] Scoop - Download & Update Applications
+
+## Programs & Features
+
+### Komorebi
+
+- [x] Install and Setup Komorebi 
+- [x] Install and Setup Autohotkey
+
+### Microsoft Office 
+
+- [ ] Install, Launch and use Microsoft Office
+
+### Visual Studio Code
+
+- [x] Connect to Microsoft Account with Visual Studio Code 
 
 <br>
 
@@ -74,10 +106,6 @@ Why did I choose Windows Pro N?
 
 <h1 align="center">Part 1</h1>
 <h2 align="center">Building & Configuring</h2>
-
-### Language Packs
-
-- Greek Language Pack (for Keyboard Layout)
 
 ### Fonts
 
@@ -173,13 +201,6 @@ Customize your execution catalog, by deleting scripts you don't want to run from
 
 <br>
 
-# Prerequisities
-
-## Requirements
-
-- [Chocolatey](https://chocolatey.org/install)
-- [Scoop](https://scoop.sh/)
-
 ### [Chocolatey](https://chocolatey.org/)
 
 ```
@@ -191,9 +212,6 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ```
 
 ### [Scoop](https://scoop.sh/)
-
-- Open a new Powershell as Administrator.
-- Run the following commands
 
 ```
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
@@ -213,9 +231,24 @@ These two might differ depending on your hardware.
 - [MSI AfterBurner]()
 - [iCUE]()
 
+## Windows Updates
+
+In terms of Windows Updates, when I happen to install a new system or want to manually update my system, my favorite option is [this executable by Slavanap](https://github.com/slavanap/Windows10ManualUpdate/releases/download/1.03/w10mu.exe). This is a fantastic small tool that allows for manually selecting which updates to install and takes care of the installation for me.
+
+#### Windows Update Policy
+
+I set my police to Security Settings <b>ONLY!</b> this delays feature updates by 2 years and will install security updates 4 days after release. I use [Win Util by Chris Titus](https://github.com/ChrisTitusTech/winutil/releases/download/24.06.11/winutil.ps1) to set those policies automatically.
+
 ## Debloating & Optimizing
 
-The following tools, are able to help you optimize and debloat your system.
+The following tools, are able to help you optimize and debloat your system, but first there's a list of applications that any Windows ISO doesn't allow to be removed when installing it. You can safely uninstall them now though...
+
+- Sticky Notes
+- Xbox apps
+- Your Phone
+- Microsoft Pay
+
+Additionally, you should run the following [executable by ShadowWhisperer](https://github.com/ShadowWhisperer/Remove-MS-Edge/blob/main/Remove-EdgeOnly.exe?raw=true), this removed only the Edge browser, while leaving the Microsoft Edge WebView2 Runtime, which is essential for the Microsoft Store to function. Bare in mind that I have never paid and installed non-free applications from the Windows Store, you simply have to test this functionality on your own.
 
 ### [Optimizer](https://github.com/hellzerg/optimizer/releases/download/16.5/Optimizer-16.5.exe)
 
@@ -263,7 +296,6 @@ iwr -useb 'https://simeononsecurity.ch/scripts/windowsoptimizeanddebloat.ps1'|ie
 
 - [Windows 10 Bloat Remover](https://github.com/Fs00/Win10BloatRemover/releases/download/5.0/Win10BloatRemover_5.0.zip)
 - [Quick Boost](https://github.com/SanGraphic/QuickBoost/releases/download/2.9.4/QuickBoost.exe)
-- [Remove Microsoft Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge/blob/main/Remove-Edge_GUI.exe?raw=true)
 - [7+ Taskbar Tweaker](https://ramensoftware.com/downloads/7tt_setup.exe)
 
 ### [Winslap](https://github.com/svenmauch/WinSlap/releases/download/v1.8/WinSlap.exe)
@@ -483,7 +515,65 @@ As far as Antivirus software goes, I wouldn't trust any free-option out there, i
 
 ### Tiling Window Manager
 
-A window manager is an application that manages open Windows. I happen to use [Komorebi](https://github.com/LGUG2Z/komorebi) and [here's my configuration.]()
+A window manager is an application that manages open Windows. I happen to use [Komorebi](https://github.com/LGUG2Z/komorebi).
+
+Install it by following these steps, open a Powershell Administrator Window, and execute
+
+```
+Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -Value 1
+```
+
+Disabling unnecessary system animations, it is highly recommended that you enable the <i>"Turn off all unnecessary animations (when possible)" option in "Control Panel > Ease of Access > Ease of Access Centre / Make the computer easier to see"</i> for the best performance with komorebi.
+
+Now in an non-administrator window, execute the following...
+
+```
+scoop install git
+```
+
+```
+scoop bucket add extras
+```
+
+```
+scoop install komorebi autohotkey
+```
+
+#### Configuration
+
+Run this command to make sure that the directory has been created
+
+```
+mkdir -p ~/.config/komorebi
+```
+
+Run this command to open up your PowerShell profile configuration in Notepad++ 
+
+```
+Start notepad++ $PROFILE
+```
+
+Add this line (with your login user!) to the bottom of your PowerShell profile configuration
+
+```
+$Env:KOMOREBI_CONFIG_HOME = 'C:\Users\{your username}\.config\komorebi'
+```
+
+Reload the changes and then reload the PowerShell profile
+
+```
+. $PROFILE
+```
+
+Now you can copy my configuration by [downloading it here.]() and place it into the folder we setup.
+
+#### Optional Settings
+
+Start Komorebi with each Windows Startup using the following...
+
+```
+komorebic enable-autostart
+```
 
 #### Browser
 
@@ -529,17 +619,21 @@ A lengthy catalog of resources, files, configurations, etc. etc. I have found us
   
 - [x] [Win Slap](https://github.com/svenmauch/WinSlap)
 
-- [x] [Ultimate Windows Tweaker 4](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10) - Had problems with it, so I choose not to continue using it.
+- [x] [Ultimate Windows Tweaker 4](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10) 
 
 - [x] [Winaero Tweaker](https://winaero.com/winaero-tweaker/)
 
 - [x] [Windows-Optimize-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Debloat)
 
+#### Executables
+
+- [x] [Windows 10 Manual Update](https://github.com/slavanap/Windows10ManualUpdate)
+
 #### Scripts
 
 - [x] [Remove-MS-Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge)
 
-- [x] [AveYo's Fox](https://github.com/AveYo/fox) - Didn't include since it's part of Chris Titus Winutil
+- [x] [AveYo's Fox](https://github.com/AveYo/fox) - Didn't include since it's part of Chris Titus Winutil and causes problems
 
 #### Tweak Collections
 
