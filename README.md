@@ -181,9 +181,97 @@ After you done configuring, just go ahead and enter menu 6 for Apply and use the
 
 #### Components
 
+##### Drivers
 
-#### Features
+- Batteries [New]
+- Foppy Disk Drives [New]
+- Floppy Disk Drives [New]
+- Imaging Devices [New]
 
+- POS Barcode Scanner
+- POS Cash Drawer
+- POS Hid Magnetic Stripe Reader
+- POS Receipt Printer
+- POS Remote Device
+
+- Shingled Mangetic Recording Disks
+- Shingled Mangetic Recording Volumes
+
+- Smartcard Filters
+- Smartcard Readers
+- Smartcard Cards
+
+- Xbox Peripherals
+
+##### Hardware Support
+
+- Battery
+- Floppy Disk
+- Gaming Peripherals (Xbox GIP)
+- Infrared Devices
+- Point of Service (POS)
+- Smartcard
+
+##### Localization
+
+- DVD Play [New]
+- Keyboard Layouts
+- Language
+- Table Text Service
+
+##### Multimedia
+
+- Intel Indeo Codecs
+- PlayReady
+- Share Media Control Panel
+
+##### Network
+
+- Distributed Link Tracking Client
+- Payments and NFC/SE Manager
+- Windows Mail Communication DLL
+
+##### Remoting and Privacy
+
+- AllJoyn Router Service [New]
+- Diagnostics and Troubleshooting
+- Natural Authentication [New]
+- Shared PC Mode
+- Windows Biometric Service
+- Windows Error Reporting
+- Windows Remote Management (WS-Management)
+
+##### System
+
+- Cache and Temp Files
+- Character Map
+- Embedded Mode
+- Help file support (CHM)
+- Hyper-V
+- Legacy Components [New]
+- Legacy Symbolic Links [New]
+- On-Screen Keyboard (Tablet PC)
+- Private Character Editor
+- Remote Procedure Call (RPC Locator)
+- Send TO Mail and Desktop
+- Shell Hardware Detection
+- User Data Storage ---> Contact Data [New]
+- Zip & Cab folder [New]
+
+##### Windows Apps
+
+- Microsoft Sticky Notes
+- Wallet Service
+- Xbox App
+- Xbox Game Overlay
+- Xbox Speed to Text Overlay
+- Your Phone
+- AAD.BrokerPlugin [New]
+
+#### Features (Allow Mode)
+
+- SMB Direct
+- Windows Search
 
 #### Settings
 
@@ -215,7 +303,9 @@ I use [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts#option-3-install-scri
 
 - https://www.ntlite.com/community/index.php?threads/integrate-add-a-font-to-the-iso-windows-10.2203/
 
-''' PowerShell.exe -ExecutionPolicy Bypass -File .\install.ps1'''
+```
+PowerShell.exe -ExecutionPolicy Bypass -File .\install.ps1
+```
 
 ### Drivers
 
@@ -231,11 +321,11 @@ Plese do use [NVCleanInstall]() when downloading and installing any NVIDIA Drive
 
 ### Registry Tweaks
 
-I have compiled a series of registry tweaks from various sources over the years, as well as created a few of my own in my attempt to optimize my user experience. You can find a comphensive detailed list of those [here.] In order to use them, go ahead and download the repository from the [Releases]() and after extracting the files, navigate to Pre-Install > Registry-Files and execute in a live-system or copy-paste the ones you like from each category into a seperate folder, and import them into NTLite.
+<div align="justify">I have compiled a series of registry tweaks from various sources over the years, as well as created a few of my own in my attempt to optimize my user experience. You can find a comphensive detailed list of those [here.] In order to use them, go ahead and download the repository from the [Releases]() and after extracting the files, navigate to Pre-Install > Registry-Files and execute in a live-system or copy-paste the ones you like from each category into a seperate folder, and import them into NTLite.</div>
 
-The tweaks are categorized under Categories and named after their purpose.
+<div align="justify">The tweaks are categorized under Categories and named after their purpose.</div>
 
-Each registry tweak follows the following file formula.
+<div align="justify">Each registry tweak follows the following file formula.</div>
 
 ```
 Windows Registry Editor Version 5.00
@@ -257,27 +347,27 @@ Windows Registry Editor Version 5.00
 Contents of the File.
 ```
 
-**Before!** you use any tweak(s) ensure you read these comment(s) inside the .reg (labeled with semicolon) to see what it really changes. 
-I have tried my best to do exensive reseach on each tweak, but that doesn't mean that subtitutes your own judgment and liabillity.
+<div align="justify"><b>Before!</b> you use any tweak(s) ensure you read these comment(s) inside the .reg (labeled with semicolon) to see what it really changes.</div>
+
+<div align="justify">I have tried my best to do exensive reseach on each tweak, but that doesn't mean that subtitutes your own judgment and liabillity.</div>
 
 #### **Please backup your registry before any changes or use a Virtual-Machine or a spare computer. I am not liable for any problems that arise from executing these.**
 
-The tweaks contain **Sources** that have useful information around each individual tweak. Please do open those and do your own research before applying changes to your system.
+<div align="justify">The tweaks contain <b>Sources</b> that have useful information around each individual tweak. Please do open those and do your own research before applying changes to your system.</div>
 
-After you have applied the settings using the registry files, I suggest you go into your registry and verify the changes yourself and/or test the
-functionallity it promises.
+<div align="justify">After you have applied the settings using the registry files, I suggest you go into your registry and verify the changes yourself and/or test the functionallity it promises.</div>
 
 The [Sources](#Bibliography) where I gathered the plethora of registry tweaks that can be found under this repository, are at the bottom of this file. Enjoy :)
 
 ### System Services
 
-This is a list of services which Microsoft has allowed me to disable succesfully as of this latest release, if a service is not on this list then I am unsure of the impacts it may have on your desktop experience. Be mindful, that I use Wireless connection for my Gaming System, so if you using a wired connection your configuration will vary.
+<div align="justify">This is a list of services which Microsoft has allowed me to disable succesfully as of this latest release, if a service is not on this list then I am unsure of the impacts it may have on your desktop experience. Be mindful, that I use Wireless connection for my Gaming System, so if you using a wired connection your configuration will vary.</div>
 
-Here's a NTLite Preset that matches this configuration.
+<div align="justify">Here's a NTLite Preset that matches this configuration.</div>
 
 ### First Boot Scripts
 
-If you ever looked at custom versions of Windows, you might be familiar with something described as playbooking, a series of rules and scripts running on your system to provide the same experience every time, I have done something similar here, by adding a batch of scripts into a folder and have them on the first boot of each new system. Just run the <i>run_all_scripts.bat</i> and you good to go.
+<div align="justify">If you ever looked at custom versions of Windows, you might be familiar with something described as playbooking, a series of rules and scripts running on your system to provide the same experience every time, I have done something similar here, by adding a batch of scripts into a folder and have them on the first boot of each new system. Just run the <i>run_all_scripts.bat</i> and you good to go.</div>
 
 A detailed catalog of all the scripts running is to be found [here.]
 
