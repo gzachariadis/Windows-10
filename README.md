@@ -221,15 +221,17 @@ These two might differ depending on your hardware.
 
 The following tools, are able to help you optimize and debloat your system.
 
-### [Optimizer](https://github.com/hellzerg/optimizer/releases)
+### [Optimizer](https://github.com/hellzerg/optimizer/releases/download/16.5/Optimizer-16.5.exe)
 
-- Download from [here.](https://github.com/hellzerg/optimizer/releases/download/16.5/Optimizer-16.5.exe)
-- Execute the Executable.
+#### Configuration
 
-### [Winaero Tweaker](https://winaero.com/winaero-tweaker/)
+![alt text](<Optimizer - General (Page 1).png>)
 
-- Download from [here.](https://winaero.com/downloads/winaerotweaker.zip)
-- Run the installer.
+![alt text](<Optimizer -  Windows 10 (Page 2).png>)
+
+### [Winaero Tweaker](https://winaero.com/downloads/winaerotweaker.zip)
+
+My preferred configuration can be found [here.]()
 
 ### [Privacy.Sexy](https://privacy.sexy/)
 
@@ -265,52 +267,24 @@ Set-ExecutionPolicy Unrestricted -Force
 .\Windows10DebloaterGUI.ps1
 ```
 
-### [Win 10 Bloat Remover](https://github.com/Fs00/Win10BloatRemover)
-
-- Download from [here.](https://github.com/Fs00/Win10BloatRemover/releases/download/5.0/Win10BloatRemover_5.0.zip)
-- Unzip using 7-Zip.
-- Execute the Executable.
-- Done! :)
-
-### [Quick Boost](https://github.com/SanGraphic/QuickBoost/releases/)
-
-- Download from [here.](https://github.com/SanGraphic/QuickBoost/releases/download/2.9.4/QuickBoost.exe)
-- Execute the Executable.
-
-### [WinSlap](https://github.com/svenmauch/WinSlap)
-
-- Download from [here.](https://github.com/svenmauch/WinSlap/releases/download/v1.8/WinSlap.exe)
-- Execute the Executable.
-
-### [Remove Microsoft Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge)
-
-- Download from [here.](https://github.com/ShadowWhisperer/Remove-MS-Edge/blob/main/Remove-Edge_GUI.exe?raw=true)
-- Execute the Executable.
-- Done! :)
-
 ### [Windows-Optimize-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Debloat)
-
-- Open Powershell as Administrator.
-
-Run the following command
 
 ```
 iwr -useb 'https://simeononsecurity.ch/scripts/windowsoptimizeanddebloat.ps1'|iex
 ```
 
-## [7+ Taskbar Tweaker](https://ramensoftware.com/7-taskbar-tweaker)
+### Downloadables Scripts
 
-- Download from [here.](https://ramensoftware.com/downloads/7tt_setup.exe)
-- Execute the Executable. 
+- [Windows 10 Bloat Remover](https://github.com/Fs00/Win10BloatRemover/releases/download/5.0/Win10BloatRemover_5.0.zip)
+- [Quick Boost](https://github.com/SanGraphic/QuickBoost/releases/download/2.9.4/QuickBoost.exe)
+- [Winslap](https://github.com/svenmauch/WinSlap/releases/download/v1.8/WinSlap.exe)
+- [Remove Microsoft Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge/blob/main/Remove-Edge_GUI.exe?raw=true)
 
-## [Black Viper - Services]
+### [7+ Taskbar Tweaker](https://ramensoftware.com/downloads/7tt_setup.exe)
 
-This is not a <b>Safe Configuration</b> for your System and 
-I cannot possibly test all possible configurations for you, so feel cree to experiment.
+##  [Black Viper - Services](https://github.com/madbomb122/BlackViperScript/archive/refs/tags/6.2.3.zip)
 
-What I can offer is what works for me and the obstacles I have come across so you do not have to discover them on your own.
-
-I create my configuration using the [Black Viper Script](https://github.com/madbomb122/BlackViperScript) and a custom configuration which can be found [here.]()
+My custom Configuration can be found [here.]()
 
 - [Nvidia Container](https://www.youtube.com/watch?v=Gy7TJo7d3Wo) - Disabled 
 
@@ -382,9 +356,8 @@ As far as Antivirus software goes, I wouldn't trust any free-option out there, i
 - [Volumey](https://github.com/G-Stas/Volumey)
 - [AHK_MicMute](https://github.com/SaifAqqad/AHK_MicMute)
 
-#### Search
+#### Search Manager
 
-- [Flow](https://www.flowlauncher.com/)
 - [PowerToys](https://github.com/microsoft/PowerToys)
 
 #### Terminal Emulators
