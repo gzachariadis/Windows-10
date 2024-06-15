@@ -112,7 +112,7 @@ So let's talk ISO configuriments, you will need to download an official ISO from
 
 Secondly, you will need [MSMG Toolkit]() and [NTLite]() the second one is a tool you will need to pay for, there's a free version, never used it so I don't know what features, it's missing.
 
-### MSMG
+<h3 align="center">MSMG</h3>
 
 #### Loading the ISO
 
@@ -136,45 +136,44 @@ Secondly, you will need [MSMG Toolkit]() and [NTLite]() the second one is a tool
 
 ##### Menu 1 - Internet
 
-- Microsoft Edge
+- Option 2 - Microsoft Edge
 
 ##### Menu 3 - Network
 
-- 3. OpenSSH
+- Option 3 - OpenSSH
 
 ##### Menu 6 - System
 
-- 16. Security Center
-- 22. Windows Firewall
-- 25. Windows Update
+- Option 16 - Security Center
+- Option 22 - Windows Firewall
+- Option 25 - Windows Update
 
 ##### Menu 7 - System Apps
 
-- 13. Emails and Accounts
-- 24. Out-of-box Experience (OOBE)
-- 30. Shell Experience Host
-- 31. Shell Services
-- 32. Shell Services
-- 35. Start Menu
-- 38. Microsoft Edge WebView2 Runtime
-- 41. Windows Defender
-- 42. Windows Feature Experience Pack
-- 47. Windows Search
-- 49. Work or School Account
+- Option 13 - Emails and Accounts
+- Option 24 - Out-of-box Experience (OOBE)
+- Option 30 - Shell Experience Host
+- Option 31 - Shell Services
+- Option 32 - Shell Services
+- Option 35 - Start Menu
+- Option 38 - Microsoft Edge WebView2 Runtime
+- Option 41 - Windows Defender
+- Option 42 - Windows Feature Experience Pack
+- Option 47 - Windows Search
+- Option 49 - Work or School Account
 
 ###### Menu 8 - Windows Apps
 
-- 20. Microsoft .NET Framework
-- 21. Microsoft .NET Framework
-- 23. Microsoft .NET Framework
-- 24. Microsoft .NET Framework
-- 30. Windows Store (Core)
-- 31. Windows Store (Core)
-- 36. UWP Desktop Runtime Packages
-- 37. UWP Desktop Runtime Packages
-- 57. Store Experience Host
-- 71. Xbox Identity Provider
-
+- Option 20 - Microsoft .NET Framework
+- Option 21 - Microsoft .NET Framework
+- Option 23 - Microsoft .NET Framework
+- Option 24 - Microsoft .NET Framework
+- Option 30 - Windows Store (Core)
+- Option 31 - Windows Store (Core)
+- Option 36 - UWP Desktop Runtime Packages
+- Option 37 - UWP Desktop Runtime Packages
+- Option 57 - Store Experience Host
+- Option 71 - Xbox Identity Provider
 
 After you done configuring, just go ahead and enter menu 6 for Apply and use the second option to apply the changes.Finally, create an ISO by going to Taget and first option./xx
 
