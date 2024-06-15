@@ -71,7 +71,7 @@
 - [ ] Bluetooth Support
 - [ ] Wi-Fi Support
 
-### Applications Support
+<h3 align="center">Application Support</h3>
 
 #### Installers
 
@@ -83,7 +83,7 @@
 - [x] Winget - Download & Update Applications
 - [x] Scoop - Download & Update Applications
 
-### Programs & Features
+<h3 align="center">Programs & Features</h3>
 
 #### Komorebi
 
@@ -98,6 +98,9 @@
 
 - [x] Connect to Microsoft Account with Visual Studio Code 
 
+<br>
+<br>
+<br>
 <br>
 
 <h2 align="center">Version Choice</h2>
