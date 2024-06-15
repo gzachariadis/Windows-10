@@ -132,7 +132,7 @@ Secondly, you will need [MSMG Toolkit]() and [NTLite]() the second one is a tool
 - Type 'X' to go back...
 - Type '1' to select Windows components
 
-#### My Configuration
+<h3 align="center">Configuration</h3>
 
 ##### Menu 1 - Internet
 
