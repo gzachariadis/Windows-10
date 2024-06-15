@@ -134,21 +134,21 @@ Secondly, you will need [MSMG Toolkit]() and [NTLite]() the second one is a tool
 
 <h3 align="center">Configuration</h3>
 
-##### Menu 1 - Internet
+#### Menu 1 - Internet
 
 - Option 2 - Microsoft Edge
 
-##### Menu 3 - Network
+#### Menu 3 - Network
 
 - Option 3 - OpenSSH
 
-##### Menu 6 - System
+#### Menu 6 - System
 
 - Option 16 - Security Center
 - Option 22 - Windows Firewall
 - Option 25 - Windows Update
 
-##### Menu 7 - System Apps
+#### Menu 7 - System Apps
 
 - Option 13 - Emails and Accounts
 - Option 24 - Out-of-box Experience (OOBE)
@@ -162,7 +162,7 @@ Secondly, you will need [MSMG Toolkit]() and [NTLite]() the second one is a tool
 - Option 47 - Windows Search
 - Option 49 - Work or School Account
 
-###### Menu 8 - Windows Apps
+#### Menu 8 - Windows Apps
 
 - Option 20 - Microsoft .NET Framework
 - Option 21 - Microsoft .NET Framework
