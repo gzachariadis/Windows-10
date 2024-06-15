@@ -184,7 +184,7 @@ A detailed catalog of all the scripts running is to be found [here.]
 
 Customize your execution catalog, by deleting scripts you don't want to run from the file structure.
 
-# Unattended Setup
+### Unattended Setup
 
 <br>
 <br>
@@ -196,13 +196,14 @@ Customize your execution catalog, by deleting scripts you don't want to run from
 <br>
 
 <h1 align="center">Part 2</h1>
-
-<div align="center">Having reached this far, you should now have a Live System.</div> 
+<h3 align="center">Windows Live System</h3> 
 <br>
 
-<div>From now on, this repository is geared towards keeping this live setup as bloat-free and as consistently performant as possible over the long haul. Keep in mind, that my advice is for you to reinstall a new Windows every 3 to 6 months and re-do this whole thing, there are many automated ways to save your configuration and re-apply them, and having a second hard drive which you considently keep your important files should make this easier for you.</div>
+<div>Having reached this far, you should now have a Live System. From now on, this repository is geared towards keeping this live setup as bloat-free and as consistently performant as possible over the long haul. Keep in mind, that my advice is for you to reinstall a new Windows every 3 to 6 months and re-do this whole thing, there are many automated ways to save your configuration and re-apply them, and having a second hard drive which you considently keep your important files should make this easier for you.</div>
 
 <br>
+
+FIrst things, first, let's install the required Package Managers.
 
 ### [Chocolatey](https://chocolatey.org/)
 
@@ -224,7 +225,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 ```
 
-# Drivers
+## Drivers
 
 - [Snappy Driver Installer]()
 - [NVCleanInstall]()
