@@ -31,6 +31,7 @@
 </p>
 
 <br>
+<br>
 
 <h1 align="center">Introduction</h1>
 
@@ -99,16 +100,118 @@
 - [x] Connect to Microsoft Account with Visual Studio Code 
 
 <br>
-<br>
-<br>
-<br>
 
 <h2 align="center">Version Choice</h2>
 
 Why did I choose Windows Pro N?
 
 <h1 align="center">Part 1</h1>
-<h2 align="center">Building & Configuring</h2>
+<h2 align="center">ISO Building & Configuring</h2>
+
+So let's talk ISO configuriments, you will need to download an official ISO from Microsoft. Do that now by using this [link]() or going and fetching one for you by Googling it.
+
+Secondly, you will need [MSMG Toolkit]() and [NTLite]() the second one is a tool you will need to pay for, there's a free version, never used it so I don't know what features, it's missing.
+
+### MSMG
+
+#### Loading the ISO
+
+- Open the ISO you downloaded from Windows and place the files into the DVD folder.
+- Execute the Start toolkit by using Administrator rights.
+- Select Source then type 1 for 'Select Source from <DVD> folder.
+- Choose the version of Windows you like, I choose 7 for Windows Pro N.
+- Press 'y' multiple times to accept all the prompts.
+- Wait for it to finish...Done!
+
+#### Removal Process
+
+- Type '3' to select Remove Menu.
+- Type '1' to select Remove Windows Components.
+- Type 'C' to select Compatibillity Menu.
+- Type 'A` to remove all compatibillity checks, then select 7 - 14 - 15 (or whatever your requirements are)
+- Type 'X' to go back...
+- Type '1' to select Windows components
+
+#### My Configuration
+
+##### Menu 1 - Internet
+
+- Microsoft Edge
+
+##### Menu 3 - Network
+
+- 3. OpenSSH
+
+##### Menu 6 - System
+
+- 16. Security Center
+- 22. Windows Firewall
+- 25. Windows Update
+
+##### Menu 7 - System Apps
+
+- 13. Emails and Accounts
+- 24. Out-of-box Experience (OOBE)
+- 30. Shell Experience Host
+- 31. Shell Services
+- 32. Shell Services
+- 35. Start Menu
+- 38. Microsoft Edge WebView2 Runtime
+- 41. Windows Defender
+- 42. Windows Feature Experience Pack
+- 47. Windows Search
+- 49. Work or School Account
+
+###### Menu 8 - Windows Apps
+
+- 20. Microsoft .NET Framework
+- 21. Microsoft .NET Framework
+- 23. Microsoft .NET Framework
+- 24. Microsoft .NET Framework
+- 30. Windows Store (Core)
+- 31. Windows Store (Core)
+- 36. UWP Desktop Runtime Packages
+- 37. UWP Desktop Runtime Packages
+- 57. Store Experience Host
+- 71. Xbox Identity Provider
+
+
+After you done configuring, just go ahead and enter menu 6 for Apply and use the second option to apply the changes.Finally, create an ISO by going to Taget and first option./
+
+<br>
+
+### NTLite
+
+
+#### Components
+
+
+#### Features
+
+
+#### Settings
+
+
+#### Services
+
+
+#### Extra Services
+
+
+#### Updates
+
+
+#### Drivers
+
+
+#### Registry
+
+
+#### Unattended
+
+
+#### Post-Setup
+
 
 ### Fonts
 
