@@ -176,7 +176,7 @@ Secondly, you will need [MSMG Toolkit]() and [NTLite]() the second one is a tool
 - 71. Xbox Identity Provider
 
 
-After you done configuring, just go ahead and enter menu 6 for Apply and use the second option to apply the changes.Finally, create an ISO by going to Taget and first option./
+After you done configuring, just go ahead and enter menu 6 for Apply and use the second option to apply the changes.Finally, create an ISO by going to Taget and first option./xx
 
 <br>
 
