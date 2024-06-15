@@ -221,8 +221,7 @@ The following tools, are able to help you optimize and debloat your system.
 
 #### Configuration
 
-![Optimizer-1](https://github.com/gzachariadis/Windows-10/blob/main/Pictures/Optimizer-General.jpg?raw=true)
-
+![Optimizer-1](https://i.ibb.co/hYb4Mqx/Optimizer-General.jpg)
 ![Optimizer-2](https://github.com/gzachariadis/Windows-10/blob/main/Pictures/Optimizer-Windows10.png?raw=true)
 
 ### [Winaero Tweaker](https://winaero.com/downloads/winaerotweaker.zip)
