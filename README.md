@@ -44,7 +44,7 @@
 
 <h2 align="center">System Requirements Checklist</h2>
 
-### Windows Core Functionallity
+<h3 align="center">Windows Core Functionallity</h3>
 
 #### Windows Updates
 
