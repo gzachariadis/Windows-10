@@ -179,12 +179,8 @@ Customize your execution catalog, by deleting scripts you don't want to run from
 
 - [Chocolatey](https://chocolatey.org/install)
 - [Scoop](https://scoop.sh/)
-- [7-Zip](https://www.7-zip.org/)
 
 ### [Chocolatey](https://chocolatey.org/)
-
-- Open a new Powershell as Administrator.
-- Run the following commands
 
 ```
 Set-ExecutionPolicy AllSigned
@@ -239,25 +235,13 @@ My preferred configuration is [here.]
 
 ### [Chris Titus Tech's Windows Utility](https://github.com/ChrisTitusTech/winutil)
 
-- Open a new Powershell as Administrator.
-- Run the following command
-
-<br>
-
 ```
 irm https://christitus.com/win | iex
 ```
 
-### [Windows 10 Debloater](https://github.com/Sycnex/Windows10Debloater)
+### [Windows 10 Debloater](https://github.com/Sycnex/Windows10Debloater/archive/refs/heads/master.zip)
 
-- Download from [here.](https://github.com/Sycnex/Windows10Debloater/archive/refs/heads/master.zip)
-- Extract using 7-Zip.
-- Open Powershell as Administrator.
-- Navigate to Scripts Folder
-
-<br>
-
-Run the following commands 
+Run with the following commands 
 
 ```
 Set-ExecutionPolicy Unrestricted -Force
