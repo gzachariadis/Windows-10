@@ -177,10 +177,7 @@ Secondly, you will need [MSMG Toolkit]() and [NTLite]() the second one is a tool
 
 After you done configuring, just go ahead and enter menu 6 for Apply and use the second option to apply the changes.Finally, create an ISO by going to Taget and first option./xx
 
-<br>
-
-### NTLite
-
+<h3 align="center">NTLite</h3>
 
 #### Components
 
@@ -286,22 +283,11 @@ A detailed catalog of all the scripts running is to be found [here.]
 
 Customize your execution catalog, by deleting scripts you don't want to run from the file structure.
 
-### Unattended Setup
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 <h1 align="center">Part 2</h1>
 <h3 align="center">Windows Live System</h3> 
 <br>
 
-<div>Having reached this far, you should now have a Live System. From now on, this repository is geared towards keeping this live setup as bloat-free and as consistently performant as possible over the long haul. Keep in mind, that my advice is for you to reinstall a new Windows every 3 to 6 months and re-do this whole thing, there are many automated ways to save your configuration and re-apply them, and having a second hard drive which you considently keep your important files should make this easier for you.</div>
+<div align="justify">Having reached this far, you should now have a Live System. From now on, this repository is geared towards keeping this live setup as bloat-free and as consistently performant as possible over the long haul. Keep in mind, that my advice is for you to reinstall a new Windows every 3 to 6 months and re-do this whole thing, there are many automated ways to save your configuration and re-apply them, and having a second hard drive which you considently keep your important files should make this easier for you.</div>
 
 <br>
 
@@ -339,22 +325,22 @@ These two might differ depending on your hardware.
 
 ## Windows Updates
 
-In terms of Windows Updates, when I happen to install a new system or want to manually update my system, my favorite option is [this executable by Slavanap](https://github.com/slavanap/Windows10ManualUpdate/releases/download/1.03/w10mu.exe). This is a fantastic small tool that allows for manually selecting which updates to install and takes care of the installation for me.
+<div align="justify">In terms of Windows Updates, when I happen to install a new system or want to manually update my system, my favorite option is [this executable by Slavanap](https://github.com/slavanap/Windows10ManualUpdate/releases/download/1.03/w10mu.exe). This is a fantastic small tool that allows for manually selecting which updates to install and takes care of the installation for me.</div>
 
 #### Windows Update Policy
 
-I set my police to Security Settings <b>ONLY!</b> this delays feature updates by 2 years and will install security updates 4 days after release. I use [Win Util by Chris Titus](https://github.com/ChrisTitusTech/winutil/releases/download/24.06.11/winutil.ps1) to set those policies automatically.
+<div align="justify">I set my police to Security Settings <b>ONLY!</b> this delays feature updates by 2 years and will install security updates 4 days after release. I use [Win Util by Chris Titus](https://github.com/ChrisTitusTech/winutil/releases/download/24.06.11/winutil.ps1) to set those policies automatically.</div>
 
 ## Debloating & Optimizing
 
-The following tools, are able to help you optimize and debloat your system, but first there's a list of applications that any Windows ISO doesn't allow to be removed when installing it. You can safely uninstall them now though...
+<div align="justify">The following tools, are able to help you optimize and debloat your system, but first there's a list of applications that any Windows ISO doesn't allow to be removed when installing it. You can safely uninstall them now though...</div>
 
 - Sticky Notes
 - Xbox apps
 - Your Phone
 - Microsoft Pay
 
-Additionally, you should run the following [executable by ShadowWhisperer](https://github.com/ShadowWhisperer/Remove-MS-Edge/blob/main/Remove-EdgeOnly.exe?raw=true), this removed only the Edge browser, while leaving the Microsoft Edge WebView2 Runtime, which is essential for the Microsoft Store to function. Bare in mind that I have never paid and installed non-free applications from the Windows Store, you simply have to test this functionality on your own.
+<div align="justify">Additionally, you should run the following [executable by ShadowWhisperer](https://github.com/ShadowWhisperer/Remove-MS-Edge/blob/main/Remove-EdgeOnly.exe?raw=true), this removed only the Edge browser, while leaving the Microsoft Edge WebView2 Runtime, which is essential for the Microsoft Store to function. Bare in mind that I have never paid and installed non-free applications from the Windows Store, you simply have to test this functionality on your own.</div>
 
 ### [Optimizer](https://github.com/hellzerg/optimizer/releases/download/16.5/Optimizer-16.5.exe)
 
@@ -430,13 +416,13 @@ My custom Configuration can be found [here.]()
 
 ## Applications
 
-Below, you will find a personalized, categorized index of software that I prefer to install on my Windows Systems, they are seperated by their "Purpose". 
+<div align="justify">Below, you will find a personalized, categorized index of software that I prefer to install on my Windows Systems, they are seperated by their "Purpose".</div>
 
-In some rare occasions, popular alternatives are proposed for you, if I feel they worth mentioning.
+<div align="justify">In some rare occasions, popular alternatives are proposed for you, if I feel they worth mentioning.</div>
 
-You can use the [Winget Client](https://github.com/microsoft/winget-cli) and [Winutil by Chris Titus](https://github.com/ChrisTitusTech/winutil) to issue an automated mass install. Templates for the latter, can be found [here.]()
+<div align="justify">You can use the [Winget Client](https://github.com/microsoft/winget-cli) and [Winutil by Chris Titus](https://github.com/ChrisTitusTech/winutil) to issue an automated mass install. Templates for the latter, can be found [here.]()</div>
 
-My preferences include almost exclusively Open-Source and/or community maintained software, in case no software of that sort serves my purpose, I opt for commerical or closed-source alternatives.
+<div align="justify">My preferences include almost exclusively Open-Source and/or community maintained software, in case no software of that sort serves my purpose, I opt for commerical or closed-source alternatives.</div>
 
 ### Categories 
 
@@ -459,10 +445,10 @@ My preferences include almost exclusively Open-Source and/or community maintaine
 
 #### System Security
 
-As far as Antivirus software goes, I wouldn't trust any free-option out there, if you want to buy one, go with Sophos, that's just my personal preference, it has high capture rates and had most success with it, a mix of MalwareBytes and SimpleWall does it for me, as I don't use this system to browse a lot.
+<div align="justify">As far as Antivirus software goes, I wouldn't trust any free-option out there, if you want to buy one, go with Sophos, that's just my personal preference, it has high capture rates and had most success with it, a mix of MalwareBytes and SimpleWall does it for me, as I don't use this system to browse a lot.</div>
 
 - [MalwareBytes](https://www.malwarebytes.com/)
-- [SimpleWall](https://www.henrypp.org/product/simplewall) or [TinyWall](https://tinywall.pados.hu/)
+- []
 
 #### Social Media & Communication Tools
 
@@ -629,7 +615,7 @@ Install it by following these steps, open a Powershell Administrator Window, and
 Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -Value 1
 ```
 
-Disabling unnecessary system animations, it is highly recommended that you enable the <i>"Turn off all unnecessary animations (when possible)" option in "Control Panel > Ease of Access > Ease of Access Centre / Make the computer easier to see"</i> for the best performance with komorebi.
+<div align="justify">Disabling unnecessary system animations, it is highly recommended that you enable the <i>"Turn off all unnecessary animations (when possible)" option in "Control Panel > Ease of Access > Ease of Access Centre / Make the computer easier to see"</i> for the best performance with komorebi.</div>
 
 Now in an non-administrator window, execute the following...
 
