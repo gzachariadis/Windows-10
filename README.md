@@ -41,6 +41,10 @@
 
 <div align="justify">This guide is seperated into two main parts. Part 1 relates to ISO Building and Configuration, this you will only have to do all over again with a new ISO, in case you want to reinstall a newer version of Windows, other than that, you should be able to re-use the optimized Windows ISO for as long as your heart desires. Part 2 relates to Post Install, things like what applications to install, what scripts to run, how to maintain your system so it lasts longer etc.</div>
 
+<h2 align="center">Version Choice</h2>
+
+<div align="justify"></div>
+
 <br>
 
 <h2 align="center">System Requirements Checklist</h2>
@@ -50,34 +54,34 @@
 #### Windows Updates
 
 - [x] Manually update Windows
+- [x] Security Policy - allowed
 
 #### Microsoft Activation
 
-- [x] Activate Windows using [MAS Activation Scripts]()
+- [x] Activate Windows using [MAS Activation Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
-#### Language & Typing
+#### Keyboard Layouts
 
-- [x] Install Greek Language Pack (Keyboard Layout support)
+- [ ] Greek Language Pack
 
 #### Windows Store
 
 - [x] Launch & Update Windows Store Catalog
-- [x] Download & Install any Free Application using the Windows Store
+- [x] Download & Install any Application (Exclusively tested on Free Apps)
 
-#### Hardware
+#### Hardware 
 
-- [x] Microphone 
+- [ ] Microphone 
 - [ ] Camera
 - [ ] Streamdeck
-- [ ] Bluetooth Support
 - [ ] Wi-Fi Support
 
 <h3 align="center">Application Support</h3>
 
 #### Installers
 
-- [ ] MSI Installers
-- [ ] EXE Installers
+- [x] MSI Installers
+- [x] EXE Installers
 
 #### Package Managers
 
@@ -88,33 +92,41 @@
 
 #### Komorebi
 
-- [x] Install and Setup Komorebi 
-- [x] Install and Setup Autohotkey
+- [ ] Komorebi 
+- [ ] Autohotkey
+- [ ] Malwarebytes Firewall Control
 
 #### Microsoft Office 
 
-- [ ] Install, Launch and use Microsoft Office
+- [x] Word
+- [x] Excel
 
 #### Visual Studio Code
 
-- [x] Connect to Microsoft Account with Visual Studio Code 
+- [x] Connect to Microsoft Account with Visual Studio Code
+- [ ] Settings Synchronization
+
+<br>
+<br>
+
+<h1 align="center">Part 1</h1>
+<h2 align="center">Building & Configuring</h2>
+
+<div align="justify">Let's talk ISO configuration; You will need to download an official ISO from Microsoft. Do that now by using this <a link="https://www.microsoft.com/el-gr/software-download/windows10ISO">link</a> or this <a link="https://drive.massgrave.dev/en-us_windows_10_consumer_editions_version_22h2_updated_may_2024_x64_dvd_49ddadb6.iso">link</a>, or if you prefer going and fetching one for yourself another way.</div>
 
 <br>
 
-<h2 align="center">Version Choice</h2>
+<div align="justify">Secondly, you will need <a link="https://msmgtoolkit.in/">MSMG Toolkit</a> and <a link="https://www.ntlite.com/">NTLite</a>.</div>
 
-Why did I choose Windows Pro N?
+<br>
 
-<h1 align="center">Part 1</h1>
-<h2 align="center">ISO Building & Configuring</h2>
-
-So let's talk ISO configuriments, you will need to download an official ISO from Microsoft. Do that now by using this [link]() or going and fetching one for you by Googling it.
-
-Secondly, you will need [MSMG Toolkit]() and [NTLite]() the second one is a tool you will need to pay for, there's a free version, never used it so I don't know what features, it's missing.
+<div align="justify">NTLite is a tool you will have to pay, to take full advantage of; There's a free version, never used it so I don't know what features, it's really missing.</div>
 
 <h3 align="center">MSMG</h3>
 
-#### Loading the ISO
+<div align="justify">MSMG Toolkit is a tool that helps with reducing Windows footprint by removing unwanted components of your choice and simplify your installation time and free up drive space. Apart from that, it has other capabillities like integrating drivers, customizing windows, but since I use NTLite for most of that by taking advantage of Presets, you won't find these here.</div>
+
+<h4 align="center">Loading the ISO</h4>
 
 - Open the ISO you downloaded from Windows and place the files into the DVD folder.
 - Execute the Start toolkit by using Administrator rights.
@@ -123,7 +135,7 @@ Secondly, you will need [MSMG Toolkit]() and [NTLite]() the second one is a tool
 - Press 'y' multiple times to accept all the prompts.
 - Wait for it to finish...Done!
 
-#### Removal Process
+<h4 align="center">Removal Process</h4>
 
 - Type '3' to select Remove Menu.
 - Type '1' to select Remove Windows Components.
@@ -132,50 +144,52 @@ Secondly, you will need [MSMG Toolkit]() and [NTLite]() the second one is a tool
 - Type 'X' to go back...
 - Type '1' to select Windows components
 
-<h3 align="center">Configuration</h3>
+<h3 align="center">Component Removal Configuration</h3>
 
 #### Menu 1 - Internet
 
-- Option 2 - Microsoft Edge
+- Microsoft Edge (2)
 
 #### Menu 3 - Network
 
-- Option 3 - OpenSSH
+- OpenSSH (3)
 
 #### Menu 6 - System
 
-- Option 16 - Security Center
-- Option 22 - Windows Firewall
-- Option 25 - Windows Update
+- Security Center (16)
+- Windows Firewall (22)
+- Windows Update (25)
 
 #### Menu 7 - System Apps
 
-- Option 13 - Emails and Accounts
-- Option 24 - Out-of-box Experience (OOBE)
-- Option 30 - Shell Experience Host
-- Option 31 - Shell Services
-- Option 32 - Shell Services
-- Option 35 - Start Menu
-- Option 38 - Microsoft Edge WebView2 Runtime
-- Option 41 - Windows Defender
-- Option 42 - Windows Feature Experience Pack
-- Option 47 - Windows Search
-- Option 49 - Work or School Account
+- Emails and Accounts (13)
+- Out-of-box Experience (24)
+- Shell Experience Host (30)
+- Shell Services (31)
+- Shell Services (32)
+- Start Menu (35)
+- Microsoft Edge WebView2 Runtime (38)
+- Windows Defender (41)
+- Windows Feature Experience Pack (42)
+- Windows Search (47)
+- Work or School Account (49)
 
 #### Menu 8 - Windows Apps
 
-- Option 20 - Microsoft .NET Framework
-- Option 21 - Microsoft .NET Framework
-- Option 23 - Microsoft .NET Framework
-- Option 24 - Microsoft .NET Framework
-- Option 30 - Windows Store (Core)
-- Option 31 - Windows Store (Core)
-- Option 36 - UWP Desktop Runtime Packages
-- Option 37 - UWP Desktop Runtime Packages
-- Option 57 - Store Experience Host
-- Option 71 - Xbox Identity Provider
+- Microsoft .NET Framework (20)
+- Microsoft .NET Framework (21)
+- Microsoft .NET Framework (23)
+- Microsoft .NET Framework (24)
+- Windows Store (Core) (30)
+- Windows Store (Core) (31)
+- UWP Desktop Runtime Packages (36)
+- UWP Desktop Runtime Packages (37)
+- Store Experience Host (57)
+- Xbox Identity Provider (71)
 
-After you done configuring, just go ahead and enter menu 6 for Apply and use the second option to apply the changes.Finally, create an ISO by going to Taget and first option./xx
+<br>
+
+<div align="justify">After you done configuring, just go ahead and enter menu 6 for Apply and use the second option to apply the changes.Finally, create an ISO by going to Taget and first option.</div>
 
 <h3 align="center">NTLite</h3>
 
@@ -184,15 +198,19 @@ After you done configuring, just go ahead and enter menu 6 for Apply and use the
 ##### Drivers
 
 - Batteries [New]
-- Foppy Disk Drives [New]
-- Floppy Disk Drives [New]
-- Imaging Devices [New]
+- Bluetooth [New]
+- Foppy Disk Drives
+- Floppy Disk Drives 
+- Imaging Devices
 
 - POS Barcode Scanner
 - POS Cash Drawer
 - POS Hid Magnetic Stripe Reader
 - POS Receipt Printer
 - POS Remote Device
+
+- Printers
+- SD host adapters
 
 - Shingled Mangetic Recording Disks
 - Shingled Mangetic Recording Volumes
@@ -222,8 +240,10 @@ After you done configuring, just go ahead and enter menu 6 for Apply and use the
 ##### Multimedia
 
 - Intel Indeo Codecs
+- DVD Play [New]
 - PlayReady
 - Share Media Control Panel
+- Windows Disc Image Burning Tool
 
 ##### Network
 
@@ -233,10 +253,12 @@ After you done configuring, just go ahead and enter menu 6 for Apply and use the
 
 ##### Remoting and Privacy
 
-- AllJoyn Router Service [New]
+- AllJoyn Router Service
+- BranchCache Client
 - Diagnostics and Troubleshooting
-- Natural Authentication [New]
+- Natural Authentication
 - Shared PC Mode
+- Universal Notification Platform (UNP) [New]
 - Windows Biometric Service
 - Windows Error Reporting
 - Windows Remote Management (WS-Management)
@@ -248,15 +270,15 @@ After you done configuring, just go ahead and enter menu 6 for Apply and use the
 - Embedded Mode
 - Help file support (CHM)
 - Hyper-V
-- Legacy Components [New]
-- Legacy Symbolic Links [New]
+- Legacy Components
+- Legacy Symbolic Links
 - On-Screen Keyboard (Tablet PC)
 - Private Character Editor
 - Remote Procedure Call (RPC Locator)
 - Send TO Mail and Desktop
 - Shell Hardware Detection
-- User Data Storage ---> Contact Data [New]
-- Zip & Cab folder [New]
+- User Data Storage [New]
+- Zip & Cab folder
 
 ##### Windows Apps
 
@@ -315,10 +337,6 @@ This is my current working drivers that I have no problem with, as of the latest
 
 - WiFi & Bluetooth Driver - 
 
-<br>
-
-Plese do use [NVCleanInstall]() when downloading and installing any NVIDIA Drivers. Settings [here]().
-
 ### Registry Tweaks
 
 <div align="justify">I have compiled a series of registry tweaks from various sources over the years, as well as created a few of my own in my attempt to optimize my user experience. You can find a comphensive detailed list of those [here.] In order to use them, go ahead and download the repository from the [Releases]() and after extracting the files, navigate to Pre-Install > Registry-Files and execute in a live-system or copy-paste the ones you like from each category into a seperate folder, and import them into NTLite.</div>
@@ -351,13 +369,13 @@ Contents of the File.
 
 <div align="justify">I have tried my best to do exensive reseach on each tweak, but that doesn't mean that subtitutes your own judgment and liabillity.</div>
 
-#### **Please backup your registry before any changes or use a Virtual-Machine or a spare computer. I am not liable for any problems that arise from executing these.**
+<div align="justify"><b>Please backup your registry before any changes or use a Virtual-Machine or a spare computer. I am not liable for any problems that arise from executing these.</b></div>
 
 <div align="justify">The tweaks contain <b>Sources</b> that have useful information around each individual tweak. Please do open those and do your own research before applying changes to your system.</div>
 
 <div align="justify">After you have applied the settings using the registry files, I suggest you go into your registry and verify the changes yourself and/or test the functionallity it promises.</div>
 
-The [Sources](#Bibliography) where I gathered the plethora of registry tweaks that can be found under this repository, are at the bottom of this file. Enjoy :)
+<div align="justify">The Sources, where I gathered the plethora of registry tweaks that can be found under this repository, are at the bottom of this file.</div>
 
 ### System Services
 
@@ -365,13 +383,17 @@ The [Sources](#Bibliography) where I gathered the plethora of registry tweaks th
 
 <div align="justify">Here's a NTLite Preset that matches this configuration.</div>
 
-### First Boot Scripts
+<h3 align="center">First Boot Scripts</h3>
 
 <div align="justify">If you ever looked at custom versions of Windows, you might be familiar with something described as playbooking, a series of rules and scripts running on your system to provide the same experience every time, I have done something similar here, by adding a batch of scripts into a folder and have them on the first boot of each new system. Just run the <i>run_all_scripts.bat</i> and you good to go.</div>
 
-A detailed catalog of all the scripts running is to be found [here.]
 
-Customize your execution catalog, by deleting scripts you don't want to run from the file structure.
+<div align="justify">A detailed catalog of all the scripts running is to be found here.</div>
+
+
+<div align="justify">Customize your execution catalog, by deleting scripts you don't want to run from the file structure.</div>
+
+<br>
 
 <h1 align="center">Part 2</h1>
 <h3 align="center">Windows Live System</h3> 
@@ -381,39 +403,31 @@ Customize your execution catalog, by deleting scripts you don't want to run from
 
 <br>
 
-FIrst things, first, let's install the required Package Managers.
+<h2 align="center"><a link="https://github.com/massgravel/Microsoft-Activation-Scripts">Microsoft WIndows Activation</a></h2>
 
-### [Chocolatey](https://chocolatey.org/)
+<div align="justify">MAS Activation Scripts provides a way to activate Windows products (including Office) by using an automated toolkit, like the one below.</div>
 
-```
-Set-ExecutionPolicy AllSigned
-```
+<br>
 
-```
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-```
+<div align="center">irm https://get.activated.win | iex</div>
 
-### [Scoop](https://scoop.sh/)
+<h2 align="center">Optimal Drivers Setup</h2>
 
-```
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
+- [Snappy Driver Installer](https://www.glenn.delahoy.com/snappy-driver-installer-origin/)
 
-```
-Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
-```
+- [NVCleanInstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/)
 
-## Drivers
+<br>
 
-- [Snappy Driver Installer]()
-- [NVCleanInstall]()
+<div align="justify">These two might differ depending on your hardware.</div>
 
-These two might differ depending on your hardware.
+<br>
 
-- [MSI AfterBurner]()
+- [MSI AfterBurner](https://www.msi.com/Landing/afterburner/graphics-cards)
+
 - [iCUE]()
 
-## Windows Updates
+<h2 align="center">Windows Updates</h2>
 
 <div align="justify">In terms of Windows Updates, when I happen to install a new system or want to manually update my system, my favorite option is [this executable by Slavanap](https://github.com/slavanap/Windows10ManualUpdate/releases/download/1.03/w10mu.exe). This is a fantastic small tool that allows for manually selecting which updates to install and takes care of the installation for me.</div>
 
@@ -504,7 +518,7 @@ My custom Configuration can be found [here.]()
 
 - [Nvidia Container](https://www.youtube.com/watch?v=Gy7TJo7d3Wo) - Disabled 
 
-## Applications
+<h2 align="center">Applications</h2>
 
 <div align="justify">Below, you will find a personalized, categorized index of software that I prefer to install on my Windows Systems, they are seperated by their "Purpose".</div>
 
@@ -513,6 +527,30 @@ My custom Configuration can be found [here.]()
 <div align="justify">You can use the [Winget Client](https://github.com/microsoft/winget-cli) and [Winutil by Chris Titus](https://github.com/ChrisTitusTech/winutil) to issue an automated mass install. Templates for the latter, can be found [here.]()</div>
 
 <div align="justify">My preferences include almost exclusively Open-Source and/or community maintained software, in case no software of that sort serves my purpose, I opt for commerical or closed-source alternatives.</div>
+
+<h2 align="center">Package Managers</h2>
+
+<h3 align="center"><a link="https://chocolatey.org/">Chocolatey</h3>
+
+```
+Set-ExecutionPolicy AllSigned
+```
+
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+
+<h3 align="center"><a link="https://scoop.sh/">Scoop</h3>
+
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+<br>
+
+```
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+```
 
 ### Categories 
 
@@ -533,29 +571,25 @@ My custom Configuration can be found [here.]()
 - [Tiling Window Manager](#tiling-window-manager)
 - [Browsers](#browsers)
 
-#### System Security
+<h4 align="center">System Security</h4>
 
 <div align="justify">As far as Antivirus software goes, I wouldn't trust any free-option out there, if you want to buy one, go with Sophos, that's just my personal preference, it has high capture rates and had most success with it, a mix of MalwareBytes and SimpleWall does it for me, as I don't use this system to browse a lot.</div>
 
 - [MalwareBytes](https://www.malwarebytes.com/)
-- []
+- [MalwareBytes Windows Firewall Control](https://www.binisoft.org/wfc)
 
-#### Social Media & Communication Tools
+<h4 align="center">Social Media & Communication Tools</h4>
 
 - [Vencord - Discord mod](https://github.com/Vendicated/Vencord)
 - [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/download-apps)
 - [Slack](https://slack.com/)
 - [Caprine - Messenger Client](https://sindresorhus.com/caprine/)
 
-#### Hardware Controllers
+<h4 align="center">Hardware Controllers</h4>
 
 - [Elgato Stream Deck](https://www.elgato.com/us/en/s/downloads)
 
-#### Additional Software
-
-- [f.lux](https://justgetflux.com/)
-
-#### E-Book Readers
+<h4 align="center">E-Book Readers</h4>
 
 - [Thorium Reader](https://www.edrlab.org/software/thorium-reader/)
 - [EPUB Reader](https://icecreamapps.com/Ebook-Reader/)
@@ -563,7 +597,7 @@ My custom Configuration can be found [here.]()
 - [Alexandria](https://github.com/btpf/Alexandria)
 - [Libation](https://github.com/rmcrackan/Libation)
 
-#### Multimedia
+<h4 align="center">Multimedia</h4>
 
 - [SpotX - Spotify Client](https://github.com/SpotX-Official/SpotX)
   - [Custom Themes](https://spicetify.app/docs/getting-started/)
@@ -571,45 +605,46 @@ My custom Configuration can be found [here.]()
 - [Volumey](https://github.com/G-Stas/Volumey)
 - [AHK_MicMute](https://github.com/SaifAqqad/AHK_MicMute)
 
-#### Search Manager
+<h4 align="center">Application Launchers</h4>
 
-- [PowerToys](https://github.com/microsoft/PowerToys)
+<div align="justify">During my journey of optimizing Windows OS, I opted for not allowing Windows to categorize and index my Files, this caused <a link="https://github.com/microsoft/PowerToys">Powertoys</a> to stop functioning as a launcher. No crashes or anything, just stop indexing and finding things like Applications; <a link="https://www.flowlauncher.com/">Flow</a> still works brilliantly and plugins are also a huge bonus.</div>
 
-#### Terminal Emulators
+<h4 align="center">Terminal Emulators</h4>
 
 - [Tabby](https://tabby.sh/)
 
-#### Password Managers
+<h4 align="center">Password Managers</h4>
 
 - [Bitwarden](https://bitwarden.com/)
 
-#### Text-Expansion
+<h4 align="center">Text-Expansion</h4>
 
 - [Espanso](https://espanso.org/)
 
-#### Taskbar
+<h4 align="center">Taskbar Management</h4>
 
 - [TaskbarX](https://github.com/ChrisAnd1998/TaskbarX)
 
-#### Screenshots
+<h4 align="center">Screenshots</h4>
 
 - [FlameShot](https://flameshot.org/)
 - [Greenshot](https://getgreenshot.org/screenshots/)
 
-#### Eye Protection
+<h4 align="center">Blue Light Protection</h4>
 
+- [f.lux](https://justgetflux.com/)
 - [Eyes Guard](https://github.com/avestura/EyesGuard)
 - [Stretchly](https://hovancik.net/stretchly/)
 
-#### Virtualization
+<h4 align="center">Application Virtualization</h4>
 
 - [Sandboxie](https://sandboxie-plus.com/)
 
-#### PDF Readers
+<h4 align="center">PDF Readers</h4>
 
 - [Okular](https://okular.kde.org/)
 
-#### Music Player
+<h4 align="center">Music Player</h4>
 
 - [Harmonoid](https://harmonoid.com/)
 - [MoonSync](https://moosync.app/)
@@ -622,80 +657,53 @@ My custom Configuration can be found [here.]()
 - [Muffon](https://muffon.netlify.app/)
 - [Rise Media Player](https://github.com/Rise-Software/Rise-Media-Player)
 
-#### Video Editor
-
-- [Olive](https://olivevideoeditor.org/)
-
-#### Audio Tagger
-
-- [Kid3 - Audio Tagger](https://kid3.kde.org/)
-- [Mp3Tag](https://www.mp3tag.de/en/)
-- [One Tagger](https://onetagger.github.io/)
-
-#### Downloaders
-
-- [Hitomi Downloader](https://github.com/KurtBestor/Hitomi-Downloader)
-- [SCrawler](https://github.com/AAndyProgram/SCrawler)
-
-#### Equalizer
+<h4 align="center">Equalizer</h4>
 
 - [FXSound](https://www.fxsound.com/)
 
-#### Software Development
+<h4 align="center">Software Development</h4>
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub Desktop](https://desktop.github.com/v)
 - [massCode](https://masscode.io/)
 - [Kanban-Tasker](https://github.com/hjohnson12/Kanban-Tasker)
 
-#### File Manipulation
+<h4 align="center">File Manipulation</h4>
 
 - [ExifCleaner](https://exifcleaner.com/)
 - [Szyszka](https://github.com/qarmin/szyszka)
 - [Squoosh](https://squoosh.app/) or [Caesium](https://saerasoft.com/caesium)
 
-#### Email Client
-
-- [Thunderbird](https://www.thunderbird.net/en-US/)
-
-#### Clipboard Manager
+<h4 align="center">Clipboard Manager</h4>
 
 - [XClipper](https://kaustubhpatange.github.io/XClipper/docs/#/)
 - [Ditto](https://github.com/sabrogden/Ditto)
 
-#### File Managers
+<h4 align="center">File Managers</h4>
 
 - [One Commander](https://onecommander.com/)
 - [Files](https://files.community/)
 - [Sigma File Manager](https://github.com/aleksey-hoffman/sigma-file-manager)
 - [Xplorer](https://xplorer.space/)
 
-#### Image Viewer
+<h4 align="center">Image Viewer</h4>
 
 - [qView](https://interversehq.com/qview/)
 
-### Optical Character Recognition (OCR)
+<h4 align="center">Optical Character Recognition (OCR)</h4>
 
 - [Text Grab](https://github.com/TheJoeFin/Text-Grab)
 - [NormCap](https://dynobo.github.io/normcap/)
 
-### Gaming
-
-- [Steam](https://store.steampowered.com/)
-
-### Activity Sharing
+<h4 align="center">Activity Sharing</h4>
 
 - [PreMiD](https://github.com/PreMiD/PreMiD)
 
-### Time Tracking
+<h4 align="center">Time Tracking</h4>
 
 - [Activity Watch](https://github.com/ActivityWatch/activitywatch)
 
-### Zip Managers
-
-- [7 Zip](https://www.7-zip.org/)
-
-### Tiling Window Manager
+<h4 align="center">Tiling Window Manager</h4>
 
 A window manager is an application that manages open Windows. I happen to use [Komorebi](https://github.com/LGUG2Z/komorebi).
 
@@ -706,6 +714,8 @@ Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'Long
 ```
 
 <div align="justify">Disabling unnecessary system animations, it is highly recommended that you enable the <i>"Turn off all unnecessary animations (when possible)" option in "Control Panel > Ease of Access > Ease of Access Centre / Make the computer easier to see"</i> for the best performance with komorebi.</div>
+
+<br>
 
 Now in an non-administrator window, execute the following...
 
@@ -721,7 +731,7 @@ scoop bucket add extras
 scoop install komorebi autohotkey
 ```
 
-#### Configuration
+<h5 align="center">Configuration</h5>
 
 Run this command to make sure that the directory has been created
 
@@ -749,7 +759,7 @@ Reload the changes and then reload the PowerShell profile
 
 Now you can copy my configuration by [downloading it here.]() and place it into the folder we setup.
 
-#### Optional Settings
+<h5 align="center">Optional Settings</h5>
 
 Start Komorebi with each Windows Startup using the following...
 
@@ -757,7 +767,7 @@ Start Komorebi with each Windows Startup using the following...
 komorebic enable-autostart
 ```
 
-#### Browser
+<h4 align="center">Browser</h4>
 
 - [LibreWolf](https://librewolf.net/)  
 
