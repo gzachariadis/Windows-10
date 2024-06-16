@@ -64,11 +64,6 @@
 
 - [ ] Greek Language Pack
 
-#### Windows Store
-
-- [x] Launch & Update Windows Store Catalog
-- [x] Download & Install any Application (Exclusively tested on Free Apps)
-
 #### Hardware 
 
 - [ ] Microphone 
