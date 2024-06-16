@@ -524,7 +524,7 @@ My custom Configuration can be found [here.]()
 
 <div align="justify">In some rare occasions, popular alternatives are proposed for you, if I feel they worth mentioning.</div>
 
-<div align="justify">You can use the [Winget Client](https://github.com/microsoft/winget-cli) and [Winutil by Chris Titus](https://github.com/ChrisTitusTech/winutil) to issue an automated mass install. Templates for the latter, can be found [here.]()</div>
+<div align="justify">You can use the [Winget Client](https://github.com/microsoft/winget-cli) and [Winu by Chris Titus](https://github.com/ChrisTitusTech/winutil) to issue an automated mass install. Templates for the latter, can be found [here.]()</div>
 
 <div align="justify">My preferences include almost exclusively Open-Source and/or community maintained software, in case no software of that sort serves my purpose, I opt for commerical or closed-source alternatives.</div>
 
@@ -540,7 +540,7 @@ Set-ExecutionPolicy AllSigned
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
-<h3 align="center"><a link="https://scoop.sh/">Scoop</h3>
+<h3 align="center"><a link="https://scoop.sh/">Scoop</a></h3>
 
 ```
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
@@ -705,67 +705,7 @@ Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 
 <h4 align="center">Tiling Window Manager</h4>
 
-A window manager is an application that manages open Windows. I happen to use [Komorebi](https://github.com/LGUG2Z/komorebi).
-
-Install it by following these steps, open a Powershell Administrator Window, and execute
-
-```
-Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -Value 1
-```
-
-<div align="justify">Disabling unnecessary system animations, it is highly recommended that you enable the <i>"Turn off all unnecessary animations (when possible)" option in "Control Panel > Ease of Access > Ease of Access Centre / Make the computer easier to see"</i> for the best performance with komorebi.</div>
-
-<br>
-
-Now in an non-administrator window, execute the following...
-
-```
-scoop install git
-```
-
-```
-scoop bucket add extras
-```
-
-```
-scoop install komorebi autohotkey
-```
-
-<h5 align="center">Configuration</h5>
-
-Run this command to make sure that the directory has been created
-
-```
-mkdir -p ~/.config/komorebi
-```
-
-Run this command to open up your PowerShell profile configuration in Notepad++ 
-
-```
-Start notepad++ $PROFILE
-```
-
-Add this line (with your login user!) to the bottom of your PowerShell profile configuration
-
-```
-$Env:KOMOREBI_CONFIG_HOME = 'C:\Users\{your username}\.config\komorebi'
-```
-
-Reload the changes and then reload the PowerShell profile
-
-```
-. $PROFILE
-```
-
-Now you can copy my configuration by [downloading it here.]() and place it into the folder we setup.
-
-<h5 align="center">Optional Settings</h5>
-
-Start Komorebi with each Windows Startup using the following...
-
-```
-komorebic enable-autostart
-```
+<div align="justify">A window manager is an application that manages open Windows. For Windows, I happen to use Komorebi; A free open-source project that mimics the functionallity of Yabai; My favorite MacOS Window Manager.</div>
 
 <h4 align="center">Browser</h4>
 
