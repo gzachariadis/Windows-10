@@ -27,7 +27,8 @@
   <i align="center">Build - 17763.107</i>
 </p>
 
-<h1 align="center">Introduction</h1>
+<br>
+<h1 align="center">Project Introduction</h1>
 
 <div align="justify">This repository is a virtual public storage space for everything I have managed to track down and use over the years, in my effort of creating, optimizing and maintaining Windows Systems. I run Windows only for the purpose of using Office Products and other non-Linux compatible software. This is <b>not meant to be a universal build</b> and you shoudn't attempt to copy verbatim and expect it to work for you. <b><i>Please consider yourself advised.</i></b></div>
 
@@ -69,12 +70,12 @@
 
 #### Installers
 
-- [ ] MSI Installers
-- [ ] EXE Installers
+- [x] MSI Installers
+- [x] EXE Installers
 
 #### Package Managers
 
-- [ ] Winget - Download & Update Applications
+- [x] Winget - Download & Update Applications
 - [ ] Scoop - Download & Update Applications
 
 <h3 align="center">Programs & Features</h3>
@@ -87,8 +88,8 @@
 
 #### Microsoft Office 
 
-- [ ] Word
-- [ ] Excel
+- [x] Word
+- [x] Excel
 
 #### Visual Studio Code
 
@@ -101,11 +102,11 @@
 <h1 align="center">Part 1</h1>
 <h2 align="center">Building & Configuring</h2>
 
-<div align="justify">Let's talk ISO configuration; You will need to download an official ISO from Microsoft. Do that now by using this <a link="https://www.microsoft.com/el-gr/software-download/windows10ISO">link</a> or this <a link="https://drive.massgrave.dev/en-us_windows_10_consumer_editions_version_22h2_updated_may_2024_x64_dvd_49ddadb6.iso">link</a>, or if you prefer going and fetching one for yourself another way.</div>
+<div align="justify">Let's talk ISO configuration; You will need to download an official ISO from Microsoft. Do that now by using this <a href="https://www.microsoft.com/el-gr/software-download/windows10ISO">link</a> or this <a href="https://drive.massgrave.dev/en-us_windows_10_consumer_editions_version_22h2_updated_may_2024_x64_dvd_49ddadb6.iso">link</a>, or if you prefer going and fetching one for yourself another way.</div>
 
 <br>
 
-<div align="justify">Secondly, you will need <a link="https://msmgtoolkit.in/">MSMG Toolkit</a> and <a link="https://www.ntlite.com/">NTLite</a>.</div>
+<div align="justify">Secondly, you will need <a href="https://msmgtoolkit.in/">MSMG Toolkit</a> and <a href="https://www.ntlite.com/">NTLite</a>.</div>
 
 <br>
 
@@ -217,7 +218,6 @@
 ##### Remoting and Privacy
 
 - AllJoyn Router Service
-- BranchCache Client
 - Diagnostics and Troubleshooting
 - Natural Authentication
 - Shared PC Mode
@@ -232,8 +232,6 @@
 - Character Map
 - Embedded Mode
 - Help file support (CHM)
-- Hyper-V
-- Legacy Components
 - Legacy Symbolic Links
 - On-Screen Keyboard (Tablet PC)
 - Private Character Editor
@@ -245,18 +243,7 @@
 
 ##### Windows Apps
 
-- Microsoft Sticky Notes
-- Wallet Service
 - Xbox App
-- Xbox Game Overlay
-- Xbox Speed to Text Overlay
-- Your Phone
-- AAD.BrokerPlugin [New]
-
-#### Features (Allow Mode)
-
-- SMB Direct
-- Windows Search
 
 #### Settings
 
@@ -350,9 +337,7 @@ Contents of the File.
 
 <div align="justify">If you ever looked at custom versions of Windows, you might be familiar with something described as playbooking, a series of rules and scripts running on your system to provide the same experience every time, I have done something similar here, by adding a batch of scripts into a folder and have them on the first boot of each new system. Just run the <i>run_all_scripts.bat</i> and you good to go.</div>
 
-
 <div align="justify">A detailed catalog of all the scripts running is to be found here.</div>
-
 
 <div align="justify">Customize your execution catalog, by deleting scripts you don't want to run from the file structure.</div>
 
