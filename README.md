@@ -24,7 +24,7 @@
   <i align="center"> A Comprehensive Configuration Guide for a Bloat-free and Responsive Windows Installation 🚀</i>
   <br>
   <br>
-  <i align="center">Windows 10 Enterprise N LTSC (2019)</i>
+  <i align="center">Build - 17763.107</i>
 </p>
 
 <br>
