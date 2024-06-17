@@ -17,7 +17,7 @@
 <h1 align="center">
  <img src="https://www.imghippo.com/images/1698483472.png?raw=true">
   <br />
-  Windows 10 Pro N 
+  Windows 10 Enterprise N LTSC 
 </h1>
 
 <p align="center">
@@ -27,7 +27,7 @@
   <i align="center"><b>Latest Verified Version</b></i>
   <br>
   <br>
-  <i align="center">Windows 10 Pro N, version 22H2 [19045.3570] (Updated October 2023)</i>
+  <i align="center">Windows 10 Enterprise N LTSC - (2019)</i>
 </p>
 
 <br>
@@ -75,13 +75,13 @@
 
 #### Installers
 
-- [x] MSI Installers
-- [x] EXE Installers
+- [ ] MSI Installers
+- [ ] EXE Installers
 
 #### Package Managers
 
-- [x] Winget - Download & Update Applications
-- [x] Scoop - Download & Update Applications
+- [ ] Winget - Download & Update Applications
+- [ ] Scoop - Download & Update Applications
 
 <h3 align="center">Programs & Features</h3>
 
@@ -93,12 +93,12 @@
 
 #### Microsoft Office 
 
-- [x] Word
-- [x] Excel
+- [ ] Word
+- [ ] Excel
 
 #### Visual Studio Code
 
-- [x] Connect to Microsoft Account with Visual Studio Code
+- [ ] Connect to Microsoft Account with Visual Studio Code
 - [ ] Settings Synchronization
 
 <br>
@@ -141,10 +141,6 @@
 
 <h3 align="center">Component Removal Configuration</h3>
 
-#### Menu 1 - Internet
-
-- Microsoft Edge (2)
-
 #### Menu 3 - Network
 
 - OpenSSH (3)
@@ -157,30 +153,8 @@
 
 #### Menu 7 - System Apps
 
-- Emails and Accounts (13)
-- Out-of-box Experience (24)
-- Shell Experience Host (30)
-- Shell Services (31)
-- Shell Services (32)
-- Start Menu (35)
-- Microsoft Edge WebView2 Runtime (38)
+- Shell Services (31) - Required for Microsoft Office
 - Windows Defender (41)
-- Windows Feature Experience Pack (42)
-- Windows Search (47)
-- Work or School Account (49)
-
-#### Menu 8 - Windows Apps
-
-- Microsoft .NET Framework (20)
-- Microsoft .NET Framework (21)
-- Microsoft .NET Framework (23)
-- Microsoft .NET Framework (24)
-- Windows Store (Core) (30)
-- Windows Store (Core) (31)
-- UWP Desktop Runtime Packages (36)
-- UWP Desktop Runtime Packages (37)
-- Store Experience Host (57)
-- Xbox Identity Provider (71)
 
 <br>
 
@@ -424,7 +398,7 @@ Contents of the File.
 
 <h2 align="center">Windows Updates</h2>
 
-<div align="justify">In terms of Windows Updates, when I happen to install a new system or want to manually update my system, my favorite option is [this executable by Slavanap](https://github.com/slavanap/Windows10ManualUpdate/releases/download/1.03/w10mu.exe). This is a fantastic small tool that allows for manually selecting which updates to install and takes care of the installation for me.</div>
+<div align="justify">In terms of Windows Updates, when I happen to install a new system or want to manually update my system, my favorite option is <a href="https://github.com/slavanap/Windows10ManualUpdate/releases/download/1.03/w10mu.exe">this executable by Slavanap</a>. This is a fantastic small tool that allows for manually selecting which updates to install and takes care of the installation for me.</div>
 
 #### Windows Update Policy
 
