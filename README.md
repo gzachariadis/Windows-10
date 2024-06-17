@@ -40,10 +40,6 @@
 
 <h1 align="center">Project Structure</h1>
 
-<div align="justify">This guide is seperated into two main parts.</div> 
-
-<br>
-
 - Part 1  Pre-Install
 
 - Part 2  Post-Install
