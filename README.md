@@ -24,10 +24,7 @@
   <i align="center"> A Comprehensive Configuration Guide for a Bloat-free and Responsive Windows Installation 🚀</i>
   <br>
   <br>
-  <i align="center"><b>Latest Verified Version</b></i>
-  <br>
-  <br>
-  <i align="center">Windows 10 Enterprise N LTSC - (2019)</i>
+  <i align="center">Windows 10 Enterprise N LTSC (2019)</i>
 </p>
 
 <br>
