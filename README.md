@@ -24,7 +24,7 @@
   <i align="center"> A Comprehensive Configuration Guide for a Bloat-free and Responsive Windows Installation 🚀</i>
   <br>
   <br>
-  <i align="center">Build - 17763.107</i>
+  <i align="center">Based on Build - 17763.107</i>
 </p>
 
 <br>
@@ -34,11 +34,27 @@
 
 <br>
 
-<div align="justify">This guide is seperated into two main parts. Part 1 relates to ISO Building and Configuration, this you will only have to do all over again with a new ISO, in case you want to reinstall a newer version of Windows, other than that, you should be able to re-use the optimized Windows ISO for as long as your heart desires. Part 2 relates to Post Install, things like what applications to install, what scripts to run, how to maintain your system so it lasts longer etc.</div>
+<h1 align="center">Project Structure</h1>
 
-<h2 align="center">Version Choice</h2>
+<div align="justify">This guide is seperated into two main parts. Part 1 relates to ISO Debloating, Configuring and Building. This you will only have to do once, and then you can go crazy with installing your final product to as many computers as you like for as long as your heart desires. Part 2 relates to Post Install, things like what applications to install, how to configure your system, what scripts to run, how to maintain your system so it lasts under this optimized condition longer etc. etc.</div>
 
-<div align="justify"></div>
+<br>
+
+<h1 align="center">Who is this for?</h1>
+
+<div align="justify">My main goal is to make things as simple as possible, you don't have to be a computer wizard to follow a few simple commands and menu choices, but of course this is still not a literal step by step guide, I trust you to read between the lines and do some basic things on your own. Good luck!</div>
+
+<br>
+
+<h1 align="center">Why did you choose LTSC?</h1>
+
+- Support for so-called "Home" Version will stop at 2025. Compared to LTSC channel which is expected to stop at 2028.
+
+- Compared to most version this is a barebones build that doesn't include nearly as much bloatware as commercial versions do.
+
+- Windows isn't my main Operating System, most of my work is done either on Mac or Linux, the only reason to keep Windows around is literally some exclusive software, and the drivers and configurations for my hardware. 
+
+- Given my previous point, my configuration must include the minimal amount of maintenance and lowest chance of things breaking on me. A Operating System that by default only takes security updates, seems like a fair choice to me.
 
 <br>
 
@@ -48,20 +64,19 @@
 
 #### Windows Updates
 
-- [x] Manually update Windows
-- [x] Security Policy - allowed
+- [x] Manual Windows Updates
 
 #### Microsoft Activation
 
-- [x] Activate Windows using [MAS Activation Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
+- [x] Windows Activation using [MAS](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
 #### Keyboard Layouts
 
-- [ ] Greek Language Pack
+- [x] Greek (Language Pack)
 
 #### Hardware 
 
-- [ ] Microphone 
+- [x] Microphone 
 - [ ] Camera
 - [ ] Streamdeck
 - [ ] Wi-Fi Support
@@ -76,15 +91,17 @@
 #### Package Managers
 
 - [x] Winget - Download & Update Applications
-- [ ] Scoop - Download & Update Applications
+- [x] Scoop - Download & Update Applications
 
 <h3 align="center">Programs & Features</h3>
 
-#### Komorebi
+#### Applications
 
-- [ ] Komorebi 
-- [ ] Autohotkey
-- [ ] Malwarebytes Firewall Control
+- [x] Komorebi 
+- [x] Autohotkey
+- [x] Malwarebytes Firewall Control
+- [x] Open Shell
+- [x] Flow Launcher
 
 #### Microsoft Office 
 
@@ -95,9 +112,6 @@
 
 - [ ] Connect to Microsoft Account with Visual Studio Code
 - [ ] Settings Synchronization
-
-<br>
-<br>
 
 <h1 align="center">Part 1</h1>
 <h2 align="center">Building & Configuring</h2>
@@ -136,9 +150,6 @@
 
 <h3 align="center">Component Removal Configuration</h3>
 
-#### Menu 3 - Network
-
-- OpenSSH (3)
 
 #### Menu 6 - System
 
@@ -155,14 +166,22 @@
 
 <div align="justify">After you done configuring, just go ahead and enter menu 6 for Apply and use the second option to apply the changes.Finally, create an ISO by going to Taget and first option.</div>
 
+<h3 align="center">Why is Search missing?!</h3>
+
+<div align="justify">This configuration removes Shell Search from Windows, so the Start Menu is not included in the final Operating System. As you can guess, this causes a few minor problems...First and foremost, pressing the Windows key, will cause an error that will force Windows into a user-sign out action. Switching keyboard layouts does the same thing, since it registers the Windows key, maybe, this is just a guess; Anyway, you can fix that by heading over <a href="https://www.majorgeeks.com/files/details/disable_windows_key.html">here</a> and fetching a registry file which disables the Windows key. You can still use it as a modifier, things like language switching or anything contains a Windows key in a shortcut will still function.</div>
+
+<div align="justify">Additionally, you can solve this issue by taking this registry file and inserting it using NTLite or MSMG into your ISO, therefore when you install the Operating System, it will be there, by default.</a>
+
+<div align="justify">But what about an alternative?! Well, there's lots out there. Take your pick. Personally, I opt for <a href="https://open-shell.github.io/Open-Shell-Menu/">Open-Shell</a>, but you can give <a href="https://www.startisback.com/">StartisBack</a> a shot, possibillities are endless.</div>
+
 <h3 align="center">NTLite</h3>
 
 #### Components
 
 ##### Drivers
 
-- Batteries [New]
-- Bluetooth [New]
+- Batteries
+- Bluetooth
 - Foppy Disk Drives
 - Floppy Disk Drives 
 - Imaging Devices
@@ -196,7 +215,7 @@
 
 ##### Localization
 
-- DVD Play [New]
+- DVD Play
 - Keyboard Layouts
 - Language
 - Table Text Service
@@ -204,7 +223,7 @@
 ##### Multimedia
 
 - Intel Indeo Codecs
-- DVD Play [New]
+- DVD Play
 - PlayReady
 - Share Media Control Panel
 - Windows Disc Image Burning Tool
@@ -221,7 +240,7 @@
 - Diagnostics and Troubleshooting
 - Natural Authentication
 - Shared PC Mode
-- Universal Notification Platform (UNP) [New]
+- Universal Notification Platform (UNP)
 - Windows Biometric Service
 - Windows Error Reporting
 - Windows Remote Management (WS-Management)
@@ -238,7 +257,7 @@
 - Remote Procedure Call (RPC Locator)
 - Send TO Mail and Desktop
 - Shell Hardware Detection
-- User Data Storage [New]
+- User Data Storage
 - Zip & Cab folder
 
 ##### Windows Apps
@@ -373,7 +392,7 @@ Contents of the File.
 
 - [MSI AfterBurner](https://www.msi.com/Landing/afterburner/graphics-cards)
 
-- [iCUE]()
+- [iCUE](https://www.corsair.com/us/en/s/downloads)
 
 <h2 align="center">Windows Updates</h2>
 
@@ -385,14 +404,9 @@ Contents of the File.
 
 <h2 align="center">Debloating & Optimizing</h2>
 
-<div align="justify">The following tools, are able to help you optimize and debloat your system, but first there's a list of applications that any Windows ISO doesn't allow to be removed when installing it. You can safely uninstall them now though...</div>
+<div align="justify">Keep in mind that the previously mentioned tools, are able to help you optimize and debloat your Operating System, but first there's a list of features that any Windows ISO doesn't allow to be removed before a live system. Once you have a live system, go ahead and unistall them by navigating to them.</div>
 
-- Sticky Notes
-- Xbox apps
-- Your Phone
-- Microsoft Pay
-
-<div align="justify">Additionally, you should run the following [executable by ShadowWhisperer](https://github.com/ShadowWhisperer/Remove-MS-Edge/blob/main/Remove-EdgeOnly.exe?raw=true), this removed only the Edge browser, while leaving the Microsoft Edge WebView2 Runtime, which is essential for the Microsoft Store to function. Bare in mind that I have never paid and installed non-free applications from the Windows Store, you simply have to test this functionality on your own.</div>
+<div align="justify">Additionally, you should run the following [executable by ShadowWhisperer](https://github.com/ShadowWhisperer/Remove-MS-Edge/blob/main/Remove-EdgeOnly.exe?raw=true), this removed only the Edge browser, while leaving the Microsoft Edge WebView2 Runtime, which is essential for the Microsoft Store to function. In case you don't want the Windows Store, proceed as seen below.</div>
 
 ### [Optimizer](https://github.com/hellzerg/optimizer/releases/download/16.5/Optimizer-16.5.exe)
 
@@ -439,8 +453,8 @@ iwr -useb 'https://simeononsecurity.ch/scripts/windowsoptimizeanddebloat.ps1'|ie
 ### Downloadables Scripts
 
 - [Windows 10 Bloat Remover](https://github.com/Fs00/Win10BloatRemover/releases/download/5.0/Win10BloatRemover_5.0.zip)
+
 - [Quick Boost](https://github.com/SanGraphic/QuickBoost/releases/download/2.9.4/QuickBoost.exe)
-- [7+ Taskbar Tweaker](https://ramensoftware.com/downloads/7tt_setup.exe)
 
 ### [Winslap](https://github.com/svenmauch/WinSlap/releases/download/v1.8/WinSlap.exe)
 
@@ -549,9 +563,9 @@ Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 
 - [SpotX - Spotify Client](https://github.com/SpotX-Official/SpotX)
   - [Custom Themes](https://spicetify.app/docs/getting-started/)
-- [WinMute](https://github.com/lx-s/WinMute/)
-- [Volumey](https://github.com/G-Stas/Volumey)
-- [AHK_MicMute](https://github.com/SaifAqqad/AHK_MicMute)
+
+- [WinMute - Trigger based Windows muting](https://github.com/lx-s/WinMute/) 
+- [Volumey - Global Shortcuts for Volume Control](https://github.com/G-Stas/Volumey)
 
 <h4 align="center">Application Launchers</h4>
 
@@ -568,10 +582,6 @@ Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 <h4 align="center">Text-Expansion</h4>
 
 - [Espanso](https://espanso.org/)
-
-<h4 align="center">Taskbar Management</h4>
-
-- [TaskbarX](https://github.com/ChrisAnd1998/TaskbarX)
 
 <h4 align="center">Screenshots</h4>
 
@@ -630,7 +640,6 @@ Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 <h4 align="center">File Managers</h4>
 
 - [One Commander](https://onecommander.com/)
-- [Files](https://files.community/)
 - [Sigma File Manager](https://github.com/aleksey-hoffman/sigma-file-manager)
 - [Xplorer](https://xplorer.space/)
 
