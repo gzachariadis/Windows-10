@@ -28,7 +28,6 @@
 </p>
 
 <br>
-<br>
 
 <h1 align="center">Introduction</h1>
 
