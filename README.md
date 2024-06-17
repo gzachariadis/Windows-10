@@ -57,19 +57,19 @@
 
 <h1 align="center">Who is this for?</h1>
 
-<div align="justify">My main goal is to make things as simple as possible, you don't have to be a computer wizard to follow a few simple commands and menu choices, but of course this is still not a literal step by step guide, I trust you to read between the lines and do some basic things on your own. Good luck!</div>
+<div align="justify">My main goal is to make things as simple as possible, you don't have to be a computer wizard to follow a few simple commands and menu choices, give that, this is not a literal step by step guide, I trust you to read between the lines and do some basic things on your own. Good luck!</div>
 
 <br>
 
 <h1 align="center">Why did you choose LTSC?</h1>
 
-- Support for so-called "Home" Version will stop at 2025. Compared to LTSC channel which is expected to stop at 2028.
+- Support for so-called "Home" Versions will stop at 2025. Compared to LTSC channel which is expected to stop at 2028. Given that, at this current state Windows 11 isn't nearly stable enough and more and more cloud computing and Artificial Intelligence components will make their way into my systems, I'll gladly take the delay.
 
-- Compared to most version this is a barebones build that doesn't include nearly as much bloatware as commercial versions do.
+- Compared to most versions, LTSC is a barebones build that doesn't include nearly as much "bloatware" or "features" as commercial versions generally do, giving me the option to have a stable system with fewer and fewer components.
 
-- Windows isn't my main Operating System, most of my work is done either on Mac or Linux, the only reason to keep Windows around is literally some exclusive software, and the drivers and configurations for my hardware. 
+- Windows isn't my main Operating System, most of my work is done either on Mac or Linux, the only reason to keep Windows around is literally some exclusive software, and configuring my hardware. 
 
-- Given my previous point, my configuration must include the minimal amount of maintenance and lowest chance of things breaking on me. A Operating System that by default only takes security updates, seems like a fair choice to me.
+- Given my previous point, my configuration must include the minimal amount of maintenance and lowest chance of things breaking on me. An Operating System that by default only takes security updates like LTSC just suits my needs better than another options.
 
 <br>
 
@@ -128,10 +128,11 @@
 - [ ] Connect to Microsoft Account with Visual Studio Code
 - [ ] Settings Synchronization
 
-<h1 align="center">Part 1</h1>
-<h2 align="center">Building & Configuring</h2>
+<h1 align="center">Part 1 (Pre-Install)</h1>
+<h2 align="center">Prerequisites</h2>
 
-<div align="justify">Let's talk ISO configuration; You will need to download an official ISO from Microsoft. Do that now by using this <a href="https://www.microsoft.com/el-gr/software-download/windows10ISO">link</a> or this <a href="https://drive.massgrave.dev/en-us_windows_10_consumer_editions_version_22h2_updated_may_2024_x64_dvd_49ddadb6.iso">link</a>, or if you prefer going and fetching one for yourself another way.</div>
+
+<div align="justify">The first thing you will need to do, is to download an official ISO from Microsoft. Do that now by using this <a href="https://www.microsoft.com/el-gr/software-download/windows10ISO">link</a> or this <a href="https://drive.massgrave.dev/en-us_windows_10_consumer_editions_version_22h2_updated_may_2024_x64_dvd_49ddadb6.iso">link</a>, or if you prefer going and fetching one for yourself another way.</div>
 
 <br>
 
@@ -139,7 +140,7 @@
 
 <br>
 
-<div align="justify">NTLite is a tool you will have to pay, to take full advantage of; There's a free version, never used it so I don't know what features, it's really missing.</div>
+<div align="justify">What the heck are those?! Let me explain, NTLite is a tool you will have to pay, to take full advantage of; There's a free version, never used it so I don't know what features, it's really missing...it provides the tooling for configuring parts of your Windows installation, things like removing components (apps), configuring your user settings and even unattended automatic installation, so that you won't have to do anything other than boot into it. Given that MSMG, probably can do the same exact things NTLite can minus the clickable interface, you can probably save yourself the money, but you won't find how-to guide on that here.</div>
 
 <h3 align="center">MSMG</h3>
 
