@@ -400,11 +400,11 @@ Contents of the File.
 
 <div align="justify">In terms of Windows Updates, when I happen to install a new system or want to manually update my system, my favorite option is <a href="https://github.com/slavanap/Windows10ManualUpdate/releases/download/1.03/w10mu.exe">this executable by Slavanap</a>. This is a fantastic small tool that allows for manually selecting which updates to install and takes care of the installation for me.</div>
 
-#### Windows Update Policy
+<h4 align="center">Windows Update Policy</h4>
 
-<div align="justify">I set my police to Security Settings <b>ONLY!</b> this delays feature updates by 2 years and will install security updates 4 days after release. I use [Win Util by Chris Titus](https://github.com/ChrisTitusTech/winutil/releases/download/24.06.11/winutil.ps1) to set those policies automatically.</div>
+<div align="justify">I set my police to Security Settings <b>ONLY!</b> this delays feature updates by 2 years and will install security updates 4 days after release. I use <a href="ttps://github.com/ChrisTitusTech/winutil/releases/download/24.06.11/winutil.ps1">Win Util by Chris Titus</a> to set those policies automatically.</div>
 
-## Debloating & Optimizing
+<h2 align="center">Debloating & Optimizing</h2>
 
 <div align="justify">The following tools, are able to help you optimize and debloat your system, but first there's a list of applications that any Windows ISO doesn't allow to be removed when installing it. You can safely uninstall them now though...</div>
 
