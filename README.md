@@ -46,7 +46,7 @@
 
 <br>
 
-</div align="justify">Let's start with Part 1. During this, you will learn to create and configure your installation media in the form of an ISO, removing components, integrating language packs, confuring Windows Settings and more; Depending on your preferences and expertise, there's a chance you will have to do this once, <i>yeahhhhhhhhhh,</i> possibly. Once you have created your installation media, you can go crazy with installing your proudly created final product to as many computers as you like for as long as your heart desires.</div>
+</div align="justify">Let's start with Part 1. During this, you will learn to create and configure your installation media in the form of an ISO, removing components, integrating language packs, confuring Windows Settings and more; Depending on your preferences and expertise, there's a chance you will have to do this once, <i>yeahhhhhhhhhh,</i> possibly, but once you have created your installation media, you can go crazy with installing your proudly created final product to as many computers as you like for as long as your heart desires.</div>
 
 <br>
 <br>
