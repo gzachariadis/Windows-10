@@ -49,6 +49,7 @@
 </div align="justify">Let's start with Part 1. During this, you will learn to create and configure your installation media in the form of an ISO, removing components, integrating language packs, confuring Windows Settings and more; This you will only have to do once, <i>yeahhhhhhhhhh</i> that depends, but generally, that's the case. Once you have created your installation media, you can go crazy with installing your proudly created final product to as many computers as you like for as long as your heart desires.</div>
 
 <br>
+<br>
 
 <div align="justify">Moving on to Part 2; Post Install. Having reached that point, you bound to have a live-system, where you can install applications, further configure your system, run scripts etc...Guidelines and suggestions based on my configuritions and more you will find there.</div>
 
