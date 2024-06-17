@@ -51,7 +51,7 @@
 <br>
 <br>
 
-<div align="justify">Moving on to Part 2; Post Install. Having reached that point, you bound to have a live-system, where you can install applications, further configure your system, run scripts etc...Guidelines and suggestions based on my configuritions and more you will find there.</div>
+<div align="justify">Moving on to Part 2; Post Install. Having reached that point, you bound to have a live-system. This part is all about what to do on a fresh system, what scripts to run, how to configure your settings. There's even suggestion for what software to install.</div>
 
 <br>
 
