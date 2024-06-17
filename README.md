@@ -30,7 +30,7 @@
 <br>
 <h1 align="center">Project Introduction</h1>
 
-<div align="justify">This repository is a virtual public storage space for everything I have managed to track down and use over the years, in my effort of creating, optimizing and maintaining Windows Systems. I run Windows for three major reasons, Office products, non-Linux compatible software and hardawre configurations. This is <b>not meant to be a universal build</b> and you shoudn't attempt to copy verbatim and expect it to work for you. <b><i>Please consider yourself advised.</i></b></div>
+<div align="justify">This repository is a virtual public storage space for everything I have managed to track down and use over the years, in my effort of creating, optimizing and maintaining Windows Systems. I run Windows for three major reasons, Office products, non-Linux compatible software and hardawre configurations. As you scroll down, keep in mind that, this is <b>NOT</b> meant to be a universal build and you shoudn't attempt to copy the configurations verbatim and except it to serve your own personalized needs, both in terms of hardware support and operating system use; <b><i>Please consider yourself advised.</i></b></div>
 
 <br>
 
