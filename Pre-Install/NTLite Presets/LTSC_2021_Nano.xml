@@ -1,0 +1,1881 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>07/10/2022 04:26:16</Date>
+	<AppInfo>
+		<Version>2.3.6.8804</Version>
+		<Licensed>Yes</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 10 Enterprise LTSC 2021 (21H2) x64 - 10.0.19044.1288 (en-US)</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 10 EnterpriseS (21H2) x64 - 10.0.19044.1766 (en-US)</Version>
+		<GUID>{068F4229-317F-F922-CD32-06307C37D483}</GUID>
+	</ImageInfo>
+	<RemoveComponents>
+		<c>3daudio 'Spatial Sound (3D Audio)'</c>
+		<c>aarsvc 'Agent Activation Runtime'</c>
+		<c>accessibility 'Accessibility tools (Ease of Access)'</c>
+		<c>accessibility_cursors 'Mouse Pointers (Accessibility tools)'</c>
+		<c>accessibility_magnifier 'Screen Magnifier'</c>
+		<c>accessibility_narrator 'Narrator'</c>
+		<c>actioncenter 'Action Center'</c>
+		<c>activedirectory 'Active Directory'</c>
+		<c>adamclient 'Active Directory Lightweight Directory Services (AD LDS)'</c>
+		<c>afunix 'Unix socket (AF_UNIX)'</c>
+		<c>alg 'Application Layer Gateway Service'</c>
+		<c>alljoyn 'AllJoyn Router Service'</c>
+		<c>amsi 'Anti-Malware Scan Interface Library'</c>
+		<c>appid 'Application Identity Service'</c>
+		<c>asimov 'Telemetry Client'</c>
+		<c>assembly.net '.NET assembly cache'</c>
+		<c>assignedaccess 'Assigned Access'</c>
+		<c>audit 'Windows Audit'</c>
+		<c>autoplay</c>
+		<c>axinstall 'ActiveX Installer Service'</c>
+		<c>azuread 'Azure Active Directory'</c>
+		<c>backgroundactivitymoderator 'Background Activity Moderator (BAM)'</c>
+		<c>backgroundtransfer 'Networking Background Transfer'</c>
+		<c>backup 'Windows Backup'</c>
+		<c>biometric 'Biometric - Support'</c>
+		<c>biometricservice 'Biometric - Service'</c>
+		<c>branchcacheclient 'BranchCache Client'</c>
+		<c>browserbrokers 'Browser Brokers'</c>
+		<c>captureservice 'Capture Service'</c>
+		<c>cdpsvc 'Connected Devices Platform Service'</c>
+		<c>cdpusersvc 'Connected Devices Platform User Service'</c>
+		<c>ceip 'CEIP (SQM)'</c>
+		<c>charmap 'Character Map'</c>
+		<c>cleanmgr 'Disk Cleanup'</c>
+		<c>clipboardusersvc 'Clipboard User Service'</c>
+		<c>cloudfiles 'Cloud Files API'</c>
+		<c>cloudnotifications 'Cloud Notifications'</c>
+		<c>componentpackagesupport 'Component Package Support'</c>
+		<c>computerbrowser 'Workstation Service (Computer Browser)'</c>
+		<c>consentux 'Consent UX'</c>
+		<c>containers</c>
+		<c>corruptionverifier 'Corruption Verifier'</c>
+		<c>credentialenrollmentmanager 'Credential Enrollment Manager'</c>
+		<c>credentialmanager 'Credential Manager'</c>
+		<c>cursors 'Mouse Pointers'</c>
+		<c>datacenterbridging 'Data Center Bridging (DCB)'</c>
+		<c>dbgeng 'Windows Symbolic Debugger Engine'</c>
+		<c>defrag 'Disk Defragmenter'</c>
+		<c>deliveryoptimization 'Delivery Optimization'</c>
+		<c>desktopactivitymoderator 'Desktop Activity Moderator (DAM)'</c>
+		<c>desktopimgdownldr 'Desktop image downloader'</c>
+		<c>devicecenter 'Device Center (Devices and Printers)'</c>
+		<c>deviceexperience 'Device Experience'</c>
+		<c>deviceguard 'Device Guard'</c>
+		<c>devicesetupmanager 'Device Setup Manager'</c>
+		<c>devicesync 'Microsoft Sync Framework'</c>
+		<c>deviceupdatecenter 'Device Update Center'</c>
+		<c>devquerybroker 'DevQuery Background Discovery Broker'</c>
+		<c>diagnostics 'Diagnostics and Troubleshooting'</c>
+		<c>directaccess 'Direct Access Connection'</c>
+		<c>diskdiagnosis 'Disk failure diagnostics'</c>
+		<c>diskquota 'Disk Quota'</c>
+		<c>displayswitch 'Display Switch'</c>
+		<c>domainclientssvc 'IPsec Policy Agent'</c>
+		<c>driver_1394.inf</c>
+		<c>driver_3ware.inf</c>
+		<c>driver_61883.inf</c>
+		<c>driver_acpidev.inf</c>
+		<c>driver_acpipmi.inf</c>
+		<c>driver_acpitime.inf</c>
+		<c>driver_adp80xx.inf</c>
+		<c>driver_amdsbs.inf</c>
+		<c>driver_arcsas.inf</c>
+		<c>driver_athw8x.inf</c>
+		<c>driver_bcmdhd64.inf</c>
+		<c>driver_bcmfn2.inf</c>
+		<c>driver_bcmwdidhdpcie.inf</c>
+		<c>driver_btampm.inf</c>
+		<c>driver_bthspp.inf</c>
+		<c>driver_c_1394.inf</c>
+		<c>driver_c_barcodescanner.inf</c>
+		<c>driver_c_biometric.inf</c>
+		<c>driver_c_cashdrawer.inf</c>
+		<c>driver_c_dot4.inf</c>
+		<c>driver_c_dot4print.inf</c>
+		<c>driver_c_fdc.inf</c>
+		<c>driver_c_floppydisk.inf</c>
+		<c>driver_c_fsantivirus.inf</c>
+		<c>driver_c_infrared.inf</c>
+		<c>driver_c_legacydriver.inf</c>
+		<c>driver_c_linedisplay.inf</c>
+		<c>driver_c_magneticstripereader.inf</c>
+		<c>driver_c_modem.inf</c>
+		<c>driver_c_multiportserial.inf</c>
+		<c>driver_c_netdriver.inf</c>
+		<c>driver_c_pcmcia.inf</c>
+		<c>driver_c_pnpprinters.inf</c>
+		<c>driver_c_ports.inf</c>
+		<c>driver_c_printer.inf</c>
+		<c>driver_c_proximity.inf</c>
+		<c>driver_c_receiptprinter.inf</c>
+		<c>driver_c_sbp2.inf</c>
+		<c>driver_c_securitydevices.inf</c>
+		<c>driver_c_sensor.inf</c>
+		<c>driver_c_smartcard.inf</c>
+		<c>driver_c_smartcardfilter.inf</c>
+		<c>driver_c_smartcardreader.inf</c>
+		<c>driver_c_sslaccel.inf</c>
+		<c>driver_c_tapedrive.inf</c>
+		<c>driver_chargearbitration.inf</c>
+		<c>driver_cht4nulx64.inf</c>
+		<c>driver_cht4sx64.inf</c>
+		<c>driver_cht4vx64.inf</c>
+		<c>driver_circlass.inf</c>
+		<c>driver_dc21x4vm.inf</c>
+		<c>driver_e2xw10x64.inf</c>
+		<c>driver_eaphost.inf</c>
+		<c>driver_errdev.inf</c>
+		<c>driver_fdc.inf</c>
+		<c>driver_flpydisk.inf</c>
+		<c>driver_fusionv2.inf</c>
+		<c>driver_genericusbfn.inf</c>
+		<c>driver_hidir.inf</c>
+		<c>driver_hidirkbd.inf</c>
+		<c>driver_hidscanner.inf</c>
+		<c>driver_hidtelephonydriver.inf</c>
+		<c>driver_hpsamd.inf</c>
+		<c>driver_iagpio.inf</c>
+		<c>driver_iai2c.inf</c>
+		<c>driver_ialpss2i_gpio2_bxt_p.inf</c>
+		<c>driver_ialpss2i_gpio2_cnl.inf</c>
+		<c>driver_ialpss2i_gpio2_glk.inf</c>
+		<c>driver_ialpss2i_gpio2_skl.inf</c>
+		<c>driver_ialpss2i_i2c_bxt_p.inf</c>
+		<c>driver_ialpss2i_i2c_cnl.inf</c>
+		<c>driver_ialpss2i_i2c_glk.inf</c>
+		<c>driver_ialpss2i_i2c_skl.inf</c>
+		<c>driver_ialpssi_gpio.inf</c>
+		<c>driver_ialpssi_i2c.inf</c>
+		<c>driver_iastorv.inf</c>
+		<c>driver_idtsec.inf</c>
+		<c>driver_ipmidrv.inf</c>
+		<c>driver_ipoib6x.inf</c>
+		<c>driver_iscsi.inf</c>
+		<c>driver_itsas35i.inf</c>
+		<c>driver_kdnic.inf</c>
+		<c>driver_lsi_sas.inf</c>
+		<c>driver_lsi_sas2i.inf</c>
+		<c>driver_lsi_sas3i.inf</c>
+		<c>driver_lsi_sss.inf</c>
+		<c>driver_mausbhost.inf</c>
+		<c>driver_mchgr.inf</c>
+		<c>driver_mdm3com.inf</c>
+		<c>driver_mdm5674a.inf</c>
+		<c>driver_mdmadc.inf</c>
+		<c>driver_mdmagm64.inf</c>
+		<c>driver_mdmags64.inf</c>
+		<c>driver_mdmairte.inf</c>
+		<c>driver_mdmaiwa.inf</c>
+		<c>driver_mdmaiwa3.inf</c>
+		<c>driver_mdmaiwa4.inf</c>
+		<c>driver_mdmaiwa5.inf</c>
+		<c>driver_mdmaiwat.inf</c>
+		<c>driver_mdmar1.inf</c>
+		<c>driver_mdmarch.inf</c>
+		<c>driver_mdmarn.inf</c>
+		<c>driver_mdmati.inf</c>
+		<c>driver_mdmatm2k.inf</c>
+		<c>driver_mdmaus.inf</c>
+		<c>driver_mdmboca.inf</c>
+		<c>driver_mdmbsb.inf</c>
+		<c>driver_mdmbtmdm.inf</c>
+		<c>driver_mdmbug3.inf</c>
+		<c>driver_mdmbw561.inf</c>
+		<c>driver_mdmc26a.inf</c>
+		<c>driver_mdmcdp.inf</c>
+		<c>driver_mdmcm28.inf</c>
+		<c>driver_mdmcodex.inf</c>
+		<c>driver_mdmcom1.inf</c>
+		<c>driver_mdmcommu.inf</c>
+		<c>driver_mdmcomp.inf</c>
+		<c>driver_mdmcpq.inf</c>
+		<c>driver_mdmcpq2.inf</c>
+		<c>driver_mdmcpv.inf</c>
+		<c>driver_mdmcrtix.inf</c>
+		<c>driver_mdmcxhv6.inf</c>
+		<c>driver_mdmcxpv6.inf</c>
+		<c>driver_mdmdcm5.inf</c>
+		<c>driver_mdmdcm6.inf</c>
+		<c>driver_mdmdf56f.inf</c>
+		<c>driver_mdmdgitn.inf</c>
+		<c>driver_mdmdp2.inf</c>
+		<c>driver_mdmdsi.inf</c>
+		<c>driver_mdmdyna.inf</c>
+		<c>driver_mdmeiger.inf</c>
+		<c>driver_mdmelsa.inf</c>
+		<c>driver_mdmeric.inf</c>
+		<c>driver_mdmeric2.inf</c>
+		<c>driver_mdmetech.inf</c>
+		<c>driver_mdmfj2.inf</c>
+		<c>driver_mdmgatew.inf</c>
+		<c>driver_mdmgcs.inf</c>
+		<c>driver_mdmgen.inf</c>
+		<c>driver_mdmgl001.inf</c>
+		<c>driver_mdmgl002.inf</c>
+		<c>driver_mdmgl003.inf</c>
+		<c>driver_mdmgl004.inf</c>
+		<c>driver_mdmgl005.inf</c>
+		<c>driver_mdmgl006.inf</c>
+		<c>driver_mdmgl007.inf</c>
+		<c>driver_mdmgl008.inf</c>
+		<c>driver_mdmgl009.inf</c>
+		<c>driver_mdmgl010.inf</c>
+		<c>driver_mdmgsm.inf</c>
+		<c>driver_mdmhaeu.inf</c>
+		<c>driver_mdmhandy.inf</c>
+		<c>driver_mdmhay2.inf</c>
+		<c>driver_mdmhayes.inf</c>
+		<c>driver_mdminfot.inf</c>
+		<c>driver_mdmiodat.inf</c>
+		<c>driver_mdmirmdm.inf</c>
+		<c>driver_mdmisdn.inf</c>
+		<c>driver_mdmjf56e.inf</c>
+		<c>driver_mdmke.inf</c>
+		<c>driver_mdmkortx.inf</c>
+		<c>driver_mdmlasat.inf</c>
+		<c>driver_mdmlasno.inf</c>
+		<c>driver_mdmlucnt.inf</c>
+		<c>driver_mdmmc288.inf</c>
+		<c>driver_mdmmcd.inf</c>
+		<c>driver_mdmmcom.inf</c>
+		<c>driver_mdmmct.inf</c>
+		<c>driver_mdmmega.inf</c>
+		<c>driver_mdmmetri.inf</c>
+		<c>driver_mdmmhrtz.inf</c>
+		<c>driver_mdmmhzel.inf</c>
+		<c>driver_mdmminij.inf</c>
+		<c>driver_mdmmod.inf</c>
+		<c>driver_mdmmot64.inf</c>
+		<c>driver_mdmmoto1.inf</c>
+		<c>driver_mdmmotou.inf</c>
+		<c>driver_mdmmts.inf</c>
+		<c>driver_mdmneuhs.inf</c>
+		<c>driver_mdmnis1u.inf</c>
+		<c>driver_mdmnis2u.inf</c>
+		<c>driver_mdmnis3t.inf</c>
+		<c>driver_mdmnis5t.inf</c>
+		<c>driver_mdmnokia.inf</c>
+		<c>driver_mdmnova.inf</c>
+		<c>driver_mdmntt1.inf</c>
+		<c>driver_mdmnttd2.inf</c>
+		<c>driver_mdmnttd6.inf</c>
+		<c>driver_mdmnttme.inf</c>
+		<c>driver_mdmnttp.inf</c>
+		<c>driver_mdmnttp2.inf</c>
+		<c>driver_mdmnttte.inf</c>
+		<c>driver_mdmolic.inf</c>
+		<c>driver_mdmomrn3.inf</c>
+		<c>driver_mdmoptn.inf</c>
+		<c>driver_mdmosi.inf</c>
+		<c>driver_mdmpace.inf</c>
+		<c>driver_mdmpenr.inf</c>
+		<c>driver_mdmpin.inf</c>
+		<c>driver_mdmpn1.inf</c>
+		<c>driver_mdmpp.inf</c>
+		<c>driver_mdmpsion.inf</c>
+		<c>driver_mdmracal.inf</c>
+		<c>driver_mdmrock.inf</c>
+		<c>driver_mdmrock3.inf</c>
+		<c>driver_mdmrock4.inf</c>
+		<c>driver_mdmrock5.inf</c>
+		<c>driver_mdmsier.inf</c>
+		<c>driver_mdmsii64.inf</c>
+		<c>driver_mdmsmart.inf</c>
+		<c>driver_mdmsonyu.inf</c>
+		<c>driver_mdmsun1.inf</c>
+		<c>driver_mdmsun2.inf</c>
+		<c>driver_mdmsupr3.inf</c>
+		<c>driver_mdmsupra.inf</c>
+		<c>driver_mdmsuprv.inf</c>
+		<c>driver_mdmtdk.inf</c>
+		<c>driver_mdmtdkj2.inf</c>
+		<c>driver_mdmtdkj3.inf</c>
+		<c>driver_mdmtdkj4.inf</c>
+		<c>driver_mdmtdkj5.inf</c>
+		<c>driver_mdmtdkj6.inf</c>
+		<c>driver_mdmtdkj7.inf</c>
+		<c>driver_mdmtexas.inf</c>
+		<c>driver_mdmti.inf</c>
+		<c>driver_mdmtkr.inf</c>
+		<c>driver_mdmtron.inf</c>
+		<c>driver_mdmusrf.inf</c>
+		<c>driver_mdmusrg.inf</c>
+		<c>driver_mdmusrgl.inf</c>
+		<c>driver_mdmusrk1.inf</c>
+		<c>driver_mdmusrsp.inf</c>
+		<c>driver_mdmvdot.inf</c>
+		<c>driver_mdmvv.inf</c>
+		<c>driver_mdmwhql0.inf</c>
+		<c>driver_mdmx5560.inf</c>
+		<c>driver_mdmzoom.inf</c>
+		<c>driver_mdmzyp.inf</c>
+		<c>driver_mdmzyxel.inf</c>
+		<c>driver_mdmzyxlg.inf</c>
+		<c>driver_megasas.inf</c>
+		<c>driver_megasas2i.inf</c>
+		<c>driver_megasas35i.inf</c>
+		<c>driver_megasr.inf</c>
+		<c>driver_mgtdyn.inf</c>
+		<c>driver_miradisp.inf</c>
+		<c>driver_mlx4_bus.inf</c>
+		<c>driver_modemcsa.inf</c>
+		<c>driver_mrvlpcie8897.inf</c>
+		<c>driver_msclmd.inf</c>
+		<c>driver_msdri.inf</c>
+		<c>driver_msgpiowin32.inf</c>
+		<c>driver_msports.inf</c>
+		<c>driver_msux64w10.inf</c>
+		<c>driver_multiprt.inf</c>
+		<c>driver_mvumis.inf</c>
+		<c>driver_mwlu97w8x64.inf</c>
+		<c>driver_net1yx64.inf</c>
+		<c>driver_net44amd.inf</c>
+		<c>driver_net7400-x64-n650.inf</c>
+		<c>driver_net7500-x64-n650f.inf</c>
+		<c>driver_net7800-x64-n650f.inf</c>
+		<c>driver_net8185.inf</c>
+		<c>driver_net8187bv64.inf</c>
+		<c>driver_net8187se64.inf</c>
+		<c>driver_net8192se64.inf</c>
+		<c>driver_net8192su64.inf</c>
+		<c>driver_net819xp.inf</c>
+		<c>driver_net9500-x64-n650f.inf</c>
+		<c>driver_netathr10x.inf</c>
+		<c>driver_netathrx.inf</c>
+		<c>driver_netax88179_178a.inf</c>
+		<c>driver_netax88772.inf</c>
+		<c>driver_netbc63a.inf</c>
+		<c>driver_netbc64.inf</c>
+		<c>driver_netbvbda.inf</c>
+		<c>driver_netbxnda.inf</c>
+		<c>driver_nete1e3e.inf</c>
+		<c>driver_nete1g3e.inf</c>
+		<c>driver_netefe3e.inf</c>
+		<c>driver_netelx.inf</c>
+		<c>driver_netevbda.inf</c>
+		<c>driver_netg664.inf</c>
+		<c>driver_netimm.inf</c>
+		<c>driver_netjme.inf</c>
+		<c>driver_netk57a.inf</c>
+		<c>driver_netl160a.inf</c>
+		<c>driver_netl1c63x64.inf</c>
+		<c>driver_netl1e64.inf</c>
+		<c>driver_netl260a.inf</c>
+		<c>driver_netloop.inf</c>
+		<c>driver_netmlx4eth63.inf</c>
+		<c>driver_netmlx5.inf</c>
+		<c>driver_netmyk64.inf</c>
+		<c>driver_netnvm64.inf</c>
+		<c>driver_netnvma.inf</c>
+		<c>driver_netr28x.inf</c>
+		<c>driver_netr7364.inf</c>
+		<c>driver_netrtl64.inf</c>
+		<c>driver_netrtwlane.inf</c>
+		<c>driver_netrtwlane_13.inf</c>
+		<c>driver_netrtwlans.inf</c>
+		<c>driver_nett4x64.inf</c>
+		<c>driver_netv1x64.inf</c>
+		<c>driver_netvchannel.inf</c>
+		<c>driver_netvf63a.inf</c>
+		<c>driver_netvg63a.inf</c>
+		<c>driver_netwbw02.inf</c>
+		<c>driver_netwew00.inf</c>
+		<c>driver_netwew01.inf</c>
+		<c>driver_netwlv64.inf</c>
+		<c>driver_netwmbclass.inf</c>
+		<c>driver_netwns64.inf</c>
+		<c>driver_netwsw00.inf</c>
+		<c>driver_netwtw02.inf</c>
+		<c>driver_netwtw06.inf</c>
+		<c>driver_netxex64.inf</c>
+		<c>driver_npsvctrig.inf</c>
+		<c>driver_ntprint.inf</c>
+		<c>driver_ntprint4.inf</c>
+		<c>driver_nulhpopr.inf</c>
+		<c>driver_nulhprs8.inf</c>
+		<c>driver_nvraid.inf</c>
+		<c>driver_oposdrv.inf</c>
+		<c>driver_pcmcia.inf</c>
+		<c>driver_percsas2i.inf</c>
+		<c>driver_percsas3i.inf</c>
+		<c>driver_pnpxinternetgatewaydevices.inf</c>
+		<c>driver_printqueue.inf</c>
+		<c>driver_prnge001.inf</c>
+		<c>driver_prnms002.inf</c>
+		<c>driver_prnms003.inf</c>
+		<c>driver_prnms004.inf</c>
+		<c>driver_prnms005.inf</c>
+		<c>driver_prnms007.inf</c>
+		<c>driver_prnms008.inf</c>
+		<c>driver_prnms010.inf</c>
+		<c>driver_prnms011.inf</c>
+		<c>driver_prnms012.inf</c>
+		<c>driver_prnms014.inf</c>
+		<c>driver_qd3x64.inf</c>
+		<c>driver_rdcameradriver.inf</c>
+		<c>driver_rdpbus.inf</c>
+		<c>driver_rdvgwddmdx11.inf</c>
+		<c>driver_remoteposdrv.inf</c>
+		<c>driver_rhproxy.inf</c>
+		<c>driver_rtux64w10.inf</c>
+		<c>driver_rtwlanu_oldic.inf</c>
+		<c>driver_sbp2.inf</c>
+		<c>driver_scmbus.inf</c>
+		<c>driver_scrawpdo.inf</c>
+		<c>driver_scsidev.inf</c>
+		<c>driver_scunknown.inf</c>
+		<c>driver_sdflauncher.inf</c>
+		<c>driver_sdfrd.inf</c>
+		<c>driver_sdstor.inf</c>
+		<c>driver_sensorsalsdriver.inf</c>
+		<c>driver_sensorshidclassdriver.inf</c>
+		<c>driver_sensorsservicedriver.inf</c>
+		<c>driver_sisraid2.inf</c>
+		<c>driver_sisraid4.inf</c>
+		<c>driver_smartsamd.inf</c>
+		<c>driver_spaceport.inf</c>
+		<c>driver_stexstor.inf</c>
+		<c>driver_storufs.inf</c>
+		<c>driver_tape.inf</c>
+		<c>driver_termkbd.inf</c>
+		<c>driver_termmou.inf</c>
+		<c>driver_tpm.inf</c>
+		<c>driver_tpmvsc.inf</c>
+		<c>driver_ts_generic.inf</c>
+		<c>driver_tsgenericusbdriver.inf</c>
+		<c>driver_tsprint.inf</c>
+		<c>driver_tsusbhubfilter.inf</c>
+		<c>driver_uiccspb.inf</c>
+		<c>driver_urschipidea.inf</c>
+		<c>driver_urssynopsys.inf</c>
+		<c>driver_usbcciddriver.inf</c>
+		<c>driver_usbcir.inf</c>
+		<c>driver_usbncm.inf</c>
+		<c>driver_usbnet.inf</c>
+		<c>driver_usbprint.inf</c>
+		<c>driver_usbser.inf</c>
+		<c>driver_v_mscdsc.inf</c>
+		<c>driver_virtdisk.inf</c>
+		<c>driver_vsmraid.inf</c>
+		<c>driver_vstxraid.inf</c>
+		<c>driver_wdmvsc.inf</c>
+		<c>driver_wfcvsc.inf</c>
+		<c>driver_wgencounter.inf</c>
+		<c>driver_whvcrash.inf</c>
+		<c>driver_whyperkbd.inf</c>
+		<c>driver_windowstrustedrtproxy.inf</c>
+		<c>driver_wmbclass_wmc_union.inf</c>
+		<c>driver_wmiacpi.inf</c>
+		<c>driver_wnetvsc.inf</c>
+		<c>driver_ws3cap.inf</c>
+		<c>driver_wsdprint.inf</c>
+		<c>driver_wstorflt.inf</c>
+		<c>driver_wstorvsc.inf</c>
+		<c>driver_wsynth3dvsc.inf</c>
+		<c>driver_wudfusbcciddriver.inf</c>
+		<c>driver_wvid.inf</c>
+		<c>driver_wvmbus.inf</c>
+		<c>driver_wvmbushid.inf</c>
+		<c>driver_wvmbusvideo.inf</c>
+		<c>driver_wvmgid.inf</c>
+		<c>driver_wvmic_ext.inf</c>
+		<c>driver_wvmic_guestinterface.inf</c>
+		<c>driver_wvmic_heartbeat.inf</c>
+		<c>driver_wvmic_kvpexchange.inf</c>
+		<c>driver_wvmic_shutdown.inf</c>
+		<c>driver_wvmic_timesync.inf</c>
+		<c>driver_wvpci.inf</c>
+		<c>driver_xboxgip.inf</c>
+		<c>driver_ykinx64.inf</c>
+		<c>dssvc 'Data Sharing Service'</c>
+		<c>dvdplay 'DVD Play'</c>
+		<c>easeofaccessthemes 'Ease Of Access Themes'</c>
+		<c>edgehtml32 'HTML Viewer - 32 bit'</c>
+		<c>edgeupdate 'Microsoft Edge Update'</c>
+		<c>encprovider 'Windows Encryption Provider Host Service'</c>
+		<c>enhancedstorage 'Enhanced Storage'</c>
+		<c>enterpriseclientsync 'Work Folders Client'</c>
+		<c>enterprisedataprotection 'Enterprise Data Protection (EDP/WIP)'</c>
+		<c>errorreporting 'Windows Error Reporting'</c>
+		<c>errorreportingapi 'Windows Error Reporting API'</c>
+		<c>eudcedit 'Private Character Editor'</c>
+		<c>eventtracing 'Event Tracing for Windows (ETW)'</c>
+		<c>exchangeactivesync 'Exchange ActiveSync (EAS)'</c>
+		<c>F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE 'Add Folder Suggestions dialog'</c>
+		<c>facerecognition 'Face Recognition'</c>
+		<c>fciclient 'File Server Resource Manager'</c>
+		<c>fdphost 'Network Discovery'</c>
+		<c>filehistory 'File History'</c>
+		<c>filerevocationmanager 'File Revocation Manager - 32 bit'</c>
+		<c>filetrace 'File Trace MiniFilter'</c>
+		<c>firstlogonanim 'First-logon animation'</c>
+		<c>folderredirection 'Folder Redirection'</c>
+		<c>font_bahnschrift 'Bahnschrift'</c>
+		<c>font_cambria_regular 'Cambria &amp; Cambria Math'</c>
+		<c>font_candara 'Candara'</c>
+		<c>font_constantia 'Constantia'</c>
+		<c>font_corbel 'Corbel'</c>
+		<c>font_ebrima 'Ebrima'</c>
+		<c>font_ebrimabold 'Ebrima Bold'</c>
+		<c>font_fixed 'Fixed'</c>
+		<c>font_franklingothic 'FranklinGothic'</c>
+		<c>font_gabriola 'Gabriola'</c>
+		<c>font_gadugi 'Gadugi'</c>
+		<c>font_gadugibold 'Gadugi Bold'</c>
+		<c>font_inkfree 'Ink Free'</c>
+		<c>font_javanesetext 'Javanese Text'</c>
+		<c>font_leelawadeeui 'LeelawadeeUI'</c>
+		<c>font_leelawadeeui_regular 'Leelawadee UI'</c>
+		<c>font_malgungothic 'Malgun Gothic'</c>
+		<c>font_malgungothicbold 'Malgun Gothic Bold'</c>
+		<c>font_malgungothicsemilight 'Malgun Gothic SemiLight'</c>
+		<c>font_microsofthimalaya 'Microsoft Himalaya'</c>
+		<c>font_microsoftjhenghei 'Microsoft JhengHei &amp; Microsoft JhengHei UI'</c>
+		<c>font_microsoftjhengheibold 'Microsoft JhengHei Bold &amp; Microsoft JhengHei UI Bold'</c>
+		<c>font_microsoftjhengheilight 'Microsoft JhengHei Light &amp; Microsoft JhengHei UI Light'</c>
+		<c>font_microsoftyahei 'Microsoft YaHei &amp; Microsoft YaHei UI'</c>
+		<c>font_microsoftyaheibold 'Microsoft YaHei Bold &amp; Microsoft YaHei UI Bold'</c>
+		<c>font_microsoftyaheilight 'Microsoft YaHei Light &amp; Microsoft YaHei UI Light'</c>
+		<c>font_mingliub 'MingLiU-ExtB &amp; PMingLiU-ExtB &amp; MingLiU_HKSCS-ExtB'</c>
+		<c>font_mongolianbaiti 'Mongolian Baiti'</c>
+		<c>font_msgothic 'MS Gothic &amp; MS UI Gothic &amp; MS PGothic'</c>
+		<c>font_mvboli 'MV Boli'</c>
+		<c>font_myanmartext 'Myanmar Text'</c>
+		<c>font_myanmartextbold 'Myanmar Text Bold'</c>
+		<c>font_newtailue 'Microsoft New Tai Lue'</c>
+		<c>font_newtailuebold 'Microsoft New Tai Lue Bold'</c>
+		<c>font_nirmalaui 'NirmalaUI'</c>
+		<c>font_nirmalaui_regular 'Nirmala UI'</c>
+		<c>font_palatinolinotype 'PalatinoLinotype'</c>
+		<c>font_phagspa 'Microsoft PhagsPa'</c>
+		<c>font_phagspabold 'Microsoft PhagsPa Bold'</c>
+		<c>font_segoeprint 'Segoe Print'</c>
+		<c>font_segoeprintbold 'Segoe Print Bold'</c>
+		<c>font_segoescript 'SegoeScript'</c>
+		<c>font_segoeui_italicssupplement 'SegoeUI ItalicsSupplement'</c>
+		<c>font_simsun 'SimSun &amp; NSimSun'</c>
+		<c>font_simsunb 'SimSun-ExtB'</c>
+		<c>font_sitka 'Sitka'</c>
+		<c>font_sylfaen 'Sylfaen'</c>
+		<c>font_symbol 'Symbol'</c>
+		<c>font_taile 'Microsoft Tai Le'</c>
+		<c>font_tailebold 'Microsoft Tai Le Bold'</c>
+		<c>font_vector 'Vector'</c>
+		<c>font_webdings 'Webdings'</c>
+		<c>font_wingdings 'Wingdings'</c>
+		<c>font_yibaiti 'Microsoft Yi Baiti'</c>
+		<c>font_yugothic 'Yu Gothic Regular &amp; Yu Gothic UI Semilight'</c>
+		<c>font_yugothicbold 'Yu Gothic Bold &amp; Yu Gothic UI Semibold &amp; Yu Gothic UI Bold'</c>
+		<c>font_yugothiclight 'Yu Gothic Light &amp; Yu Gothic UI Light'</c>
+		<c>fontpreviewer32 'Font previewer - 32 bit'</c>
+		<c>frameserver 'Camera Frame Server'</c>
+		<c>frameservernet 'Networked Camera Source'</c>
+		<c>fsmgmt 'Shared Folders UI'</c>
+		<c>fsmgmt32 'Shared Folders UI - 32 bit'</c>
+		<c>functiondiscovery 'Function Discovery'</c>
+		<c>gameexplorer 'Game Explorer'</c>
+		<c>gpiobuttons 'General-Purpose I/O (GPIO)'</c>
+		<c>graphicsperfsvc 'Graphics performance monitor service'</c>
+		<c>guardedhost 'Guarded Host'</c>
+		<c>hbaapi 'Host Bus Adapter (HBA) API'</c>
+		<c>help 'Windows Help content'</c>
+		<c>helpsupport 'Help file support (CHM)'</c>
+		<c>homegroup</c>
+		<c>hwsupport_fax 'Fax'</c>
+		<c>hwsupport_floppy 'Floppy disk'</c>
+		<c>hwsupport_infrared 'Infrared devices'</c>
+		<c>hwsupport_internetprintingclient 'Internet Printing Client'</c>
+		<c>hwsupport_modem 'Modem'</c>
+		<c>hwsupport_modemsettings 'Shared modem settings (mdmgl*.inf)'</c>
+		<c>hwsupport_printer 'Printing'</c>
+		<c>hwsupport_scanner 'Scanner'</c>
+		<c>hwsupport_smartcard 'Smartcard'</c>
+		<c>hwsupport_telephony 'Telephony'</c>
+		<c>hyperv 'Hyper-V'</c>
+		<c>hypervguest 'Hyper-V Guest'</c>
+		<c>ias 'Internet Authentication Service (IAS)'</c>
+		<c>identityfoundation 'Windows Identity Foundation (WIF)'</c>
+		<c>iis 'Internet Information Server (IIS)'</c>
+		<c>ikeext 'IKE and AuthIP IPsec Keying Modules'</c>
+		<c>indeo 'Intel Indeo Codecs'</c>
+		<c>insiderhub 'Windows Insider Hub'</c>
+		<c>internetexplorer 'Internet Explorer'</c>
+		<c>internetexplorer32 'Internet Explorer - 32 bit'</c>
+		<c>iphelper 'Internet Protocol Helper (IP Helper)'</c>
+		<c>ipt 'Identity Protection Technology (Intel IPT)'</c>
+		<c>iscsi 'iSCSI Initiator'</c>
+		<c>isoburn 'Windows Disc Image Burning Tool'</c>
+		<c>isolatedusermode 'Virtualization-based security (VBS)'</c>
+		<c>jscript</c>
+		<c>jscript32 'JScript - 32 bit'</c>
+		<c>kerberos32 'Kerberos Client - 32 bit'</c>
+		<c>kerneldebug 'Kernel Debugging'</c>
+		<c>kl-00000401 'Arabic (101)'</c>
+		<c>kl-00000402 'Bulgarian (Typewriter)'</c>
+		<c>kl-00000404 'Chinese (Traditional) - US'</c>
+		<c>kl-00000405 'Czech'</c>
+		<c>kl-00000406 'Danish'</c>
+		<c>kl-00000407 'German'</c>
+		<c>kl-00000408 'Greek'</c>
+		<c>kl-0000040a 'Spanish'</c>
+		<c>kl-0000040b 'Finnish'</c>
+		<c>kl-0000040c 'French'</c>
+		<c>kl-0000040d 'Hebrew'</c>
+		<c>kl-0000040e 'Hungarian'</c>
+		<c>kl-0000040f 'Icelandic'</c>
+		<c>kl-00000410 'Italian'</c>
+		<c>kl-00000411 'Japanese'</c>
+		<c>kl-00000412 'Korean'</c>
+		<c>kl-00000413 'Dutch'</c>
+		<c>kl-00000414 'Norwegian'</c>
+		<c>kl-00000415 'Polish (Programmers)'</c>
+		<c>kl-00000416 'Portuguese (Brazil ABNT)'</c>
+		<c>kl-00000418 'Romanian (Legacy)'</c>
+		<c>kl-00000419 'Russian'</c>
+		<c>kl-0000041a 'Standard'</c>
+		<c>kl-0000041b 'Slovak'</c>
+		<c>kl-0000041c 'Albanian'</c>
+		<c>kl-0000041d 'Swedish'</c>
+		<c>kl-0000041e 'Thai Kedmanee'</c>
+		<c>kl-0000041f 'Turkish Q'</c>
+		<c>kl-00000420 'Urdu'</c>
+		<c>kl-00000422 'Ukrainian'</c>
+		<c>kl-00000423 'Belarusian'</c>
+		<c>kl-00000424 'Slovenian'</c>
+		<c>kl-00000425 'Estonian'</c>
+		<c>kl-00000426 'Latvian'</c>
+		<c>kl-00000427 'Lithuanian IBM'</c>
+		<c>kl-00000428 'Tajik'</c>
+		<c>kl-00000429 'Persian'</c>
+		<c>kl-0000042a 'Vietnamese'</c>
+		<c>kl-0000042b 'Armenian Eastern (Legacy)'</c>
+		<c>kl-0000042c 'Azerbaijani Latin'</c>
+		<c>kl-0000042e 'Sorbian Standard (Legacy)'</c>
+		<c>kl-0000042f 'Macedonian (North Macedonia)'</c>
+		<c>kl-00000432 'Setswana'</c>
+		<c>kl-00000437 'Georgian (Legacy)'</c>
+		<c>kl-00000438 'Faeroese'</c>
+		<c>kl-00000439 'Devanagari - INSCRIPT'</c>
+		<c>kl-0000043a 'Maltese 47-Key'</c>
+		<c>kl-0000043b 'Norwegian with Sami'</c>
+		<c>kl-0000043f 'Kazakh'</c>
+		<c>kl-00000440 'Kyrgyz Cyrillic'</c>
+		<c>kl-00000442 'Turkmen'</c>
+		<c>kl-00000444 'Tatar (Legacy)'</c>
+		<c>kl-00000445 'Bangla'</c>
+		<c>kl-00000446 'Punjabi'</c>
+		<c>kl-00000447 'Gujarati'</c>
+		<c>kl-00000448 'Odia'</c>
+		<c>kl-00000449 'Tamil'</c>
+		<c>kl-0000044a 'Telugu'</c>
+		<c>kl-0000044b 'Kannada'</c>
+		<c>kl-0000044c 'Malayalam'</c>
+		<c>kl-0000044d 'Assamese - INSCRIPT'</c>
+		<c>kl-0000044e 'Marathi'</c>
+		<c>kl-00000450 'Mongolian Cyrillic'</c>
+		<c>kl-00000451 'Tibetan (PRC)'</c>
+		<c>kl-00000452 'United Kingdom Extended'</c>
+		<c>kl-00000453 'Khmer'</c>
+		<c>kl-00000454 'Lao'</c>
+		<c>kl-0000045a 'Syriac'</c>
+		<c>kl-0000045b 'Sinhala'</c>
+		<c>kl-0000045c 'Cherokee Nation'</c>
+		<c>kl-00000461 'Nepali'</c>
+		<c>kl-00000463 'Pashto (Afghanistan)'</c>
+		<c>kl-00000465 'Divehi Phonetic'</c>
+		<c>kl-00000468 'Hausa'</c>
+		<c>kl-0000046a 'Yoruba'</c>
+		<c>kl-0000046c 'Sesotho sa Leboa'</c>
+		<c>kl-0000046d 'Bashkir'</c>
+		<c>kl-0000046e 'Luxembourgish'</c>
+		<c>kl-0000046f 'Greenlandic'</c>
+		<c>kl-00000470 'Igbo'</c>
+		<c>kl-00000474 'Guarani'</c>
+		<c>kl-00000475 'Hawaiian'</c>
+		<c>kl-00000480 'Uyghur (Legacy)'</c>
+		<c>kl-00000481 'Maori'</c>
+		<c>kl-00000485 'Sakha'</c>
+		<c>kl-00000488 'Wolof'</c>
+		<c>kl-00000492 'Central Kurdish'</c>
+		<c>kl-00000804 'Chinese (Simplified) - US'</c>
+		<c>kl-00000807 'Swiss German'</c>
+		<c>kl-00000809 'United Kingdom'</c>
+		<c>kl-0000080a 'Latin American'</c>
+		<c>kl-0000080c 'Belgian French'</c>
+		<c>kl-00000813 'Belgian (Period)'</c>
+		<c>kl-00000816 'Portuguese'</c>
+		<c>kl-0000081a 'Serbian (Latin)'</c>
+		<c>kl-0000082c 'Azerbaijani Cyrillic'</c>
+		<c>kl-0000083b 'Swedish with Sami'</c>
+		<c>kl-00000843 'Uzbek Cyrillic'</c>
+		<c>kl-00000850 'Mongolian (Mongolian Script)'</c>
+		<c>kl-0000085d 'Inuktitut - Latin'</c>
+		<c>kl-0000085f 'Central Atlas Tamazight'</c>
+		<c>kl-00000c04 'Chinese (Traditional, Hong Kong S.A.R.) - US'</c>
+		<c>kl-00000c0c 'Canadian French (Legacy)'</c>
+		<c>kl-00000c1a 'Serbian (Cyrillic)'</c>
+		<c>kl-00000c51 'Dzongkha'</c>
+		<c>kl-00001004 'Chinese (Simplified, Singapore) - US'</c>
+		<c>kl-00001009 'Canadian French'</c>
+		<c>kl-0000100c 'Swiss French'</c>
+		<c>kl-0000105f 'Tifinagh (Basic)'</c>
+		<c>kl-00001404 'Chinese (Traditional, Macao S.A.R.) - US'</c>
+		<c>kl-00001809 'Irish'</c>
+		<c>kl-0000201a 'Bosnian (Cyrillic)'</c>
+		<c>kl-00004009 'English (India)'</c>
+		<c>kl-00010401 'Arabic (102)'</c>
+		<c>kl-00010402 'Bulgarian (Latin)'</c>
+		<c>kl-00010405 'Czech (QWERTY)'</c>
+		<c>kl-00010407 'German (IBM)'</c>
+		<c>kl-00010408 'Greek (220)'</c>
+		<c>kl-00010409 'United States-Dvorak'</c>
+		<c>kl-0001040a 'Spanish Variation'</c>
+		<c>kl-0001040e 'Hungarian 101-key'</c>
+		<c>kl-00010410 'Italian (142)'</c>
+		<c>kl-00010415 'Polish (214)'</c>
+		<c>kl-00010416 'Portuguese (Brazil ABNT2)'</c>
+		<c>kl-00010418 'Romanian (Standard)'</c>
+		<c>kl-00010419 'Russian (Typewriter)'</c>
+		<c>kl-0001041b 'Slovak (QWERTY)'</c>
+		<c>kl-0001041e 'Thai Pattachote'</c>
+		<c>kl-0001041f 'Turkish F'</c>
+		<c>kl-00010426 'Latvian (QWERTY)'</c>
+		<c>kl-00010427 'Lithuanian'</c>
+		<c>kl-0001042b 'Armenian Western (Legacy)'</c>
+		<c>kl-0001042c 'Azerbaijani (Standard)'</c>
+		<c>kl-0001042e 'Sorbian Extended'</c>
+		<c>kl-0001042f 'Macedonian (North Macedonia) - Standard'</c>
+		<c>kl-00010437 'Georgian (QWERTY)'</c>
+		<c>kl-00010439 'Hindi Traditional'</c>
+		<c>kl-0001043a 'Maltese 48-Key'</c>
+		<c>kl-0001043b 'Sami Extended Norway'</c>
+		<c>kl-00010444 'Tatar'</c>
+		<c>kl-00010445 'Bangla - INSCRIPT (Legacy)'</c>
+		<c>kl-00010451 'Tibetan (PRC) - Updated'</c>
+		<c>kl-00010453 'Khmer (NIDA)'</c>
+		<c>kl-0001045a 'Syriac Phonetic'</c>
+		<c>kl-0001045b 'Sinhala - Wij 9'</c>
+		<c>kl-0001045c 'Cherokee Phonetic'</c>
+		<c>kl-0001045d 'Inuktitut - Naqittaut'</c>
+		<c>kl-00010465 'Divehi Typewriter'</c>
+		<c>kl-00010480 'Uyghur'</c>
+		<c>kl-0001080c 'Belgian (Comma)'</c>
+		<c>kl-0001083b 'Finnish with Sami'</c>
+		<c>kl-00010850 'Traditional Mongolian (Standard)'</c>
+		<c>kl-00010c00 'Myanmar (Phonetic order)'</c>
+		<c>kl-00011009 'Canadian Multilingual Standard'</c>
+		<c>kl-0001105f 'Tifinagh (Extended)'</c>
+		<c>kl-00011809 'Scottish Gaelic'</c>
+		<c>kl-00020401 'Arabic (102) AZERTY'</c>
+		<c>kl-00020402 'Bulgarian (Phonetic)'</c>
+		<c>kl-00020405 'Czech Programmers'</c>
+		<c>kl-00020408 'Greek (319)'</c>
+		<c>kl-00020409 'United States-International'</c>
+		<c>kl-0002040d 'Hebrew (Standard)'</c>
+		<c>kl-00020418 'Romanian (Programmers)'</c>
+		<c>kl-00020419 'Russian - Mnemonic'</c>
+		<c>kl-0002041e 'Thai Kedmanee (non-ShiftLock)'</c>
+		<c>kl-00020422 'Ukrainian (Enhanced)'</c>
+		<c>kl-00020426 'Latvian (Standard)'</c>
+		<c>kl-00020427 'Lithuanian Standard'</c>
+		<c>kl-0002042b 'Armenian Phonetic'</c>
+		<c>kl-0002042e 'Sorbian Standard'</c>
+		<c>kl-00020437 'Georgian (Ergonomic)'</c>
+		<c>kl-00020445 'Bangla - INSCRIPT'</c>
+		<c>kl-00020449 'Tamil 99'</c>
+		<c>kl-0002083b 'Sami Extended Finland-Sweden'</c>
+		<c>kl-00020c00 'New Tai Lue'</c>
+		<c>kl-00030402 'Bulgarian'</c>
+		<c>kl-00030408 'Greek (220) Latin'</c>
+		<c>kl-00030409 'United States-Dvorak for left hand'</c>
+		<c>kl-0003041e 'Thai Pattachote (non-ShiftLock)'</c>
+		<c>kl-0003042b 'Armenian Typewriter'</c>
+		<c>kl-00030437 'Georgian (MES)'</c>
+		<c>kl-00030c00 'Tai Le'</c>
+		<c>kl-00040402 'Bulgarian (Phonetic Traditional)'</c>
+		<c>kl-00040408 'Greek (319) Latin'</c>
+		<c>kl-00040409 'United States-Dvorak for right hand'</c>
+		<c>kl-00040437 'Georgian (Old Alphabets)'</c>
+		<c>kl-00040c00 'Ogham'</c>
+		<c>kl-00050408 'Greek Latin'</c>
+		<c>kl-00050409 'US English Table for IBM Arabic 238_L'</c>
+		<c>kl-00050429 'Persian (Standard)'</c>
+		<c>kl-00060408 'Greek Polytonic'</c>
+		<c>kl-00070c00 'Lisu (Basic)'</c>
+		<c>kl-00080c00 'Lisu (Standard)'</c>
+		<c>kl-00090c00 'N’Ko'</c>
+		<c>kl-000a0c00 'Phags-pa'</c>
+		<c>kl-000b0c00 'Buginese'</c>
+		<c>kl-000c0c00 'Gothic'</c>
+		<c>kl-000d0c00 'Ol Chiki'</c>
+		<c>kl-000e0c00 'Osmanya'</c>
+		<c>kl-000f0c00 'Old Italic'</c>
+		<c>kl-00100c00 'Sora'</c>
+		<c>kl-00110c00 'Javanese'</c>
+		<c>kl-00120c00 'Futhark'</c>
+		<c>kl-00130c00 'Myanmar (Visual order)'</c>
+		<c>langarabic 'Arabic'</c>
+		<c>langbulgarian 'Bulgarian'</c>
+		<c>langchineses 'Chinese Simplified'</c>
+		<c>langchineset 'Chinese Traditional'</c>
+		<c>langcroatian 'Croatian'</c>
+		<c>langczech 'Czech'</c>
+		<c>langdanish 'Danish'</c>
+		<c>langdutch 'Dutch'</c>
+		<c>langenglishgb 'English (GB)'</c>
+		<c>langestonian 'Estonian'</c>
+		<c>langfinnish 'Finnish'</c>
+		<c>langfrench 'French'</c>
+		<c>langfrenchcanadian 'French (Canadian)'</c>
+		<c>langgerman 'German'</c>
+		<c>langgreek 'Greek'</c>
+		<c>langhebrew 'Hebrew'</c>
+		<c>langhungarian 'Hungarian'</c>
+		<c>langimeko 'Korean (IME)'</c>
+		<c>langimetc 'Chinese Traditional (IME)'</c>
+		<c>langitalian 'Italian'</c>
+		<c>langkorean 'Korean'</c>
+		<c>langlatvian 'Latvian'</c>
+		<c>langlithuanian 'Lithuanian'</c>
+		<c>langnorwegian 'Norwegian'</c>
+		<c>langpolish 'Polish'</c>
+		<c>langportuguesebr 'Portuguese (Brazilian)'</c>
+		<c>langportuguesept 'Portuguese'</c>
+		<c>langpseudolocale 'Pseudo-locale'</c>
+		<c>langromanian 'Romanian'</c>
+		<c>langrussian 'Russian'</c>
+		<c>langserbian 'Serbian'</c>
+		<c>langslovak 'Slovak'</c>
+		<c>langslovenian 'Slovenian'</c>
+		<c>langspanish 'Spanish'</c>
+		<c>langswedish 'Swedish'</c>
+		<c>langthai 'Thai'</c>
+		<c>langturkish 'Turkish'</c>
+		<c>langukrainian 'Ukrainian'</c>
+		<c>lcu 'Cumulative Update cache (LCU)'</c>
+		<c>lmhosts 'TCP/IP NetBIOS Helper'</c>
+		<c>location 'Location Service'</c>
+		<c>lockscreens 'Lock Screen backgrounds'</c>
+		<c>lpasvc 'Local Profile Assistant Service'</c>
+		<c>lpksetup 'Language Pack Setup'</c>
+		<c>mailcommdll 'Windows Mail Communications Library'</c>
+		<c>manifestbackup 'Manifest Backup (WinSxS\Backup)'</c>
+		<c>manifests 'Windows Component Database'</c>
+		<c>manualsetup 'Manual Setup'</c>
+		<c>mapcontrol 'Map Control'</c>
+		<c>mbr2gpt 'MBR to GPT conversion tool'</c>
+		<c>mdac 'Microsoft Data Access Components (MDAC)'</c>
+		<c>mediaplayer 'Windows Media Player'</c>
+		<c>mediaplayer32 'Windows Media Player - 32 bit'</c>
+		<c>mediaplayernetworksharing 'WMP Network Sharing Service'</c>
+		<c>mediaplayernetworksharing32 'WMP Network Sharing Service - 32 bit'</c>
+		<c>mediastreaming 'Media Streaming'</c>
+		<c>memorydiagnostic 'Memory Diagnostic'</c>
+		<c>messagingsvc 'Messaging Service'</c>
+		<c>Microsoft.AAD.BrokerPlugin 'Work or school account'</c>
+		<c>Microsoft.AccountsControl 'Email and accounts'</c>
+		<c>Microsoft.AsyncTextService 'AsyncTextService'</c>
+		<c>Microsoft.BioEnrollment 'Windows Hello Setup'</c>
+		<c>Microsoft.ECApp 'Eye Control'</c>
+		<c>Microsoft.LockApp 'Windows Default Lock Screen'</c>
+		<c>microsoft.microsoftedge.stable 'Microsoft Edge (Chromium)'</c>
+		<c>Microsoft.MicrosoftEdge 'Microsoft Edge (Legacy)'</c>
+		<c>Microsoft.MicrosoftEdgeDevToolsClient 'Microsoft Edge DevTools Client'</c>
+		<c>Microsoft.Win32WebViewHost 'Desktop App Web Viewer'</c>
+		<c>Microsoft.Windows.Apprep.ChxApp 'SmartScreen'</c>
+		<c>Microsoft.Windows.AssignedAccessLockApp 'Assigned Access Lock app'</c>
+		<c>Microsoft.Windows.CallingShellApp 'Call'</c>
+		<c>Microsoft.Windows.CapturePicker 'Capture Picker'</c>
+		<c>Microsoft.Windows.ContentDeliveryManager 'Content Delivery Manager'</c>
+		<c>Microsoft.Windows.NarratorQuickStart 'Narrator'</c>
+		<c>Microsoft.Windows.OOBENetworkCaptivePortal 'Captive Portal Flow'</c>
+		<c>Microsoft.Windows.ParentalControls 'Microsoft family features'</c>
+		<c>Microsoft.Windows.PeopleExperienceHost 'Windows Shell Experience'</c>
+		<c>Microsoft.Windows.PinningConfirmationDialog 'PinningConfirmationDialog'</c>
+		<c>Microsoft.Windows.Search 'Windows Search'</c>
+		<c>Microsoft.Windows.SecHealthUI 'Windows Defender'</c>
+		<c>Microsoft.Windows.XGpuEjectDialog 'Safely Remove Device'</c>
+		<c>microsoft.windowscommunicationsapps 'Windows Mail'</c>
+		<c>microsoft.windowsstore 'Windows Store'</c>
+		<c>Microsoft.XboxGameCallableUI 'Xbox Game UI'</c>
+		<c>migwiz 'Easy Transfer'</c>
+		<c>mixedreality 'Windows Mixed Reality'</c>
+		<c>mmga 'MMGA MAPI'</c>
+		<c>mobiledevicemanagement 'Mobile Device Management (MDM)'</c>
+		<c>mobilepc</c>
+		<c>mobilepc_location 'Location notifications'</c>
+		<c>mobilepc_networkprojection 'Network Projection'</c>
+		<c>mobilepc_sensors 'Sensors'</c>
+		<c>msconfig 'System Configuration tool (MSConfig)'</c>
+		<c>msftedit32 'Rich Text Edit Control (MsftEdit) - 32 bit'</c>
+		<c>mshtml 'HTML Viewer (Legacy)'</c>
+		<c>msinfo32 'System Information tool (MSInfo32)'</c>
+		<c>msmq 'Microsoft Message Queue (MSMQ)'</c>
+		<c>multipointconnector 'MultiPoint Connector'</c>
+		<c>mup 'Multiple UNC Provider (MUP)'</c>
+		<c>naturalauthentication 'Natural Authentication'</c>
+		<c>ncdauto 'Network Connected Devices Auto-Setup'</c>
+		<c>ndiscap 'NDIS Packet Capturing (NDISCAP)'</c>
+		<c>ndisimplat 'Network Adapter Multiplexor Protocol'</c>
+		<c>ndu 'Network Data Usage Monitoring Driver'</c>
+		<c>netbios 'NetBIOS over TCP transport'</c>
+		<c>netlogon</c>
+		<c>netqos 'Quality of Service Packet Scheduler (QoS)'</c>
+		<c>nettopology 'Link-Layer Topology Discovery protocol (LLTD)'</c>
+		<c>networkexplorer 'Network Explorer'</c>
+		<c>nfsclient 'NFS Administrative Tools'</c>
+		<c>nowplaying 'Now Playing Session Manager'</c>
+		<c>ntvdm 'NTVDM 16 bit subsystem'</c>
+		<c>offlinefiles 'Offline Files'</c>
+		<c>onesettingsclient 'OneSettings Client'</c>
+		<c>onesyncsvc 'Sync Host'</c>
+		<c>openssh</c>
+		<c>optionalfeatures 'Optional Features'</c>
+		<c>osk 'On-Screen Keyboard (Tablet PC)'</c>
+		<c>osk_acc 'On-Screen Keyboard (Accessibility tools)'</c>
+		<c>otherthemes 'Windows Personalization themes'</c>
+		<c>paint</c>
+		<c>paint32 'Paint - 32 bit'</c>
+		<c>passport 'Microsoft Passport'</c>
+		<c>payments</c>
+		<c>pdfreader 'Windows Reader (PDF)'</c>
+		<c>peertopeer 'Peer Networking'</c>
+		<c>perfmon 'Performance Monitor'</c>
+		<c>performancerecorder 'Windows Performance Recorder'</c>
+		<c>perftools 'Performance CMD Tools for Tracing'</c>
+		<c>phonesvc 'Phone Service'</c>
+		<c>photocodec 'Photo codec'</c>
+		<c>photocodec32 'Photo codec - 32 bit'</c>
+		<c>photoviewer 'Photo Viewer'</c>
+		<c>photoviewer32 'Photo Viewer - 32 bit'</c>
+		<c>picturepassword 'Picture password'</c>
+		<c>pimindexmaintenancesvc 'Contact Data'</c>
+		<c>pinsignin 'PIN sign-in support'</c>
+		<c>pktmon 'Packet Monitor (PktMon)'</c>
+		<c>pla 'Performance Logs and Alerts'</c>
+		<c>playready</c>
+		<c>pos 'Point of Service (POS)'</c>
+		<c>printmgmt 'Print Management'</c>
+		<c>printtopdf 'Print to PDF'</c>
+		<c>printworkflow 'Print Workflow Service'</c>
+		<c>projfs 'Projected File System (ProjFS)'</c>
+		<c>proximity</c>
+		<c>pushnotifications 'Windows Push Notifications'</c>
+		<c>pushnotificationssvc 'Windows Push Notifications Service (System)'</c>
+		<c>pushnotificationsusersvc 'Windows Push Notifications Service (User)'</c>
+		<c>pushtoinstall 'Windows PushToInstall Service'</c>
+		<c>quiethours 'Quiet Hours (Focus Assist)'</c>
+		<c>rasauto 'Remote Access Auto Connection Manager'</c>
+		<c>rascmd 'Remote Access Service Client Tools'</c>
+		<c>rasmans 'Remote Access Connection Manager'</c>
+		<c>rdc 'Remote Differential Compression (RDC)'</c>
+		<c>rdmaping 'Remote Direct Memory Access (RDMA) ping tool'</c>
+		<c>rdpclient 'Remote Desktop Client'</c>
+		<c>rdpclient32 'Remote Desktop Client - 32 bit'</c>
+		<c>rdpserver 'Remote Desktop Server'</c>
+		<c>rdpserverlic 'Remote Desktop Licensing'</c>
+		<c>regioncpl 'Region and Language control panel'</c>
+		<c>remoteaccessservice 'Routing and Remote Access Service'</c>
+		<c>remoteaccesssupport 'Routing and Remote Access support'</c>
+		<c>remoteactivex 'Remote Desktop Services ActiveX Client'</c>
+		<c>remoteactivex32 'Remote Desktop Services ActiveX Client - 32 bit'</c>
+		<c>remoteassistance 'Remote Assistance'</c>
+		<c>remotefx</c>
+		<c>remoteportredirector 'Remote Desktop Services Port Redirector'</c>
+		<c>remoteregistry 'Remote Registry'</c>
+		<c>retaildemo 'Retail Demo Content'</c>
+		<c>ribbon 'UI Ribbon'</c>
+		<c>rightsmanagement 'Rights Management support'</c>
+		<c>rotationmanager 'Auto-Rotation Manager'</c>
+		<c>screensavers</c>
+		<c>search 'Windows Search (Support)'</c>
+		<c>searchshell 'Shell Search'</c>
+		<c>seclogon 'Secondary Logon'</c>
+		<c>securestartup 'BitLocker Drive Encryption'</c>
+		<c>securitycenter 'Security Center'</c>
+		<c>sendmail 'Send To Mail and Desktop'</c>
+		<c>settingsync 'Setting Sync'</c>
+		<c>sfc 'System File Check (SFC)'</c>
+		<c>sharedaccess 'Internet Connection Sharing (ICS)'</c>
+		<c>sharedexperiences 'Shared Experiences'</c>
+		<c>sharedpc 'Shared PC mode'</c>
+		<c>sharemediacpl 'Share Media Control Panel'</c>
+		<c>sharingcommon 'File sharing support'</c>
+		<c>sihclient 'Server-Initiated Healing Client'</c>
+		<c>simpletcp 'Simple TCP/IP services'</c>
+		<c>skypeortc 'Skype ORTC'</c>
+		<c>smbdirect 'SMB Direct (RDMA)'</c>
+		<c>smbserver 'SMB Server Common'</c>
+		<c>smbv1 'SMB v1'</c>
+		<c>smbv2mr 'SMB v2 - Client'</c>
+		<c>smbv2server 'SMB v2 - Server'</c>
+		<c>smbwitnessclientapi 'SMB Witness Client API'</c>
+		<c>smsrouter 'SMS Router Service'</c>
+		<c>snippingtool 'Snipping Tool'</c>
+		<c>snmp 'Simple Network Management Protocol (SNMP)'</c>
+		<c>sorting 'Natural Language - Sorting'</c>
+		<c>soundsdefault 'Sounds (Default)'</c>
+		<c>soundthemes 'Sound Themes'</c>
+		<c>sourcessxsdir 'Manual feature repository'</c>
+		<c>speechapi 'Speech API'</c>
+		<c>speechcommon 'Speech Recognition'</c>
+		<c>speechtts 'Speech TTS'</c>
+		<c>spellchecking 'Spell Checking'</c>
+		<c>srumon 'Data Usage service'</c>
+		<c>staticfontcache 'Static Font Cache'</c>
+		<c>stepsrecorder 'Steps Recorder'</c>
+		<c>storageqos 'Storage Quality of Service (Storage QoS)'</c>
+		<c>storageservice 'Storage Service'</c>
+		<c>storagespaces 'Storage Spaces'</c>
+		<c>supportdir 'Support directory'</c>
+		<c>synccenter 'Sync Center'</c>
+		<c>systemguard 'System Guard'</c>
+		<c>systemreset 'System Reset for Windows'</c>
+		<c>systemrestore 'System Restore'</c>
+		<c>tabletextservice 'Table Text Service'</c>
+		<c>tabletpc 'Tablet PC'</c>
+		<c>targetedcontent32 'Targeted Content Service - 32 bit'</c>
+		<c>taskschdmsc32 'Task Scheduler (management console) - 32 bit'</c>
+		<c>taskscheduler32 'Task Scheduler - 32 bit'</c>
+		<c>taskview 'Task View'</c>
+		<c>telnetclient 'Telnet Client'</c>
+		<c>tempcache 'Cache and temp files'</c>
+		<c>textprediction 'Text prediction'</c>
+		<c>tftpclient 'TFTP client'</c>
+		<c>tieringengine 'Storage Tiers Management'</c>
+		<c>timetraveldebugger 'Time Travel Debugger (TTD)'</c>
+		<c>tpm 'Trusted Platform Module (TPM)'</c>
+		<c>tpmmmc 'Trusted Platform Module (TPM) (management console)'</c>
+		<c>tpmmmc32 'Trusted Platform Module (TPM) (management console) - 32 bit'</c>
+		<c>tpmvsc 'Virtual Smart Card'</c>
+		<c>trkwks 'Distributed Link Tracking Client'</c>
+		<c>troubleshootingsvc 'Recommended Troubleshooting service'</c>
+		<c>uac 'User Account Control (UAC)'</c>
+		<c>uev 'User Experience Virtualization (UE-V)'</c>
+		<c>undockedupdatestack 'Undocked Update Stack'</c>
+		<c>unistoresvc 'User Data Storage'</c>
+		<c>unp 'Universal Notification Platform (UNP)'</c>
+		<c>upnp 'UPnP Device Host'</c>
+		<c>userdatasvc 'User Data Access'</c>
+		<c>userdeviceregistration 'User Device Registration'</c>
+		<c>vcmcodecs 'Video Compression Manager (VCM) codecs'</c>
+		<c>vpn 'Virtual Private Network (VPN) support'</c>
+		<c>waasassessment 'Windows Update Medic Service'</c>
+		<c>wallet 'Wallet Service'</c>
+		<c>wallpaperdefault 'Wallpaper (Default)'</c>
+		<c>wallpapers 'Wallpapers (Themes)'</c>
+		<c>wcn 'Windows Connect Now (WCN)'</c>
+		<c>webcamexperience 'Webcam Experience'</c>
+		<c>webclient</c>
+		<c>wifinetworkmanager 'Wi-Fi Network Manager (Wi-Fi Sense)'</c>
+		<c>winai 'Windows AI Machine Learning'</c>
+		<c>Windows.CBSPreview 'Windows Barcode Preview'</c>
+		<c>Windows.PrintDialog 'PrintDialog'</c>
+		<c>windowstogo 'Windows To Go'</c>
+		<c>windowsupdate 'Windows Update'</c>
+		<c>winocr 'Windows TIFF IFilter (OCR)'</c>
+		<c>winre 'Windows Recovery'</c>
+		<c>winrm 'Windows Remote Management (WS-Management)'</c>
+		<c>winsat 'Windows System Assessment Tool (WinSAT)'</c>
+		<c>winsxs 'Windows Component Store (WinSxS)'</c>
+		<c>wordpad</c>
+		<c>wordpad32 'Wordpad - 32 bit'</c>
+		<c>wsdapi 'Web Services on Devices API (WSDAPI)'</c>
+		<c>wwanautoconfig 'WWAN AutoConfig'</c>
+		<c>xbox 'Xbox - Core'</c>
+		<c>zipfolder 'Zip &amp; Cab folder'</c>
+	</RemoveComponents>
+	<Compatibility protectHidden="true">
+		<ComponentFeatures>
+			<Feature enabled="no">AppGuard</Feature>
+			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="no">Discord</Feature>
+			<Feature enabled="no">FileSharing</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">iCloud</Feature>
+			<Feature enabled="no">ManualSetup</Feature>
+			<Feature enabled="no">OfficeSupport</Feature>
+			<Feature enabled="no">AppxSupport</Feature>
+			<Feature enabled="no">Netflix</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="no">NightLight</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="no">Printing</Feature>
+			<Feature enabled="no">Recommended-All</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="no">Scanning</Feature>
+			<Feature enabled="no">ServicingStack</Feature>
+			<Feature enabled="no">ShellSearchSupport</Feature>
+			<Feature enabled="no">Spotify</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="no">TeamViewer</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="no">VPN</Feature>
+			<Feature enabled="no">VisualStudio</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="yes">ActivationKMS</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="no">WindowsStore</Feature>
+			<Feature enabled="no">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+			<Feature enabled="no">YubiKey</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Features>
+		<Feature name="Client-EmbeddedLogon">true</Feature>
+		<Feature name="Client-DeviceLockdown">true</Feature>
+		<Feature name="OneCoreUAP.OneSync~~~~0.0.1.0">false</Feature>
+		<Feature name="MathRecognizer~~~~0.0.1.0">false</Feature>
+		<Feature name="App.Support.QuickAssist~~~~0.0.1.0">false</Feature>
+		<Feature name="SmbDirect">false</Feature>
+		<Feature name="Client-EmbeddedBootExp">true</Feature>
+		<Feature name="Client-UnifiedWriteFilter">true</Feature>
+	</Features>
+	<Packages></Packages>
+	<Commands>
+		<PostUpdates>
+			<!--<Command>example [MOUNTDIR]\Windows parameters</Command>-->
+		</PostUpdates>
+	</Commands>
+	<Drivers showHidden="true"></Drivers>
+	<Unattended mode="1">
+		<OEMSetupComplete>false</OEMSetupComplete>
+		<AnswerFileLocationPanther>false</AnswerFileLocationPanther>
+		<AnswerFileLocationBoot>false</AnswerFileLocationBoot>
+		<SaveBothArch>false</SaveBothArch>
+		<EditionPrompt>false</EditionPrompt>
+		<settings pass="oobeSystem">
+			<component name="Microsoft-Windows-International-Core">
+				<InputLocale>0409:00000409</InputLocale>
+				<SystemLocale>en-US</SystemLocale>
+				<UILanguage>en-US</UILanguage>
+				<UILanguageFallback>en-US</UILanguageFallback>
+				<UserLocale>en-US</UserLocale>
+			</component>
+			<component name="Microsoft-Windows-Shell-Setup">
+				<TimeZone>Eastern Standard Time</TimeZone>
+				<OOBE>
+					<HideEULAPage>true</HideEULAPage>
+					<HideLocalAccountScreen>true</HideLocalAccountScreen>
+					<HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+					<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+					<NetworkLocation>Home</NetworkLocation>
+					<ProtectYourPC>3</ProtectYourPC>
+				</OOBE>
+				<UserAccounts>
+					<LocalAccounts>
+						<LocalAccount>
+							<Group>Administrators</Group>
+							<Name>User</Name>
+							<Password>
+								<PlainText>true</PlainText>
+								<Value></Value>
+							</Password>
+						</LocalAccount>
+					</LocalAccounts>
+				</UserAccounts>
+			</component>
+		</settings>
+		<settings pass="specialize">
+			<component name="Microsoft-Windows-Security-SPP-UX">
+				<SkipAutoActivation>true</SkipAutoActivation>
+			</component>
+			<component name="Microsoft-Windows-Shell-Setup">
+				<ComputerName>RENAME-ME</ComputerName>
+			</component>
+		</settings>
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-International-Core-WinPE">
+				<InputLocale>0409:00000409</InputLocale>
+				<SystemLocale>en-US</SystemLocale>
+				<UILanguage>en-US</UILanguage>
+				<UILanguageFallback>en-US</UILanguageFallback>
+				<UserLocale>en-US</UserLocale>
+				<SetupUILanguage>
+					<UILanguage>en-US</UILanguage>
+				</SetupUILanguage>
+			</component>
+			<component name="Microsoft-Windows-Setup">
+				<Diagnostics>
+					<OptIn>false</OptIn>
+				</Diagnostics>
+				<DynamicUpdate>
+					<Enable>false</Enable>
+					<WillShowUI>OnError</WillShowUI>
+				</DynamicUpdate>
+				<ImageInstall>
+					<OSImage>
+						<WillShowUI>OnError</WillShowUI>
+						<InstallFrom>
+							<MetaData>
+								<Key>/IMAGE/INDEX</Key>
+								<Value>1</Value>
+							</MetaData>
+						</InstallFrom>
+					</OSImage>
+				</ImageInstall>
+				<UserData>
+					<AcceptEula>true</AcceptEula>
+					<ProductKey>
+						<Key></Key>
+					</ProductKey>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks>
+		<Settings>
+			<TweakGroup name="AutoLogger">
+				<Tweak name="Circular Kernel Context Logger\Start">0</Tweak>
+				<Tweak name="CloudExperienceHostOobe\Start">0</Tweak>
+				<Tweak name="DefenderApiLogger\Start">0</Tweak>
+				<Tweak name="DefenderAuditLogger\Start">0</Tweak>
+				<Tweak name="DiagLog\Start">0</Tweak>
+				<Tweak name="Diagtrack-Listener\Start">0</Tweak>
+				<Tweak name="Microsoft-Windows-Rdp-Graphics-RdpIdd-Trace\Start">0</Tweak>
+				<Tweak name="SpoolerLogger\Start">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="CrashControl">
+				<Tweak name="CrashControl\CrashDumpEnabled">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="DesktopTweaks">
+				<Tweak name="Explorer\AltTabSettings">1</Tweak>
+				<Tweak name="Personalize\AppsUseLightTheme">0</Tweak>
+				<Tweak name="Personalize\SystemUsesLightTheme">0</Tweak>
+				<Tweak name="NewStartPanel\{20D04FE0-3AEA-1069-A2D8-08002B30309D}">0</Tweak>
+				<Tweak name="NewStartPanel\{645FF040-5081-101B-9F08-00AA002F954E}">0</Tweak>
+				<Tweak name="Desktop\IconSize">32</Tweak>
+				<Tweak name="Explorer\DisableNotificationCenter">1</Tweak>
+				<Tweak name="QuietHours\Enable">0</Tweak>
+				<Tweak name="Search\SearchboxTaskbarMode">0</Tweak>
+				<Tweak name="DWM\ColorPrevalence">1</Tweak>
+				<Tweak name="Advanced\TaskbarGlomLevel">2</Tweak>
+				<Tweak name="Advanced\TaskbarSmallIcons">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="EventLogs">
+				<Tweak name="Microsoft-Windows-Biometrics\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-BitLocker\BitLocker Management\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-BranchCache\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-BranchCacheSMB\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-CloudStore\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-CodeIntegrity\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-CorruptedFileRecovery-Client\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-CorruptedFileRecovery-Server\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Deduplication\Diagnostic\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Deduplication\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Deduplication\Scrubbing\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-DeviceGuard\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider\Admin\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-OfflineFiles\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-ParentalControls\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Privacy-Auditing\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-StorageSpaces-Driver\Diagnostic\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-StorageSpaces-Driver\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-StorageSpaces-ManagementAgent\WHC\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-StorageSpaces-SpaceManager\Diagnostic\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-StorageSpaces-SpaceManager\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Windows Defender\Operational\Enabled">0</Tweak>
+				<Tweak name="Microsoft-Windows-Windows Defender\WHC\Enabled">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Explorer">
+				<Tweak name="ControlPanel\StartupPage">1</Tweak>
+				<Tweak name="Advanced\LaunchTo">1</Tweak>
+				<Tweak name="Explorer\HubMode">1</Tweak>
+				<Tweak name="Explorer\DisableSearchBoxSuggestions">1</Tweak>
+				<Tweak name="Explorer\ShowDriveLettersFirst">4</Tweak>
+				<Tweak name="Advanced\SharingWizardOn">0</Tweak>
+				<Tweak name="Advanced\HideFileExt">0</Tweak>
+				<Tweak name="Advanced\Hidden">1</Tweak>
+				<Tweak name="Advanced\ShowSuperHidden">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="PowerAndShutdown">
+				<Tweak name="Power\HiberbootEnabled">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Privacy">
+				<Tweak name="appointments\Value">Deny</Tweak>
+				<Tweak name="phoneCallHistory\Value">Deny</Tweak>
+				<Tweak name="contacts\Value">Deny</Tweak>
+				<Tweak name="appDiagnostics\Value">Deny</Tweak>
+				<Tweak name="documentsLibrary\Value">Deny</Tweak>
+				<Tweak name="email\Value">Deny</Tweak>
+				<Tweak name="chat\Value">Deny</Tweak>
+				<Tweak name="phoneCall\Value">Deny</Tweak>
+				<Tweak name="LooselyCoupled\Value">Deny</Tweak>
+				<Tweak name="Client\OptInOrOutPreference">0</Tweak>
+				<Tweak name="System\AllowExperimentation">0</Tweak>
+				<Tweak name="DataCollection\AllowTelemetry">4</Tweak>
+				<Tweak name="CloudContent\DisableWindowsConsumerFeatures">1</Tweak>
+				<Tweak name="features\PaidWifi">0</Tweak>
+				<Tweak name="features\WiFiSenseOpen">0</Tweak>
+				<Tweak name="ContentDeliveryManager\SilentInstalledAppsEnabled">0</Tweak>
+				<Tweak name="TrainedDataStore\HarvestContacts">0</Tweak>
+				<Tweak name="InputPersonalization\RestrictImplicitTextCollection">1</Tweak>
+				<Tweak name="InputPersonalization\RestrictImplicitInkCollection">1</Tweak>
+				<Tweak name="Rules\NumberOfSIUFInPeriod">0</Tweak>
+				<Tweak name="SmartGlass\UserAuthPolicy">0</Tweak>
+				<Tweak name="AdvertisingInfo\Enabled">0</Tweak>
+				<Tweak name="Privacy\TailoredExperiencesWithDiagnosticDataEnabled">0</Tweak>
+				<Tweak name="AppSettings\Skype-UserConsentAccepted">0</Tweak>
+				<Tweak name="User Profile\HttpAcceptLanguageOptOut">1</Tweak>
+				<Tweak name="System\EnableActivityFeed">0</Tweak>
+				<Tweak name="Advanced\Start_TrackProgs">0</Tweak>
+				<Tweak name="Advanced\Start_TrackDocs">0</Tweak>
+				<Tweak name="ContentDeliveryManager\SystemPaneSuggestionsEnabled">0</Tweak>
+				<Tweak name="InputPersonalization\AllowInputPersonalization">0</Tweak>
+				<Tweak name="Settings\AcceptedPrivacyPolicy">0</Tweak>
+				<Tweak name="ContentDeliveryManager\PreInstalledAppsEnabled">0</Tweak>
+				<Tweak name="Windows Search\AllowCloudSearch">0</Tweak>
+				<Tweak name="SystemIndex\EnableFindMyFiles">0</Tweak>
+				<Tweak name="Search\BingSearchEnabled">0</Tweak>
+				<Tweak name="TIPC\Enabled">0</Tweak>
+				<Tweak name="System\EnableCdp">0</Tweak>
+				<Tweak name="ContentDeliveryManager\SubscribedContent-310093Enabled">0</Tweak>
+				<Tweak name="UserProfileEngagement\ScoobeSystemSettingEnabled">0</Tweak>
+				<Tweak name="AppHost\EnableWebContentEvaluation">0</Tweak>
+				<Tweak name="Settings\InsightsEnabled">0</Tweak>
+				<Tweak name="AnqpCache\OsuRegistrationStatus">0</Tweak>
+				<Tweak name="FlipAhead\FPEnabled">0</Tweak>
+				<Tweak name="MicrosoftEdge\PhishingFilter\Enabledv9">0</Tweak>
+				<Tweak name="Internet Explorer\PhishingFilter\Enabledv9">0</Tweak>
+				<Tweak name="Explorer\SmartScreenEnabled">Off</Tweak>
+				<Tweak name="CloudContent\DisableWindowsSpotlightFeatures">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="System">
+				<Tweak name="Appx\AllowAutomaticAppArchiving">0</Tweak>
+				<Tweak name="Winlogon\RestartApps">0</Tweak>
+				<Tweak name="Personalization\NoLockScreen">1</Tweak>
+				<Tweak name="System\NoConnectedUser">3</Tweak>
+				<Tweak name="Memory Management\PagingFiles1">C:\pagefile.sys 1024 1024</Tweak>
+				<Tweak name="RDP-Tcp\UserAuthentication">0</Tweak>
+				<Tweak name="ReserveManager\ShippedWithReserves">0</Tweak>
+				<Tweak name="LabConfig\BypassStorageCheck">1</Tweak>
+				<Tweak name="LabConfig\BypassTPMCheck">1</Tweak>
+				<Tweak name="StoragePolicy\01">0</Tweak>
+				<Tweak name="StoragePolicy\512">0</Tweak>
+				<Tweak name="StoragePolicy\256">0</Tweak>
+				<Tweak name="StoragePolicy\04">0</Tweak>
+				<Tweak name="System\DisableAutomaticRestartSignOn">1</Tweak>
+				<Tweak name="Installer\MaxPatchCacheSize">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="WindowsDefender">
+				<Tweak name="State\AccountProtection_MicrosoftAccount_Disconnected">0</Tweak>
+				<Tweak name="Notifications\DisableNotifications">1</Tweak>
+				<Tweak name="Notifications\DisableEnhancedNotifications">1</Tweak>
+				<Tweak name="Features\TamperProtection">0</Tweak>
+				<Tweak name="Windows Defender\DisableAntiSpyware">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="WindowsUpdate">
+				<Tweak name="DriverSearching\SearchOrderConfig">0</Tweak>
+				<Tweak name="Preferences\ModelDownloadAllowed">0</Tweak>
+				<Tweak name="Device Metadata\PreventDeviceMetadataFromNetwork">1</Tweak>
+				<Tweak name="DeliveryOptimization\DODownloadMode">100</Tweak>
+				<Tweak name="WindowsUpdate\DisableWUfBSafeguards">1</Tweak>
+				<Tweak name="WindowsUpdate\ExcludeWUDriversInQualityUpdate">1</Tweak>
+				<Tweak name="MRT\DontOfferThroughWUAU">1</Tweak>
+				<Tweak name="Settings\HideMCTLink">1</Tweak>
+				<Tweak name="Settings\RestartNotificationsAllowed2">0</Tweak>
+				<Tweak name="AU\NoAutoUpdate">1</Tweak>
+				<Tweak name="AU\AUOptions">2</Tweak>
+			</TweakGroup>
+		</Settings>
+		<Services></Services>
+		<ExtraServices>
+			<TweakGroup name="drivers">
+				<Tweak name="cdfs\cdfs">1</Tweak>
+				<Tweak name="udfs\udfs">1</Tweak>
+			</TweakGroup>
+		</ExtraServices>
+		<ScheduledTasks>
+			<TweakGroup name="Tree\Microsoft\Windows\Active Directory Rights Management Services Client">
+				<Tweak name="AD RMS Rights Policy Template Management (Automated)\AD RMS Rights Policy Template Management (Automated)">remove</Tweak>
+				<Tweak name="AD RMS Rights Policy Template Management (Manual)\AD RMS Rights Policy Template Management (Manual)">remove</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Tree\Microsoft\Windows\Application Experience">
+				<Tweak name="AitAgent\AitAgent">remove</Tweak>
+				<Tweak name="StartupAppTask\StartupAppTask">remove</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Tree\Microsoft\Windows\ApplicationData">
+				<Tweak name="appuriverifierdaily\appuriverifierdaily">remove</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Tree\Microsoft\Windows\Autochk">
+				<Tweak name="Proxy\Proxy">remove</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Tree\Microsoft\Windows\Chkdsk">
+				<Tweak name="ProactiveScan\ProactiveScan">remove</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Tree\Microsoft\Windows\Data Integrity Scan">
+				<Tweak name="Data Integrity Check And Scan\Data Integrity Check And Scan">remove</Tweak>
+				<Tweak name="Data Integrity Scan\Data Integrity Scan">remove</Tweak>
+				<Tweak name="Data Integrity Scan for Crash Recovery\Data Integrity Scan for Crash Recovery">remove</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Tree\Microsoft\Windows\DeviceDirectoryClient">
+				<Tweak name="RegisterDevicePeriodic24\RegisterDevicePeriodic24">remove</Tweak>
+				<Tweak name="RegisterDevicePolicyChange\RegisterDevicePolicyChange">remove</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Tree\Microsoft\Windows\Plug and Play">
+				<Tweak name="Device Install Group Policy\Device Install Group Policy">remove</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Tree\Microsoft\Windows\Management\Provisioning">
+				<Tweak name="Cellular\Cellular">remove</Tweak>
+				<Tweak name="Logon\Logon">remove</Tweak>
+				<Tweak name="PostResetBoot\PostResetBoot">remove</Tweak>
+				<Tweak name="Retry\Retry">remove</Tweak>
+				<Tweak name="RunOnReboot\RunOnReboot">remove</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Tree\Microsoft\Windows\Registry">
+				<Tweak name="RegIdleBackup\RegIdleBackup">remove</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Tree\Microsoft\Windows\Servicing">
+				<Tweak name="StartComponentCleanup\StartComponentCleanup">remove</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Tree\Microsoft\Windows\Setup">
+				<Tweak name="SetupCleanupTask\SetupCleanupTask">remove</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Tree\Microsoft\Windows\StateRepository">
+				<Tweak name="MaintenanceTasks\MaintenanceTasks">remove</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Tree\Microsoft\Windows\TaskScheduler">
+				<Tweak name="Idle Maintenance\Idle Maintenance">remove</Tweak>
+				<Tweak name="Maintenance Configurator\Maintenance Configurator">remove</Tweak>
+				<Tweak name="Manual Maintenance\Manual Maintenance">remove</Tweak>
+				<Tweak name="Regular Maintenance\Regular Maintenance">remove</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Tree\Microsoft\Windows\Time Synchronization">
+				<Tweak name="ForceSynchronizeTime\ForceSynchronizeTime">remove</Tweak>
+				<Tweak name="SynchronizeTime\SynchronizeTime">remove</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Tree\Microsoft\Windows\Time Zone">
+				<Tweak name="SynchronizeTimeZone\SynchronizeTimeZone">remove</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Tree\Microsoft\Windows\User Profile Service">
+				<Tweak name="HiveUploadTask\HiveUploadTask">remove</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Tree\Microsoft\Windows\Windows Activation Technologies">
+				<Tweak name="ValidationTask\ValidationTask">remove</Tweak>
+				<Tweak name="ValidationTaskDeadline\ValidationTaskDeadline">remove</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Tree\Microsoft\Windows\Windows Subsystem For Linux">
+				<Tweak name="AptPackageIndexUpdate\AptPackageIndexUpdate">remove</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Tree\Microsoft\Windows\WindowsUpdate">
+				<Tweak name="Scheduled Start\Scheduled Start">remove</Tweak>
+			</TweakGroup>
+		</ScheduledTasks>
+	</Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveRebuild</Task>
+			<Task>imageFormatWim</Task>
+			<Task>imageOptionsCreateIso</Task>
+		</ImageTasks>
+		<AutoIsoFile>B:\Nano_2021_BETA11.iso</AutoIsoFile>
+		<AutoIsoLabel>Win10_LTSC_2021_NANO_DESKTOP</AutoIsoLabel>
+		<AutoSplitSize>4000</AutoSplitSize>
+		<CleanHotfixedLeftovers>1</CleanHotfixedLeftovers>
+		<ReuseDriverCache>true</ReuseDriverCache>
+	</ApplyOptions>
+	<Execution>
+		<Remove></Remove>
+		<Change>
+			<Item type="Command">
+				<Path>::Disable</Path>
+				<PathOriginal>::Disable</PathOriginal>
+				<Params>Hibernation...</Params>
+				<ParamsOriginal>Hibernation...</ParamsOriginal>
+				<Index>1</Index>
+				<IndexOriginal>0</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>powercfg</Path>
+				<PathOriginal>powercfg</PathOriginal>
+				<Params>/hibernate off</Params>
+				<ParamsOriginal>/hibernate off</ParamsOriginal>
+				<Index>2</Index>
+				<IndexOriginal>1</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>::[DirectX</Path>
+				<PathOriginal>::[DirectX</PathOriginal>
+				<Params>9]</Params>
+				<ParamsOriginal>9]</ParamsOriginal>
+				<Index>3</Index>
+				<IndexOriginal>2</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>cd</Path>
+				<PathOriginal>cd</PathOriginal>
+				<Params>"%~dp0dat\dx9"</Params>
+				<ParamsOriginal>"%~dp0dat\dx9"</ParamsOriginal>
+				<Index>4</Index>
+				<IndexOriginal>3</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>dxsetup.exe</Path>
+				<PathOriginal>dxsetup.exe</PathOriginal>
+				<Params>/silent</Params>
+				<ParamsOriginal>/silent</ParamsOriginal>
+				<Index>5</Index>
+				<IndexOriginal>4</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>::[Microsoft</Path>
+				<PathOriginal>::[Microsoft</PathOriginal>
+				<Params>Visual C++ Runtimes]</Params>
+				<ParamsOriginal>Visual C++ Runtimes]</ParamsOriginal>
+				<Index>6</Index>
+				<IndexOriginal>5</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>cd</Path>
+				<PathOriginal>cd</PathOriginal>
+				<Params>"%~dp0dat\vc"</Params>
+				<ParamsOriginal>"%~dp0dat\vc"</ParamsOriginal>
+				<Index>7</Index>
+				<IndexOriginal>6</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>::2005...</Path>
+				<PathOriginal>::2005...</PathOriginal>
+				<Params></Params>
+				<ParamsOriginal></ParamsOriginal>
+				<Index>8</Index>
+				<IndexOriginal>7</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>start</Path>
+				<PathOriginal>start</PathOriginal>
+				<Params>/wait vcredist2005_x86.exe /q</Params>
+				<ParamsOriginal>/wait vcredist2005_x86.exe /q</ParamsOriginal>
+				<Index>9</Index>
+				<IndexOriginal>8</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>start</Path>
+				<PathOriginal>start</PathOriginal>
+				<Params>/wait vcredist2005_x64.exe /q</Params>
+				<ParamsOriginal>/wait vcredist2005_x64.exe /q</ParamsOriginal>
+				<Index>10</Index>
+				<IndexOriginal>9</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>::2008...</Path>
+				<PathOriginal>::2008...</PathOriginal>
+				<Params></Params>
+				<ParamsOriginal></ParamsOriginal>
+				<Index>11</Index>
+				<IndexOriginal>10</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>start</Path>
+				<PathOriginal>start</PathOriginal>
+				<Params>/wait vcredist2008_x86.exe /qb</Params>
+				<ParamsOriginal>/wait vcredist2008_x86.exe /qb</ParamsOriginal>
+				<Index>12</Index>
+				<IndexOriginal>11</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>start</Path>
+				<PathOriginal>start</PathOriginal>
+				<Params>/wait vcredist2008_x64.exe /qb</Params>
+				<ParamsOriginal>/wait vcredist2008_x64.exe /qb</ParamsOriginal>
+				<Index>13</Index>
+				<IndexOriginal>12</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>::2010...</Path>
+				<PathOriginal>::2010...</PathOriginal>
+				<Params></Params>
+				<ParamsOriginal></ParamsOriginal>
+				<Index>14</Index>
+				<IndexOriginal>13</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>start</Path>
+				<PathOriginal>start</PathOriginal>
+				<Params>/wait vcredist2010_x86.exe /passive /norestart</Params>
+				<ParamsOriginal>/wait vcredist2010_x86.exe /passive /norestart</ParamsOriginal>
+				<Index>15</Index>
+				<IndexOriginal>14</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>start</Path>
+				<PathOriginal>start</PathOriginal>
+				<Params>/wait vcredist2010_x64.exe /passive /norestart</Params>
+				<ParamsOriginal>/wait vcredist2010_x64.exe /passive /norestart</ParamsOriginal>
+				<Index>16</Index>
+				<IndexOriginal>15</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>::2012...</Path>
+				<PathOriginal>::2012...</PathOriginal>
+				<Params></Params>
+				<ParamsOriginal></ParamsOriginal>
+				<Index>17</Index>
+				<IndexOriginal>16</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>start</Path>
+				<PathOriginal>start</PathOriginal>
+				<Params>/wait vcredist2012_x86.exe /passive /norestart</Params>
+				<ParamsOriginal>/wait vcredist2012_x86.exe /passive /norestart</ParamsOriginal>
+				<Index>18</Index>
+				<IndexOriginal>17</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>start</Path>
+				<PathOriginal>start</PathOriginal>
+				<Params>/wait vcredist2012_x64.exe /passive /norestart</Params>
+				<ParamsOriginal>/wait vcredist2012_x64.exe /passive /norestart</ParamsOriginal>
+				<Index>19</Index>
+				<IndexOriginal>18</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>::2013...</Path>
+				<PathOriginal>::2013...</PathOriginal>
+				<Params></Params>
+				<ParamsOriginal></ParamsOriginal>
+				<Index>20</Index>
+				<IndexOriginal>19</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>start</Path>
+				<PathOriginal>start</PathOriginal>
+				<Params>/wait vcredist2013_x86.exe /passive /norestart</Params>
+				<ParamsOriginal>/wait vcredist2013_x86.exe /passive /norestart</ParamsOriginal>
+				<Index>21</Index>
+				<IndexOriginal>20</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>start</Path>
+				<PathOriginal>start</PathOriginal>
+				<Params>/wait vcredist2013_x64.exe /passive /norestart</Params>
+				<ParamsOriginal>/wait vcredist2013_x64.exe /passive /norestart</ParamsOriginal>
+				<Index>22</Index>
+				<IndexOriginal>21</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>::2015,</Path>
+				<PathOriginal>::2015,</PathOriginal>
+				<Params>2017 ^&amp; 2019...</Params>
+				<ParamsOriginal>2017 ^&amp; 2019...</ParamsOriginal>
+				<Index>23</Index>
+				<IndexOriginal>22</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>start</Path>
+				<PathOriginal>start</PathOriginal>
+				<Params>/wait vcredist2015_2017_2019_x86.exe /passive /norestart</Params>
+				<ParamsOriginal>/wait vcredist2015_2017_2019_x86.exe /passive /norestart</ParamsOriginal>
+				<Index>24</Index>
+				<IndexOriginal>23</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>start</Path>
+				<PathOriginal>start</PathOriginal>
+				<Params>/wait vcredist2015_2017_2019_x64.exe /passive /norestart</Params>
+				<ParamsOriginal>/wait vcredist2015_2017_2019_x64.exe /passive /norestart</ParamsOriginal>
+				<Index>25</Index>
+				<IndexOriginal>24</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>cd</Path>
+				<PathOriginal>cd</PathOriginal>
+				<Params>"%~dp0dat"</Params>
+				<ParamsOriginal>"%~dp0dat"</ParamsOriginal>
+				<Index>26</Index>
+				<IndexOriginal>25</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>::[OpenAL]</Path>
+				<PathOriginal>::[OpenAL]</PathOriginal>
+				<Params></Params>
+				<ParamsOriginal></ParamsOriginal>
+				<Index>27</Index>
+				<IndexOriginal>26</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>oalinst.exe</Path>
+				<PathOriginal>oalinst.exe</PathOriginal>
+				<Params>/silent</Params>
+				<ParamsOriginal>/silent</ParamsOriginal>
+				<Index>28</Index>
+				<IndexOriginal>27</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>::[XNA</Path>
+				<PathOriginal>::[XNA</PathOriginal>
+				<Params>4.0 Framework]</Params>
+				<ParamsOriginal>4.0 Framework]</ParamsOriginal>
+				<Index>29</Index>
+				<IndexOriginal>28</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>xna40.msi</Path>
+				<PathOriginal>xna40.msi</PathOriginal>
+				<Params>/quiet</Params>
+				<ParamsOriginal>/quiet</ParamsOriginal>
+				<Index>30</Index>
+				<IndexOriginal>29</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>::Fix</Path>
+				<PathOriginal>::Fix</PathOriginal>
+				<Params>UWF service dependencies and set base config...</Params>
+				<ParamsOriginal>UWF service dependencies and set base config...</ParamsOriginal>
+				<Index>31</Index>
+				<IndexOriginal>30</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>sc</Path>
+				<PathOriginal>sc</PathOriginal>
+				<Params>config dmwappushservice start= auto</Params>
+				<ParamsOriginal>config dmwappushservice start= auto</ParamsOriginal>
+				<Index>32</Index>
+				<IndexOriginal>31</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>sc</Path>
+				<PathOriginal>sc</PathOriginal>
+				<Params>start dmwappushservice</Params>
+				<ParamsOriginal>start dmwappushservice</ParamsOriginal>
+				<Index>33</Index>
+				<IndexOriginal>32</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>bcdedit</Path>
+				<PathOriginal>bcdedit</PathOriginal>
+				<Params>/set {current} bootstatuspolicy ignoreallfailures</Params>
+				<ParamsOriginal>/set {current} bootstatuspolicy ignoreallfailures</ParamsOriginal>
+				<Index>34</Index>
+				<IndexOriginal>33</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>uwfmgr.exe</Path>
+				<PathOriginal>uwfmgr.exe</PathOriginal>
+				<Params>overlay set-type disk</Params>
+				<ParamsOriginal>overlay set-type disk</ParamsOriginal>
+				<Index>35</Index>
+				<IndexOriginal>34</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>uwfmgr</Path>
+				<PathOriginal>uwfmgr</PathOriginal>
+				<Params>overlay set-passthrough on</Params>
+				<ParamsOriginal>overlay set-passthrough on</ParamsOriginal>
+				<Index>36</Index>
+				<IndexOriginal>35</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>Xcopy</Path>
+				<PathOriginal>Xcopy</PathOriginal>
+				<Params>/E /I UWF-Manager C:\UWF-Manager</Params>
+				<ParamsOriginal>/E /I UWF-Manager C:\UWF-Manager</ParamsOriginal>
+				<Index>37</Index>
+				<IndexOriginal>36</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>copy</Path>
+				<PathOriginal>copy</PathOriginal>
+				<Params>UWFUtility.lnk C:\Users\Public\Desktop</Params>
+				<ParamsOriginal>UWFUtility.lnk C:\Users\Public\Desktop</ParamsOriginal>
+				<Index>38</Index>
+				<IndexOriginal>37</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>::[KMS86</Path>
+				<PathOriginal>::[KMS86</PathOriginal>
+				<Params>Activation]</Params>
+				<ParamsOriginal>Activation]</ParamsOriginal>
+				<Index>39</Index>
+				<IndexOriginal>38</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>cd</Path>
+				<PathOriginal>cd</PathOriginal>
+				<Params>"%~dp0dat"</Params>
+				<ParamsOriginal>"%~dp0dat"</ParamsOriginal>
+				<Index>40</Index>
+				<IndexOriginal>39</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>call</Path>
+				<PathOriginal>call</PathOriginal>
+				<Params>activate.cmd</Params>
+				<ParamsOriginal>activate.cmd</ParamsOriginal>
+				<Index>41</Index>
+				<IndexOriginal>40</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>::</Path>
+				<PathOriginal>::</PathOriginal>
+				<Params>Cleanup!</Params>
+				<ParamsOriginal>Cleanup!</ParamsOriginal>
+				<Index>42</Index>
+				<IndexOriginal>41</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>rd</Path>
+				<PathOriginal>rd</PathOriginal>
+				<Params>/q /s "%WINDIR%\Setup\Scripts\dat"</Params>
+				<ParamsOriginal>/q /s "%WINDIR%\Setup\Scripts\dat"</ParamsOriginal>
+				<Index>43</Index>
+				<IndexOriginal>42</IndexOriginal>
+			</Item>
+			<Item type="Command">
+				<Path>EXIT</Path>
+				<PathOriginal>EXIT</PathOriginal>
+				<Params></Params>
+				<ParamsOriginal></ParamsOriginal>
+				<Index>44</Index>
+				<IndexOriginal>43</IndexOriginal>
+			</Item>
+		</Change>
+		<Add>
+			<Item type="Command">
+				<Path>powercfg</Path>
+				<Params>/hibernate off</Params>
+				<Index>0</Index>
+			</Item>
+		</Add>
+	</Execution>
+	<Registry>
+		<File>B:\Oberon_LTSC\ntlite2\RegFiles\CTFMON(TextInputFix).reg</File>
+		<File>B:\Oberon_LTSC\ntlite2\RegFiles\ClassicAltTab.reg</File>
+		<File>B:\Oberon_LTSC\ntlite2\RegFiles\Disable Paging Executive.reg</File>
+		<File>B:\Oberon_LTSC\ntlite2\RegFiles\Disable Quick Access.reg</File>
+		<File>B:\Oberon_LTSC\ntlite2\RegFiles\DisableReopenProgramsOnLogin.reg</File>
+		<File>B:\Oberon_LTSC\ntlite2\RegFiles\DisableStartupDelay.reg</File>
+		<File>B:\Oberon_LTSC\ntlite2\RegFiles\Disable_Active_Probing.reg</File>
+		<File>B:\Oberon_LTSC\ntlite2\RegFiles\Disable_App_Tracking.reg</File>
+		<File>B:\Oberon_LTSC\ntlite2\RegFiles\Disable_DesktopINI_Creation.reg</File>
+		<File>B:\Oberon_LTSC\ntlite2\RegFiles\Disable_Gamebar_And_GameDVR.reg</File>
+		<File>B:\Oberon_LTSC\ntlite2\RegFiles\Disable_Spectre_Meltdown_Mititgations.reg</File>
+		<File>B:\Oberon_LTSC\ntlite2\RegFiles\ENABLE_AUTO_LOGON_CHECKBOX.reg</File>
+		<File>B:\Oberon_LTSC\ntlite2\RegFiles\Enable_Prefetch_Superfetch.reg</File>
+		<File>B:\Oberon_LTSC\ntlite2\RegFiles\InstallTakeOwnership.reg</File>
+		<File>B:\Oberon_LTSC\ntlite2\RegFiles\NoSplit_SVCHOST.reg</File>
+		<File>B:\Oberon_LTSC\ntlite2\RegFiles\SFC_Disable.reg</File>
+		<File>B:\Oberon_LTSC\ntlite2\RegFiles\Shorter Hung App Timeout.reg</File>
+		<File>B:\Oberon_LTSC\ntlite2\RegFiles\Shorter Hung Service Timeout.reg</File>
+		<File>B:\Oberon_LTSC\ntlite2\RegFiles\System Managed - Last Access Updates Disabled.reg</File>
+	</Registry>
+</Preset>

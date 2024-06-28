@@ -79,7 +79,7 @@
 
 #### Windows Updates
 
-- [x] Manual Windows Updates
+- [x] Windows Updates - Manual
 
 #### Microsoft Activation
 
@@ -95,6 +95,7 @@
 - [ ] Camera
 - [ ] Streamdeck
 - [ ] Wi-Fi Support
+- [ ] Bluetooth
 
 <h3 align="center">Application Support</h3>
 
@@ -105,8 +106,8 @@
 
 #### Package Managers
 
-- [x] Winget - Download & Update Applications
-- [x] Scoop - Download & Update Applications
+- [x] Winget
+- [x] Scoop
 
 <h3 align="center">Programs & Features</h3>
 
@@ -114,19 +115,7 @@
 
 - [x] Komorebi 
 - [x] Autohotkey
-- [x] Malwarebytes Firewall Control
-- [x] Open Shell
 - [x] Flow Launcher
-
-#### Microsoft Office 
-
-- [x] Word
-- [x] Excel
-
-#### Visual Studio Code
-
-- [ ] Connect to Microsoft Account with Visual Studio Code
-- [ ] Settings Synchronization
 
 <h1 align="center">Part 1 (Pre-Install)</h1>
 <h2 align="center">Prerequisites</h2>
@@ -151,44 +140,38 @@
 - Open the ISO you downloaded from Windows and place the files into the DVD folder.
 - Execute the Start toolkit by using Administrator rights.
 - Select Source then type 1 for 'Select Source from <DVD> folder.
-- Choose the version of Windows you like, I choose 7 for Windows Pro N.
-- Press 'y' multiple times to accept all the prompts.
-- Wait for it to finish...Done!
+- Choose the version of Windows you like. (LTSC Enterprise N for me)
+- Press 'y' multiple times repeatedly until you accept all the prompts.
+- Wait for it to fully load the files...
 
 <h4 align="center">Removal Process</h4>
 
 - Type '3' to select Remove Menu.
 - Type '1' to select Remove Windows Components.
 - Type 'C' to select Compatibillity Menu.
-- Type 'A` to remove all compatibillity checks, then select 7 - 14 - 15 (or whatever your requirements are)
+- Type 'A` to remove all compatibillity checks, then select your system requirements.
 - Type 'X' to go back...
-- Type '1' to select Windows components
+- Type '1' to select Remove Windows components
 
-<h3 align="center">Component Removal Configuration</h3>
-
-
-#### Menu 6 - System
-
-- Security Center (16)
-- Windows Firewall (22)
-- Windows Update (25)
-
-#### Menu 7 - System Apps
-
-- Shell Services (31) - Required for Microsoft Office
-- Windows Defender (41)
+<h4>Compatibillity Configuration</h4>
 
 <br>
 
-<div align="justify">After you done configuring, just go ahead and enter menu 6 for Apply and use the second option to apply the changes.Finally, create an ISO by going to Taget and first option.</div>
+<div align="justify">After you done configuring, press '2' to Start the Removal process.</div>
 
-<h3 align="center">Why is Search missing?!</h3>
+<h4></h4>
 
-<div align="justify">This configuration removes Shell Search from Windows, so the Start Menu is not included in the final Operating System. As you can guess, this causes a few minor problems...First and foremost, pressing the Windows key, will cause an error that will force Windows into a user-sign out action. Switching keyboard layouts does the same thing, since it registers the Windows key, maybe, this is just a guess; Anyway, you can fix that by heading over <a href="https://www.majorgeeks.com/files/details/disable_windows_key.html">here</a> and fetching a registry file which disables the Windows key. You can still use it as a modifier, things like language switching or anything contains a Windows key in a shortcut will still function.</div>
+<h4 align="center">Why is Search missing?!</h4>
+
+<div align="justify">This configuration removes Shell Search from Windows, so the Start Menu is not included in the final Operating System. As you can guess, this causes a few minor problems...First and foremost, pressing the Windows key, will cause an error that will force Windows into a user-sign out action. Switching keyboard layouts does the same thing, since it registers the Windows key, maybe, this is just a guess; Anyway, you can fix that by heading over <a href="https://www.majorgeeks.com/files/details/disable_windows_key.html">here</a> and fetching a registry file which disables the Windows key.</div>
 
 <div align="justify">Additionally, you can solve this issue by taking this registry file and inserting it using NTLite or MSMG into your ISO, therefore when you install the Operating System, it will be there, by default.</a>
 
-<div align="justify">But what about an alternative?! Well, there's lots out there. Take your pick. Personally, I opt for <a href="https://open-shell.github.io/Open-Shell-Menu/">Open-Shell</a>, but you can give <a href="https://www.startisback.com/">StartisBack</a> a shot, possibillities are endless.</div>
+<div align="justify">But what about an alternative search?! Well, there's lots out there. Take your pick. Personally, I opt for <a href="https://open-shell.github.io/Open-Shell-Menu/">Open-Shell</a>, but you can give <a href="https://www.startisback.com/">StartisBack</a> a shot, possibillities are endless.</div>
+
+<h4 align="center">What to do with the Start button?</h4>
+
+<div align="justify">My suggestion? Hide it, using <a href="https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10">Windows Tweaker</a> or <a href="https://tweaker.ramensoftware.com/">7+ Taskbard Tweaker</a>, both do an excellent job of that.</div>
 
 <h3 align="center">NTLite</h3>
 
@@ -196,113 +179,51 @@
 
 ##### Drivers
 
-- Batteries
-- Bluetooth
-- Foppy Disk Drives
-- Floppy Disk Drives 
-- Imaging Devices
-
-- POS Barcode Scanner
-- POS Cash Drawer
-- POS Hid Magnetic Stripe Reader
-- POS Receipt Printer
-- POS Remote Device
-
-- Printers
-- SD host adapters
-
-- Shingled Mangetic Recording Disks
-- Shingled Mangetic Recording Volumes
-
-- Smartcard Filters
-- Smartcard Readers
-- Smartcard Cards
-
-- Xbox Peripherals
+- [x] Bluetooth
+- [x] Imaging Devices
+- [x] SD Host Adapters
+- [x] Xbox Peripherals
 
 ##### Hardware Support
 
-- Battery
-- Floppy Disk
-- Gaming Peripherals (Xbox GIP)
-- Infrared Devices
-- Point of Service (POS)
-- Smartcard
+- [x] Still Image Class Installer
+- [x] Gaming Peripherals (Xbox GIP)
 
 ##### Localization
 
-- DVD Play
-- Keyboard Layouts
-- Language
-- Table Text Service
+- [x] Language (All)
+- [x] Keyboard Layouts - Greek
 
 ##### Multimedia
 
-- Intel Indeo Codecs
-- DVD Play
-- PlayReady
-- Share Media Control Panel
-- Windows Disc Image Burning Tool
+- [ ] MPEG-2 Splitter?
+- [x] DirectX WARP JIT Service?
 
 ##### Network
 
-- Distributed Link Tracking Client
-- Payments and NFC/SE Manager
-- Windows Mail Communication DLL
+- [x] Adobe Flash for Internet Explorer
 
 ##### Remoting and Privacy
 
-- AllJoyn Router Service
-- Diagnostics and Troubleshooting
-- Natural Authentication
-- Shared PC Mode
-- Universal Notification Platform (UNP)
-- Windows Biometric Service
-- Windows Error Reporting
-- Windows Remote Management (WS-Management)
-
 ##### System
 
-- Cache and Temp Files
-- Character Map
-- Embedded Mode
-- Help file support (CHM)
-- Legacy Symbolic Links
-- On-Screen Keyboard (Tablet PC)
-- Private Character Editor
-- Remote Procedure Call (RPC Locator)
-- Send TO Mail and Desktop
-- Shell Hardware Detection
-- User Data Storage
-- Zip & Cab folder
+- [ ] Volume Shadow Copy
 
 ##### Windows Apps
 
-- Xbox App
-
 #### Settings
-
 
 #### Services
 
-
 #### Extra Services
-
-
-#### Updates
-
 
 #### Drivers
 
-
 #### Registry
-
 
 #### Unattended
 
-
 #### Post-Setup
-
 
 ### Fonts
 
@@ -460,12 +381,6 @@ Set-ExecutionPolicy Unrestricted -Force
 .\Windows10DebloaterGUI.ps1
 ```
 
-### [Windows-Optimize-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Debloat)
-
-```
-iwr -useb 'https://simeononsecurity.ch/scripts/windowsoptimizeanddebloat.ps1'|iex
-```
-
 ### Downloadables Scripts
 
 - [Windows 10 Bloat Remover](https://github.com/Fs00/Win10BloatRemover/releases/download/5.0/Win10BloatRemover_5.0.zip)
@@ -554,7 +469,6 @@ Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 <div align="justify">As far as Antivirus software goes, I wouldn't trust any free-option out there, if you want to buy one, go with Sophos, that's just my personal preference, it has high capture rates and had most success with it, a mix of MalwareBytes and SimpleWall does it for me, as I don't use this system to browse a lot.</div>
 
 - [MalwareBytes](https://www.malwarebytes.com/)
-- [MalwareBytes Windows Firewall Control](https://www.binisoft.org/wfc)
 
 <h4 align="center">Social Media & Communication Tools</h4>
 
@@ -579,17 +493,11 @@ Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 
 - [SpotX - Spotify Client](https://github.com/SpotX-Official/SpotX)
   - [Custom Themes](https://spicetify.app/docs/getting-started/)
-
-- [WinMute - Trigger based Windows muting](https://github.com/lx-s/WinMute/) 
 - [Volumey - Global Shortcuts for Volume Control](https://github.com/G-Stas/Volumey)
 
 <h4 align="center">Application Launchers</h4>
 
 <div align="justify">During my journey of optimizing Windows OS, I opted for not allowing Windows to categorize and index my Files, this caused <a link="https://github.com/microsoft/PowerToys">Powertoys</a> to stop functioning as a launcher. No crashes or anything, just stop indexing and finding things like Applications; <a link="https://www.flowlauncher.com/">Flow</a> still works brilliantly and plugins are also a huge bonus.</div>
-
-<h4 align="center">Terminal Emulators</h4>
-
-- [Tabby](https://tabby.sh/)
 
 <h4 align="center">Password Managers</h4>
 
