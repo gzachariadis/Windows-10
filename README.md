@@ -179,7 +179,6 @@
 
 ##### Drivers
 
-- [x] Bluetooth
 - [x] Imaging Devices
 - [x] SD Host Adapters
 - [x] Xbox Peripherals
@@ -447,22 +446,25 @@ Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 
 ### Categories 
 
-- [System Security](#system-security)
-- [Social Media & Communication Tools](#social-media--communication-tools)
-- [Hardware Controllers](#hardware-controllers)
-- [Additional Software](#additional-software)
-- [E-Book Readers](#e-book-readers)
-- [Multimedia](#multimedia)
-- [Search](#search)
-- [Terminal Emulators](#terminal-emulators)
-- [Password Managers](#password-managers)
-- [Text Expansion](#text-expansion)
-- [Screenshots](#screenshots)
-- [Software Development](#software-development)
-- [Gaming](#gaming)
-- [Activity Sharing](#activity-sharing)
-- [Tiling Window Manager](#tiling-window-manager)
-- [Browsers](#browsers)
+- [Maintenance](#maintenance)
+  - [System Maintenance](#system-maintenance)
+    - [Software Removal](#software-removal)
+    - [Duplicate Removal](#duplicate-removal)
+    - [Cleaning Utillities](#cleaning-utillities)
+  - [Scripts](#scripts)
+- [Bibliography](#bibliography)
+    - [Projects](#projects)
+    - [Executables](#executables)
+    - [Scripts](#scripts-1)
+    - [Tweak Collections](#tweak-collections)
+    - [Services](#services-1)
+    - [Github Resources](#github-resources)
+    - [NTLite Presets](#ntlite-presets)
+    - [Guides \& Tutorials](#guides--tutorials)
+    - [Resources](#resources)
+    - [Language Packs](#language-packs)
+    - [Post-Install](#post-install)
+    - [Youtube \& Reddit](#youtube--reddit)
 
 <h4 align="center">System Security</h4>
 
