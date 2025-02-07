@@ -5,7 +5,7 @@
 ![Windows 10 Badge](https://img.shields.io/badge/Windows%2010%20Pro%20N-blue.svg?logo=data:image/svg%2bxml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNDk5LjYgMjUwMCIgdmlld0JveD0iMCAwIDI0OTkuNiAyNTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im0xMTg3LjkgMTE4Ny45aC0xMTg3Ljl2LTExODcuOWgxMTg3Ljl6IiBmaWxsPSIjZjE1MTFiIi8+PHBhdGggZD0ibTI0OTkuNiAxMTg3LjloLTExODh2LTExODcuOWgxMTg3Ljl2MTE4Ny45eiIgZmlsbD0iIzgwY2MyOCIvPjxwYXRoIGQ9Im0xMTg3LjkgMjUwMGgtMTE4Ny45di0xMTg3LjloMTE4Ny45eiIgZmlsbD0iIzAwYWRlZiIvPjxwYXRoIGQ9Im0yNDk5LjYgMjUwMGgtMTE4OHYtMTE4Ny45aDExODcuOXYxMTg3Ljl6IiBmaWxsPSIjZmJiYzA5Ii8+PC9zdmc+)
 
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/gzachariadis/Windows-10-21H1/main)
-![GitHub Maintained](https://img.shields.io/badge/maintained-yes-yellow)
+![GitHub Maintained](https://img.shields.io/badge/maintained-no-red)
 
 ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/gzachariadis/Windows-10-21H1?logo=github&label=Latest%20Release)
 ![GitHub commits since latest release (by SemVer including pre-releases)](https://img.shields.io/github/commits-since/gzachariadis/Windows-10-21H1/Release?logo=github&label=Commits%20Since%20Latest%20Release)
